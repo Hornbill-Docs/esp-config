@@ -1,0 +1,21 @@
+{
+  "docId": "esp-config",
+  "title": "Hornbill Platform Configuration Guide",
+  "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
+  "publicSource": "--publicSource--",
+  "version": "0.0.1",
+  "navigation": {
+    "items": [
+      {
+        "text": "Introduction",
+        "expand": true,
+        "items": [
+          {
+            "text": "Welcome",
+            "link": "esp-config\\index"
+          }
+        ]
+      }
+    ]
+  }
+}
