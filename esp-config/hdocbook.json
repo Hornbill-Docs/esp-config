@@ -11,9 +11,51 @@
         "expand": true,
         "items": [
           {
-            "text": "Welcome",
+            "text": "Platform Configuration",
             "link": "esp-config\\index"
           }
+        ]
+       },
+      {
+       "text": "Setting up your organisational data",
+       "expand": true,
+       "items": [
+         {
+           "text": "Overview",
+           "link": "esp-config\\organisational-data\\overview"
+         },
+         {
+          "text": "Creating and managing users",
+          "link": "esp-config\\organisational-data\\users"
+         },
+         {
+          "text": "Assigning and defining user roles",
+          "link": "esp-config\\organisational-data\\roles"
+         },
+         {
+          "text": "Building your organisation's structure",
+          "link": "esp-config\\organisational-data\\organisations"
+         },
+         {
+          "text": "Defining sites and their locations",
+          "link": "esp-config\\organisational-data\\sites"
+         },
+         {
+          "text": "Creating user templates",
+          "link": "esp-config\\organisational-data\\user-templates"
+         },
+         {
+          "text": "Configuring user availability states",
+          "link": "esp-config\\organisational-data\\user-availability-states"
+         }, 
+         {
+          "text": "Managing guest accounts",
+          "link": "esp-config\\organisational-data\\guest-accounts"
+         },
+         {
+          "text": "Creating guest account templates",
+          "link": "esp-config\\organisational-data\\guest-account-templates"
+         }
         ]
       }
     ]
