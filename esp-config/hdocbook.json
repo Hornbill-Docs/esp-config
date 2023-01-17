@@ -13,12 +13,22 @@
           {
             "text": "Platform Configuration",
             "link": "esp-config\\index"
+          },
+          {
+            "text": "Guides",
+            "expand": true,
+            "items":[
+              {
+                "text": "Configuring Regional Settings",
+                "link": "esp-config\\guides\regional-settings"
+              }
+            ]
           }
         ]
        },
       {
        "text": "Setting up your organisational data",
-       "expand": true,
+       "expand": false,
        "items": [
          {
            "text": "Overview",
@@ -56,6 +66,210 @@
           "text": "Creating guest account templates",
           "link": "esp-config\\organisational-data\\guest-account-templates"
          }
+        ]
+      },
+      {
+        "text": "Authentication security",
+        "expand": false,
+        "items": [
+          {
+            "text": "Setting up single sign-on profiles",
+            "link": "esp-config\\security\\sso-profiles"
+          },
+          {
+            "text": "Create authentication keys using Keysafe",
+            "link": "esp-config\\security\\keysafe"
+          }
+        ]
+       },
+      {
+        "text": "Customise",
+        "expand": false,
+        "items": [
+          {
+            "text": "Customer Portal",
+            "link": "esp-config\\customise\\customer-portal"
+          },
+          {
+            "text": "Employee Portal",
+            "link": "esp-config\\customise\\employee-portal"
+          },
+          {
+            "text": "User Profile",
+            "link": "esp-config\\customise\\user-profile"
+          },
+          {
+            "text":"Login Screen",
+            "link": "esp-config\\customise\\login-screen"
+          },
+          {
+            "text": "Image Library",
+            "link": "esp-config\\customise\\image-library"
+          }, 
+          {
+            "text": "Service Domains",
+            "link": "esp-config\\customise\\service-domains"
+          },
+          {
+            "text": "Working Time Calendars",
+            "link": "esp-config\\customise\\working-time-calendars"
+          }
+        ]
+      },
+      {
+        "text": "Integration",
+        "expand": false,
+        "items": [
+          {
+            "text": "Webhooks",
+            "link": "esp-config\\integration\\webhooks"
+          },
+          {
+            "text": "Integration Connectors",
+            "link": "esp-config\\integration\\integration-connectors"
+          }
+        ]
+      },
+      {
+        "text": "Email",
+        "expand": false,
+        "items": [
+          {
+            "text": "Domains",
+            "link": "esp-config\\email\\domains"
+          },
+          {
+            "text": "Shared Mailboxes",
+            "link": "esp-config\\email\\shared-mailboxes"
+          },
+          {
+            "text": "Templates",
+            "link": "esp-config\\email\templates"
+          },
+          {
+            "text": "Inbound Routing Rules",
+            "link": "esp-config\\email\\inbound-routing-rules"
+          },
+          {
+            "text": "Direct Outbound",
+            "link": "esp-config\\email\\direct-outbound"
+          }
+        ]
+      },
+      {
+        "text": "Data",
+        "expand": false,
+        "items": [ 
+          {
+            "text": "Profiles",
+            "link": "esp-config\\data\\profiles"
+          },
+          {
+            "text": "Simple Lists",
+            "link": "esp-config\\data\\simple-lists"
+          },
+          {
+            "text": "Data Import Configurations",
+            "link": "esp-config\\data\\data-import-configurations"
+          }
+          ]
+      },
+      {
+        "text": "Internationalisation",
+        "expand": false,
+        "items": [
+          {
+            "text": "User Interface Translations",
+            "link": "esp-config\\internationalisation\\user-interface-translations"
+          },
+          {
+            "text": "Supported Languages",
+            "link": "esp-config\\internationalisation\\supported-languages"
+          }
+        ]
+      },
+      {
+        "text": "Advanced Analytics",
+        "expand": false,
+        "items": [
+          {
+            "text": "Measures",
+            "link": "esp-config\\advanced-analytics\\measures"
+          },
+          {
+            "text": "Widgets",
+            "link": "esp-config\\advanced-analytics\\widgets"
+          },
+          {
+            "text": "Dashboards",
+            "link": "esp-config\\advanced-analytics\\dashboards"
+          },
+          {
+            "text": "Slideshows",
+            "link": "esp-config\\advanced-analytics\\slideshows"
+          }
+        ]
+      },
+      {
+        "text": "Reporting",
+        "expand": false,
+        "items": [
+          {
+            "text": "Reports",
+            "link": "esp-config\\reporting\\reports"
+          }
+        ]
+      },
+      {
+        "text": "Monitor",
+        "expand": false,
+        "items": [
+          {
+            "text": "Log Files",
+            "link": "esp-config\\monitor\\log-files"
+          },
+          {
+            "text": "Sessions",
+            "link": "esp-config\\monitor\\sessions"
+          },
+          {
+            "text": "Background Jobs",
+            "link": "esp-config\\monitor\\background-jobs"
+          },
+          {
+            "text": "Admin Search Index",
+            "link": "esp-config\\monitor\\admin-search-index"
+          }
+        ]
+      },
+      {
+        "text": "Advanced Tools and Settings",
+        "expand": false,
+        "items": [
+          {
+            "text": "Database Direct",
+            "link": "esp-config\\advanced-tools-and-settings\\database-direct"
+          },
+          {
+            "text": "Core Settings",
+            "link": "esp-config\\advanced-tools-and-settings\\core-settings"
+          },
+          {
+            "text": "Advanced System Settings",
+            "link": "esp-config\\advanced-tools-and-settings\\advanced-system-settings"
+          },
+          {
+            "text": "Admin Search Index",
+            "link": "esp-config\\advanced-tools-and-settings\\admin-search-index"
+          },
+          {
+            "text": "Entity Explorer",
+            "link": "esp-config\\advanced-tools-and-settings\\entity-explorer"
+          },
+          {
+            "text": "Auto Values",
+            "link": "esp-config\\advanced-tools-and-settings\\auto-values"
+          }
         ]
       }
     ]
