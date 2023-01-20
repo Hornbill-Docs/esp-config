@@ -18,7 +18,7 @@ The Configuration Search provides rapid access to all of the configurable featur
 You can access the Configuration Search from anywhere within Hornbill using the keyboard shortcut Ctrl+Shift+S. Once you have entered search mode simply start typing and the most relevant search results will be returned as you type. Once you are presented with one or more search results, you can use the Up/Down arrow keys to highlight the search result of interest and press <return> to navigate to that item.
 
 ### Search Help
-Click on the <img src="_books/esp-config/images/search-help.png"> to show a list of additional search options. This includes prefixes that can be added to your search text in order to get more focused results.</div>
+Click on the <img src="_books/esp-config/images/search-help.png"> to show a list of additional search options. This includes prefixes that can be added to your search text in order to get more focused results.
 
 ### Browse
 The Configuration Selector allows you to browse the different areas that can be configured. When first opening Configuration, the view will default to My Personal Settings where a user can update and modify their profile. The availability of other items in this list are determined by the rights and roles of the current user.
