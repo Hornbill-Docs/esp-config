@@ -16,7 +16,7 @@
         "items": [
           {
             "text": "Platform Configuration",
-            "link": "esp-config/index"
+            "link": "esp-config"
           },
           {
             "text": "Guides",
