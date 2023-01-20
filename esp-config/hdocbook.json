@@ -4,6 +4,10 @@
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "--publicSource--",
   "version": "0.0.1",
+  "productFamily": "esp",
+  "tags": ["esp", "config", "Configuration", "Administration", "Customization"],
+  "audience": ["public"],
+  "languages": ["en"],
   "navigation": {
     "items": [
       {
