@@ -16,7 +16,7 @@
         "items": [
           {
             "text": "Platform Configuration",
-            "link": "esp-config"
+            "link": "esp-config/index"
           },
           {
             "text": "Guides",
@@ -48,7 +48,7 @@
          },
          {
           "text": "Building your organisation's structure",
-          "link": "esp-config/organisational-data/organisations"
+          "link": "esp-config/organisational-data/organisation"
          },
          {
           "text": "Defining sites and their locations",
