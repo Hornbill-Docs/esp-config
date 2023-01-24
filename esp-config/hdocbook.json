@@ -15,7 +15,7 @@
         "link": "esp-config/welcome"
       },
       {
-        "text": "Platform Configuration Guides",
+        "text": "Platform Configuration Guide",
         "expand": true,
         "items":[
                   {
