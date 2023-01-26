@@ -14,26 +14,40 @@
         "text": "Welcome",
         "link": "esp-config/welcome"
       },
-      {
-        "text": "Platform Configuration Guide",
-        "expand": true,
-        "items":[
                   {
                     "text": "Getting started",
                     "expand":false,
                     "items": [
                       {
                         "text": "Using Configuration",
-                        "link": "esp-config/guides/using-configuration"
+                        "link": "esp-config/getting-started/using-configuration"
                         },  
                     {
                    "text": "Configuring your regional settings",
-                   "link": "esp-config/guides/regional-settings"
+                   "link": "esp-config/getting-started/regional-settings"
                    },
                    {
                     "text": "Installing your first app",
-                    "link": "esp-config/guides/installing-your-first-app"
+                    "link": "esp-config/getting-started/installing-your-first-app"
                    }
+                  ]
+                },
+                {
+                  "text": "Building your organisation's structure",
+                  "expand":false,
+                  "items":[
+                    {
+                      "text": "Groups",
+                      "link": "esp-config/organisational-data/groups"
+                    },
+                    {
+                      "text": "Sites",
+                      "link": "esp-config/organisational-data/sites"
+                    },
+                    {
+                      "text": "Users",
+                      "link": "esp-config/organisational-data/users"
+                    }
                   ]
                 },
                 {
@@ -42,34 +56,36 @@
                   "items":[
                     {
                       "text": "Creating a shared mailbox",
-                      "link": "esp-config/guides/creating-a-shared-mailbox"
+                      "link": "esp-config/email/creating-a-shared-mailbox"
                     },
                     {
                       "text": "Connecting with Office 365",
-                      "link": "esp-config/guides/connecting-with-office365"
+                      "link": "esp-config/email/connecting-with-office365"
                     },
                     {
                       "text": "Using email Routing Rules",
-                      "link": "esp-config/guides/using-email-routing-rules"
+                      "link": "esp-config/email/using-email-routing-rules"
                     }
                   ]
                 },
                 {
-                  "text": "Portal setup and access",
+                  "text": "Customising Hornbill",
                   "expand": false,
                   "items":[
                     {
                       "text": "Customer Portal setup for contacts",
-                      "link": "esp-config/guides/customer-portal-setup"
+                      "link": "esp-config/customise/customer-portal-setup"
                     },
                     {
                       "text": "Employee Portal setup for staff",
-                      "link": "esp-config/guides/employee-portal-setup"
+                      "link": "esp-config/customise/employee-portal-setup"
+                    },
+                    {
+                      "text": "Defining Working Time Calendars",
+                      "link": "esp-config/customise/working-time-calendars"
                     }
                   ]
-                }
-                ]
-      },
+                },
       {
         "text": "Reference",
         "expand":false,
