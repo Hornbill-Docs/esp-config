@@ -7,7 +7,6 @@ This guide covers how to set up regional settings and features which will be use
 * Setting the default date and time formats
 * Selecting the default time zone that Hornbill will use
 * How to enable and disable the languages that are available to users
-* Defining a default working time for your users
 
 ## Before you begin
 This guide takes you through administrative configurations.  The following will be needed to complete this guide:
@@ -55,16 +54,3 @@ Hornbill provides support for using over 400 different languages.  Enabled langu
 ::: tip
 Configure languages by opening [Configuration](/esp-config/getting-started/using-configuration) and search `manage system languages`
 :::
-
-## Working Time
-Working time defines the operational days and hours that users of Hornbill will be working within.  The following settings provide default working times. When an organisation has users that work across different schedules or in different time zones, multiple [Working Time Calendars](/esp-config/customise/working-time-calendars) can be created.
-|Setting Name|Description|Example|
-|-|-|-|
-|system.defaultWorkingTime.timezone|Sets the default time zone|GMT Standard Time|
-|system.defaultWorkingTime.week.fri|Sets the default start/end working time for Friday (format hh:mm-hh:mm). Times will rounded down to the nearest 15 minute boundary|09:00-17:00|
-|system.defaultWorkingTime.week.mon|Sets the default start/end working time for Monday (format hh:mm-hh:mm). Times will rounded down to the nearest 15 minute boundary|09:00-17:00|
-|system.defaultWorkingTime.week.sat|Sets the default start/end working time for Saturday (format hh:mm-hh:mm). Times will rounded down to the nearest 15 minute boundary|09:00-17:00|
-|system.defaultWorkingTime.week.sun|Sets the default start/end working time for Sunday (format hh:mm-hh:mm). Times will rounded down to the nearest 15 minute boundary|09:00-17:00|
-|system.defaultWorkingTime.week.thu|Sets the default start/end working time for Thursday (format hh:mm-hh:mm). Times will rounded down to the nearest 15 minute boundary|09:00-17:00|
-|system.defaultWorkingTime.week.tue|Sets the default start/end working time for Tuesday (format hh:mm-hh:mm). Times will rounded down to the nearest 15 minute boundary|09:00-17:00|
-|system.defaultWorkingTime.week.wed|Sets the default start/end working time for Wednesday (format hh:mm-hh:mm). Times will rounded down to the nearest 15 minute boundary|09:00-17:00|

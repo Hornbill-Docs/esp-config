@@ -4,10 +4,10 @@ layout: article-toc
 # Using Configuration
 
 ## Introduction
-This document covers how to access and use the Hornbill Configuration.  Hornbill Configuration gives you access to all the configuration settings for your Hornbill instance. Configure everything from setting up your Organizational structure including the users, departments, and teams that will be using Hornbill and their rights to what they can access down to setting up mailboxes, webhook integration, and the finite system settings. The different areas within Platform Configuration are sensitive to your rights and each user will only see the options for which they have been granted access.
+This document covers how to access and use the Hornbill Configuration.  Hornbill Configuration gives you access to all the configuration settings for your Hornbill instance. Configure everything from setting up your Organizational structure including the users, departments, and teams that will be using Hornbill and their rights to what they can access down to setting up mailboxes, webhook integration, and the finite system settings. The different areas within Platform Configuration are sensitive to your rights and each user will only see the options to which they have been granted access.
 
 ## Accessing Configuration
-You can access Hornbill Configuration from the main Hornbill App using the URL `https://live.hornbill.com/<your-instance-name>/` . To access Platform Configuration select the cog icon displayed at the bottom of the left hand icon bar, or use **[Ctrl + Shift + S]** on your keyboard.
+You can access Hornbill Configuration from the main Hornbill App using the URL `https://live.hornbill.com/<your-instance-name>/`. To access Platform Configuration select the cog icon displayed at the bottom of the left-hand icon bar, or use **[Ctrl + Shift + S]** on your keyboard.
 
 <video width="560" height="315" controls>
   <source src="https://wiki.hornbill.com/images/5/58/Configuration.mp4" type="video/mp4">

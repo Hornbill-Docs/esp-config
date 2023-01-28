@@ -11,8 +11,8 @@
   "navigation": {
     "items": [
       {
-        "text": "Welcome",
-        "link": "esp-config/welcome"
+        "text": "Overview",
+        "link": "esp-config/overview"
       },
                   {
                     "text": "Getting started",
@@ -25,6 +25,10 @@
                     {
                    "text": "Configuring your regional settings",
                    "link": "esp-config/getting-started/regional-settings"
+                   },                   
+                   {
+                     "text": "Defining working time",
+                     "link": "esp-config/getting-started/working-time"
                    },
                    {
                     "text": "Installing your first app",
@@ -69,271 +73,19 @@
                   ]
                 },
                 {
-                  "text": "Customising Hornbill",
+                  "text": "Setting up portals",
                   "expand": false,
                   "items":[
                     {
-                      "text": "Customer Portal setup for contacts",
+                      "text": "Customer Portal for contacts",
                       "link": "esp-config/customise/customer-portal-setup"
                     },
                     {
-                      "text": "Employee Portal setup for staff",
+                      "text": "Employee Portal for staff",
                       "link": "esp-config/customise/employee-portal-setup"
-                    },
-                    {
-                      "text": "Defining Working Time Calendars",
-                      "link": "esp-config/customise/working-time-calendars"
                     }
                   ]
-                },
-      {
-        "text": "Reference",
-        "expand":false,
-        "items": [
-       {
-       "text": "Organisational Data",
-       "expand": false,
-       "items": [
-         {
-          "text": "Users",
-          "link": "esp-config/platform-configuration/organisational-data/users"
-         },
-         {
-          "text": "Roles",
-          "link": "esp-config/organisational-data/roles"
-         },
-         {
-          "text": "Organisation",
-          "link": "esp-config/platform-configuration/organisational-data/organisation"
-         },
-         {
-          "text": "Sites",
-          "link": "esp-config/platform-configuration/organisational-data/sites"
-         },
-         {
-          "text": "User Templates",
-          "link": "esp-config/platform-configuration/organisational-data/user-templates"
-         },
-         {
-          "text": "User Availability States",
-          "link": "esp-config/platform-configuration/organisational-data/user-availability-states"
-         }, 
-         {
-          "text": "Guest Accounts",
-          "link": "esp-config/platform-configuration/organisational-data/guest-accounts"
-         },
-         {
-          "text": "Guest Account Templates",
-          "link": "esp-config/platform-configuration/organisational-data/guest-account-templates"
-         }
-        ]
-      },
-      {
-        "text": "Security",
-        "expand": false,
-        "items": [
-          {
-            "text": "Setting up single sign-on profiles",
-            "link": "esp-config/platform-configuration/security/sso-profiles"
-          },
-          {
-            "text": "Create authentication keys using Keysafe",
-            "link": "esp-config/platform-configuration/security/keysafe"
-          }
-        ]
-       },
-      {
-        "text": "Customise",
-        "expand": false,
-        "items": [
-          {
-            "text": "Customer Portal",
-            "link": "esp-config/platform-configuration/customise/customer-portal"
-          },
-          {
-            "text": "Employee Portal",
-            "link": "esp-config/platform-configuration/customise/employee-portal"
-          },
-          {
-            "text": "User Profile",
-            "link": "esp-config/platform-configuration/customise/user-profile"
-          },
-          {
-            "text":"Login Screen",
-            "link": "esp-config/platform-configuration/customise/login-screen"
-          },
-          {
-            "text": "Image Library",
-            "link": "esp-config/platform-configuration/customise/image-library"
-          }, 
-          {
-            "text": "Service Domains",
-            "link": "esp-config/platform-configuration/customise/service-domains"
-          },
-          {
-            "text": "Working Time Calendars",
-            "link": "esp-config/platform-configuration/customise/working-time-calendars"
-          }
-        ]
-      },
-      {
-        "text": "Integration",
-        "expand": false,
-        "items": [
-          {
-            "text": "Webhooks",
-            "link": "esp-config/platform-configuration/integration/webhooks"
-          },
-          {
-            "text": "Integration Connectors",
-            "link": "esp-config/platform-configuration/integration/integration-connectors"
-          }
-        ]
-      },
-      {
-        "text": "Email",
-        "expand": false,
-        "items": [
-          {
-            "text": "Domains",
-            "link": "esp-config/platform-configuration/email/domains"
-          },
-          {
-            "text": "Shared Mailboxes",
-            "link": "esp-config/platform-configuration/email/shared-mailboxes"
-          },
-          {
-            "text": "Templates",
-            "link": "esp-config/platform-configuration/email/templates"
-          },
-          {
-            "text": "Inbound Routing Rules",
-            "link": "esp-config/platform-configuration/email/inbound-routing-rules"
-          },
-          {
-            "text": "Direct Outbound",
-            "link": "esp-config/platform-configuration/email/direct-outbound"
-          }
-        ]
-      },
-      {
-        "text": "Data",
-        "expand": false,
-        "items": [ 
-          {
-            "text": "Profiles",
-            "link": "esp-config/platform-configuration/data/profiles"
-          },
-          {
-            "text": "Simple Lists",
-            "link": "esp-config/platform-configuration/data/simple-lists"
-          },
-          {
-            "text": "Data Import Configurations",
-            "link": "esp-config/platform-configuration/data/data-import-configurations"
-          }
-          ]
-      },
-      {
-        "text": "Internationalisation",
-        "expand": false,
-        "items": [
-          {
-            "text": "User Interface Translations",
-            "link": "esp-config/platform-configuration/internationalisation/user-interface-translations"
-          },
-          {
-            "text": "Supported Languages",
-            "link": "esp-config/platform-configuration/internationalisation/supported-languages"
-          }
-        ]
-      },
-      {
-        "text": "Advanced Analytics",
-        "expand": false,
-        "items": [
-          {
-            "text": "Measures",
-            "link": "esp-config/platform-configuration/advanced-analytics/measures"
-          },
-          {
-            "text": "Widgets",
-            "link": "esp-config/platform-configuration/advanced-analytics/widgets"
-          },
-          {
-            "text": "Dashboards",
-            "link": "esp-config/platform-configuration/advanced-analytics/dashboards"
-          },
-          {
-            "text": "Slideshows",
-            "link": "esp-config/platform-configuration/advanced-analytics/slideshows"
-          }
-        ]
-      },
-      {
-        "text": "Reporting",
-        "expand": false,
-        "items": [
-          {
-            "text": "Reports",
-            "link": "esp-config/platform-configuration/reporting/reports"
-          }
-        ]
-      },
-      {
-        "text": "Monitor",
-        "expand": false,
-        "items": [
-          {
-            "text": "Log Files",
-            "link": "esp-config/platform-configuration/monitor/log-files"
-          },
-          {
-            "text": "Sessions",
-            "link": "esp-config/platform-configuration/monitor/sessions"
-          },
-          {
-            "text": "Background Jobs",
-            "link": "esp-config/platform-configuration/monitor/background-jobs"
-          },
-          {
-            "text": "Admin Search Index",
-            "link": "esp-config/platform-configuration/monitor/admin-search-index"
-          }
-        ]
-      },
-      {
-        "text": "Advanced Tools and Settings",
-        "expand": false,
-        "items": [
-          {
-            "text": "Database Direct",
-            "link": "esp-config/platform-configuration/advanced-tools-and-settings/database-direct"
-          },
-          {
-            "text": "Core Settings",
-            "link": "esp-config/platform-configuration/advanced-tools-and-settings/core-settings"
-          },
-          {
-            "text": "Advanced System Settings",
-            "link": "esp-config/platform-configuration/advanced-tools-and-settings/advanced-system-settings"
-          },
-          {
-            "text": "Admin Search Index",
-            "link": "esp-config/platform-configuration/advanced-tools-and-settings/admin-search-index"
-          },
-          {
-            "text": "Entity Explorer",
-            "link": "esp-config/platform-configuration/advanced-tools-and-settings/entity-explorer"
-          },
-          {
-            "text": "Auto Values",
-            "link": "esp-config/platform-configuration/advanced-tools-and-settings/auto-values"
-          }
-        ]
-      }
-    ]
-  }
+                }
  ]
 }
 }

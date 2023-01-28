@@ -1,9 +1,9 @@
 ---
 layout: article
 ---
-# Welcome
+# Overview
 ## In this guide
-This guide provides a series of documents and references to help with the initial setup and the on-going management of the Hornbill platform.  The focus of this guide is on the features and settings that are available within the Hornbill Configuration portal. Some of the covered topics include:
+This guide provides a series of documents to help with the initial setup and the on-going management of the Hornbill platform.  The focus of this guide is on the features and settings that are available within the Hornbill Configuration portal. Some of the covered topics include:
 * Setting up your organizational structure, users, departments, and teams
 * Installing apps and managing subscriptions
 * Configuring email connectivity and shared mailboxes
