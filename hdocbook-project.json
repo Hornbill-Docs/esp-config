@@ -1,3 +1,7 @@
 {
-  "docId": "esp-config"
+  "docId": "esp-config",
+  "pdfGeneration": {
+    "enable": true,
+    "exclude_paths": []
+  } 
 }
