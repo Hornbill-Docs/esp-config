@@ -20,7 +20,7 @@ To access any of the settings described in this document, open [Configuration](/
 :::
 
 ## Working time zone
-Hornbill can be used across multiple geographical regions and time zones. Select the time zone that represents where the users are located  This will ensure that the correct times are stored for the activities that they perform.
+Hornbill can be used across multiple geographical regions and time zones. Select the time zone that represents where the users are located.  This will ensure that the correct times are stored for the activities that they perform.
 
 |Setting Name|Description|Example|
 |-|-|-|
@@ -53,5 +53,18 @@ To exclude a day, set the working hours to 00:00-00:00
 ## Working Time Calendars
 When an organisation has users that work across different schedules or in different time zones, multiple Working Time Calendars can be created.
 
+To access Working Time Calendars
+
+1. Open Configuration
+1. Search for Working Time Calendars
+
+![Working Time Calendar](_books/esp-config/images/working-time-calendar.png)
+
+### Time zone
+Hornbill can be used across multiple geographical regions and time zones. Select the time zone that represents where the teams or users who will be using this particular Working Time Calendar are located. This will ensure that the correct times are stored for the activities that they perform.
+
 ### Day and hour selection
 Using the grid, mouse over the days and the hours while holding down the left mouse button to select or deselect the working times. Each block highlighted in blue represents an active time.
+
+### Holiday exclusions
+Add individual days that will be excluded from the Working Time. This is commonly used for holidays but it can also be used for any other non-operational days. Both single-day events, as well as reoccurring events, can be set.

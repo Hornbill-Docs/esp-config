@@ -18,12 +18,12 @@
                     "text": "Getting started",
                     "expand":false,
                     "items": [
-                      {
+                    {
                         "text": "Using Configuration",
                         "link": "esp-config/getting-started/using-configuration"
-                        },  
+                    },
                     {
-                   "text": "Configuring your regional settings",
+                   "text": "Configuring regional settings",
                    "link": "esp-config/getting-started/regional-settings"
                    },                   
                    {
@@ -31,8 +31,8 @@
                      "link": "esp-config/getting-started/working-time"
                    },
                    {
-                    "text": "Installing your first app",
-                    "link": "esp-config/getting-started/installing-your-first-app"
+                    "text": "Installing an app",
+                    "link": "esp-config/getting-started/installing-an-app"
                    }
                   ]
                 },
@@ -41,8 +41,8 @@
                   "expand":false,
                   "items":[
                     {
-                      "text": "Groups",
-                      "link": "esp-config/organisational-data/groups"
+                      "text": "Groups and Teams",
+                      "link": "esp-config/organisational-data/groups-and-teams"
                     },
                     {
                       "text": "Sites",
@@ -51,6 +51,10 @@
                     {
                       "text": "Users",
                       "link": "esp-config/organisational-data/users"
+                    },
+                    {
+                      "text": "Single Sign-on",
+                      "link": "esp-config/organisational-data/single-sign-on"
                     }
                   ]
                 },
