@@ -16,7 +16,7 @@ Hornbill includes an App Store where apps can be installed, updated, and removed
 ## Installing apps in the App Store
 The Hornbill App Store is a place where one can go to browse, install, and remove applications on Hornbill. Applications are categorized under Installed, Premium, and Free. By clicking on each available application you are able to view the details of that application.
 
-1. Search [Configuration](/esp-config/getting-started/using-configuration.md) for Hornbill App Store
+1. Search [Configuration](/esp-config/getting-started/using-configuration) for Hornbill App Store
 1. Select one of the apps from the group of free apps
 1. Select the Install button to start the installation
 
