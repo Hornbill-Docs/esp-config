@@ -3,6 +3,7 @@ layout: article-toc
 ---
 # Regional settings
 This guide covers how to set up regional settings and features which will be used by Hornbill and its apps as a default or starting point to work from.
+
 ## Topics covered
 * Setting the default date and time formats
 * Selecting the default time zone that Hornbill will use

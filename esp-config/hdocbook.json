@@ -63,6 +63,10 @@
                   "expand":false,
                   "items":[
                     {
+                      "text": "Adding an email domain",
+                      "link": "esp-config/email/adding-an-email-domain"
+                    },
+                    {
                       "text": "Creating a shared mailbox",
                       "link": "esp-config/email/creating-a-shared-mailbox"
                     },
