@@ -3,8 +3,13 @@ layout: article-toc
 ---
 # Using Configuration
 
-## Introduction
-This document covers how to access and use Hornbill Configuration.  Hornbill Configuration gives you access to all the configuration settings for your Hornbill instance. Configure everything from setting up your Organizational structure including the users, departments, and teams that will be using Hornbill and their rights to what they can access down to setting up mailboxes, webhook integration, and the finite system settings. The different areas within Platform Configuration are sensitive to your rights and each user will only see the options to which they have been granted access.
+# Using Configuration
+Hornbill Configuration gives you access to all the configuration settings for your Hornbill instance. Configure your organizational structure including departments, teams, and the users who will be using Hornbill.  Set up email, languages, view your subscriptions, install apps, and much more. The different areas within Configuration are sensitive to your rights and each user will only see the options to which they have been granted access.
+
+## Topics Covered
+* How to access configuration
+* How to search
+* Browsing configuration
 
 ## Accessing Configuration
 You can access Hornbill Configuration from the main Hornbill App using the URL `https://live.hornbill.com/<your-instance-name>/`. To access Platform Configuration select the cog icon displayed at the bottom of the left-hand icon bar, or use **[Ctrl + Shift + S]** on your keyboard.
@@ -15,7 +20,7 @@ You can access Hornbill Configuration from the main Hornbill App using the URL `
 </video>
 
 ## Search
-The Configuration Search provides rapid access to all of the configurable features and settings. The search is designed to query as you type, providing near instant access to the search results. The results will only include items based on the rights and roles of the user performing the search.
+The Configuration Search provides rapid access to all of the configurable features and settings. The search is designed to query as you type, providing instant access to the search results. The results will only include items based on the rights and roles of the user performing the search.
 
 ![search]( _books/esp-config/images/search-config.png )
 
@@ -25,5 +30,5 @@ You can access the Configuration Search from anywhere within Hornbill using the 
 ### Search Help
 Click on the <img src="_books/esp-config/images/search-help.png"> to show a list of additional search options. This includes prefixes that can be added to your search text in order to get more focused results.
 
-### Browse
-The Configuration Selector allows you to browse the different areas that can be configured. When first opening Configuration, the view will default to My Personal Settings where a user can update and modify their profile. The availability of other items in this list are determined by the rights and roles of the current user.
+## Browse
+The Configuration Selector allows you to browse the different areas that can be configured. When first opening Configuration, the view will default to My Personal Settings where a user can update and modify their profile. The availability of other items in this list is determined by the rights and roles of the current user.
