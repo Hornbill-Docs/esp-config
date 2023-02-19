@@ -34,7 +34,7 @@ Auto-provision Hornbill User Accounts - along with the authorization information
 ## How it Works
 There are three key actors in any SAML implementation, these are the "user" trying to access the Hornbill Cloud Application (via their Web Browser), the "Identity Provider (idP)" which knows and has identified the user, and the Service Provider (Hornbill Cloud Service) which provides the application and/or resources that the user wishes to access. Your Hornbill instance is the service provider, and typically your enterprise directory system, very often [Microsoft Active Directory Federated Services (ADFS)](https://learn.microsoft.com/en-us/windows-server/identity/active-directory-federation-services) acts as your identity provider.
 
-![SAML Flow](/esp-config/security/images/saml-flow.png)
+![SAML Flow](/_books/esp-config/security/images/saml-flow.png)
 
 Once SSO is configured, when an unauthenticated user navigates to your Hornbill instance via one of the Hornbill URLs, the browser will be re-directed to the identity provider with the information needed to request access to the service, this is known as a SAML AuthnRequest. The idP will look at the AuthnRequest and if the user is authorized will return an Assertion back to the browser with a redirect to the service provider (in this case the Hornbill Instance). The Hornbill instance will validate the Assertion checking its authenticity against a known Hornbill SSO profile and if valid will create a session and allow the user to access Hornbill as required.
 
