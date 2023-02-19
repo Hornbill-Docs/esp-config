@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "productFamily": "esp",
   "tags": ["esp", "config", "Configuration", "Administration", "Customization"],
   "audience": ["public"],
@@ -37,24 +37,20 @@
         ]
       },
       {
-        "text": "Building your organisation's structure",
+        "text": "Building your organization's structure",
         "expand":true,
         "items":[
           {
             "text": "Groups and Teams",
-            "link": "esp-config/organisational-data/groups-and-teams"
+            "link": "esp-config/organizational-data/groups-and-teams"
           },
           {
             "text": "Sites",
-            "link": "esp-config/organisational-data/sites"
+            "link": "esp-config/organizational-data/sites"
           },
           {
             "text": "Users",
-            "link": "esp-config/organisational-data/users"
-          },
-          {
-            "text": "Single Sign-on",
-            "link": "esp-config/organisational-data/single-sign-on"
+            "link": "esp-config/organizational-data/users"
           }
         ]
       },
@@ -64,7 +60,7 @@
         "items":[
           {
             "text": "Single Sign-on (SSO)",
-            "link": "esp-config/organisational-data/single-sign-on"
+            "link": "esp-config/security/single-sign-on"
           }
         ]
       },
@@ -97,11 +93,11 @@
         "items":[
           {
             "text": "Customer Portal for contacts",
-            "link": "esp-config/customise/customer-portal-setup"
+            "link": "esp-config/customize/customer-portal-setup"
           },
           {
             "text": "Employee Portal for staff",
-            "link": "esp-config/customise/employee-portal-setup"
+            "link": "esp-config/customize/employee-portal-setup"
           }
         ]
       }
