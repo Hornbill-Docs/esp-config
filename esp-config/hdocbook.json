@@ -14,86 +14,97 @@
         "text": "Overview",
         "link": "esp-config/overview"
       },
-                  {
-                    "text": "Getting started",
-                    "expand":false,
-                    "items": [
-                    {
-                        "text": "Using Configuration",
-                        "link": "esp-config/getting-started/using-configuration"
-                    },
-                    {
-                   "text": "Configuring regional settings",
-                   "link": "esp-config/getting-started/regional-settings"
-                   },                   
-                   {
-                     "text": "Defining working time",
-                     "link": "esp-config/getting-started/working-time"
-                   },
-                   {
-                    "text": "Installing an app",
-                    "link": "esp-config/getting-started/installing-an-app"
-                   }
-                  ]
-                },
-                {
-                  "text": "Building your organisation's structure",
-                  "expand":false,
-                  "items":[
-                    {
-                      "text": "Groups and Teams",
-                      "link": "esp-config/organisational-data/groups-and-teams"
-                    },
-                    {
-                      "text": "Sites",
-                      "link": "esp-config/organisational-data/sites"
-                    },
-                    {
-                      "text": "Users",
-                      "link": "esp-config/organisational-data/users"
-                    },
-                    {
-                      "text": "Single Sign-on",
-                      "link": "esp-config/organisational-data/single-sign-on"
-                    }
-                  ]
-                },
-                {
-                  "text": "Setting up email",
-                  "expand":false,
-                  "items":[
-                    {
-                      "text": "Adding an email domain",
-                      "link": "esp-config/email/adding-an-email-domain"
-                    },
-                    {
-                      "text": "Creating a shared mailbox",
-                      "link": "esp-config/email/creating-a-shared-mailbox"
-                    },
-                    {
-                      "text": "Connecting with Office 365",
-                      "link": "esp-config/email/connecting-with-office365"
-                    },
-                    {
-                      "text": "Using email Routing Rules",
-                      "link": "esp-config/email/using-email-routing-rules"
-                    }
-                  ]
-                },
-                {
-                  "text": "Setting up portals",
-                  "expand": false,
-                  "items":[
-                    {
-                      "text": "Customer Portal for contacts",
-                      "link": "esp-config/customise/customer-portal-setup"
-                    },
-                    {
-                      "text": "Employee Portal for staff",
-                      "link": "esp-config/customise/employee-portal-setup"
-                    }
-                  ]
-                }
- ]
-}
+      {
+        "text": "Getting started",
+        "expand":true,
+        "items": [
+          {
+              "text": "Using Configuration",
+              "link": "esp-config/getting-started/using-configuration"
+          },
+          {
+          "text": "Configuring regional settings",
+          "link": "esp-config/getting-started/regional-settings"
+          },                   
+          {
+            "text": "Defining working time",
+            "link": "esp-config/getting-started/working-time"
+          },
+          {
+          "text": "Installing an app",
+          "link": "esp-config/getting-started/installing-an-app"
+          }
+        ]
+      },
+      {
+        "text": "Building your organisation's structure",
+        "expand":true,
+        "items":[
+          {
+            "text": "Groups and Teams",
+            "link": "esp-config/organisational-data/groups-and-teams"
+          },
+          {
+            "text": "Sites",
+            "link": "esp-config/organisational-data/sites"
+          },
+          {
+            "text": "Users",
+            "link": "esp-config/organisational-data/users"
+          },
+          {
+            "text": "Single Sign-on",
+            "link": "esp-config/organisational-data/single-sign-on"
+          }
+        ]
+      },
+      {
+        "text": "Security abd Access Controls",
+        "expand":true,
+        "items":[
+          {
+            "text": "Single Sign-on (SSO)",
+            "link": "esp-config/organisational-data/single-sign-on"
+          }
+        ]
+      },
+
+      {
+        "text": "Setting up email",
+        "expand":false,
+        "items":[
+          {
+            "text": "Adding an email domain",
+            "link": "esp-config/email/adding-an-email-domain"
+          },
+          {
+            "text": "Creating a shared mailbox",
+            "link": "esp-config/email/creating-a-shared-mailbox"
+          },
+          {
+            "text": "Connecting with Office 365",
+            "link": "esp-config/email/connecting-with-office365"
+          },
+          {
+            "text": "Using email Routing Rules",
+            "link": "esp-config/email/using-email-routing-rules"
+          }
+        ]
+      },
+      {
+        "text": "Setting up portals",
+        "expand": true,
+        "items":[
+          {
+            "text": "Customer Portal for contacts",
+            "link": "esp-config/customise/customer-portal-setup"
+          },
+          {
+            "text": "Employee Portal for staff",
+            "link": "esp-config/customise/employee-portal-setup"
+          }
+        ]
+      }
+    ]
+  }
 }
