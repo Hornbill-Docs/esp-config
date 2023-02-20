@@ -33,25 +33,12 @@ Add individual days that will be excluded from the working time. This is commonl
 |-|-|-|
 |system.defaultWorkingTime.exclusions|Sets the default working time exclusion days. Each exclusion should be specified in the format "d:m:y:[comment]". For annually reoccurring exclusions, use * for the year.|1:1:*:New Year's Day|
 
-## Default working time
-The system working time defines the default operational days and hours that users of Hornbill will be working within.  
-
-|Setting Name|Description|Example|
-|-|-|-|
-|system.defaultWorkingTime.week.fri|Sets the default start/end working time for Friday (format hh:mm-hh:mm). Times will rounded down to the nearest 15 minute boundary|09:00-17:00|
-|system.defaultWorkingTime.week.mon|Sets the default start/end working time for Monday (format hh:mm-hh:mm). Times will rounded down to the nearest 15 minute boundary|09:00-17:00|
-|system.defaultWorkingTime.week.sat|Sets the default start/end working time for Saturday (format hh:mm-hh:mm). Times will rounded down to the nearest 15 minute boundary|09:00-17:00|
-|system.defaultWorkingTime.week.sun|Sets the default start/end working time for Sunday (format hh:mm-hh:mm). Times will rounded down to the nearest 15 minute boundary|09:00-17:00|
-|system.defaultWorkingTime.week.thu|Sets the default start/end working time for Thursday (format hh:mm-hh:mm). Times will rounded down to the nearest 15 minute boundary|09:00-17:00|
-|system.defaultWorkingTime.week.tue|Sets the default start/end working time for Tuesday (format hh:mm-hh:mm). Times will rounded down to the nearest 15 minute boundary|09:00-17:00|
-|system.defaultWorkingTime.week.wed|Sets the default start/end working time for Wednesday (format hh:mm-hh:mm). Times will rounded down to the nearest 15 minute boundary|09:00-17:00|
-
 :::tip
 To exclude a day, set the working hours to 00:00-00:00
 :::
 
 ## Working Time Calendars
-When an organisation has users that work across different schedules or in different time zones, multiple Working Time Calendars can be created.
+When an organization has users that work across different schedules or in different time zones, multiple Working Time Calendars can be created.
 
 To access Working Time Calendars
 
