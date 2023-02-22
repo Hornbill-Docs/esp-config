@@ -8,7 +8,7 @@ This guide provides a series of documents to help with the initial setup and the
 * Installing apps and managing subscriptions
 * Configuring email connectivity and shared mailboxes
 * Accessing advanced platform settings
-* Customising the portals
+* Customizing the portals
 ## Who is this for?
 This guide is provided for administrative users of Hornbill. Areas described here are only accessible by users that have administrative rights and roles.  
 ## What's not covered
