@@ -8,7 +8,7 @@ on:
 
   
 jobs:
-  build:
+  validate_pull_request:
     runs-on: ubuntu-latest
     steps:
       # Checkout the relevant content for pull_request_target
