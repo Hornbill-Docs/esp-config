@@ -1,4 +1,4 @@
-name: HDocBuild
+name: HDocBuildPull
 on:
   # Triggers the workflow on pull request opened or reopened events
   pull_request_target:
