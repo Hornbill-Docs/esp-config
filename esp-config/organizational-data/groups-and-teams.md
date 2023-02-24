@@ -10,10 +10,6 @@ The Hornbill platform allows for the creation of a hierarchical structure that r
 * Planning the group structure
 * Adding users to groups
 
-* Are there any settings?
-* Can this be automated?
-* Teams vs groups
-
 ## Before you begin
 * Admin user access is required
 * Knowledge of the existing structure of your organization
@@ -26,8 +22,24 @@ The Hornbill platform allows for the creation of a hierarchical structure that r
 * Service subscriptions within Service Manager
 * Knowledge base access within Service Manager
 * Group based reporting
+* Home Groups for unique user experience in the Employee Portal
 
+## Groups vs Teams
 
+|Feature|Group|Team|
+|-|-|-|
+|Can contain sub-groups|Yes|No|
+|Assign Basic Accounts|Yes|No|
+|Assign User Accounts|Yes|Yes|
+|Allow Task Assignment|No|Yes|
+
+## Advanced settings
 |Setting Name|Description|
 |-|-|
 |task.onlyManagerCanAssignGroupUser|If this is set to true then only group manager can assign a task to a user which is already assigned to group.|
+
+## To do
+* Can this be automated?
+* Teams vs groups
+* Tip about not being able to move groups
+* BPM Automations for managing groups
