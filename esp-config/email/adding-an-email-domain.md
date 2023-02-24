@@ -15,7 +15,7 @@ This guide takes you through administrative configurations.  The following will 
 * Hornbill Admin User access
 * General knowledge of using [Configuration](/esp-config/getting-started/using-configuration)
 * A fully qualified domain name for outgoing email
-* A working knowledge of your mail servers and firewalls within your own organisation
+* A working knowledge of your mail servers and firewalls within your own organization
 
 ## Creating an email domain
 To create and configure a new email domain in Configuration 
@@ -55,14 +55,14 @@ If you wish to use DNS Routing, this requires the following steps.
 1. Validating the record using the `Test SPF` button 
 1. After a successful test, click on the `Create Route` button 
 
-When email is delivered, our servers will automatically negotiate the highest level of transport encryption supported by the remote SMTP server. This is completely automatic and is negotiated each and every time a new SMTP connection is made. We support the TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0 and Plain Text protocols, prioritised and negotiated for in that order.  The SPF/TXT record allows Hornbill to send email using the configured domain without risk of breaching any anti-spam/email source validation checks.
+When email is delivered, our servers will automatically negotiate the highest level of transport encryption supported by the remote SMTP server. This is completely automatic and is negotiated each and every time a new SMTP connection is made. We support the TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0 and Plain Text protocols, prioritized and negotiated for in that order.  The SPF/TXT record allows Hornbill to send email using the configured domain without risk of breaching any anti-spam/email source validation checks.
 
 ::: note
 If the domain name is set to live.hornbill.com, a SPF/TXT Record is not required.
 :::
 
 ### Option 2: SMTP SmartHost
-A smart host is a type of email message transfer agent that allows a Simple Mail Transfer Protocol (SMTP) server to route email via an intermediate e-mail server rather than directly to the recipient's server. With this method, an e-mail server within your organisation is configured to allow the relaying of emails from your Hornbill instance (based in our data centre) to your end users. With the relay configured, any outbound email will pass through your domain and therefore, from the recipients perspective, the source domain will correspond to that used in the "from address" that we configure within Hornbill.
+A smart host is a type of email message transfer agent that allows a Simple Mail Transfer Protocol (SMTP) server to route email via an intermediate e-mail server rather than directly to the recipient's server. With this method, an e-mail server within your organization is configured to allow the relaying of emails from your Hornbill instance (based in our data center) to your end users. With the relay configured, any outbound email will pass through your domain and therefore, from the recipients perspective, the source domain will correspond to that used in the "from address" that we configure within Hornbill.
 
 To successfully complete the Email integration using this method you will need to:
 
@@ -78,9 +78,9 @@ If you are not familiar with how to complete steps 2 and 3, please refer to the 
 Origin IP Address
 The origin IP that should be specified in any such firewall rules is one of the following and is dependent on the location of your instance. You should have both the Primary and Secondary IP for your geographical area:
 
-Europe: - 87.117.243.10 OR 212.71.225.67 (If you are a UK or European customer, your instance will be located in our European data centre and any outbound mail will originate from here)
-North America: - 69.174.249.200 OR 64.34.188.200 (If you are a North American or Canadian customer, your instance will be located in our North American data centre and any outbound mail will originate from here)
-(More information about our data centres can be found in our FAQ: Hornbill Data Centres. If you are unable to find the answer you're looking for, please head over to the Hornbill forums and start a discussion).
+Europe: - 87.117.243.10 OR 212.71.225.67 (If you are a UK or European customer, your instance will be located in our European data center and any outbound mail will originate from here)
+North America: - 69.174.249.200 OR 64.34.188.200 (If you are a North American or Canadian customer, your instance will be located in our North American data center and any outbound mail will originate from here)
+(More information about our data centers can be found in our FAQ: Hornbill Data Centers. If you are unable to find the answer you're looking for, please head over to the Hornbill forums and start a discussion).
 
 The origin IP addresses are also contained in the "Email Integration Information" communication sent from your Product Specialist at the beginning of the Switch On.
 

@@ -28,8 +28,8 @@ layout: article-toc
 1. Account type
 1. Roles
 1. Sites
-1. Organisation Group Membership
-1. Set Home Organisation
+1. Organization Group Membership
+1. Set Home Organization
 1. Creating from template
 
 ## Auto-provisioning users

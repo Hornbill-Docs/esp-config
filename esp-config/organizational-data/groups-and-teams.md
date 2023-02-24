@@ -25,12 +25,14 @@ The Hornbill platform allows for the creation of a hierarchical structure that r
 * Home Groups for unique user experience in the Employee Portal
 
 ## Groups vs Teams
+* **Groups** <br> Use groups to build your organizational structure along with the associated people that belong to each group.
+* **Teams** <br> Use teams for associating subscribed users that work together within the different Hornbill apps.
 
 |Feature|Group|Team|
 |-|-|-|
 |Can contain sub-groups|Yes|No|
-|Assign Basic Accounts|Yes|No|
-|Assign User Accounts|Yes|Yes|
+|Associate Basic Accounts|Yes|No|
+|Associate User Accounts|Yes|Yes|
 |Allow Task Assignment|No|Yes|
 
 ## Advanced settings
@@ -40,6 +42,5 @@ The Hornbill platform allows for the creation of a hierarchical structure that r
 
 ## To do
 * Can this be automated?
-* Teams vs groups
 * Tip about not being able to move groups
 * BPM Automations for managing groups

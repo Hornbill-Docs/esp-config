@@ -2,7 +2,7 @@
 layout: article-toc
 ---
 # Single Sign-on with SAML 2.0
-The Hornbill platform supports single sign-on as well as policy-based transparent auto provisioning and data updates of both user and guest accounts thus providing enterprise-class user identity integration with your organisations core IT directory services.
+The Hornbill platform supports single sign-on as well as policy-based transparent auto provisioning and data updates of both user and guest accounts thus providing enterprise-class user identity integration with your organizations core IT directory services.
 
 ## Topics covered
 * Learn about SAML and how it is used by Hornbill
@@ -43,7 +43,7 @@ Once SSO is configured, when an unauthenticated user navigates to your Hornbill 
 The Service Provider (Hornbill) meta data files needed for configuring your IdP can be downloaded from your Hornbill instance
 In order to successfully configure your Identity Provider (IdP) you will need details of your Hornbill instance. The Service Provider meta data files contain such things as the Service Provider Entity Id and Assertion Consumer Service (ACS) binding that your IdP needs to communicate during the authentication process.
 
-To get your meta data files, log into Hornbill Administration and navigate to Home > system > Security > SSO Profiles. Located towards the top right of the list are buttons labelled "Mobile Catalog", "User", "Admin", "Service", and "Customer". Clicking each of these will download the Hornbill meta data file for the associated Service URL.
+To get your meta data files, log into Hornbill Administration and navigate to Home > system > Security > SSO Profiles. Located towards the top right of the list are buttons labeled "Mobile Catalog", "User", "Admin", "Service", and "Customer". Clicking each of these will download the Hornbill meta data file for the associated Service URL.
 
 USER - contains information for https://live.hornbill.com/[your instance name]
 ADMIN - contains information for https://admin.hornbill.com/[your instance name]
@@ -58,7 +58,7 @@ When configuring your IdP, you will need to create entries to represent each of 
 "User" is always necessary. Therefore as a minimum you will have one entry in your IdP.
 "Admin" is optional as access can be gained via a link from the user app once successful login has been achieved. However, many choose to configure this in their IdP for added convenience.
 "Mobile catalog" is required to facilitate access via a mobile device.
-"Customer" represents the self service portal used in the delivery of an external support function. This is only required if you need a portal to provide services to those outside of your organisation.
+"Customer" represents the self service portal used in the delivery of an external support function. This is only required if you need a portal to provide services to those outside of your organization.
 
 ## Configure your Identity Provider
 The Hornbill SSO implementation follows the SAML 2.0:2005 specification so will work with any commercial or home-grown identity provider that correctly supports this standard. We have tried to make our system as flexible as possible in terms of configuration and compatibility with the standard. Here is a link to the official standards documentation: - SAML 2.0 2005
@@ -150,7 +150,7 @@ Name	Required	Description
 account:name	No	The users display name/handle. If not specified then the name will be derived from account:firstName a space and the account:lastName. If these two attributes are not defined either, the name will be the same as the nameID (the users login id)
 account:firstName	No	The users given/first name
 account:lastName	No	The users given/last name
-account:jobTitle	No	The users job title within the organisation
+account:jobTitle	No	The users job title within the organization
 account:phone	No	The users phone number
 account:email	No	The users e-mail address
 account:mobile	No	The users mobile phone number
@@ -171,7 +171,7 @@ Like Hornbill user accounts, contact records can be created through auto-provisi
 Name	Required	Description
 contact:firstName	No	The users given/first name
 contact:lastName	No	The users given/last name
-contact:jobTitle	No	The users job title within the organisation
+contact:jobTitle	No	The users job title within the organization
 contact:phone	No	The users phone number
 contact:email	No	The users e-mail address
 contact:company	No	The name of the company the user works at

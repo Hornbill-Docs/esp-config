@@ -36,7 +36,7 @@ This is where the basic details of the mailbox are specified:
 Mailbox Name: This is used to reference the mailbox within the Hornbill Platform when there is a need to specify a mailbox in certain application settings. Once the mailbox is created this cannot be changed.
 Display Name: This is what the recipients of email will see when they receive an email from Hornbill. This can be edited at any time.
 Adding an Inbound Mail Service
-This tab is where we tell Hornbill where it will retrieve email messages. Remember, in a typical setup, email messages are not sent directly to your Hornbill instance but are retrieved periodically from a mail account that will reside on your organisations mail exchange. The information Hornbill needs is as follows:
+This tab is where we tell Hornbill where it will retrieve email messages. Remember, in a typical setup, email messages are not sent directly to your Hornbill instance but are retrieved periodically from a mail account that will reside on your organizations mail exchange. The information Hornbill needs is as follows:
 
 Service: the industry standard Protocol that Hornbill will use to retrieve the messages. Hornbill Supports POP3 or IMAP4.
 Server: the name or IP address of the mail server where the mail account is located.

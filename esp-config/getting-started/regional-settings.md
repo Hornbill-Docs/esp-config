@@ -33,7 +33,7 @@ All dates and times are saved to the database in the ISO format yyyy-MM-dd HH:mm
 :::
 
 ## Default time zone
-The default time zone allows you to select the time zone of the data centre where your Hornbill is located or where your main business operations are located.
+The default time zone allows you to select the time zone of the data center where your Hornbill is located or where your main business operations are located.
 |Setting Name|Description|Example|
 |-|-|-|
 |system.regionalSettings.timezone|Sets the timezone that the server is operating in|GMT Greenwich Mean Time|
