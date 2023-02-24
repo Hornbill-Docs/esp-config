@@ -29,11 +29,11 @@ jobs:
       - name: Install hdoc-tools
         run: npm install hdoc-tools -g
      
-     # Run hdoc build against checked-out content
+     # Run hdoc validate against checked-out content
       - name: Perform Validation
         id: hdocbuild
         run: |
-          if result=`hdoc build 2>&1`; then
+          if result=`hdoc validate 2>&1`; then
               printf "Build Success!\n\n"
               printf "$result"
               exit 0
