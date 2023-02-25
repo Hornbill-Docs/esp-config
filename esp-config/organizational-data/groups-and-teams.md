@@ -35,12 +35,28 @@ The Hornbill platform allows for the creation of a hierarchical structure that r
 |Associate User Accounts|Yes|Yes|
 |Allow Task Assignment|No|Yes|
 
+## Adding a group
+
+From the organization view click on the `+ Create New Group` button.
+
+* **Organization Id**<br>This is the unique identification for this group. 
+    * This value can only contain letters, numbers and underscores
+    * It cannot begin with a numeric digit
+    * Must be at least two characters long and is limited to a maximum of 160 characters
+    :::note  
+    Please be aware, that once the ID has been saved, it cannot be amended. If this new group has a parent, then the ID will be constructed using the ID that you specify as well as being prefixed with the ID(s) of any parent groups.
+    :::
+* **Name**<br>This is the user friendly name for the group. This can be amended at any time after the group has been created.
+* **Parent**<br>This is how the hierarchy is defined. Here, the direct parent of the group should be specified. For example, if creating a division, a company group may be selected as a parent. Be aware, that once the parent has been saved, it cannot be amended.
+* **Type**<br>This is a drop-down list, specifying the type of group that is being created (Company, Division, Department, Costcenter, Team or General)
+* **Attributes 1 to 9**<br>These fields can be used to store additional information. 
+* **Notes**<br>A free text field to record any additional information regarding the group.
+
+:::tip
+**Reporting** - Groups are stored in the table h_sys_groups and the types described above are represented by an integer value between 0 and 5 in a column called h_type. These are as follows: 0=general, 1=team, 2=department, 3=costcenter, 4=division, 5=company. The group type may be useful when creating measures, widgets, and reports.
+:::
+
 ## Advanced settings
 |Setting Name|Description|
 |-|-|
 |task.onlyManagerCanAssignGroupUser|If this is set to true then only group manager can assign a task to a user which is already assigned to group.|
-
-## To do
-* Can this be automated?
-* Tip about not being able to move groups
-* BPM Automations for managing groups
