@@ -39,22 +39,45 @@ The Hornbill platform allows for the creation of a hierarchical structure that r
 
 From the organization view click on the `+ Create New Group` button.
 
-* **Organization Id**<br>This is the unique identification for this group. 
-    * This value can only contain letters, numbers and underscores
+* **Organization Id**<br>This is the unique identifier for this group. 
+    * This value can only contain letters, numbers, and underscores
     * It cannot begin with a numeric digit
     * Must be at least two characters long and is limited to a maximum of 160 characters
     :::note  
     Please be aware, that once the ID has been saved, it cannot be amended. If this new group has a parent, then the ID will be constructed using the ID that you specify as well as being prefixed with the ID(s) of any parent groups.
     :::
-* **Name**<br>This is the user friendly name for the group. This can be amended at any time after the group has been created.
+* **Name**<br>This is the user-friendly name for the group. This can be amended at any time after the group has been created.
 * **Parent**<br>This is how the hierarchy is defined. Here, the direct parent of the group should be specified. For example, if creating a division, a company group may be selected as a parent. Be aware, that once the parent has been saved, it cannot be amended.
-* **Type**<br>This is a drop-down list, specifying the type of group that is being created (Company, Division, Department, Costcenter, Team or General)
+* **Type**<br>This is a drop-down list, specifying the type of group that is being created (Company, Division, Department, Costcenter, Team, or General)
 * **Attributes 1 to 9**<br>These fields can be used to store additional information. 
 * **Notes**<br>A free text field to record any additional information regarding the group.
 
 :::tip
 **Reporting** - Groups are stored in the table h_sys_groups and the types described above are represented by an integer value between 0 and 5 in a column called h_type. These are as follows: 0=general, 1=team, 2=department, 3=costcenter, 4=division, 5=company. The group type may be useful when creating measures, widgets, and reports.
 :::
+
+## Associated users
+Once a group has been created, users can be associated to the group.
+
+1. Click the group in which the user(s) need to be associated with
+1. Click the `Associated Users` Tab
+1. Click the `Associate User` button. A form is displayed with the following options:
+
+* **Search Users**,<br>Begin typing the name of an individual user to assign to the group, and click the name to select them
+* **By Organization**<br>If the assigned users of the group need to be the same as another existing group, use this field to search and select the group. This will add all the members of that existing group to your new group.
+* **By Role**<br>If the members of the group can be selected based on a common Hornbill Security Role, use this field to search and select the role. Any user who possesses that role will be added to your new group.
+* **Membership** Select whether the user is a Member, Team Leader, or Manager of the group.
+
+:::tip
+BPM Automations can be used to add and remove users from groups. This can be useful as part of any workflow that manages new or leaving staff.
+:::
+
+## Allow task assignments
+This option is only available for Teams.  Having the Allow Task Assignments set to `Yes` on a team makes the team name available on the task form for assignment.
+
+### Associated user task management
+* **Allow task view**<br>From the Task View, users with this option can see tasks that are assigned to their group.
+* **Allow task action**<br>From the Task View, users with this option can action the tasks that are assigned to their group, such as assigning the task to themselves or completing the task.
 
 ## Advanced settings
 |Setting Name|Description|

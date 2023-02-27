@@ -2,8 +2,6 @@
 layout: article-toc
 ---
 # Using Configuration
-
-# Using Configuration
 Hornbill Configuration gives you access to all the configuration settings for your Hornbill instance. Configure your organizational structure including departments, teams, and the users who will be using Hornbill.  Set up email, languages, view your subscriptions, install apps, and much more. The different areas within Configuration are sensitive to your rights and each user will only see the options to which they have been granted access.
 
 ## Topics Covered
