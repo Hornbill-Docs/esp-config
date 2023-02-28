@@ -18,7 +18,7 @@ The Hornbill platform supports single sign-on as well as policy-based transparen
 Security Assertion Markup Language ('SAML, pronounced "sam-el") is an open standard XML-based framework developed by the Security Services Technical Committee of OASIS and is designed for communicating user authentication, entitlement, and attribute information between parties, in particular between an Identity Provider (IdP) and a Service Provider i.e. Hornbill.
 :::note
 Useful External References:
-[Oasis-Open.org](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=security), [Wikipedia](http://en.wikipedia.org/wiki/Security_Assertion_Markup_Language)
+[Oasis-Open.org](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=security), [Wikipedia](https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language)
 :::
 
 ## SAML and Hornbill
