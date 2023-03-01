@@ -41,7 +41,7 @@ The Hornbill Solution Center provides information about your subscriptions for t
 1. Select `Application Subscriptions`
 1. Under the subscriptions column, click on the subscription counter to view and modify the list of subscribed users.
 
-::: note
+::: tip
 Users can also be allocated subscriptions through role assignments.  If you assign a user to an application role that has a privilege level of **user** a subscription will be allocated to that user when they next log in.
 :::
 
