@@ -50,12 +50,35 @@
           },
           {
             "text": "Users",
-            "link": "esp-config/organizational-data/users"
+            "expand": true,
+            "items": [
+              {
+                "text": "About user accounts",
+                "link": "esp-config/organizational-data/user-accounts/about-user-accounts"
+              },
+              {
+                "text": "Manually creating users",
+                "link": "esp-config/organizational-data/user-accounts/users"
+              },
+              {
+                "text": "User templates",
+                "link": "esp-config/organizational-data/user-accounts/user-templates"
+              },
+              {
+                "text": "CSV user import",
+                "link": "esp-config/organizational-data/user-accounts/csv-user-import"
+              },
+              {
+                "text": "Import and syncronization tools",
+                "link": "esp-config/organizational-data/user-accounts/user-import-tools"
+              }
+            ]
+            
           }
         ]
       },
       {
-        "text": "Security abd Access Controls",
+        "text": "Security and Access Controls",
         "expand":true,
         "items":[
           {
