@@ -2,6 +2,7 @@
 layout: article-toc
 ---
 # Creating and managing accounts
+Within Configuration, accounts can be manually created. Manual creation is typically used when there is a need for initial accounts during a new implementation. These might be used for testing or for special accounts that would not be included in an automated import and synchronization from an external source such as Microsoft Active Directory.
 
 ## Before you begin
 * Administrative access to Configuration
