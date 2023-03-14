@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "productFamily": "esp",
   "tags": ["esp", "config", "Configuration", "Administration", "Customization"],
   "audience": ["public"],
@@ -41,7 +41,7 @@
         "expand":true,
         "items":[
           {
-            "text": "Groups and Teams",
+            "text": "Groups and teams",
             "link": "esp-config/organizational-data/groups-and-teams"
           },
           {
@@ -82,8 +82,28 @@
         "expand":true,
         "items":[
           {
-            "text": "Single Sign-on (SSO)",
+            "text": "Password policies",
+            "link": "esp-config/security/password-policies"
+          },
+          {
+            "text": "Two factor authentication",
+            "link": "esp-config/security/two-factor-authentication"
+          },
+          {
+            "text": "User roles",
+            "link": "esp-config/security/roles"
+          },
+          {
+            "text": "Single sign-on (SSO)",
             "link": "esp-config/security/single-sign-on"
+          },
+          {
+            "text": "API keys",
+            "link": "esp-config/security/api-keys"
+          },
+          {
+            "text": "KeySafe",
+            "link": "esp-config/security/keysafe"
           }
         ]
       },

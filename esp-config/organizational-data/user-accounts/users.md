@@ -1,30 +1,37 @@
 ---
 layout: article-toc
 ---
-# Creating and managing accounts
-Within Configuration, accounts can be manually created. Manual creation is typically used when there is a need for initial accounts during a new implementation. These might be used for testing or for special accounts that would not be included in an automated import and synchronization from an external source such as Microsoft Active Directory.
+# Manually creating users
+Within Configuration, user accounts can be manually created. Manual creation is typically used when there is a need for initial accounts during a new implementation. These might be used for testing or for special accounts that would not be included in an automated import and synchronization from an external source such as Microsoft Active Directory.
 
 ## Before you begin
 * Administrative access to Configuration
-* An Understanding of roles
+* An understanding of roles
+* An understanding of user account types
 * It's recommended to have an organization group structure in place
 
 ## Topics covered
 * Manual account creation
-* Settings
 * Adding roles
-* Password Policies
-* Two factor authentication
+* Basic user account management
 
-
-## Manual creation
+## Quick Steps
 1. Open Configuration and search for `users` and select `Manage Users` from the results list
 1. On the Tool Bar click the `Create New User` button
 1. Complete the mandatory fields along with any other additional information that you wish to add
 1. Click on the `Create User` button.
 
-## Templates
-User templates are used to create a standard set of settings which can then be used to create user accounts through auto provisioning or when users are manually created. An example of using an identity provider would be to use Active Directory Services to authenticate with Hornbill. When this authentication happens, if a user account does not exist in Hornbill it will be automatically created using this template.
+## Basic Information
+
+### User ID vs Login ID
+* **User ID**<br>The user ID is the primary key of a Hornbill user account and is used to build all the associations to other records in the database. It must be unique to a user account. Once created it cannot be changed.  Avoid using anything that has a potential to change. This is a mandatory field.
+* **Logon ID**<br>The Logon ID is used when a user logs into Hornbill when prompted to provide a username and password. This also has an important part to play in the Single Sign On mechanism. The Logon ID must be unique to a user account. The Login ID can be edited or changed at any time.
+
+::: tip
+When both fields are populated, a user can log in using either one.
+:::
+
+### Adding roles
 
 ## Account Management
 
@@ -39,13 +46,3 @@ The suspension of a user prevents the account from logging on to Hornbill. Other
 
 ### Archive Users
 Archiving a user prevents the account from logging on to Hornbill and will also prevent other users from interacting with this account. Historic contributions within the collaboration features will be intact and visible, but they will no long be available as a co-worker. This is the recommended option for when someone leaves. Archived users can be reactivated.
-
-
-
-## User ID vs Login ID
-
-## To do
-1. Roles
-1. Sites
-1. Organization Group Membership
-1. Set Home Organization
