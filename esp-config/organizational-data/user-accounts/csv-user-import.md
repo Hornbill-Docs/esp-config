@@ -22,7 +22,7 @@ This How To looks at the requirements and steps used to create an multiple user 
 ## CSV Template Download
 The CSV template consists of the following fields:
 
-|Field name|Description|Manditory|
+|Field name|Description|Mandatory|
 |-|-|-|
 |userId|The User Id should ideally be made up of alphanumeric characters although full stops (.) and underscores (_) are permissible. The User Id plays a key role in the database relationships so once it is created, it is not possible to amend.|Yes|
 |name|This field will form the "Handle" for the User. This is what will be visible when posting to a Workspace or Request Timeline eg: "Harry Hornbill posted on Workspace Hornbill Collaboration Discussion". In this example, Harry Hornbill would be the Handle. This field can be amended at any time.The Handle must be a unique value, however the setting api.xmlmc.uniqueUserHandle.enable can be enabled to allow duplicates.|Yes|
