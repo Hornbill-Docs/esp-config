@@ -28,7 +28,7 @@ Within Configuration, user accounts can be manually created. Manual creation is 
 * **Logon ID**<br>The Logon ID is used when a user logs into Hornbill when prompted to provide a username and password. This also has an important part to play in the Single Sign On mechanism. The Logon ID must be unique to a user account. The Login ID can be edited or changed at any time.
 
 ::: tip
-When both fields are populated, a user can log in using either one.
+When the Login ID is populated, a user can no longer use their User ID to log.
 :::
 
 ### Adding roles

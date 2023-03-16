@@ -1,7 +1,7 @@
 ---
 layout: article-toc
 ---
-# Single Sign-on with SAML 2.0
+# Single sign-on with SAML 2.0
 The Hornbill platform supports single sign-on as well as policy-based transparent auto provisioning and data updates of both user and guest accounts thus providing enterprise-class user identity integration with your organizations core IT directory services.
 
 ## Topics covered
