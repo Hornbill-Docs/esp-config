@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "productFamily": "esp",
   "tags": ["esp", "config", "Configuration", "Administration", "Customization"],
   "audience": ["public"],
@@ -38,7 +38,7 @@
       },
       {
         "text": "Building your organization's structure",
-        "expand":true,
+        "expand":false,
         "items":[
           {
             "text": "Groups and teams",
@@ -79,7 +79,7 @@
       },
       {
         "text": "Security and Access Controls",
-        "expand":true,
+        "expand":false,
         "items":[
           {
             "text": "Password policies",
@@ -132,7 +132,7 @@
       },
       {
         "text": "Setting up portals",
-        "expand": true,
+        "expand": false,
         "items":[
           {
             "text": "Customer Portal for contacts",
