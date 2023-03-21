@@ -35,3 +35,18 @@ To access any of the settings described in this document, open [Configuration](/
 When either the user or guest mode settings are set to `optional` the option to enable 2 Factor Authentication on an individual user account becomes available.
 * **Disabled**<br>2FA will not be used
 * **Email**<br>2FA will be enabled and sent to the user by email
+
+### How to enable 2FA on a user account
+1. Using Configuration search using the name of the user to be changed to 2FA
+1. In the results list, click on the user name
+1. On the Details tab of the user account, locate the Security Settings section
+1. Under 2 Factor Authentication select `Email'
+1. Click on `Save Changes`
+
+### How to enable 2FA on a guest account
+1. Using Configuration search on the text `Guest`
+1. In the results list, click on `Guest Accounts`
+1. In the list of guest accounts, select the account to be changed to 2FA
+1. Click on the 2 Factor Authentication icon in the toolbar
+1. Select `Email`
+1. Click `Save`
