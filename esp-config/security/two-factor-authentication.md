@@ -5,18 +5,33 @@ layout: article-toc
 
 Hornbill supports two-factor authentication for both user and guest accounts. Two factor authentication (2FA) can be enabled by the system administrator to either force 2FA for all accounts, or to allow 2FA to be required on an account-by-account basis.
 
-::: note
-When using SSO, Hornbill 2FA is not used, instead your identity provider should provide the 2FA capability should that be required.
-:::
-
-To enable 2fA for users using Hornbill Direct Login
-
-Search the admin area for "2fa user", and configure the two settings according to your preferences. Chose 'optional' mode if you want to enabled 2FA on an account by account basis. Chose 'required' mode if you want to make 2FA mandatory for all accounts globally.
-If you have chosen 'optional' mode, you will need to go into each user account you wish to enable 2FA for, and in the Details tab, scroll down to the 2 Factor Authentication field, and choose Enabled
-To enable 2fA for guests using Hornbill Direct Login
-
-Search the admin area for "2fa guest", and configure the two settings according to your preferences. Chose 'optional' mode if you want to enabled 2FA on an account by account basis (t.b.a). Chose 'required' mode if you want to make 2FA mandatory for all accounts globally.
-If you have chosen 'optional' mode, you will need to go into the guest accounts list, select the account(s) and press the 2FA button (the shield with tick icon), to set the 2FA mode for that account(s).
+## Before you begin
+* Hornbill must have an [email domain](/esp-config/email/adding-an-email-domain#creating-an-email-domain) set up for outbound routing
+* Users must have a valid email address setup on their account
+* 2FA is only applicable to the web apps.  It is not available on the native mobile apps.
+* When using SSO, Hornbill 2FA is not used. Instead, 2FA should be set up using your identity provider if the option is available.
 
 ## How Two-Factor Authentication Works
-When enabled, if a user (guest) logs in using direct login with their normal credentials, instead of being logged in, the login page will change and prompt with instructions to enter a 6-digit authentication code. This authentication code will be sent to the user (or guest) account using their primary email address, the email will look similar to the image below. Simply type that code when prompted to complete the second phase of the authentication and the user (guest) will be logged in as usual.
+When enabled, if a user (guest) logs in using direct login with their normal credentials, instead of being logged in, the login page will change and prompt with instructions to enter a 6-digit authentication code. This authentication code will be sent to the user (guest) account using their primary email address, the email will look similar to the image below. Simply type that code when prompted to complete the second phase of the authentication and the user (guest) will be logged in as usual.
+
+![2FA Code](/_books/esp-config/security/images/2fa.png)
+
+## Settings
+Enabling 2FA is done using platform settings.  
+
+::: tip
+To access any of the settings described in this document, open [Configuration](/esp-config/getting-started/using-configuration) and search by part or all of the setting name 
+:::
+
+|Name|Description|Default|
+|-|-|-|
+|security.guest.2fa.mode|Sets the 2 Factor Authentication Mode: `disabled` - not enabled, `optional` - enabled on an account-by-account basis, `mandatory` - forced on all accounts|disabled|
+|security.guest.2fa.timeout|The number of seconds a 2FA challenge token remains valid (in seconds)|300|
+|security.user.2fa.mode|Sets the 2 Factor Authentication Mode: `disabled` - not enabled, `optional` - enabled on an account-by-account basis, `mandatory` - forced on all accounts|disabled|
+|security.user.2fa.timeout|The number of seconds a 2FA challenge token remains valid (in seconds)|300|
+
+
+## 2FA mode optional
+When either the user or guest mode settings are set to `optional` the option to enable 2 Factor Authentication on an individual user account becomes available.
+* **Disabled**<br>2FA will not be used
+* **Email**<br>2FA will be enabled and sent to the user by email
