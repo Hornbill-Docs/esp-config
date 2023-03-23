@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "0.0.22",
+  "version": "0.0.23",
   "productFamily": "esp",
   "tags": ["esp", "config", "Configuration", "Administration", "Customization"],
   "audience": ["public"],
@@ -131,7 +131,7 @@
         ]
       },
       {
-        "text": "Setting up portals",
+        "text": "Customizing Hornbill",
         "expand": false,
         "items":[
           {
@@ -141,6 +141,28 @@
           {
             "text": "Employee Portal for staff",
             "link": "esp-config/customize/employee-portal-setup"
+          },
+          {
+            "text": "User Profile",
+            "link": "esp-config/customize/user-profile"
+          },
+          {
+            "text": "Image Library",
+            "link": "esp-config/customize/image-library"
+          },          
+          {
+            "text": "Service Domains",
+            "link": "esp-config/customize/service-domains"
+          }
+        ]
+      },
+      {
+        "text": "Internationalization",
+        "expand": false,
+        "items":[
+          {
+            "text": "User Interface Translations",
+            "link": "esp-config/internationalization/user-interface-translations"
           }
         ]
       }
