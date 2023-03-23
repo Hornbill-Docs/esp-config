@@ -13,7 +13,7 @@ Sites can be configured to reflect the different physical locations that exist w
 
 ## How sites are used
 * A user can be associated to a site to help identify the location of that user.
-* Sites can be associated to Company Groups defined within the organization structure. 
+* Sites can only be associated to Company Groups defined within the organization structure. 
 * Identify the location of an asset in Service Manager
 * Define site based services
 * Create analytics based on site

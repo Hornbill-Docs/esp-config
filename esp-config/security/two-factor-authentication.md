@@ -1,9 +1,9 @@
 ---
 layout: article-toc
 ---
-# Two factor authentication
+# Two-factor authentication
 
-Hornbill supports two-factor authentication for both user and guest accounts. Two factor authentication (2FA) can be enabled by the system administrator to either force 2FA for all accounts, or to allow 2FA to be required on an account-by-account basis.
+Hornbill supports two-factor authentication (2FA) for both user and guest accounts. 2FA can be enabled by the system administrator to either force 2FA for all accounts, or to allow 2FA to be required on an account-by-account basis.
 
 ## Before you begin
 * Hornbill must have an [email domain](/esp-config/email/adding-an-email-domain#creating-an-email-domain) set up for outbound routing
@@ -25,14 +25,14 @@ To access any of the settings described in this document, open [Configuration](/
 
 |Name|Description|Default|
 |-|-|-|
-|security.guest.2fa.mode|Sets the 2 Factor Authentication Mode: `disabled` - not enabled, `optional` - enabled on an account-by-account basis, `mandatory` - forced on all accounts|disabled|
+|security.guest.2fa.mode|Sets the Two-Factor Authentication Mode: `disabled` - not enabled, `optional` - enabled on an account-by-account basis, `mandatory` - forced on all accounts|disabled|
 |security.guest.2fa.timeout|The number of seconds a 2FA challenge token remains valid (in seconds)|300|
-|security.user.2fa.mode|Sets the 2 Factor Authentication Mode: `disabled` - not enabled, `optional` - enabled on an account-by-account basis, `mandatory` - forced on all accounts|disabled|
+|security.user.2fa.mode|Sets the Two-Factor Authentication Mode: `disabled` - not enabled, `optional` - enabled on an account-by-account basis, `mandatory` - forced on all accounts|disabled|
 |security.user.2fa.timeout|The number of seconds a 2FA challenge token remains valid (in seconds)|300|
 
 
 ## 2FA mode optional
-When either the user or guest mode settings are set to `optional` the option to enable 2 Factor Authentication on an individual user account becomes available.
+When either the user or guest mode settings are set to `optional` the option to enable 2FA on an individual user account becomes available.
 * **Disabled**<br>2FA will not be used
 * **Email**<br>2FA will be enabled and sent to the user by email
 
@@ -40,13 +40,13 @@ When either the user or guest mode settings are set to `optional` the option to 
 1. Using Configuration search using the name of the user to be changed to 2FA
 1. In the results list, click on the user name
 1. On the Details tab of the user account, locate the Security Settings section
-1. Under 2 Factor Authentication select `Email'
+1. Under Two-Factor Authentication select `Email'
 1. Click on `Save Changes`
 
 ### How to enable 2FA on a guest account
 1. Using Configuration search on the text `Guest`
 1. In the results list, click on `Guest Accounts`
 1. In the list of guest accounts, select the account to be changed to 2FA
-1. Click on the 2 Factor Authentication icon in the toolbar
+1. Click on the Two-Factor Authentication icon in the toolbar
 1. Select `Email`
 1. Click `Save`
