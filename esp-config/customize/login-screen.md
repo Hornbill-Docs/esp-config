@@ -6,7 +6,7 @@ The Login Screen option within Configuration allows you to customize the look of
 
 ## Settings
 ### Splash Image
-Allows you to customise the splash image that is displayed on the left hand side of the page. The image will automatically be adjusted to fit the screen, the recommended size of this image is 1700px x 1280px
+Allows you to customize the splash image that is displayed on the left hand side of the page. The image will automatically be adjusted to fit the screen, the recommended size of this image is 1700px x 1280px
 
 ### About Details
 Enable this setting will add a About Us box which will be displayed in the login form

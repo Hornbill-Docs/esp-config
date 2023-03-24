@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "0.0.23",
+  "version": "0.0.24",
   "productFamily": "esp",
   "tags": ["esp", "config", "Configuration", "Administration", "Customization"],
   "audience": ["public"],
@@ -139,8 +139,26 @@
             "link": "esp-config/customize/customer-portal-setup"
           },
           {
-            "text": "Employee Portal for staff",
-            "link": "esp-config/customize/employee-portal-setup"
+            "text": "Employee Portal for users",
+            "expand":false,
+            "items":[
+              {
+                "text": "Employee Portal configuration",
+                "link": "esp-config/customize/employee-portal/employee-portal-configuration"
+              },
+              {
+                "text": "Employee Portal design",
+                "link": "esp-config/customize/employee-portal/employee-portal-design"
+              },
+              {
+                "text": "Employee Portal apps",
+                "link": "esp-config/customize/employee-portal/employee-portal-apps"
+              },
+              {
+                "text": "Employee Portal mobile",
+                "link": "esp-config/customize/employee-portal/employee-portal-mobile"
+              }
+            ]
           },
           {
             "text": "User Profile",
