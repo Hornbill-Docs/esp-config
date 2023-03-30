@@ -17,7 +17,7 @@ The Employee Portal pages are split into three sections: header, body, and foote
 ### Header
 * **Logo**<br>Add your company logo to the Employee Portal to give it some branding. Your logo will be displayed on the left side of the header. Adjust the size, background style, and color of your logo to fit in with the Header Background. The size depends on many factors but to give general an idea; The height can be between 80 and 200 pixels and the width between 80 and 300 pixels. It can be of any web format but PNG or SVG is recommended.
 * **Background**<br>The Header Background can be configured to set the height and the color, or add a background image. The size depends on many factors like if the background is a pattern or if it has details, but to give general an idea; 1024 x 300 pixels. It can be of any web format such as JPEG or PNG
-* **Text**<br>The Text on this page includes the main title of the page and the list of different Service Domains. These options let you set the text color and the text background color to provide some contrast between the text and a background image.
+* **Text**<br>The Text on this page includes the main title of the page and the list of different Service Domains which are displayed within the menu bar.
 
 ::: tip
 Images used for the logo and header background require a URL or link to an image that is stored in a location that is accessible by all users, such as a company web server or the Hornbill Image Library.
@@ -49,6 +49,6 @@ A new attribute called Home Organization has been added to the User Account whic
 
 ## Settings
 These setting can plan a key role in how you first introduce the Employee Portal to your users. Make sure you are familiar with these settings and when to use them.
-* **Users to preview the Employee Portal**<br>This is an important first step to setting up your Employee Portal. This setting allows you to add a list of comma-separated usernames of people you want to have access to the Employee Portal. This gives you the opportunity to have one or more people to test and feedback on the Employee Portal design before you open it up to all users. Changing this setting will also be one of your last steps. Once you have completed your configuration and you are ready to make it available to all users, simply remove these names. Once the list of names is empty, it becomes available to everyone.
-* **Enable Employee Portal**<br>Turning this setting to On will make a new navigation menu item My Company available in the Home tile live.hornbill.com. If you have provided one or more names in the previous setting, only those users will see the menu item.
-* **Hide My Services**<br>Turning My Services off will possibly be the last step in your transition to the Employee Portal.
+* **Users to preview the Employee Portal**<br>This is an important first step to setting up your Employee Portal. This setting allows you to add a list of comma-separated user names of people you want to have access to the Employee Portal. This gives you the opportunity to have one or more people to test and feedback on the Employee Portal design before you open it up to all users. Changing this setting will also be one of your last steps. Once you have completed your configuration and you are ready to make it available to all users, simply remove these names. Once the list of names is empty, it becomes available to everyone.
+* **Enable Employee Portal**<br>Turning this setting to On will make a new navigation menu item `My Company` available in the Home menu on the main Hornbill web app. If you have provided one or more names in the previous setting, only those users will see the menu item.
+

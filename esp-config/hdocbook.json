@@ -161,15 +161,19 @@
             ]
           },
           {
-            "text": "User Profile",
+            "text": "User profile",
             "link": "esp-config/customize/user-profile"
           },
           {
-            "text": "Image Library",
+            "text": "Login screen",
+            "link": "esp-config/customize/login-screen"
+          },
+          {
+            "text": "Image library",
             "link": "esp-config/customize/image-library"
           },          
           {
-            "text": "Service Domains",
+            "text": "Service domains",
             "link": "esp-config/customize/service-domains"
           }
         ]
@@ -181,6 +185,10 @@
           {
             "text": "User Interface Translations",
             "link": "esp-config/internationalization/user-interface-translations"
+          },
+          {
+            "text": "Supported languages",
+            "link": "esp-config/internationalization/supported-languages"
           }
         ]
       }
