@@ -30,3 +30,13 @@ Click on the <img src="_books/esp-config/images/search-help.png"> to show a list
 
 ## Browse
 The Configuration Selector allows you to browse the different areas that can be configured. When first opening Configuration, the view will default to My Personal Settings where a user can update and modify their profile. The availability of other items in this list is determined by the rights and roles of the current user.
+
+![Browsing Configuration](_books/esp-config/images/browse-configuration.png)
+
+::: tip
+Included in this list is access to the configuration for each installed app. The visibility of the apps in this list is controlled by application roles. For more information see the relevant configuration guide for each app.
+:::
+
+Once an option is selected, the navigation panel can then be used to access individual configuration options and settings.
+
+![Navigating Configuration](_books/esp-config/images/navigating-configuration.png)
