@@ -1,7 +1,7 @@
 ---
 layout: article-toc
 ---
-# Working time
+# Defining Working Time
 Working time defines the working or operational hours for your organization. Working time can be used by the different Hornbill apps to determine when users are scheduled to work.
 
 ## Topics covered

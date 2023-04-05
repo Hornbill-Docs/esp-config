@@ -1,7 +1,7 @@
 ---
 layout: article-toc
 ---
-# Regional settings
+# Configuring Regional Settings
 This guide covers how to set up regional settings and features which will be used by Hornbill and its apps as a default or starting point to work from.
 
 ## Topics covered

@@ -23,25 +23,25 @@
               "link": "esp-config/getting-started/using-configuration"
           },
           {
-          "text": "Configuring regional settings",
+          "text": "Configuring Regional Settings",
           "link": "esp-config/getting-started/regional-settings"
           },                   
           {
-            "text": "Defining working time",
+            "text": "Defining Working Time",
             "link": "esp-config/getting-started/working-time"
           },
           {
-          "text": "Installing an app",
+          "text": "Installing an App",
           "link": "esp-config/getting-started/installing-an-app"
           }
         ]
       },
       {
-        "text": "Building your organization's structure",
+        "text": "Building Your Organization's Structure",
         "expand":false,
         "items":[
           {
-            "text": "Groups and teams",
+            "text": "Groups and Teams",
             "link": "esp-config/organizational-data/groups-and-teams"
           },
           {
@@ -50,26 +50,27 @@
           },
           {
             "text": "Users",
-            "expand": true,
+            "expand": false,
             "items": [
               {
-                "text": "About user accounts",
+                "text": "About User Accounts",
                 "link": "esp-config/organizational-data/user-accounts/about-user-accounts"
               },
               {
-                "text": "Manually creating users",
+                "text": "Manually Creating Users",
                 "link": "esp-config/organizational-data/user-accounts/users"
               },
               {
-                "text": "User templates",
+                "text": "User Templates",
                 "link": "esp-config/organizational-data/user-accounts/user-templates"
               },
               {
-                "text": "CSV user import",
+                "text": "CSV User Import",
+                "expand":false,
                 "link": "esp-config/organizational-data/user-accounts/csv-user-import"
               },
               {
-                "text": "Import and syncronization tools",
+                "text": "Import and Synchronization Tools",
                 "link": "esp-config/organizational-data/user-accounts/user-import-tools"
               }
             ]
@@ -82,23 +83,37 @@
         "expand":false,
         "items":[
           {
-            "text": "Password policies",
+            "text": "Password Policies",
             "link": "esp-config/security/password-policies"
           },
           {
-            "text": "Two factor authentication",
+            "text": "Two Factor Authentication",
             "link": "esp-config/security/two-factor-authentication"
           },
           {
-            "text": "User roles",
+            "text": "User Roles",
             "link": "esp-config/security/roles"
           },
           {
-            "text": "Single sign-on (SSO)",
-            "link": "esp-config/security/single-sign-on"
+            "text":"Single Sign-On (SSO)",
+            "expand":false,
+            "items": [
+              {
+                "text": "Single Sign-On with SAML 2.0",
+                "link": "esp-config/security/sso/sso-with-saml"
+              },
+              {
+                "text": "Configuring Single Sign-On",
+                "link": "esp-config/security/sso/single-sign-on"
+              },
+              {
+                "text": "Auto-Provisioning User Accounts",
+                "link": "esp-config/security/sso/auto-provisioning"
+              }
+            ]
           },
           {
-            "text": "API keys",
+            "text": "API Keys",
             "link": "esp-config/security/api-keys"
           },
           {
@@ -109,15 +124,15 @@
       },
 
       {
-        "text": "Setting up email",
+        "text": "Setting up Email",
         "expand":false,
         "items":[
           {
-            "text": "Adding an email domain",
+            "text": "Adding an Email Domain",
             "link": "esp-config/email/adding-an-email-domain"
           },
           {
-            "text": "Creating a shared mailbox",
+            "text": "Creating a Shared Mailbox",
             "link": "esp-config/email/creating-a-shared-mailbox"
           },
           {
@@ -125,7 +140,7 @@
             "link": "esp-config/email/connecting-with-office"
           },
           {
-            "text": "Using email Routing Rules",
+            "text": "Using Email Routing Rules",
             "link": "esp-config/email/using-email-routing-rules"
           }
         ]
@@ -135,45 +150,45 @@
         "expand": false,
         "items":[
           {
-            "text": "Customer Portal for contacts",
+            "text": "Customer Portal for Contacts",
             "link": "esp-config/customize/customer-portal-setup"
           },
           {
-            "text": "Employee Portal for users",
+            "text": "Employee Portal for Users",
             "expand":false,
             "items":[
               {
-                "text": "Employee Portal configuration",
+                "text": "Employee Portal Configuration",
                 "link": "esp-config/customize/employee-portal/employee-portal-configuration"
               },
               {
-                "text": "Employee Portal design",
+                "text": "Employee Portal Design",
                 "link": "esp-config/customize/employee-portal/employee-portal-design"
               },
               {
-                "text": "Employee Portal apps",
+                "text": "Employee Portal Apps",
                 "link": "esp-config/customize/employee-portal/employee-portal-apps"
               },
               {
-                "text": "Employee Portal mobile",
+                "text": "Employee Portal Mobile",
                 "link": "esp-config/customize/employee-portal/employee-portal-mobile"
               }
             ]
           },
           {
-            "text": "User profile",
+            "text": "User Profile",
             "link": "esp-config/customize/user-profile"
           },
           {
-            "text": "Login screen",
+            "text": "Login Screen",
             "link": "esp-config/customize/login-screen"
           },
           {
-            "text": "Image library",
+            "text": "Image Library",
             "link": "esp-config/customize/image-library"
           },          
           {
-            "text": "Service domains",
+            "text": "Service Domains",
             "link": "esp-config/customize/service-domains"
           }
         ]
@@ -187,7 +202,7 @@
             "link": "esp-config/internationalization/user-interface-translations"
           },
           {
-            "text": "Supported languages",
+            "text": "Supported Languages",
             "link": "esp-config/internationalization/supported-languages"
           }
         ]

@@ -1,7 +1,7 @@
 ---
 layout: article-toc
 ---
-# Installing an app
+# Installing an App
 Hornbill includes an App Store where apps can be installed, updated, and removed. Applications are categorized under Installed, Premium, and Free. By clicking on each available application you are able to view the details of that application.
 
 ## Topics covered
