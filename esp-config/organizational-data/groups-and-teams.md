@@ -47,7 +47,7 @@ Once you have defined your organizational structure, many other parts Hornbill d
 <br>
 
 :::warning
-GERRY: James, can you re-align this content in accordance with [Organization and Teams](https://docs-internal.hornbill.com/esp-fundamentals/core-capabilities/organization-and-teams), refer back to platform documentation instead of any duplication
+GERRY: James, can you re-align this content in accordance with [Organization and Teams](/esp-fundamentals/core-capabilities/organization-and-teams), refer back to platform documentation instead of any duplication
 :::
 
 ## Groups vs Teams/Functions
