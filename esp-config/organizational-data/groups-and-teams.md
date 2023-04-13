@@ -28,26 +28,20 @@ The Hornbill platform allows for the creation of a hierarchical structure that r
 
 ## Deciding on your organization and team structure in Hornbill
 
-Generically, Organizational structures define the way in which an organization arranges its people, resources, and communication lines to achieve its goals.  Hornbill has the facility to model your entire organization structure if you wanted to, but, in most cases this will not be desirable as it will most likely over-complicate setting up Hornbill for your initial needs. 
+Generically, organizational structures define the way in which an organization arranges its people, resources, and communication lines to achieve its goals.  Hornbill has the facility to model your entire organization structure if you wanted to, but, in most cases, this will not be desirable as it will most likely over-complicate setting up Hornbill for your initial needs. 
 
 Learn more about [Common organizational structures](/core-capabilities/organization-and-teams#common-types-of-organizational-structure)
 
-It is critical to understand your companies organizational structure (or part thereof) in the context of what you are using Hornbill for, especially in the context of how you will be using Hornbill to orchestrate and manage the flow of work in relation to your people. 
+It is critical to understand your company's organizational structure (or part thereof) in the context of what you are using Hornbill for, especially in the context of how you will be using Hornbill to orchestrate and manage the flow of work in relation to your people. 
 
-How you organize your Functional/Assignment teams are important to the way in which you will work, and especially for the way in which you want your workflow automation's to work. 
+How you organize your Functional/Assignment teams are important to the way in which you will work, and especially for the way in which you want your workflow automation to work. 
 
-In the case where you are using Hornbill for workloads that support others within your organization, then setting up an Organizational structure that you can place your end (supported) users into, in order that your teams recognize your internal people and company structure.
+In the case where you are using Hornbill for workloads that support others within your organization, then set up an Organizational structure that you can place your end (supported) users into, in order that your teams recognize your internal people and company structure.
 
-As a general rule, you should aim to keep your organizational and team structures as simple as possible, and favor flatness over a complicated hierarchy. It's not a requirement that you model your organizations actual structure in Hornbill, its only a requirement you model what makes sense to the way you want to work with Hornbill in the context of your organization.
-
-:::warning
-Once you have defined your organizational structure, many other parts Hornbill depend on that structure to function. Using that structure will store data (things like assignments, ownership, sharing, access controls etc) that all depend on that structure.  You should keep in mind that the structure you choose is not easily malleable once defined, and substantially changing this structure after the fact can be difficult, time consuming and error-prone, and things may not work as expected after poorly planned changes. 
-:::
-
-<br>
+As a general rule, you should aim to keep your organizational and team structures as simple as possible and favor flatness over a complicated hierarchy. It's not a requirement that you model your organization's actual structure in Hornbill, it is only a requirement you model what makes sense to the way you want to work with Hornbill in the context of your organization.
 
 :::warning
-GERRY: James, can you re-align this content in accordance with [Organization and Teams](/esp-fundamentals/core-capabilities/organization-and-teams), refer back to platform documentation instead of any duplication
+Once you have defined your organizational structure, many other parts of Hornbill depend on that structure to function. Using that structure will store data (things like assignments, ownership, sharing, access controls, etc) that all depend on that structure.  You should keep in mind that the structure you choose is not easily malleable once defined, and substantially changing this structure after the fact can be difficult, time consuming, and error-prone, and things may not work as expected after poorly planned changes. 
 :::
 
 ## Groups vs Teams/Functions
