@@ -23,7 +23,13 @@ The Configuration Search provides rapid access to all of the configurable featur
 ![search]( _books/esp-config/images/search-config.png )
 
 ### Using Search from the Keyboard
-You can access the Configuration Search from anywhere within Hornbill using the keyboard shortcut Ctrl+Shift+S. Once you have entered search mode simply start typing and the most relevant search results will be returned as you type. Once you are presented with one or more search results, you can use the Up/Down arrow keys to highlight the search result of interest and press <return> to navigate to that item.
+You can access the Configuration Search from anywhere within Hornbill using the keyboard shortcut **Ctrl+Shift+S**. Once you have entered search mode simply start typing and the most relevant search results will be returned as you type. Once you are presented with one or more search results, you can use the Up/Down arrow keys to highlight the search result of interest and press <return> to navigate to that item.
+
+#### Example search:
+1. On the keyboard use the key combination **Ctrl+Shift+s**
+1. In the search box type **user**
+1. View the contents in the results list
+1. Click on `Manage Users` 
 
 ### Search Help
 Click on the <img src="_books/esp-config/images/search-help.png"> to show a list of additional search options. This includes prefixes that can be added to your search text in order to get more focused results.
