@@ -44,7 +44,7 @@ As a general rule, you should aim to keep your organizational and team structure
 Once you have defined your organizational structure, many other parts of Hornbill depend on that structure to function. Using that structure will store data (things like assignments, ownership, sharing, access controls, etc) that all depend on that structure.  You should keep in mind that the structure you choose is not easily malleable once defined, and substantially changing this structure after the fact can be difficult, time consuming, and error-prone, and things may not work as expected after poorly planned changes. 
 :::
 
-## Groups vs Teams/Functions
+## Groups vs Teams
 * **Groups** <br> Use `groups` to build your organizational structure along with the associated people that belong to each group.
 * **Teams** <br> Use `teams` for associating subscribed users that work together within the different Hornbill apps.
 
