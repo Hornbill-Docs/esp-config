@@ -16,7 +16,7 @@ Hornbill includes an App Store where apps can be installed, updated, and removed
 ## Installing apps in the App Store
 The Hornbill App Store is a place where one can go to browse, install, and remove applications on Hornbill. Applications are categorized under Installed, Premium, and Free. By clicking on each available application you are able to view the details of that application.
 
-1. Search [Configuration](/esp-config/getting-started/using-configuration) for Hornbill App Store
+1. Open [Configuration](/esp-config/getting-started/using-configuration) and search for *Hornbill App Store*
 1. Select one of the apps from the group of free apps
 1. Click on the `Install` button to start the installation
 
@@ -29,9 +29,13 @@ Our platform and applications are continuously and automatically updated to ensu
 
 When a new update of an installed application is available, a notification will be displayed in the Hornbill App Store. Applications are automatically updated during the maintenance window (0530 UTC Mon-Fri). If you wish to apply the update before the maintenance window, you can proceed with applying the update immediately by clicking on the `Update` button.
 
-1. Search [Configuration](/esp-config/getting-started/using-configuration) for the application name
+1. Open [Configuration](/esp-config/getting-started/using-configuration) and search using the name of the application.  For example **Hornbill Board Manager**.
 1. In the results list under the section Hornbill App Store, select the application
 1. Click on the `Update` button.
+
+:::tip
+The update button will only show if there is an available update to apply. If the update button is visible, you can expect the update to be automatically applied that same day during the maintenance window, without having to click on the `Update` button. 
+:::
 
 ##  How to manage subscriptions
 The Hornbill Solution Center provides information about your subscriptions for the different apps.  Here you can add and remove users from a selected app while keeping track of how many available subscriptions you have.
