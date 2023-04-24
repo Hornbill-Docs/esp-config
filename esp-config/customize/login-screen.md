@@ -24,5 +24,8 @@ Enable this setting to display a footer to the login form
 * **Contact Information**<br>Add the contact details to let you users know who to contact if they have questions about the page. Any field that you do not want to display, leave blank. If you would like to completely remove this section, deselect the checkbox next to the Contact Information title.
 
 ## SSO Options
-* **Default Identity Provider**<br>If you have multiple identity providers, this allows you to select which is selected by default when a user first visits (note: when a user changes this that change is remembered for them)
-* **Direct Login Label**<br>The label for the direct login button
+* **Default Identity Provider**<br>If you have multiple identity providers, this allows you to select which is selected by default when a user first visits (note: when a user changes this, the change is remembered for them)
+
+:::tip
+This option is only visible when there is more than one active [SSO Profile](esp-config/security/sso/single-sign-on#topics-covered) configured.
+:::
