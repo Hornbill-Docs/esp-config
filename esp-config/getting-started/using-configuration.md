@@ -2,28 +2,28 @@
 layout: article-toc
 ---
 # Using Configuration
-Hornbill Configuration gives you access to all the configuration settings for your Hornbill instance. Configure your organizational structure including departments, teams, and the users who will be using Hornbill.  Set up email, languages, view your subscriptions, install apps, and much more. The different areas within Configuration are sensitive to your rights and each user will only see the options to which they have been granted access.
+Hornbill Configuration gives you access to all the configuration settings for Hornbill. Configure your organizational structure including departments, teams, and the users who will be using Hornbill.  Set up email, languages, view your subscriptions, install apps, and much more. The different areas within Configuration are sensitive to your rights and each user will only see the options to which they have been granted access.
 
 ## Topics Covered
-* How to access configuration
+* How to access Configuration
 * How to search
-* Browsing configuration
+* Browsing Configuration
 
 ## Accessing Configuration
-You can access Hornbill Configuration from the main Hornbill App using the URL `https://live.hornbill.com/<your-instance-name>/`. To access Platform Configuration select the cog icon displayed at the bottom of the left-hand icon bar, or use **[Ctrl + Shift + S]** on your keyboard.
+Access Configuration by selecting the cog icon displayed at the bottom of the left-hand icon bar. Alternatively, use **[Ctrl + Shift + S]** on your keyboard.
 
 <video width="560" height="315" controls>
   <source src="https://wiki.hornbill.com/images/5/58/Configuration.mp4" type="video/mp4">
   Video not supported in your browser
 </video>
 
-## Search
-The Configuration Search provides rapid access to all of the configurable features and settings. The search is designed to query as you type, providing instant access to the search results. The results will only include items based on the rights and roles of the user performing the search.
+## Searching Configuration
+The search bar presents results as you type. Search results will only include items based on the rights and roles of the user performing the search.
 
 ![search]( _books/esp-config/images/search-config.png )
 
 ### Using Search from the Keyboard
-You can access the Configuration Search from anywhere within Hornbill using the keyboard shortcut **Ctrl+Shift+S**. Once you have entered search mode simply start typing and the most relevant search results will be returned as you type. Once you are presented with one or more search results, you can use the Up/Down arrow keys to highlight the search result of interest and press <return> to navigate to that item.
+Access the Configuration Search from anywhere within Hornbill using the keyboard shortcut **Ctrl+Shift+S**. Once you have entered search mode start typing and the most relevant search results will be returned as you type. Once you are presented with one or more search results. Use the Up/Down arrow keys to highlight the search result of interest and press <return> to navigate to that item.
 
 #### Example search:
 1. On the keyboard use the key combination **Ctrl+Shift+s**
