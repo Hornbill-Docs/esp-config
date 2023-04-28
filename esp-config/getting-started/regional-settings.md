@@ -2,11 +2,11 @@
 layout: article-toc
 ---
 # Configuring Regional Settings
-This guide covers how to set up regional settings and features which will be used by Hornbill and its apps as a default or starting point to work from.
+Hornbill is a solution that can be used in multiple regions across the globe. Different regions operate in different time zones, use different languages, and have different date and time formats. This guide looks at some of regional settings that can be changed to reflect your location.
 
 ## Topics covered
 * Setting the default date and time formats
-* Selecting the default time zone that Hornbill will use
+* Selecting the default time zone
 * How to enable and disable the languages that are available to users
 
 ## Before you begin
@@ -21,7 +21,7 @@ To access any of the settings described in this document, open [Configuration](/
 ## Date and time formats
 The following settings are used to apply a default format for how both the date and time are displayed.  User profiles also have the option to set a format for each individual user which will supersede these settings.  The settings covered here are used when there is no user context such as workflow automation email templates, and the Customer Portal.
 
-|Setting Name|Description|Example|
+|Setting Name|Description|Default|
 |-|-|-|
 |system.regionalSettings.dateFormat|Sets the date format the server may use when formatting date/time values|yyyy-MM-dd|
 |system.regionalSettings.dateTimeFormat|Sets the date/time format the server may use when formatting date/time values|yyyy-MM-dd HH:mm:ss|
@@ -34,7 +34,7 @@ All dates and times are saved to the database in the ISO format yyyy-MM-dd HH:mm
 
 ## Default time zone
 The default time zone allows you to select the time zone of the data center where your Hornbill is located or where your main business operations are located.
-|Setting Name|Description|Example|
+|Setting Name|Description|Default|
 |-|-|-|
 |system.regionalSettings.timezone|Sets the timezone that the server is operating in|GMT Greenwich Mean Time|
 
@@ -45,7 +45,7 @@ All time entries are recorded in the database using the GMT time zone.  Time zon
 ## Languages
 
 ### Default language
-|Setting Name|Description|Example|
+|Setting Name|Description|Default|
 |-|-|-|
 |system.regionalSettings.language|Sets the language the server would use when formatting language-specific text|en-GB|
 
