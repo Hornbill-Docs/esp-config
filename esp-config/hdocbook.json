@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "0.0.32",
+  "version": "0.0.33",
   "productFamily": "esp",
   "tags": ["esp", "config", "Configuration", "Administration", "Customization"],
   "audience": ["public"],
@@ -46,7 +46,8 @@
           },
           {
             "text": "Sites",
-            "link": "esp-config/organizational-data/sites"
+            "link": "esp-config/organizational-data/sites",
+            "draft": true
           },
           {
             "text": "Users",
@@ -71,7 +72,8 @@
               },
               {
                 "text": "Import and Synchronization Tools",
-                "link": "esp-config/organizational-data/user-accounts/user-import-tools"
+                "link": "esp-config/organizational-data/user-accounts/user-import-tools",
+                "draft": true
               }
             ]
             
@@ -151,7 +153,8 @@
         "items":[
           {
             "text": "Customer Portal for Contacts",
-            "link": "esp-config/customize/customer-portal-setup"
+            "link": "esp-config/customize/customer-portal-setup",
+            "draft": true
           },
           {
             "text": "Employee Portal for Users",
@@ -167,11 +170,13 @@
               },
               {
                 "text": "Employee Portal Apps",
-                "link": "esp-config/customize/employee-portal/employee-portal-apps"
+                "link": "esp-config/customize/employee-portal/employee-portal-apps",
+                "draft":true
               },
               {
                 "text": "Employee Portal Mobile",
-                "link": "esp-config/customize/employee-portal/employee-portal-mobile"
+                "link": "esp-config/customize/employee-portal/employee-portal-mobile",
+                "draft":true
               }
             ]
           },

@@ -2,7 +2,7 @@
 layout: article-toc
 ---
 # Configuring Regional Settings
-Hornbill is a solution that can be used in multiple regions across the globe. Different regions operate in different time zones, use different languages, and have different date and time formats. This guide looks at some of regional settings that can be changed to reflect your location.
+With Hornbill, you can configure regional setting settings, such as time zone, language, and date and time formats. This guide describes some of the regional settings that can be changed to reflect your organization's location.
 
 ## Topics covered
 * Setting the default date and time formats
@@ -33,7 +33,7 @@ All dates and times are saved to the database in the ISO format yyyy-MM-dd HH:mm
 :::
 
 ## Default time zone
-The default time zone allows you to select the time zone of the data center where your Hornbill is located or where your main business operations are located.
+The default time zone allows you to select the time zone of the data center where Hornbill is located or where your main business operations are located.
 |Setting Name|Description|Default|
 |-|-|-|
 |system.regionalSettings.timezone|Sets the timezone that the server is operating in|GMT Greenwich Mean Time|
