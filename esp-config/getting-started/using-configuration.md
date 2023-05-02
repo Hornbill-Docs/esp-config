@@ -18,15 +18,15 @@ Access Configuration by selecting the cog icon displayed at the bottom of the le
 </video>
 
 ## Searching Configuration
-The search bar presents results as you type. Search results will only include items based on the rights and roles of the user performing the search.
+The search bar presents results as you type. Search results only include items based on the rights and roles of the user performing the search.
 
 ![search]( _books/esp-config/images/search-config.png )
 
 ### Using Search from the Keyboard
-Access the Configuration Search from anywhere within Hornbill using the keyboard shortcut **Ctrl+Shift+S**. Once you have entered search mode start typing and the most relevant search results will be returned as you type. Once you are presented with one or more search results. Use the Up/Down arrow keys to highlight the search result of interest and press <return> to navigate to that item.
+Access the Configuration Search from anywhere within Hornbill using the keyboard shortcut **Ctrl+Shift+S**. After you have entered search mode start typing and the most relevant search results will be returned as you type. Once you are presented with one or more search results. Use the Up/Down arrow keys to highlight the search result of interest and press <return> to navigate to that item.
 
 #### Example search:
-1. On the keyboard use the key combination **Ctrl+Shift+s**
+1. On your keyboard use the key combination **Ctrl+Shift+s**
 1. In the search box type **user**
 1. View the contents in the results list
 1. Click on `Manage Users` 
@@ -35,7 +35,7 @@ Access the Configuration Search from anywhere within Hornbill using the keyboard
 Click on the <img src="_books/esp-config/images/search-help.png"> to show a list of additional search options. This includes prefixes that can be added to your search text in order to get more focused results.
 
 ## Browse
-The dropdown option in Configuration allows you to select the different areas that can be configured. When first opening Configuration, the view will default to `My Personal Settings` where a user can update and modify their profile. Other available options include `Platform Configuration`, `Hornbill Solution Center`, and a list of the installed applications.  The availability of these items is determined by the rights and roles of the current user.
+The dropdown menu in Configuration allows you to select the different areas that can be configured. When first opening Configuration, the view will default to `My Personal Settings` where a user can update and modify their profile. Other available options include `Platform Configuration`, `Hornbill Solution Center`, and a list of the installed applications.  The availability of these items is determined by the rights and roles of the current user.
 
 ![Browsing Configuration](_books/esp-config/images/browse-configuration.png)
 
@@ -43,6 +43,6 @@ The dropdown option in Configuration allows you to select the different areas th
 Included in this list is access to the configuration for each installed app. The visibility of the apps in this list is controlled by application roles. For more information see the relevant configuration guide for each app.
 :::
 
-Once an option is selected, the navigation panel can then be used to access individual configuration options and settings.
+After an option is selected, the navigation panel can then be used to access individual configuration options and settings.
 
 ![Navigating Configuration](_books/esp-config/images/navigating-configuration.png)
