@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "0.0.35",
+  "version": "0.0.36",
   "productFamily": "esp",
   "tags": ["esp", "config", "Configuration", "Administration", "Customization"],
   "audience": ["public"],
@@ -71,8 +71,7 @@
               },
               {
                 "text": "Import and Synchronization Tools",
-                "link": "esp-config/organizational-data/user-accounts/user-import-tools",
-                "draft": true
+                "link": "esp-config/organizational-data/user-accounts/user-import-tools"
               }
             ]
             
@@ -119,7 +118,8 @@
           },
           {
             "text": "KeySafe",
-            "link": "esp-config/security/keysafe"
+            "link": "esp-config/security/keysafe",
+            "draft": true
           }
         ]
       },
