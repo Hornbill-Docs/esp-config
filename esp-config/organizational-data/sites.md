@@ -2,7 +2,7 @@
 layout: article-toc
 ---
 # Sites
-Sites can be configured to reflect the different physical locations that exist within an organization. 
+Sites can be configured to reflect the different physical locations that exist within an organization. Sites are locations that generally have a street address or an identifiable location on a map. Sites can be used to identify offices around the world or buildings within a single location.
 
 ## Topics covered
 * How sites are used
@@ -10,10 +10,12 @@ Sites can be configured to reflect the different physical locations that exist w
 * Managing a site
 
 ## Before you begin
+* Requires admin access or a user with the Site Manager role
+* Access to addresses and location information for your sites
 
 ## How sites are used
-* A user can be associated to a site to help identify the location of that user.
-* Sites can be associated to Company Groups defined within the organization structure. 
+* A user can be associated with a site to help identify the location of that user.
+* Sites can be associated with Company Groups defined within the organization structure. 
 * Identify the location of an asset in Service Manager
 * Sites can be captured to identify the location of an incident in Service Manager
 * Define site based services
@@ -23,7 +25,7 @@ Sites can be configured to reflect the different physical locations that exist w
 Sites can be added manually or if you have an existing list of Sites, these can be imported using a Sites CSV import tool.
 
 :::tip
-In ensure the User-to-Site associations can be managed automatically when using a user import utility, the name of the site specified in Hornbill must match the name of the site located in the source data. For example, if you are using the LDAP User Import Utility, the contents of the AD attribute that holds the site of a user must match the name of a site that exists in Hornbill. A good starting point in creating your sites may be to extract a list of distinct values from your information source (such as AD) and use these as your site names.
+To ensure the User-to-Site associations can be managed automatically when using a user import utility, the name of the site specified in Hornbill must match the name of the site located in the source data. For example, if you are using the LDAP User Import Utility, the contents of the AD attribute that holds the site of a user must match the name of a site that exists in Hornbill. A good starting point in creating your sites may be to extract a list of distinct values from your information source (such as AD) and use these as your site names.
 :::
 
 ### Manually create a site
@@ -61,7 +63,7 @@ Please note that the CSV upload is designed to create new sites, and cannot be u
 ## Manage sites
 
 ### Additional details
-* **Latitude and Longitude**<br>Add latitude and longitude values to create a map that shows the location of the site. When there are other sites nearby, these sites will also be displayed on the map. This map can be viewed by users that have access to Sites app accessed through the Home menu.
+* **Latitude and Longitude**<br>Add latitude and longitude values to create a map that shows the location of the site. When there are other sites nearby, these sites will also be displayed on the map. This map can be viewed by users that have access to the sites view, located under the Home menu.
 
 * **Custom fields 0-9**<br>Use custom fields to store additional information about your site.
 ::: tip
@@ -71,7 +73,7 @@ Please note that the CSV upload is designed to create new sites, and cannot be u
 ### Assigning users to a site
 
 #### Site Managers
-To help with identifying and communicating with key people that manage a site, you can associated user accounts to one of the four available fields:
+To help with identifying and communicating with key people that manage a site, you can associate user accounts to one of the four available fields:
 
 * Site Manager
 * Regional Manager
@@ -85,14 +87,17 @@ Site users are people that are physically located at the selected site.  Users c
 A user can only belong to one site.  If you add a user to a site and that user was already assigned to a site, their original site will be removed and replaced with the new site.
 :::
 
+## Site Roles
+* **Sites Manager**<br>This security role grants a user the right to be able to create and updated sites.  This role can be used to delegate the management of sites to a non-admin user.
+
 ## Site View
-In the User app, it is possible to further customize the data associated to a site:
+The Site View is available to users within the main browser application under the `Home` menu.  Here, users can view information about sites such as the address and a list of coworkers located at that site. A user with the `Site Manager` also has options to update site information from this view. 
 
 * Assign Members - Site Manager, Site Engineer, Area Manager, Regional Manager
 * Utilize Custom Fields
 * Map Geo-Location (Long/Lat values) and View site, and nearby sites on an interactive map
 
-In addition, it is possible using line of business applications such as Service Manager, and Document Manager to see
+In addition, it is possible using line of business applications such as Service Manager, and Document Manager to see:
 
 * Requests Linked to the Site
 * Services Subscribed to the Site

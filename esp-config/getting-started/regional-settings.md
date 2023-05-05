@@ -2,7 +2,7 @@
 layout: article-toc
 ---
 # Configuring Regional Settings
-With Hornbill, you can configure regional setting settings, such as time zone, language, and date and time formats. This guide describes some of the regional settings that can be changed to reflect your organization's location.
+With Hornbill, you can configure regional setting settings, such as time zone, language, and date and time formats. This guide describes some of the regional settings that can be changed to reflect your organization's location. 
 
 ## Topics covered
 * Setting the default date and time formats
@@ -19,7 +19,7 @@ To access any of the settings described in this document, open [Configuration](/
 :::
 
 ## Date and time formats
-The following settings are used to apply a default format for how both the date and time are displayed.  User profiles also have the option to set a format for each individual user which will supersede these settings.  The settings covered here are used when there is no user context such as workflow automation email templates, and the Customer Portal.
+These settings are used to apply default date and time formats in areas such as reporting and outgoing emails when regional settings defined in a user's profile can not be used.
 
 |Setting Name|Description|Default|
 |-|-|-|
@@ -29,11 +29,11 @@ The following settings are used to apply a default format for how both the date 
 |system.regionalSettings.weekStartDay|Sets the day of the week that a calendar week is considered to start on, when calculating start of week/end of week times and dates|sunday|
 
 ::: note
-All dates and times are saved to the database in the ISO format yyyy-MM-dd HH:mm:ss
+All dates and times are saved to Hornbill in the ISO format yyyy-MM-dd HH:mm:ss. This is important to know when it comes to integrations, automation, reporting, exports, and other interactions that require direct access to Hornbill.  The Hornbill user interface may have a different format displayed compared to what is stored.
 :::
 
 ## Default time zone
-The default time zone allows you to select the time zone of the data center where Hornbill is located or where your main business operations are located.
+The default time zone allows you to select the time zone of where your main business operations are located.
 |Setting Name|Description|Default|
 |-|-|-|
 |system.regionalSettings.timezone|Sets the timezone that the server is operating in|GMT Greenwich Mean Time|
