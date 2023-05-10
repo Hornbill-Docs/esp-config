@@ -36,21 +36,25 @@ All dates and times are saved to Hornbill in the ISO format yyyy-MM-dd HH:mm:ss.
 The default time zone allows you to select the time zone of where your main business operations are located.
 |Setting Name|Description|Default|
 |-|-|-|
-|system.regionalSettings.timezone|Sets the timezone that the server is operating in|GMT Greenwich Mean Time|
+|system.regionalSettings.timezone|Sets the timezone that Hornbill is operating in|GMT Greenwich Mean Time|
 
 ::: note
-All time entries are recorded in the database using the GMT time zone.  Time zone settings provide an offset from the stored GMT time, to determine how they are displayed in the UI. 
+All time entries are saved to Hornbill using the GMT time zone.  Time zone settings provide an offset from the stored GMT time, to determine how they are displayed in the UI. 
 :::
 
 ## Languages
+Hornbill is a multi-language environment which includes the translation of the user interface and the ability to translate communications between users.
 
 ### Default language
 |Setting Name|Description|Default|
 |-|-|-|
-|system.regionalSettings.language|Sets the language the server would use when formatting language-specific text|en-GB|
+|system.regionalSettings.language|Sets the language that Hornbill would use when formatting language-specific text|en-GB|
 
 ### Enabling / disabling available languages
-Hornbill provides support for using over 400 different languages.  Enabled languages are available to users, allowing them to select their preferred language from their profile.  By disabling languages, you can control which languages you don't want to support. Enabled languages do require a level of regular maintenance to ensure that all translations are in place.
+Within Hornbill, you can enable over 400 languages.  Enabled languages are available for users to choose from within their profile.  When selected, users will view all areas of Hornbill in that language. By disabling languages, you control which languages users can select from. 
+
+Enabled languages require a level of regular maintenance to ensure that all translations are in place. Language translations are done by Google Translate and are not verified by Hornbill. You are responsible for verifying and maintaining the translations provided by Google Translate across your instance. 
+
 
 ::: tip
 Configure languages by opening [Configuration](/esp-config/getting-started/using-configuration) and search `manage system languages`
