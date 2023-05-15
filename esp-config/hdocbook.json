@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "0.0.38",
+  "version": "0.0.39",
   "productFamily": "esp",
   "tags": ["esp", "config", "Configuration", "Administration", "Customization"],
   "audience": ["public"],
@@ -119,7 +119,7 @@
           {
             "text": "KeySafe",
             "link": "esp-config/security/keysafe",
-            "draft": true
+            "draft": false
           }
         ]
       },

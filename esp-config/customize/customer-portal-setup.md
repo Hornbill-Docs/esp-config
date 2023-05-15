@@ -2,45 +2,27 @@
 layout: article-toc
 ---
 # Customer Portal setup
-The Customer Portal provides options to apply images and colors to the design and layout.
+The Customer Portal is provided as an entry point for guest users, giving them a window into Hornbill and access to selected Hornbill applications.  
+
+## Topics Covered
+* Designing the Customer Portal
+* Giving access to the Customer Portal
+* Advanced settings
+
+## Before you begin
+* Knowledge of adding contacts and organizations
+* Administrative access to Configuration
 
 ## Details
-Basic Information
-This displays some general information about the portal. This information is mostly relevant to the Hornbill Enterprise Edition where multiple portals can be created.
 
-## Portal ID
-This ID is used as part of the URL for accessing the portal. For the customer portal the URL is customer.hornbill.com/<yourinstance>
-
-## Name
-This name is used to identify this portal within a list of portals when using the Enterprise Edition
-
-## Application
-The main application that the portal runs under the context of
-
-## Description
-This description is used to identify this portal within a list of portals when using the Enterprise Edition
-
-## Regional Settings
+### Regional Settings
 The Regional Settings are the defaults for the Customer Portal on the login page and when contacts do not have any regional information set against their contact record.
-
-## Language
-The default language that is displayed to users when accessing the login page and subsequent pages if a language has not been set against their contact record
-
-## Time Zone
-The default time zone for contacts. All visible date and time fields will be displayed based on this setting. The default is set to (GMT) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London
-
-## Date Time Format
-The format of fields that contain both a date and a time. The default is set to 2020-02-21 16:10:30
-
-## Date Format
-The format of fields that contain just a date. The default is set to 2020-02-21
-
-## Currency
-This is not currently used
-
-## Time Format
-The format of fields that contain just a time. The default is set to 23:30:35
-
+* **Language**<br>The default language that is displayed to users when accessing the login page and subsequent pages if a language has not been set against their contact record.
+* **Time Zone**<br>The default time zone for contacts. All visible date and time fields will be displayed based on this setting. The default is set to (GMT) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London.
+* **Date Time Format**<br>The format of fields that contain both a date and a time. The default is set to 2020-02-21 16:10:30.
+* **Date Format**<br>The format of fields that contain just a date. The default is set to 2020-02-21.
+* **Time Format**<br>The format of fields that contain just a time. The default is set to 23:30:35.
+* **Currency**<br>This is not currently used.
 ## Security Settings
 
 ### Single Sign On Profile
@@ -156,3 +138,14 @@ Approved
 Set the contact to be approved for access to the Customer Portal. This is automatically set when a contact is manually added to the Customer Portal Account
 Suspended
 Temporarily suspend a contact's access to the Customer Portal. A contact can be automatically set to suspended after multiple failed password attempts.
+
+<!-- References -->
+<!-- https://wiki.hornbill.com/index.php?title=Customer_Portal -->
+<!-- https://wiki.hornbill.com/index.php?title=Customize_Customer_Portal -->
+<!--  https://wiki.hornbill.com/index.php?title=Managing_Contact_Visibility_of_Organisation%27s_Requests_on_the_Customer_Portal 
+<!-- https://wiki.hornbill.com/index.php?title=Customize_Customer_Portal -->
+
+<!-- To Do -->
+<!-- Unique email addresess -->
+<!-- unathenticated Guests -->
+<!-- auto register -->
