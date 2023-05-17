@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "0.0.39",
+  "version": "0.0.40",
   "productFamily": "esp",
   "tags": ["esp", "config", "Configuration", "Administration", "Customization"],
   "audience": ["public"],
@@ -153,7 +153,7 @@
           {
             "text": "Customer Portal for Contacts",
             "link": "esp-config/customize/customer-portal-setup",
-            "draft": true
+            "draft": false
           },
           {
             "text": "Employee Portal for Users",

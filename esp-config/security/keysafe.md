@@ -50,4 +50,4 @@ This is achieved using the Cloud Automation node in a workflow
 <!-- Example how a KeySafe entry is used on imports -->
 
 <!-- References -->
-<!-- reference: https://wiki.hornbill.com/index.php?title=KeySafe -->
+<!-- https://wiki.hornbill.com/index.php?title=KeySafe -->
