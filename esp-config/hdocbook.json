@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "0.0.41",
+  "version": "0.0.42",
   "productFamily": "esp",
   "tags": ["esp", "config", "Configuration", "Administration", "Customization"],
   "audience": ["public"],
@@ -73,9 +73,22 @@
                 "text": "Import and Synchronization Tools",
                 "link": "esp-config/organizational-data/user-accounts/user-import-tools"
               }
+              
             ]
             
-          }
+          },
+          {
+            "text": "User Availability States",
+            "link": "esp-config/organizational-data/user-availability-states"
+          },
+          {
+            "text": "Guest Accounts",
+            "link": "esp-config/organizational-data/guest-accounts"
+          },
+          {
+            "text": "Guest Account Templates",
+            "link": "esp-config/organizational-data/guest-account-templates"
+          }                    
         ]
       },
       {
@@ -145,6 +158,25 @@
             "link": "esp-config/email/using-email-routing-rules"
           }
         ]
+      },
+      {
+        "text": "Data",
+        "expand": false,
+        "items":[
+          {
+            "text": "Profiles",
+            "link": "esp-config/data/profiles"
+          },
+          {
+            "text": "Simple Lists",
+            "link": "esp-config/data/simple-lists"
+          },
+          {
+            "text": "Data Import Configurations",
+            "link": "esp-config/data/data-import-configurations"
+          }
+        ]
+
       },
       {
         "text": "Customizing Hornbill",
