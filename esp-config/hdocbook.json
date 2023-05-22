@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "0.0.42",
+  "version": "0.0.43",
   "productFamily": "esp",
   "tags": ["esp", "config", "Configuration", "Administration", "Customization"],
   "audience": ["public"],
@@ -254,6 +254,37 @@
           {
             "text": "Translation Mode",
             "link": "esp-config/internationalization/translation-mode"
+          }
+        ]
+      },
+      {
+        "text": "Advanced Tools & Settings",
+        "expand": false,
+        "items":[
+          {
+            "text": "Database Direct",
+            "link": "esp-config/advanced-tools-and-settings/database-direct",
+            "draft": false
+          },
+          {
+            "text": "Core Settings",
+            "link": "esp-config/advanced-tools-and-settings/core-settings",
+            "draft": true
+          },
+          {
+            "text": "Advanced System Settings",
+            "link": "esp-config/advanced-tools-and-settings/advanced-system-settings",
+            "draft": false
+          },
+          {
+            "text": "Entity Explorer",
+            "link": "esp-config/advanced-tools-and-settings/entity-explorer",
+            "draft": false
+          },
+          {
+            "text": "Auto Values",
+            "link": "esp-config/advanced-tools-and-settings/auto-values",
+            "draft":false
           }
         ]
       }
