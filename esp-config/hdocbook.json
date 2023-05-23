@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "0.0.43",
+  "version": "0.0.44",
   "productFamily": "esp",
   "tags": ["esp", "config", "Configuration", "Administration", "Customization"],
   "audience": ["public"],
@@ -254,6 +254,28 @@
           {
             "text": "Translation Mode",
             "link": "esp-config/internationalization/translation-mode"
+          }
+        ]
+      },
+      {
+        "text": "Monitor",
+        "expand": false,
+        "items":[
+          {
+            "text": "Log Files",
+            "link": "esp-config/monitor/log-files"
+          },
+          {
+            "text": "Sessions",
+            "link": "esp-config/monitor/sessions"
+          },
+          {
+            "text": "Background Jobs",
+            "link": "esp-config/monitor/background-jobs"
+          },
+          {
+            "text": "Admin Search Index",
+            "link": "esp-config/monitor/admin-search-index"
           }
         ]
       },
