@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "0.0.44",
+  "version": "0.0.45",
   "productFamily": "esp",
   "tags": ["esp", "config", "Configuration", "Administration", "Customization"],
   "audience": ["public"],
@@ -15,7 +15,7 @@
         "link": "esp-config/overview"
       },
       {
-        "text": "Getting started",
+        "text": "Getting Started",
         "expand":true,
         "items": [
           {
@@ -37,17 +37,9 @@
         ]
       },
       {
-        "text": "Building Your Organization's Structure",
+        "text": "Organizational Data",
         "expand":false,
         "items":[
-          {
-            "text": "Groups and Teams",
-            "link": "esp-config/organizational-data/groups-and-teams"
-          },
-          {
-            "text": "Sites",
-            "link": "esp-config/organizational-data/sites"
-          },
           {
             "text": "Users",
             "expand": false,
@@ -76,6 +68,14 @@
               
             ]
             
+          },
+          {
+            "text": "Groups and Teams",
+            "link": "esp-config/organizational-data/groups-and-teams"
+          },
+          {
+            "text": "Sites",
+            "link": "esp-config/organizational-data/sites"
           },
           {
             "text": "User Availability States",
@@ -138,24 +138,28 @@
       },
 
       {
-        "text": "Setting up Email",
+        "text": "Email",
         "expand":false,
         "items":[
           {
-            "text": "Adding an Email Domain",
+            "text": "Domains",
             "link": "esp-config/email/adding-an-email-domain"
           },
           {
-            "text": "Creating a Shared Mailbox",
+            "text": "Shared Mailboxes",
             "link": "esp-config/email/creating-a-shared-mailbox"
           },
           {
-            "text": "Connecting with Office 365",
-            "link": "esp-config/email/connecting-with-office"
+            "text": "Templates",
+            "link": "esp-config/email/templates"
           },
           {
-            "text": "Using Email Routing Rules",
+            "text": "Inbound Routing Rules",
             "link": "esp-config/email/using-email-routing-rules"
+          },
+          {
+            "text": "Direct Outbound",
+            "link": "esp-config/email/direct-outbound"
           }
         ]
       },
@@ -226,6 +230,10 @@
           {
             "text": "Service Domains",
             "link": "esp-config/customize/service-domains"
+          },
+          {
+            "text": "Working Time Calendars",
+            "link": "esp-config/customize/working-time-calendars"
           }
         ]
       },
@@ -236,6 +244,10 @@
           {
             "text": "Webhooks",
             "link": "esp-config/integration/webhooks"
+          },
+          {
+            "text": "Integration Connectors",
+            "link": "esp-config/integration/integration-connectors"
           }
         ]
       },
@@ -254,6 +266,42 @@
           {
             "text": "Translation Mode",
             "link": "esp-config/internationalization/translation-mode"
+          }
+        ]
+      },
+      {
+        "text": "Advanced Analytics",
+        "expand": false,
+        "items":[
+          {
+            "text": "Measures",
+            "link": "esp-config/advanced-analytics/measures"
+          },
+          {
+            "text": "Widgets",
+            "link": "esp-config/advanced-analytics/widgets"
+          },
+          {
+            "text": "Dashboards",
+            "link": "esp-config/advanced-analytics/dashboards"
+          },
+          {
+            "text": "Slideshows",
+            "link": "esp-config/advanced-analytics/slideshows"
+          },
+          {
+            "text": "Available Slideshows Player",
+            "link": "esp-config/advanced-analytics/slideshow-player"
+          }
+        ]
+      },
+      {
+        "text": "Reporting",
+        "expand":false,
+        "items":[
+          {
+            "text": "Reports",
+            "link": "esp-config/reporting/reports"
           }
         ]
       },
@@ -291,7 +339,7 @@
           {
             "text": "Core Settings",
             "link": "esp-config/advanced-tools-and-settings/core-settings",
-            "draft": true
+            "draft": false
           },
           {
             "text": "Advanced System Settings",
