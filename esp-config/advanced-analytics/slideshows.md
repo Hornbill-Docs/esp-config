@@ -29,13 +29,13 @@ Simply select a different Dashboard from the dropdown list (only Dashboards mark
 Change the duration each slide will display before transitioning onto the next slide
 Simply select a different time period for which the slide will be displayed
 Creating a Clone
-Select the dropdown control next to the Save (Disc) icon and choose the 'Save As' option. Give the Slideshow a new name, this will create a complete copy of the existing Slideshow.
+Select the dropdown control next to the Save (Disk) icon and choose the 'Save As' option. Give the Slideshow a new name, this will create a complete copy of the existing Slideshow.
 Running a Slideshow
 When a Slideshow is ready to be presented there are two display options to choose from.
 
 Run Show
 Click on the Play button, and the Slides will run in the order they have been configured.
-Run Randomised
+Run Randomized
 Select this option from the drop down control next to the Play button, and the slide will ignore the configured sequence and will display in a random order.
 Autoplay a Slideshow
 You can create a slideshow and have it set to Autoplay.

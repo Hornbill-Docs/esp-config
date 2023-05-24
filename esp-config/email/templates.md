@@ -59,7 +59,7 @@ The operators "=" (equal to) and "!=" (not equal to) are supported.
 The Co-Worker Vs Contact ESP Condition Example
 One common situation where the ESP expression is essential is when you want to begin your emails with “Dear [Customer]”.
 
-As you will know by now, the customer set against a request could either be a “Co-Worker” (someone internal to your Organisation) or a “Contact” (an individual external to your organisation) and each of these types of user have a range of associated variables.
+As you will know by now, the customer set against a request could either be a “Co-Worker” (someone internal to your Organization) or a “Contact” (an individual external to your organization) and each of these types of user have a range of associated variables.
 
 To configure an email template to cater for the possibility of the customer being a Co-worker or a Contact it should be set up as follows:
 
@@ -74,7 +74,7 @@ Click OK
 
 Hornbill Hint: The example described here is evaluating a variable (Customer Type) that will contain a number (0 or 1). In other situations, you might want to evaluate a variable that contains a word, such as {{.H_resolvedby_teamname}}. When doing this the variable must be surrounded by single quotes e.g. '{{.H_resolvedby_teamname}}' = 'My Team'. i.e. if resolved by team name equals "My Team", show the text bound by the ESP expression.
 
-When viewing your email template, any variable currently under the control of an ESP expression is highlighted in Grey.
+When viewing your email template, any variable currently under the control of an ESP expression is highlighted in Gray.
 To edit an ESP Expression, highlight the variable and click the ESP Expression button.
 
 
@@ -102,4 +102,4 @@ To edit an ESP Expression, highlight the variable and click the ESP Expression b
 
  
 
-7) The Grey highlighting indicates both variables now have ESP conditions controlling their visibility.
+7) The Gray highlighting indicates both variables now have ESP conditions controlling their visibility.
