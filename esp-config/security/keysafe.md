@@ -9,6 +9,7 @@ Hornbill KeySafe provides secure encrypted storage for various types of authenti
 * Knowledge of designing workflows and using the Cloud Integration node.
 
 ## How KeySafe is used
+Once a KeySafe entry has been defined, there are a number of ways that these can be used 
 * Use a KeySafe entry from within a BPM Workflow to automate updates to integrated apps.
 * Use a KeySafe entry from within an Auto Task to trigger updates to integrated apps via a custom button.
 * Use a KeySafe entry with ITOM to authenticate with external integrated apps.
@@ -17,7 +18,7 @@ Hornbill KeySafe provides secure encrypted storage for various types of authenti
 * Update authentication credentials in a single location when password changes occur.
 
 ## Credential Types
-Hornbill KeySafe supports a number of credentials types. External services and cloud applications that Hornbill integrates with are listed here. Also available are some generic types HTTP Basic or APIKey.
+Hornbill KeySafe supports a number of credential types. External services and cloud applications that Hornbill integrates with are listed under the `Type` field which is available when creating or editing a KeySafe entry. Also available are some generic types HTTP Basic or APIKey.
 
 ### Generic KeySafe Types
 To support authentication to external systems, generic authentication types are provided to allow KeySafe entries for integration outside of the provided specific Keysafe types.
@@ -35,7 +36,7 @@ To support authentication to external systems, generic authentication types are 
 The `Type` list includes many predefined services that Hornbill integrates with. Each of these types contain attributes that are required to authenticate to that service. If you are looking to integrate with an external service, check first to see if there is a type available for that service.
 
 ## Using KeySafe in a Workflow
-Using KeySafe entires as part of a business workflow is a great way to securely connect to external services.
+Using KeySafe entries as part of a business workflow is a great way to securely connect to external services.
 
 This is achieved using the Cloud Automation node in a workflow
 

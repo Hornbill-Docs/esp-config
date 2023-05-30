@@ -2,16 +2,21 @@
 layout: article-toc
 ---
 # Password policies
-The password policy settings allow you to enforce a number of options for requirements when creating a new password for a user account.
+The password policy settings enforce a number of requirements when creating or updating a password for a user account. 
 
-## Where password policies are used
-* Password policies are used for user amd guest account (contact) authentication.
-* When a user tries to manually change their password on their profile
-* The LDAP user import automatically creates passwords using a built-in password generator that follows these policies
-* Hornbill policies are not applied when using Single sign-on (SSO). Identity providers used for SSO should provide their own policies.
+## Where password policies are applied
+* All user and guest account (contact) authentication.
+* When a user tries to manually change their password on their profile.
+* During LDAP user import, a built-in password generator creates passwords that use these policies.
+
+:::tip
+Hornbill policies are not applied when using Single sign-on (SSO). Identity providers used for SSO should provide their own policies.
+:::
 
 ## Settings
-All of Hornbill's password policies are managed through settings.
+Hornbill's password policies are managed through the Password Policy settings.
+
+To make changes to a Policy, update the settings.
 
 ::: tip
 To access any of the settings described in this document, open [Configuration](/esp-config/getting-started/using-configuration) and search by part or all of the setting name 
