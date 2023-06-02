@@ -19,7 +19,7 @@ Hornbill's password policies are managed through the Password Policy settings.
 To make changes to a Policy, update the settings.
 
 ::: tip
-To access any of the settings described in this document, open [Configuration](/esp-config/getting-started/using-configuration) and search by part or all of the setting name 
+To access any of the settings described in this document, open [Configuration](/esp-config/getting-started/using-configuration) and search by part or all of the setting name. 
 :::
 
 ### User Password Policy Settings

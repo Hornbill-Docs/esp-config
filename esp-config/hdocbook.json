@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "0.0.46",
+  "version": "0.0.47",
   "productFamily": "esp",
   "tags": ["esp", "config", "Configuration", "Administration", "Customization"],
   "audience": ["public"],
@@ -53,10 +53,6 @@
                 "link": "esp-config/organizational-data/user-accounts/users"
               },
               {
-                "text": "User Templates",
-                "link": "esp-config/organizational-data/user-accounts/user-templates"
-              },
-              {
                 "text": "CSV User Import",
                 "expand":false,
                 "link": "esp-config/organizational-data/user-accounts/csv-user-import"
@@ -70,12 +66,20 @@
             
           },
           {
-            "text": "Groups and Teams",
-            "link": "esp-config/organizational-data/groups-and-teams"
+            "text": "Roles",
+            "link": "esp-config/organizational-data/roles"
+          },
+          {
+            "text": "Organization",
+            "link": "esp-config/organizational-data/organization"
           },
           {
             "text": "Sites",
             "link": "esp-config/organizational-data/sites"
+          },
+          {
+            "text": "User Templates",
+            "link": "esp-config/organizational-data/user-templates"
           },
           {
             "text": "User Availability States",
@@ -102,10 +106,6 @@
           {
             "text": "Two Factor Authentication",
             "link": "esp-config/security/two-factor-authentication"
-          },
-          {
-            "text": "User Roles",
-            "link": "esp-config/security/roles"
           },
           {
             "text":"Single Sign-On (SSO)",
@@ -136,54 +136,8 @@
           }
         ]
       },
-
       {
-        "text": "Email",
-        "expand":false,
-        "items":[
-          {
-            "text": "Domains",
-            "link": "esp-config/email/adding-an-email-domain"
-          },
-          {
-            "text": "Shared Mailboxes",
-            "link": "esp-config/email/creating-a-shared-mailbox"
-          },
-          {
-            "text": "Templates",
-            "link": "esp-config/email/templates"
-          },
-          {
-            "text": "Inbound Routing Rules",
-            "link": "esp-config/email/using-email-routing-rules"
-          },
-          {
-            "text": "Direct Outbound",
-            "link": "esp-config/email/direct-outbound"
-          }
-        ]
-      },
-      {
-        "text": "Data",
-        "expand": false,
-        "items":[
-          {
-            "text": "Profiles",
-            "link": "esp-config/data/profiles"
-          },
-          {
-            "text": "Simple Lists",
-            "link": "esp-config/data/simple-lists"
-          },
-          {
-            "text": "Data Import Configurations",
-            "link": "esp-config/data/data-import-configurations"
-          }
-        ]
-
-      },
-      {
-        "text": "Customizing Hornbill",
+        "text": "Customize",
         "expand": false,
         "items":[
           {
@@ -250,6 +204,51 @@
             "link": "esp-config/integration/integration-connectors"
           }
         ]
+      },
+      {
+        "text": "Email",
+        "expand":false,
+        "items":[
+          {
+            "text": "Domains",
+            "link": "esp-config/email/adding-an-email-domain"
+          },
+          {
+            "text": "Shared Mailboxes",
+            "link": "esp-config/email/creating-a-shared-mailbox"
+          },
+          {
+            "text": "Templates",
+            "link": "esp-config/email/templates"
+          },
+          {
+            "text": "Inbound Routing Rules",
+            "link": "esp-config/email/using-email-routing-rules"
+          },
+          {
+            "text": "Direct Outbound",
+            "link": "esp-config/email/direct-outbound"
+          }
+        ]
+      },
+      {
+        "text": "Data",
+        "expand": false,
+        "items":[
+          {
+            "text": "Profiles",
+            "link": "esp-config/data/profiles"
+          },
+          {
+            "text": "Simple Lists",
+            "link": "esp-config/data/simple-lists"
+          },
+          {
+            "text": "Data Import Configurations",
+            "link": "esp-config/data/data-import-configurations"
+          }
+        ]
+
       },
       {
         "text": "Internationalization",
