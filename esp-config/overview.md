@@ -10,7 +10,7 @@ This guide contains a series of documents to help with your initial setup of Hor
 * Accessing advanced platform settings.
 * Customizing the Employee and Customer portals.
 ## Who is this for?
-This guide is for administrative users of Hornbill. Areas of configuration described here are only accessible by users that have administrative rights and roles.  
+This guide is for administrative users of Hornbill. The areas of configuration described here are only accessible by users that have administrative rights and roles.  
 ## Additional Guides
 Additional guides are available for the following.  
 * Integrations

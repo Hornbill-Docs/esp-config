@@ -24,11 +24,11 @@ Within Configuration, user accounts can be manually created. Manual creation is 
 ## Basic Information
 
 ### User ID vs Login ID
-* **User ID**<br>The user ID is the primary key of a Hornbill user account and is used to build all the associations to other records in the database. It must be unique to a user account. Once created it cannot be changed.  Avoid using anything that has a potential to change. This is a mandatory field.
+* **User ID**<br>The user ID is the primary key of a Hornbill user account and is used to build all the associations to other records in the database. It must be unique to a user account. Once created it cannot be changed.  Avoid using anything that has the potential to change. This is a mandatory field.
 * **Logon ID**<br>The Logon ID is used when a user logs into Hornbill when prompted to provide a username and password. This also has an important part to play in the Single Sign On mechanism. The Logon ID must be unique to a user account. The Login ID can be edited or changed at any time.
 
 ::: tip
-When the Login ID is populated, a user can no longer use their User ID to log.
+When the Login ID is populated, a user can no longer use their User ID to log in.
 :::
 
 ### Adding roles
@@ -36,7 +36,7 @@ When the Login ID is populated, a user can no longer use their User ID to log.
 ## Account Management
 
 ### Delete accounts
-Deleting a user completely removes the account from Hornbill and cannot be reversed. Deleting a user should only be used when the user has not had any interaction in Hornbill. This can be used to remove accounts that have been mistakenly added or uploaded. This option is only available when the user who performs the deletion has allocated the Super User Role.
+Deleting a user completely removes the account from Hornbill and cannot be reversed. Deleting a user should only be used when the user has not had any interaction in Hornbill. This can be used to remove accounts that have been mistakenly added or uploaded. This option is only available when the user who performs the deletion has been allocated the Super User Role.
 
 ### Reactivate Users
 When one or more users have been suspended or archived, you can select these users from the list and reactivate them.
@@ -45,4 +45,4 @@ When one or more users have been suspended or archived, you can select these use
 The suspension of a user prevents the account from logging on to Hornbill. Other Hornbill users will be able to continue to interact with a suspended account. Suspended users can be reactivated. A user can be automatically suspended by providing too many incorrect passwords at login.
 
 ### Archive Users
-Archiving a user prevents the account from logging on to Hornbill and will also prevent other users from interacting with this account. Historic contributions within the collaboration features will be intact and visible, but they will no long be available as a co-worker. This is the recommended option for when someone leaves. Archived users can be reactivated.
+Archiving a user prevents the account from logging on to Hornbill and will also prevent other users from interacting with this account. Historic contributions within the collaboration features will be intact and visible, but they will no longer be available as a co-worker. This is the recommended option for when someone leaves. Archived users can be reactivated.

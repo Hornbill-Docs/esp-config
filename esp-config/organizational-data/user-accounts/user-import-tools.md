@@ -10,7 +10,7 @@ These utilities provide a simple, safe, and secure way to create and update acco
 The connects to Hornbill and Azure in the cloud over HTTPS/SSL using a standard internet connection without the need to make any firewall configuration changes. 
 
 :::tip
-This utility employs the Azure Graph API to query the contents of Azure AD. If you would like to know more about this API and it's capabilities, please refer to the relevant Microsoft documentation.
+This utility employs the Azure Graph API to query the contents of Azure AD. If you would like to know more about this API and its capabilities, please refer to the relevant Microsoft documentation.
 :::
 
 For more information on installing and configuration please see the [Azure User Import Utility documentation](https://wiki.hornbill.com/index.php?title=Azure_User_Import).
@@ -21,7 +21,7 @@ This utility is designed to run behind your corporate firewall to connect to you
 The utility connects to Hornbill in the cloud over HTTPS/SSL using a standard internet connection without the need to make any firewall configuration changes.
 
 :::tip
-The LDAP Utility can be used as a stand-alone alternative to, or supplement user auto-provisioning. While auto-provisioning requires Single Sign On (SSO) configuring, the LDAP import utility is completely independent of any SSO configuration.
+The LDAP Utility can be used as a stand-alone alternative to or supplement user auto-provisioning. While auto-provisioning requires Single Sign On (SSO) configuring, the LDAP import utility is completely independent of any SSO configuration.
 :::
 
 For more information on installing and configuration please see the [LDAP User Import Utility documentation](https://wiki.hornbill.com/index.php?title=LDAP_User_Import).
@@ -34,7 +34,7 @@ The utility connects to Hornbill in the cloud over HTTPS/SSL using a standard in
 For more information on installing and configuration please see the [SQL User Import Utility documentation](https://wiki.hornbill.com/index.php?title=SQL_User_Import).
 
 ## Google Workspace User Import Utility
-This utility designed to run behind your corporate firewall and securely connect to Google Workspace. 
+This utility is designed to run behind your corporate firewall and securely connect to Google Workspace. 
 
 The utility connects to Hornbill in the cloud over HTTPS/SSL using a standard internet connection without the need to make any firewall configuration changes.
 

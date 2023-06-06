@@ -54,8 +54,8 @@ The Regional Settings are the defaults for the Customer Portal on the login page
     * **Navbar Text color**<br>Text color for any text that appears in the top navigation bar.
     * **Home Page Background color**<br>This applies to the middle section of the page, below the image.
 
-* **Home Page Text**<br>Main Image Text.
-    * **Main Image Text**<br>
+* **Home Page Text**<br>
+    * **Main Image Text**<br>This text will overlay the logo in the top banner
     * **Section Title (When not logged in)**<br>Set to 0 (zero) if you do not wish to include this title.
     * **Section Title (When not logged in)**<br>Set to 0 (zero) if you do not wish to include this title.
     * **Section Text**<br>Set to 0 (zero) if you do not wish to include this title.

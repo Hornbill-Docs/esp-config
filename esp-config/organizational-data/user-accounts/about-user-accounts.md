@@ -14,7 +14,7 @@ Hornbill users are categorized into two types, full and basic.
 User accounts are for those that require access to one or more of the available Hornbill applications. The number of user accounts is governed by your paid subscriptions. You will be allowed to create user accounts as long as you have enough subscriptions available.
 
 ### Basic User
-Basic accounts are for people that are internal to your organization who will consume the content and services that are delivered by the Hornbill applications.  Basic accounts can be used within applications to associate with entities such as Service Manager requests, assets, sites, documents, and also provide log in access to the Employee Portal. 
+Basic accounts are for people that are internal to your organization and who will consume the content and services that are delivered by the Hornbill applications.  Basic accounts can be used within applications to associate with entities such as Service Manager requests, assets, sites, and documents, and also provide login access to the Employee Portal. 
 
 :::tip
 Accounts can be either promoted or demoted between these two types of accounts after they have been created. This can be done by changing the user type when viewing the account record.
