@@ -55,8 +55,8 @@ The Regional Settings are the defaults for the Customer Portal on the login page
     * **Home Page Background color**<br>This applies to the middle section of the page, below the image.
 
 * **Home Page Text**<br>
-    * **Main Image Text**<br>This text will overlay the logo in the top banner
-    * **Section Title (When not logged in)**<br>Set to 0 (zero) if you do not wish to include this title.
+    * **Main Image Text**<br>This text will overlay the logo in the top banner. Set to 0 (zero) if you do not wish to include this text.
+    * **Section Title (When not logged in)**<br>.This is sub-text that sits under the Main Image Text. Set to 0 (zero) if you do not wish to include this sub-text.
     * **Section Title (When not logged in)**<br>Set to 0 (zero) if you do not wish to include this title.
     * **Section Text**<br>Set to 0 (zero) if you do not wish to include this title.
 
@@ -84,10 +84,12 @@ If all Social Information Fields contain a 0 (zero), this section will be comple
     * **About Text**<br>The Customer Portal can be used to view and update requests.
 
 * **Login Details**<br>
-    * **Auto Login**<br>If you have SSO configured for the Customer Portal, setting this to `ON` will bypass the login screen and automatically log the customer into the portal.
-    * **Splash Image**
-    * **Show About Details**
-    * **Show Footer**
+This section defines the contents of the login page.  The login page is accessed from the landing page when the `login` option is selected.
+    * **Auto Login**<br>With this option enabled, the home page will be bypassed and the user will be taken straight to the login page when they access the URL `https://customer.hornbill.com/<instance name>`.
+    * **Splash Image**<br>The image displayed on the login page.
+    * **Show About Details**<br>include the information in the About Details on the login page.
+    * **Show Footer**<br>The footer can contain contact and social information.  Once turned on either one or both these options can be turned on.  If both options are turned off, the footer will not be displayed.
+
     * **Terms and Conditions**
 
         |Option|Description|
