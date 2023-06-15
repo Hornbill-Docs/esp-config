@@ -4,15 +4,14 @@ layout: article-toc
 # Widgets
 Widgets are provided to create plug in data that can be used to build Dashboards. Some widget types make use of existing measures and provide the ability to display them in a more appealing format. Certain widget types allow you to return and display data based on configuration carried out within the widget.
 
-Related Articles
-Application Entity Viewer
-Reports
-Creating a new Widget
-Select the + Create New Widget button, give the new Widget a name, and choose which type of Widget you wish to create. Configuration options and an example video for each of the Widget types is given below.
+## General Settings
+## Data Chart Widgets
+When creating Data Charts it is possible to define how the data for the chart will be created using the following options:
 
-Widget Types
-Data Chart
-Charts can be in the form of a Bar, Pie or Line Graph
+* **Measured Sample**<br>This type allows you to add multiple measures data to a single chart, and to display the data using definable sample intervals, and history.
+* **Measured Group By**<br>This type allows a single measures data to be displayed and grouped by Saved Data Columns.
+* **Measure Samples Group By**<br>This type allows a single measures sampled data to be grouped and displayed by Saved Data Columns and by definable sample periods (manual or predefined date settings).
+* **Sql Group By**<br>This type allows you to specify a database table, which column to group on, which to count on as well as define filter conditions for the data, and the sample history duration.
 
 Scorecard
 A Scorecard widget can be used to display one or more Measures which have previously been defined.
