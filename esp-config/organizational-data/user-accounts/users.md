@@ -6,13 +6,12 @@ Within Configuration, user accounts can be manually created. Manual creation is 
 
 ## Before you begin
 * Administrative access to Configuration
-* An understanding of roles
 * An understanding of user account types
 * It's recommended to have an organization group structure in place
 
 ## Topics covered
 * Manual account creation
-* Adding roles
+* Mandatory fields
 * Basic user account management
 
 ## Quick Steps
@@ -31,7 +30,12 @@ Within Configuration, user accounts can be manually created. Manual creation is 
 When the Login ID is populated, a user can no longer use their User ID to log in.
 :::
 
-### Adding roles
+### Mandatory Fields
+For an account to be created, all mandatory fields must be completed. Mandatory fields are marked with a vertical red line.
+* User ID
+* First Name
+* Handle
+* Password
 
 ## Account Management
 
