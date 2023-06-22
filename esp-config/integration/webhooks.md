@@ -2,9 +2,9 @@
 layout: article-toc
 ---
 # Webhooks
-Webhooks are a great way to integrate Hornbill with other applications that are accessible over the internet. Webhooks can send information from Hornbill to another application as soon as a record is updated, rather than relying on scheduled imports or the continually polling for data.
+Webhooks are a great way to integrate Hornbill with other applications that are accessible over the internet. webhooks can send information from Hornbill to another application as soon as a record is updated, rather than relying on scheduled imports or continually polling for data.
 
-A web hook is the opposite to an API call, a web hook is a call over HTTP from your Hornbill instance to a web endpoint of your choosing. Most application actions on a Hornbill instance can trigger an action-specific event when an action is performed. Hornbill can be configured to call to a web end point passing the action-specific data to the web service being invoked. This is a very powerful mechanism that enables true, near real-time integration with other business systems.
+A webhook is the opposite of an API call, a webhook is a call over HTTP from your Hornbill instance to a web endpoint of your choosing. Most application actions on a Hornbill instance can trigger an action-specific event when an action is performed. Hornbill can be configured to call to a web endpoint passing the action-specific data to the web service being invoked. This is a very powerful mechanism that enables true, near real-time integration with other business systems.
 
 ## Basic Information
 * **Name**<br>Unique name used to identify the Web Hook in the list. This is a mandatory field. No spaces allowed.
@@ -23,7 +23,7 @@ A web hook is the opposite to an API call, a web hook is a call over HTTP from y
     * **Synchronous Critical**<br>If there is no response a 200 error is returned from the webhook URL and the API call will fail
 
 ## HTTP Protocol Information
-Your web hook should accept a POST verb with either XML or JSON content as the payload (set by webhook properties). For pre-action hooks such as OnCreate, OnUpdate and OnDelete asyncCritical types it is possible to send an error message from your web hook back to the user's screen. To do this simply respond with a 403 response code, set the Content-type: header to text/plain and the actual text message you want to return to the users display in the response body, the response body should be returned as UTF-8 encoded bytes if non-ascii content is requited.
+Your web hook should accept a POST verb with either XML or JSON content as the payload (set by webhook properties). For pre-action hooks such as OnCreate, OnUpdate and OnDelete asyncCritical types it is possible to send an error message from your web hook back to the user's screen. To do this simply respond with a 403 response code, set the Content-type: header to text/plain and the actual text message you want to return to the user's display in the response body, the response body should be returned as UTF-8 encoded bytes if non-ascii content is required.
 
 ## Testing and Examples
 ### RequestBin Test

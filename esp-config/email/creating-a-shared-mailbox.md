@@ -29,7 +29,7 @@ This tab is where we tell Hornbill where it will retrieve email messages. Rememb
 * **Password**<br>The mail account password.
 
 ::: important
-As soon as a successful connection is established with the mailbox on your mail server, Hornbill will immediately retrieve all the emails that reside in the inbox. All of these messages will be **deleted** from the server once they are downloaded to Hornbill. If you have any need for the messages to remain on the mail server, you should ask your mail administrator to implement some rules that duplicates any message sent to this mail account to another folder/location.
+As soon as a successful connection is established with the mailbox on your mail server, Hornbill will immediately retrieve all the emails that reside in the inbox. All of these messages will be **deleted** from the server once they are downloaded to Hornbill. If you have any need for the messages to remain on the mail server, you should ask your mail administrator to implement some rules that duplicate any message sent to this mail account to another folder/location.
 :::
 
 ## Linking an Outbound Mail Route (Domain)

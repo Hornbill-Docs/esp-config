@@ -14,7 +14,7 @@ These states are available to a user who can select a suitable state from their 
 
 ## Availability State List
 * **Status**<br>The name of each of the available states
-* **UI Display**<br>Shows the translation for the currently selected language. To update the translation, simply click on the text and provide a new translation to match the language selected in the tool bar.
+* **UI Display**<br>Shows the translation for the currently selected language. To update the translation, simply click on the text and provide a new translation to match the language selected in the toolbar.
 * **In Use**<br>Enable or disable any of the available states. Default States cannot be deleted, but they can be disabled if they are not required
 * **Present At Work**<br>if set, the user is present at work in your normal working environment, as opposed to being, for example, out in their car traveling to a client site.
 * **Is Working Time**<br>This status indicates the user is in normal working time or not. They can be present at work, but out of working time, for example, They are staying late for some non-work-related reason.

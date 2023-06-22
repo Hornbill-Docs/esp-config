@@ -2,7 +2,7 @@
 layout: article-toc
 ---
 # Auto Values
-The Auto Values feature lets an administrator define how auto-generated values, such as reference IDs, are constructed. Places where more than a sequence number (000001234) is required, an Auto Value can be modified to include dates, time, location, teams, user IDs and more. There are many situations where this type of sequence is much more preferable over a simple numeric sequences. 
+The Auto Values feature lets an administrator define how auto-generated values, such as reference IDs, are constructed. In places where more than a sequence number (000001234) is required, an Auto Value can be modified to include dates, time, location, teams, user IDs and more. There are many situations where this type of sequence is much more preferable over a simple numeric sequence. 
 
 Some examples include:
 

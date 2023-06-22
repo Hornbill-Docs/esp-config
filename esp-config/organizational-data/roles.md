@@ -14,8 +14,8 @@ In addition to platform roles, each application comes with default roles specifi
 Two types of Roles exist within Hornbill, Security Roles and Assignment Roles:
 
 * **Security Roles**<br>Are used to control access to Hornbill Applications and to the different areas within each application. Security roles have a "Privilege Level" which determines whether they can be given to a basic user or full user.
-* **Assignment Roles**<br>Provide restrictions on the assignment of Activities. For example, when configuring a Human Task node within a Business process, it is possible to assign that task to a Role. This is especially useful if you wish to restrict the assignment of an activity to a number of Users within a particular Group (but not all users) or if you want to expose this activity to a selection of Users across multiple Groups.
-It is also possible to share certain items based on an assignment Role. One example is Dashboards. Assignment Roles can only be associated to "Application Users"
+* **Assignment Roles**<br>Provide restrictions on the assignment of Activities. For example, when configuring a Human Task node within a Business process, it is possible to assign that task to a Role. This is especially useful if you wish to restrict the assignment of an activity to several users within a particular group or if you want to expose this activity to a selection of users across multiple groups.
+It is also possible to share certain items based on an assignment Role. One example is Dashboards. Assignment Roles can only be associated with application Users"
 
 ## Custom Roles
 If the roles that come with Hornbill do not meet your specific needs, you can create your own Security and Assignment roles.

@@ -2,7 +2,7 @@
 layout: article-toc
 ---
 # API keys
-An API key is typically used in conjunction with one of Hornbill's import utilities to avoid the need to specify passwords in configuration files that will be located outside of Hornbill. Each of the Hornbill import utilities must perform their actions in the context of a user account and in order to do this an API key must be created. It is good practice to create and use API keys in conjunction with bespoke development work and integration with other systems that involves information being passed into your Hornbill instance from these other systems.
+An API key is typically used in conjunction with one of Hornbill's import utilities to avoid the need to specify passwords in configuration files that will be located outside of Hornbill. Each of the Hornbill import utilities must perform their actions in the context of a user account and to do this an API key must be created. It is good practice to create and use API keys in conjunction with bespoke development work and integration with other systems that involve information being passed into your Hornbill instance from these other systems.
 
 ## Creating an API Key
 Click on the + button to start creating a new API key.

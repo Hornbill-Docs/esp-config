@@ -1,7 +1,7 @@
 ---
 layout: article-toc
 ---
-# Design the user profile
+# User Profile
 The user profile is made up of a number of sections, each containing a collection of related fields.  These fields can be customized to your requirements.
 
 ## Topics covered

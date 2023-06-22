@@ -33,7 +33,7 @@ To support authentication to external systems, generic authentication types are 
 
 
 ### Service Specific KeySafe Types
-The `Type` list includes many predefined services that Hornbill integrates with. Each of these types contain attributes that are required to authenticate to that service. If you are looking to integrate with an external service, check first to see if there is a type available for that service.
+The `Type` list includes many predefined services that Hornbill integrates with. Each of these types contains attributes that are required to authenticate to that service. If you are looking to integrate with an external service, check first to see if there is a type available for that service.
 
 ## Using KeySafe in a Workflow
 Using KeySafe entries as part of a business workflow is a great way to securely connect to external services.
