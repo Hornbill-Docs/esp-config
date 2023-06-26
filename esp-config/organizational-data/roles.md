@@ -1,14 +1,21 @@
 ---
 layout: article-toc
 ---
-# User roles
-A Role is a collection of rights that allow a user to perform actions in Hornbill.
-
-You must assign users with the appropriate roles.  This is done in Configuration.
-
-The Hornbill platform comes with a range of roles ready for you to associate with your users.
+# User Roles
+A Role is a collection of rights that allow a user to perform actions in Hornbill. Hornbill comes with a range of roles ready for you to associate with your users and custom roles can be created to meet your specific needs.
 
 In addition to platform roles, each application comes with default roles specifically designed to govern access to that application.
+
+## Topics Covered
+* Describing the different types of roles.
+* How to create a custom role.
+* The different ways to assign roles to users.
+* How roles can affect application subscriptions.
+
+## Before you begin
+* Users with the Admin or Super User role can manage roles
+* The rights Manage Role, Create Role, Delete Role, and Update Role are available for custom roles.
+
 
 ## Role Types
 Two types of Roles exist within Hornbill, Security Roles and Assignment Roles:
@@ -24,13 +31,13 @@ If the roles that come with Hornbill do not meet your specific needs, you can cr
 1. Open Configuration
 1. Select where the new role will be created (either Platform Configuration or a specific Hornbill App) from the drop down menu.
 1. Click "Roles" under the section "User & Guest Access"
-1. Select '+ Create New Role'
+1. Select `+ Create New Role`
 1. Complete Role details...
     1. Role ID - Name of new role. It must be unique and cannot be changed later.
     1. Privilege Level - For most roles this will be User
     1. Type - Security or Assignment
     1. Description - What the role has been created for
-1. Click "Create Role" to Save
+1. Click `Create Role` to Save
 
 If you create a Platform role you can add or update the application context or tie the role to a Hornbill Shared Mailbox.
 

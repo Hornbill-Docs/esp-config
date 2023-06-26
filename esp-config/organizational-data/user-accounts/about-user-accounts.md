@@ -21,7 +21,7 @@ Accounts can be either promoted or demoted between these two types of accounts a
 :::
 
 ## Ways to create user accounts
-* **Manual creation**<br>Within Configuration, accounts can be manually created.  Manual creation is typically used when there is a need for initial accounts during a new implementation.  These might be used for testing or for special accounts that would not be included in an automated import and synchronization from an external source such as Microsoft Active Directory.  
-* **CSV import**<br>From the list of accounts, a simple CSV import is provided. This is only for the creation of new accounts and does not provide updates to existing accounts.
+* **Manual creation**<br>Within Configuration, accounts can be manually created.  [Manual creation](esp-config/organizational-data/user-accounts/users) is typically used when there is a need for initial accounts during a new implementation.  These might be used for testing or for special accounts that would not be included in an automated import and synchronization from an external source such as Microsoft Active Directory.  
+* **CSV import**<br>From the list of accounts, a simple [CSV import](esp-config/organizational-data/user-accounts/csv-user-import) is provided. This is only for the creation of new accounts and does not provide updates to existing accounts.
 * **Auto-provisioning**<br>This feature takes advantage of single sign-on using an external identity provided (IDP), such as Microsoft Active Directory Federation Services.  If a user is authenticated using an IDP and a Hornbill account does not exist, the account will be automatically created using a template and the user seamlessly gains access to Hornbill. 
 * **Import and synchronization tools**<br>The most common way of managing accounts is by using an import and synchronization tool.  These include LDAP Import, Azure Import, Database Import, and Google User Import.
