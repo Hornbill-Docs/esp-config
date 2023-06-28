@@ -8,9 +8,9 @@ In addition to platform roles, each application comes with default roles specifi
 
 ## Topics Covered
 * Describing the different types of roles.
-* How to create a custom role.
 * The different ways to assign roles to users.
 * How roles can affect application subscriptions.
+* How to create a custom role.
 
 ## Before you begin
 * Users with the Admin or Super User role can manage roles
@@ -20,12 +20,27 @@ In addition to platform roles, each application comes with default roles specifi
 ## Role Types
 Two types of Roles exist within Hornbill, Security Roles and Assignment Roles:
 
-* **Security Roles**<br>Are used to control access to Hornbill Applications and to the different areas within each application. Security roles have a "Privilege Level" which determines whether they can be given to a basic user or full user.
+* **Security Roles**<br>Are used to control access to Hornbill Applications and to the different areas within each application. Security roles have a "Privilege Level" which determines the level of access provided to users that are assigned to the role.
 * **Assignment Roles**<br>Provide restrictions on the assignment of Activities. For example, when configuring a Human Task node within a Business process, it is possible to assign that task to a Role. This is especially useful if you wish to restrict the assignment of an activity to several users within a particular group or if you want to expose this activity to a selection of users across multiple groups.
 It is also possible to share certain items based on an assignment Role. One example is Dashboards. Assignment Roles can only be associated with application Users"
 
-## Custom Roles
-If the roles that come with Hornbill do not meet your specific needs, you can create your own Security and Assignment roles.
+## Privileges
+Security roles use the following privileges to control the level of access for a user that has been assigned to the role.
+
+|Privilege Level|Description|
+|-|-|
+|None|This privilege level has no privileges assigned.|
+|Guest|This is the privilege level applied to any guest account login via a customer/external portal session.|
+|Basic|This privilege level is associated with basic user accounts. The basic user privilege level provides very limited access to the Hornbill platform, typically this type of user would be an employee that does not use Hornbill on a day-to-day basis, but uses the Employee portal to access services being provided.|
+|User|This privilege level is typically associated with a normal user account.|
+|Admin|This privilege level is in effect a ‘super user’ account. This privilege level is used sparingly, and should not be used for day to day user accounts.|
+
+:::tip
+A user's overall privilege level is determined by the highest privilege level of all their combined roles.
+:::
+
+## User Created Roles
+If the roles that come with Hornbill do not meet your specific needs, you can create your own roles.
 
 ### Creating a Custom Role
 1. Open Configuration
