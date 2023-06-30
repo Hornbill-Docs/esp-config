@@ -56,5 +56,5 @@ If you happen to have an application installed that you no longer need, it can b
 1. In the results list under the section Hornbill App Store, select the application
 1. Click on the `Uninstall` button.
 
-<<!-- To Do -->>
-<<!-- Setting to stop subscription to be automatically added when roles applied allocateOnLogin -->>
+<!-- To Do -->
+<!-- Setting to stop subscription to be automatically added when roles applied allocateOnLogin -->
