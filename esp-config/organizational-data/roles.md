@@ -59,4 +59,176 @@ If the roles that come with Hornbill do not meet your specific needs, you can cr
 1. If you create a role under an application configuration you cannot assign it to other applications or mailboxes.
 1. Users can be allocated subscriptions through role assignments. If you assign a user to an application role that has a privilege level of `user` a subscription will be allocated to that user when they next log in.
 :::
+
+## System Rights
+### Accounts
+|Name|Description|
+|-|-|
+|Manage Roles||
+|Create Role||
+|Update Role|| 
+|Delete Role|| 
+|Manage Users|| 
+|Create Users|| 
+|Update Users|| 
+|Delete Users|| 
+|Manage Groups|| 
+|Create Groups||
+|Update Groups|| 
+|Delete Groups|| 
+|Manage Portal Accounts||
+|Create Portal Accounts|| 
+|Update Portal Accounts|| 
+|Delete Portal Accounts|| 
+|Manage Notifications|| 
+|Register Channels|| 
+|Deregister Channels|| 
+|Manage Working Time Calendars||
+|Create Working Time Calendars|| 
+|Update Working Time Calendars|| 
+|Delete Working Time Calendars|| 
+|Manage Timers|| 
+|Create Timers|| 
+|Update Timers|| 
+|Delete Timers|| 
+|Execute Stored Queries|| 
+|Run Data Imports|| 
+|Can Spawn Business Process|| 
+|canCancelProcess|| 
+|changeDocumentOwner|| 
+
+### Data
+|Name|Description|
+|-|-|
+|Manage Lists|| 
+|Add Lists||
+|Update Lists||
+|Delete Lists|| 
+|Manage Profile Categories||
+|Create Profile Categories||
+|Update Profile Categories||
+|Delete Profile Categories||
+|Add Profiles||
+|Update Profiles||
+|Delete Profiles||
+|Manage Scheduled Jobs|Allows the user to view their own scheduled jobs within the user app. Users that have a privilege level of admin will also be able to view all users' scheduled jobs from within Configuration|
+|Create Scheduled Jobs||
+|Update Scheduled Jobs|| 
+|Delete Scheduled Jobs||
+|Manage Auto Sequences||
+|Create Auto Sequences||
+|Update Auto Sequences||
+|Delete Auto Sequences||
+|Manage Tasks||
+|Create Tasks||
+|Update Tasks||
+|Delete Tasks||
+|manageEntityRules||
+|Add Documents||
+|Update Documents||
+|Delete Documents||
+|Manage Indexer|| 
+|Create Indexes||
+|Delete Indexes||
+|searchIndex||
+
+### Configuration
+|Name|Description|
+|-|-|
+|Manage Business Processes|| 
+|Manage System Settings||
+|Manage Application Settings||
+|Manage Application Strings||
+|Manage System Support||
+|Manage CAFS||
+|manageImageShare||
+|Manage REGEX||
+|Manage Background Jobs||
+|Manage Secret Keys||
+|Manage Sessions||
+|Manage Progressive Capture||
+|Manage Webhooks||
+|manageEmail||
+|manageSsoProfiles||
+|manageKeysafe||
+|manageIntegrations||
+|manageServiceCatalogs||
+|Manage Office Location Integration Services||
+|Manage Office Location Integration Packages||
+|Manage Runbooks||
+|Manage Automation Jobs||
+|Manage Inventory||
+|manageForms||
+|manageSecurityAudit||
+|manageNetworkRules||
+|manageAssetDiscoveryUploads||
+
+### System Settings
+|Name|Description|
+|-|-|
+|Manage Applications||
+|Install Applications|| 
+|Switch Applications|| 
+|Update Applications|| 
+|Refresh Applications|| 
+|Uninstall Applications|| 
+|Get Database Schema|| 
+|Apply Database Schema|| 
+|Add Records|| 
+|Get Records|| 
+|Update Records|| 
+|Delete Records||
+
+### Collaboration
+|Name|Description|
+|-|-|
+|Post Messages||
+|Deregister Activity Streams||
+|Follow Activity Streams||
+|Unfollow Activity Streams|| 
+|Like Activities||
+|Unlike Activities|| 
+|Query Activity Streams|| 
+|Post Comments||
+|Edit Comments||
+|Delete Comments|| 
+|Create Workspaces|| 
+|Get Workspaces|| 
+|Join Workspaces|| 
+|Leave Workspaces|| 
+|Add Workspace Members|| 
+|Remove Workspace Members|| 
+|Update Workspaces|| 
+|Change Workspace Owner|| 
+|Delete Workspaces|| 
+|Start Conversations|| 
+|Get Conversations|| 
+|Post Conversations|| 
+|Search Conversations|| 
+|Add Conversations Members|| 
+|Delete Conversations|| 
+|Remove Conversation Members||
+|Manage Profile Images||
+|Search Activities||
+
+### Reporting
+|Name|Description|
+|-|-|
+|View Measures||
+|Create Measures|| 
+|Update Measures||
+|Delete Measures||
+|View Widgets||
+|Create Widgets|| 
+|Update Widgets||
+|Delete Widgets||
+|View Dashboards & Slideshows||
+|Create Dashboards & Slideshows|| 
+|Update Dashboards & Slideshows||
+|Delete Dashboards & Slideshows||
+|View Reports||
+|Create Reports|| 
+|Update Reports|| 
+|Delete Reports||
+
 <!--https://wiki.hornbill.com/index.php?title=Roles -->

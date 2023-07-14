@@ -2,7 +2,7 @@
 layout: article-toc
 ---
 # Organization
-The Hornbill platform allows for the creation of a hierarchical structure that represents your organization. Create and manage your organization's groups, teams and functions, and the members that belong to them. Some examples of the different group types include companies, divisions, departments, and cost centers. 
+The Hornbill platform allows for the creation of a hierarchical structure that represents your organization. Create and manage your organization's groups and teams, and the members that belong to them. Some examples of the different group types include companies, divisions, departments, and cost centers. 
 
 ## Topics covered
 * How groups are used

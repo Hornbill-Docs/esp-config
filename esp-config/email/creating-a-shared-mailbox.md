@@ -10,7 +10,7 @@ The first two shared mailboxes are free, but any more mailboxes are subject to a
 
 
 ## Before you begin
-* At least one [user created role](esp-config/security/roles#custom-roles) needs to be available.  User created roles are used to provide access between users and a shared mailbox.
+* At least one [user created role](/esp-config/organizational-data/roles#custom-roles) needs to be available.  User created roles are used to provide access between users and a shared mailbox.
 
 ## Mailbox Details
 This is where the basic details of the mailbox are specified:

@@ -27,5 +27,5 @@ Enable this setting to display a footer to the login form
 * **Default Identity Provider**<br>If you have multiple identity providers, this allows you to select which is selected by default when a user first visits (note: when a user changes this, the change is remembered for them)
 
 :::tip
-This option is only visible when there is more than one active [SSO Profile](esp-config/security/sso/single-sign-on#topics-covered) configured.
+This option is only visible when there is more than one active [SSO Profile](/esp-config/security/sso/single-sign-on#topics-covered) configured.
 :::
