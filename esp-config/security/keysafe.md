@@ -4,11 +4,11 @@ layout: article-toc
 # KeySafe
 Hornbill KeySafe provides secure encrypted storage for various types of authentication credentials, API keys and certificates. KeySafe records store credentials and different record types implement specific authentication schemes used by Hornbill's integration, automation and data import capabilities.
 
-You can read more about KeySafe [here](/esp-fundamentals/security/keysafe)
+Go here for more detailed explanation of [KeySafe](/esp-fundamentals/security/keysafe)
 
 ## Before you begin
 * Admin access or a user that has a role that contains the `manageKeysafe` right.
-* Knowledge of designing workflows and using the Cloud Integration node.
+* Knowledge of Hornbill integrations, API usage, workflows and auto tasks.
 
 ## How KeySafe is used
 KeySafe acts like a system-wide credentials manager for a wide range of integrations, connections and automation functions including: - 
