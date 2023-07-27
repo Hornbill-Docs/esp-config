@@ -35,6 +35,9 @@ To support authentication to external systems, generic authentication types are 
 ### Service Specific KeySafe Types
 The `Type` list includes many predefined services that Hornbill integrates with. Each of these types contains attributes that are required to authenticate to that service. If you are looking to integrate with an external service, check first to see if there is a type available for that service.
 
+### KeySafe API Rules
+When using KeySafe credentials from an external integration that uses an [API key](/esp-fundamentals/security/api-keys) you are required to define a rule on the KeySafe record that grants explicit permission to the API Key or User account to allow access the KeySafe record and its stored credentials. This ensures that only the configured integration is able to access the KeySafe credentials for one or more specific KeySafe records.  
+
 ## Using KeySafe in a Workflow
 Using KeySafe entries as part of a business workflow is a great way to securely connect to external services.
 
