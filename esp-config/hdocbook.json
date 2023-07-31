@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "productFamily": "esp",
   "tags": ["esp", "config", "Configuration", "Administration", "Customization"],
   "audience": ["public"],
@@ -126,10 +126,6 @@
             ]
           },
           {
-            "text": "API Keys",
-            "link": "esp-config/security/api-keys"
-          },
-          {
             "text": "KeySafe",
             "link": "esp-config/security/keysafe",
             "draft": false
@@ -195,6 +191,10 @@
         "text": "Integration",
         "expand": false,
         "items":[
+          {
+            "text": "API Keys",
+            "link": "esp-config/integration/api-keys"
+          },
           {
             "text": "Webhooks",
             "link": "esp-config/integration/webhooks"

@@ -111,7 +111,7 @@ If the roles that come with Hornbill do not meet your specific needs, you can cr
 |Add Profiles||
 |Update Profiles||
 |Delete Profiles||
-|Manage Scheduled Jobs|Allows the user to view their own scheduled jobs within the user app. Users that have a privilege level of admin will also be able to view all users' scheduled jobs from within Configuration|
+|Manage Scheduled Jobs|Allows the user to view their own scheduled jobs within the user app. Users that have a privilege level of admin will also be able to view all users' scheduled jobs from within Configuration and reassign the owner of a job|
 |Create Scheduled Jobs||
 |Update Scheduled Jobs|| 
 |Delete Scheduled Jobs||
