@@ -4,7 +4,7 @@ layout: article-toc
 # API keys
 An API key is typically used in conjunction with one of Hornbill's pre-built or customer-built integrations and import tools, to enable machine-to-machine authentication where initial integration during setup is required, as well as to remove the need to specify plain text credentials in configuration files that will be located on computers at the point of integration. 
 
-* Click for more details on [API keys](/esp-fundamentals/security/api-keys)
+* Click for more details on [API keys](/esp-fundamentals/integration/api-keys)
 * Make sure you follow our [API Key Best Practice Guidance](/esp-fundamentals/best-practice/platform-api-keys)
 
 ## Creating an API Key
