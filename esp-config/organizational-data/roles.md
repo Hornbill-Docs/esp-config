@@ -100,7 +100,7 @@ If the roles that come with Hornbill do not meet your specific needs, you can cr
 ### Data
 |Name|Description|
 |-|-|
-|Manage Lists|Provides read access to [Simple Lists](/esp-config/data/simple-lists) under Platform Configuration and with each application that the user has a subscription.  Additional rights are required to be able to create, update, and delete lists| 
+|Manage Lists|Provides read access to the [Simple Lists](/esp-config/data/simple-lists) under Platform Configuration and with each application that the user has a subscription.  Additional rights are required to be able to create, update, and delete lists| 
 |Add Lists|Add a new simple list. Requires the `Manage Lists` right|
 |Update Lists|Update an existing simple list. Requires the `Manage Lists` right|
 |Delete Lists|Delete a simple list. Requires the `Manage Lists` right| 
