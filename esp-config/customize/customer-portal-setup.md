@@ -2,7 +2,7 @@
 layout: article-toc
 ---
 # Customer Portal setup
-The Customer Portal is provided as an entry point for guest users, giving them a window into Hornbill and access to selected Hornbill applications.  
+The Customer Portal is provided as an entry point for guest users, giving them a window into Hornbill and access to selected Hornbill applications.  The customer portal can be accessed `https://customer.hornbill.com/<your instance name>/`
 
 ## Topics Covered
 * Designing the Customer Portal
@@ -26,11 +26,11 @@ The Regional Settings are the defaults for the Customer Portal on the login page
 
 ### Security Settings
 
-* **Single Sign On Profile**<br>The Customer Portal by default uses basic authentication provided by Hornbill. It is possible to enable the use of a third-party identity provider. See Single Sign On Profiles for more information on creating SSO profiles.
+* **Single Sign On Profile**<br>The Customer Portal by default uses basic authentication provided by Hornbill. It is possible to enable the use of a third-party identity provider. See [Single Sign On Profiles](/esp-config/security/sso/single-sign-on) for more information on creating SSO profiles.
 
-* **Anonymous Role**<br>The Anonymous Role provides a level of access that is available prior to a contact logging into the Service Portal. In most cases, the role called Anonymous Guest will be used and recommended. It is possible to create your own role. Any role used here must have a privilege level of guest.
+* **Anonymous Role**<br>The Anonymous Role provides a level of access that is available prior to a contact logging into the Customer Portal. In most cases, the role called Anonymous Guest will be used and recommended. It is possible to create your own role. Any role used here must have a privilege level of guest.
 
-* **Authorized Role**<br>The Authorized Roles are applied to all contacts once they have logged into the Service Portal. There are several apps in Hornbill that can extend out the available features in the Customer Portal. Each of those apps supplies guest privilege roles that can be granted to the Customer Portal.
+* **Authorized Role**<br>The Authorized Roles are applied to all contacts once they have logged into the Customer Portal. There are several apps in Hornbill that can extend out the available features in the Customer Portal. Each of those apps supplies guest privilege roles that can be granted to the Customer Portal.
 
 ### Options
 
@@ -44,6 +44,7 @@ The Regional Settings are the defaults for the Customer Portal on the login page
     * **Allow contacts to update their profile**<br>Turning this option `ON` will allow a contact to view and update their profile information.
 
 ## Customize
+This section allows you to configure the look and feel of the Customer Portal.
 * **Settings**<br>Set images and colors for Self Service
     * **Logo**<br>Add your company logo to the top banner of the Customer Portal. This field needs to contain a secure URL (https) to the image, which must be either a .png or .jpg.
     * **Logo Height**<br>Adjust the height of your logo for a perfect fit in the top banner.
@@ -99,6 +100,13 @@ This section defines the contents of the login page.  The login page is accessed
         |Show and make mandatory|This will display the Terms and Conditions on the Login Screen. The customer must select the option, agreeing to these conditions before proceeding. When selected, a field is available to enter or edit the terms and conditions text|
 
 ## Translations
+The translations allow you to change the displayed text and provide translations into multiple languages.
+
+### Language Selection
+From the language pick-list select the language that you want to translate.  This list will only show [supported languages](/esp-config/internationalization/supported-languages).
+
+### Translated
+Click on the text within the Translated column.  You will be presented with a dialog box to change the translation.  If you are translating to a language that is different from your own language, a `Suggest` button can be used to provide a Google translation. 
 
 ## Contact Access
 The Contact Access list shows the contacts or Guest Accounts that have been associated with the Customer Portal and have been given permission to log in to the Customer Portal.

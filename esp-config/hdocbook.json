@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "productFamily": "esp",
   "tags": ["esp", "config", "Configuration", "Administration", "Customization"],
   "audience": ["public"],
@@ -116,7 +116,7 @@
                 "link": "esp-config/security/sso/sso-with-saml"
               },
               {
-                "text": "Configuring Single Sign-On",
+                "text": "Configuring Single Sign-On Profiles",
                 "link": "esp-config/security/sso/single-sign-on"
               },
               {

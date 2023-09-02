@@ -1,7 +1,7 @@
 ---
 layout: article-toc
 ---
-# Configuring Single Sign-On
+# Configuring Single Sign-On Profiles
 The Hornbill platform supports single sign-on as well as policy-based transparent auto provisioning and data updates of both user and guest accounts thus providing enterprise-class user identity integration with your organizations core IT directory services.
 
 ## Topics covered
@@ -13,6 +13,9 @@ The Hornbill platform supports single sign-on as well as policy-based transparen
 * Admin access to Hornbill Configuration
 * An Identity Provider that supports SAML 2.0
 
+## Accessing Single Sign-On Profiles
+* Open Configuration and search for `sso` and select `SSO Profiles` from the results
+ 
 ## Download the Hornbill Meta data
 
 The Service Provider (Hornbill) meta data files needed for configuring your IdP can be downloaded from your Hornbill instance
@@ -55,7 +58,6 @@ When creating an Azure Enterprise Application entry for Hornbill, the tutorial p
 https://<SUBDOMAIN>.hornbill.com/<INSTANCE_NAME>/lib/saml/auth/simplesaml/module.php/saml/sp/metadata.php/saml`<br><br>
 This URL is no longer valid and should be replaced with the following: xxx . Confirmation of the correct URL is available via the metadata accessible within the SSO profile configuration section in the Hornbill admin portal. We are currently liaising with Microsoft to have this information updated.
 :::
-
 
 ## SSO Certificate Expiry Reminders
 
