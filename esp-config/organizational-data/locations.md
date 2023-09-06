@@ -42,7 +42,7 @@ The `Upload Locations` option will allow you to upload multiple location records
 |Field Name|CSV Column Name|Description|
 |-|-|-|
 |Name|h_site_name|This is the only mandatory field|
-|Location Code|h_alt_siteref|Some organizations identify their locations by reference numbers, codes, or abbreviations. These can be stored in this field.|
+|Code|h_alt_siteref|Some organizations identify their locations by reference numbers, codes, or abbreviations. These can be stored in this field.|
 |Type|h_type|There may be a need to report on information relating to particular types of locations, such as a distribution center, warehouse, shop, or office.|
 |Company|h_company_id|The company id of the group that exists in your organization structure.|
 |Building|h_building|The location may be in a particular shared building.|
@@ -103,3 +103,5 @@ In addition, it is possible using line of business applications such as Service 
 * Services Subscribed to the location.
 * Assets linked to the location.
 * Documents linked to the location.
+
+<!-- https://wiki.hornbill.com/index.php?title=Sites -->
