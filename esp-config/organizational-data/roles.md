@@ -65,6 +65,7 @@ If the roles that come with Hornbill do not meet your specific needs, you can cr
 * **System Rights**<br>All roles have the option to add system rights.
 * **Application Rights**<br>This will only be available if the role is associated to an application. Only the rights for the associated application will be available.
 
+<!--
 ## System Rights
 ### Accounts
 |Name|Description|
@@ -101,7 +102,7 @@ If the roles that come with Hornbill do not meet your specific needs, you can cr
 |Can Spawn Business Process|| 
 |canCancelProcess|| 
 |changeDocumentOwner|| 
-
+-->
 ### Data
 |Name|Description|
 |-|-|
@@ -117,6 +118,7 @@ If the roles that come with Hornbill do not meet your specific needs, you can cr
 |Update Profiles||
 |Delete Profiles||
 |Manage Scheduled Jobs|Allows the user to view their own scheduled jobs within the user app. Users that have a privilege level of admin will also be able to view all users' scheduled jobs from within Configuration and reassign the owner of a job|
+<!--
 |Create Scheduled Jobs||
 |Update Scheduled Jobs|| 
 |Delete Scheduled Jobs||
@@ -135,8 +137,9 @@ If the roles that come with Hornbill do not meet your specific needs, you can cr
 |Manage Indexer|| 
 |Create Indexes||
 |Delete Indexes||
-|searchIndex||
+|searchIndex||-->
 
+<!--
 ### Configuration
 |Name|Description|
 |-|-|
@@ -167,7 +170,8 @@ If the roles that come with Hornbill do not meet your specific needs, you can cr
 |manageSecurityAudit||
 |manageNetworkRules||
 |manageAssetDiscoveryUploads||
-
+-->
+<!--
 ### System Settings
 |Name|Description|
 |-|-|
@@ -183,7 +187,8 @@ If the roles that come with Hornbill do not meet your specific needs, you can cr
 |Get Records|| 
 |Update Records|| 
 |Delete Records||
-
+-->
+<!--
 ### Collaboration
 |Name|Description|
 |-|-|
@@ -215,7 +220,8 @@ If the roles that come with Hornbill do not meet your specific needs, you can cr
 |Remove Conversation Members||
 |Manage Profile Images||
 |Search Activities||
-
+-->
+<!--
 ### Reporting
 |Name|Description|
 |-|-|
@@ -235,5 +241,5 @@ If the roles that come with Hornbill do not meet your specific needs, you can cr
 |Create Reports|| 
 |Update Reports|| 
 |Delete Reports||
-
+-->
 <!--https://wiki.hornbill.com/index.php?title=Roles -->
