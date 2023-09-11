@@ -4,7 +4,7 @@ layout: article-toc
 # User Roles
 A Role is a collection of rights that allow a user to perform actions in Hornbill. Hornbill comes with a range of roles ready for you to assign to your users and custom roles can be created to meet your specific needs.
 
-In addition to platform roles, each application comes with default roles specifically designed to govern access to that application.
+In addition to platform roles, each application comes with roles specifically designed to govern access to that application.
 * [Service Manager User Roles](/servicemanager-config/setup/service-manager-roles)
 
 ## Topics Covered
