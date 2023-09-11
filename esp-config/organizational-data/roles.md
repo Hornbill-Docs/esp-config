@@ -61,6 +61,10 @@ If the roles that come with Hornbill do not meet your specific needs, you can cr
 1. Users can be allocated subscriptions through role assignments. If you assign a user to an application role that has a privilege level of `user` a subscription will be allocated to that user when they next log in.
 :::
 
+### System and Application Rights
+* **System Rights**<br>All roles have the option to add system rights.
+* **Application Rights**<br>This will only be available if the role is associated to an application. Only the rights for the associated application will be available.
+
 ## System Rights
 ### Accounts
 |Name|Description|
