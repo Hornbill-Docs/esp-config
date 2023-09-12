@@ -29,9 +29,7 @@ To access any of the settings described in this document, open [Configuration](/
 
 |Name|Description|Default|
 |-|-|-|
-|security.guest.2fa.mode|Sets the Two-Factor Authentication Mode: `disabled` - not enabled, `optional` - enabled on an account-by-account basis, `mandatory` - forced on all accounts|disabled|
 |security.guest.2fa.timeout|The number of seconds a 2FA challenge token remains valid (in seconds)|300|
-|security.user.2fa.mode|Sets the Two-Factor Authentication Mode: `disabled` - not enabled, `optional` - enabled on an account-by-account basis, `mandatory` - forced on all accounts|disabled|
 |security.user.2fa.timeout|The number of seconds a 2FA challenge token remains valid (in seconds)|300|
 
 
