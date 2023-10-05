@@ -22,10 +22,10 @@ Locations can be configured to reflect the different physical locations that exi
 * Create analytics based on a location.
 
 ## Creating a Location
-Locations can be added manually or if you have an existing list of locations, these can be imported using a location CSV import tool.
+Locations can be added manually or if you have an existing list of locations, these can be imported using the `Upload Locations` tool using a CSV file.
 
 :::tip
-To ensure the User-to-location associations can be managed automatically when using a user import utility, the name of the location specified in Hornbill must match the name of the location in the source data. For example, if you are using the LDAP User Import Utility, the contents of the AD attribute that holds the location of a user must match the name of a location that exists in Hornbill. A good starting point in creating your locations may be to extract a list of distinct values from your information source (such as AD) and use these as your location names.
+To ensure the User-to-location associations can be managed automatically when using a user import utility, the name of the location specified in Hornbill must match the name of the location in the source data. For example, if you are using the [LDAP User Import Utility](/data-imports-guide/users/ldap/overview/), the contents of the AD attribute that holds the location of a user must match the name of a location that exists in Hornbill. A good starting point in creating your locations may be to extract a list of distinct values from your information source (such as AD) and use these as your location names.
 :::
 
 ### Manually Create a Location
@@ -35,7 +35,7 @@ To access locations
 1. Select `Manage Locations` from the results list.
 1. Click on the `+ Create New Location` button.
 
-### Uploading Multiple Locations
+### Upload Locations
 The `Upload Locations` option will allow you to upload multiple location records quickly and easily. To upload a list of locations, begin by clicking the `Upload Locations` button. On the next screen, click the Download Template File button located on the right hand side. As with the manual creation of a location, only the location name is mandatory. Import the locations by using the Select CSV File To Upload option and selecting the file you have prepared.
 
 #### CSV Template Key Fields
@@ -57,7 +57,7 @@ The `Upload Locations` option will allow you to upload multiple location records
 |Notes|h_notes|Any other information you feel is necessary to hold against a location record. This field as a maximum 2000 characters|
 
 :::note
-Please note that the CSV upload is designed to create new locations, and cannot be used to manage changes to existing locations.
+Please note that the `Upload Locations` is designed to create new locations, and cannot be used to manage changes to existing locations.
 :::
 
 ## Manage Locations
@@ -67,7 +67,7 @@ Please note that the CSV upload is designed to create new locations, and cannot 
 
 * **Custom fields 0-9**<br>Use custom fields to store additional information about your location.
 ::: tip
- By using Translation Mode, you can quickly rename each label to describe the content of the field.  Translation Mode can be accessed through the User Profile menu by users that have the Translation role. 
+ By using [Translation Mode](/esp-config/internationalization/translation-mode), you can quickly rename each label to describe the content of the field.  Translation Mode can be enabled or disabled through the User Profile menu by users that have the Translation role. 
 :::
 
 ### Assigning Users to a Location
