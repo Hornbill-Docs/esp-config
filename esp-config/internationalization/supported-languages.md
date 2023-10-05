@@ -24,7 +24,7 @@ or
 
 ![Languages](_books/esp-config/internationalization/images/languages-button.png)
 
-The `Languages` option allows you to turn on the languages that are available to your users. Once a language has been turned on it will be available for users to select within their  profile settings.
+The `Languages` option allows you to turn on the languages that are available to your users. Once a language has been turned on it will be available for users to select within their user profile under Regional Settings.
 
 1. Select `Languages` on the right side of the menu bar.
 1. Use the filters to select between Supported, Unsupported, or All languages.
@@ -34,14 +34,14 @@ The `Languages` option allows you to turn on the languages that are available to
 
 ![Translate](_books/esp-config/internationalization/images/translate-button.png)
 
-The `Translate` option provides an option to translate all of the text strings for a selected application using Google Translate.
+The `Translate` option is used to provide translations for any string that is currently missing a translation for a selected application and language.  
 
-1. Select `Translate` on the right side of the menu bar
-1. Select the application that you wish to translate
-1. Select the language that you want to be translated
-1. Select `Translate Missing`
+1. Select `Translate` on the right side of the menu bar.
+1. Select the application that you wish to translate.
+1. Select the language that you want to be translated.
+1. Select `Translate Missing`.
 
-A total string count shows the number of available strings, how many have been translated, and how many are missing. Clicking on the `Translate Missing` button will to an automatic lookup and translation of those missing strings using Google Translate.
+A total string count shows the number of available strings, how many have been translated, and how many are missing. Clicking on the `Translate Missing` button will perform an automatic lookup and translate the missing strings using Google Translate. Translations that already exist will not be overwritten. 
 
 :::tip
 Automatic translation of a string of text will not take its context into consideration and not all translations will be 100% accurate. Using [Translation Mode](/esp-config/internationalization/translation-mode) you are able make translations in context with the application's UI.

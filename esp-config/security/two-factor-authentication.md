@@ -21,7 +21,7 @@ The user retrieves this code from an email sent to their account's eail address,
 ![2FA Code](/_books/esp-config/security/images/2fa.png)
 
 ## Settings
-Enabling 2FA is done in Advanced System Settings.  
+2FA Timeouts are set in Advanced System Settings.  
 
 ::: tip
 To access any of the settings described in this document, open [Configuration](/esp-config/getting-started/using-configuration) and search by part or all of the setting name 
