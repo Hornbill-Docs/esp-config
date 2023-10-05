@@ -16,7 +16,7 @@ Hornbill supports two-factor authentication (2FA) for both user and guest accoun
 ## How Two-Factor Authentication Works
 With Two-factor Authentication (2fa) enabled, when a user (guest) logs in to Hornbill, they will be prompted to enter a 6-digit authentication code.
 
-The user retrieves this code from an email sent to their account's eail address, and uses it to complete the log in process.
+The user retrieves this code from an email sent to their account's email address, and uses it to complete the log in process.
 
 ![2FA Code](/_books/esp-config/security/images/2fa.png)
 
