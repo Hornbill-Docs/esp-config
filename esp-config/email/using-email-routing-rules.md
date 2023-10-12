@@ -46,7 +46,7 @@ In addition to the standard expression functions made available by the ExpressLo
 
 |Function|Description|
 |:--|:--|
-|MESSAGE_HEADER|Return the value of any email message header present in the email message being evaluated. If header is not present this will return NULL. <br><br>`MESSAGE_HEADER('X-Header-Name')`<br><br>For example:-<br><br>`MESSAGE_HEADER('MessageID') LIKE '%hornbill.com%`<br><br>Available in platform build 3801 onwards|
+|MESSAGE_HEADER|Return the value of any email message header present in the email message being evaluated. If header is not present this will return NULL. <br><br>`MESSAGE_HEADER('X-Header-Name')`<br><br>For example:-<br><br>`MESSAGE_HEADER('MessageID') LIKE '%hornbill.com%`<br><br><small>*Available in platform build 3801 onwards</small>|
 
 
 ## Use Mailbox
