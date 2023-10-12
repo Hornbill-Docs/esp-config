@@ -30,15 +30,15 @@ When defining an expression for an Email Routing Rule you can use the following 
 
 |Name|Description|
 |:--|:--|
-|toAddress|The full email address to which the message being processed was sent to, for example `support@hornbill.com`|
-|toDomain|The email domain to which the message being processed was sent to, for example `hornbill.com`|
-|ccAddress|The full email address to which the message being processed was sent to, for example `support@hornbill.com, info@hornbill.com`.  <br><br>If there is more than one address specified, then this variable will contain each email address separated by comma|
-|ccDomain|The email domains to which the message being processed was sent to, for example `hornbill.com`.  <br><br>If there is more than one address specified, then this variable will contain each email address separated by comma|
-|fromAddress|The full email address of the person who sent the message, for example `joe.bloggs@hornbill.com`|
-|fromDomain|The full email domain of the person who sent the message, for example `hornbill.com`|
-|subject|The message subject text|
-|body|The message body text. If the message was sent as HTML, this will be html-stripped text string.|
-|mailbox|The name of the mailbox on Hornbill to which the toAddress email was matched|
+|`toAddress`|The full email address to which the message being processed was sent to, for example `support@hornbill.com`|
+|`toDomain`|The email domain to which the message being processed was sent to, for example `hornbill.com`|
+|`ccAddress`|The full email address to which the message being processed was sent to, for example `support@hornbill.com, info@hornbill.com`.  <br><br>If there is more than one address specified, then this variable will contain each email address separated by comma|
+|`ccDomain`|The email domains to which the message being processed was sent to, for example `hornbill.com`.  <br><br>If there is more than one address specified, then this variable will contain each email address separated by comma|
+|`fromAddress`|The full email address of the person who sent the message, for example `joe.bloggs@hornbill.com`|
+|`fromDomain`|The full email domain of the person who sent the message, for example `hornbill.com`|
+|`subject`|The message subject text|
+|`body`|The message body text. If the message was sent as HTML, this will be html-stripped text string.|
+|`mailbox`|The name of the mailbox on Hornbill to which the toAddress email was matched|
 
 These variable names are case-sensitive. 
 
@@ -47,10 +47,6 @@ In addition to the standard expression functions made available by the ExpressLo
 |Function|Description|
 |:--|:--|
 |MESSAGE_HEADER|Return the value of any email message header present in the email message being evaluated. If header is not present this will return NULL. <br><br>`MESSAGE_HEADER('X-Header-Name')`<br><br>For example:-<br><br>`MESSAGE_HEADER('MessageID') LIKE '%hornbill.com%`<br><br>Available in platform build 3801 onwards|
-
-```sql
-    fromAddress LINE '%support@hornbill.com"'
-```
 
 
 ## Use Mailbox
