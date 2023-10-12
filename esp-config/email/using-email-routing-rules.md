@@ -24,7 +24,7 @@ The Delete option in the tool bar becomes available once one or more Rules are s
 ## Rule Expression Syntax
 Each Routing Rule requires a Rule Expression which is used to validate information held within the email. To help with setting up the Rule Expression a number of parameters have been provided in the Rule Parameters selector located at the top right of the Rule Expression field. Selecting any of these items from the list will insert that Rule Parameter into the Rule Expression field.
 
-Email routing rules use Hornbill's ExpressLogic Expression engine for performing logical expressions for rule matching. You can see a detailed [ExpressLogic Reference Guide](/esp-fundamentals/reference-guides/express-logic) for information about syntax and generally expression capabilities.
+Email routing rules use Hornbill's ExpressLogic Expression engine for performing logical expressions for rule matching. You can see a detailed [ExpressLogic Reference Guide](/esp-fundamentals/reference-guides/express-logic) to learn more about the syntax, functions and general expression capabilities used in Hornbill
 
 When defining an expression for an Email Routing Rule you can use the following variables in your expressions: -
 
