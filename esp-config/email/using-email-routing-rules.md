@@ -5,7 +5,6 @@ layout: article-toc
 # Inbound Email Routing
 The Email Routing Rules provide a way of automating the delivery and actions that occur on emails that are received into Hornbill. This may be simply redirecting the email message to a particular shared mailbox or applying advance operations that are provided by the different Hornbill Apps. Each Email Routing rules allow you to define expressions to verify the content of the incoming emails in order for that rule to apply.
 
-
 ## Email Routing Rule Form
 From the list of Routing Rules there a few actions and some considerations to keep in mind.
 
@@ -22,25 +21,36 @@ Note: If a rule matches, but its action fails to complete, no further rules will
 ## Deleting a Rule
 The Delete option in the tool bar becomes available once one or more Rules are selected in the list
 
-## Rule Expression
+## Rule Expression Syntax
 Each Routing Rule requires a Rule Expression which is used to validate information held within the email. To help with setting up the Rule Expression a number of parameters have been provided in the Rule Parameters selector located at the top right of the Rule Expression field. Selecting any of these items from the list will insert that Rule Parameter into the Rule Expression field.
 
-toAddress
-toDomain
-fromAddress
-fromDomain
-subject
-body
-mailbox
-Information If you are manually adding Rule Parameters it is important that the correct letter case is used and it matches those provided in the Rule Parameters selector
+Email routing rules use Hornbill's ExpressLogic Expression engine for performing logical expressions for rule matching. You can see a detailed [ExpressLogic Reference Guide](/esp-fundamentals/reference-guides/express-logic) for information about syntax and generally expression capabilities.
 
-## Rule Expression Syntax
-The syntax used in the Rule Expression is similar to standard SQL syntax. String and numeric comparisons, and parentheses are all supported.
+When defining an expression for an Email Routing Rule you can use the following variables in your expressions: -
 
-A few basic expressions to get you started can be found by showing the list of functions.
+|Name|Description|
+|:--|:--|
+|toAddress|The full email address to which the message being processed was sent to, for example `support@hornbill.com`|
+|toDomain|The email domain to which the message being processed was sent to, for example `hornbill.com`|
+|ccAddress|The full email address to which the message being processed was sent to, for example `support@hornbill.com, info@hornbill.com`.  <br><br>If there is more than one address specified, then this variable will contain each email address separated by comma|
+|ccDomain|The email domains to which the message being processed was sent to, for example `hornbill.com`.  <br><br>If there is more than one address specified, then this variable will contain each email address separated by comma|
+|fromAddress|The full email address of the person who sent the message, for example `joe.bloggs@hornbill.com`|
+|fromDomain|The full email domain of the person who sent the message, for example `hornbill.com`|
+|subject|The message subject text|
+|body|The message body text. If the message was sent as HTML, this will be html-stripped text string.|
+|mailbox|The name of the mailbox on Hornbill to which the toAddress email was matched|
 
-### Special Functions
-Hornbill supports a number of functions that are useful for more complex expressions.
+These variable names are case-sensitive. 
+
+In addition to the standard expression functions made available by the ExpressLogic expression engine, the following functions are available to help with Email expressions
+
+|Function|Description|
+|:--|:--|
+|MESSAGE_HEADER|Return the value of any email message header present in the email message being evaluated. If header is not present this will return NULL. <br><br>`MESSAGE_HEADER('X-Header-Name')`<br><br>For example:-<br><br>`MESSAGE_HEADER('MessageID') LIKE '%hornbill.com%`<br><br>Available in platform build 3801 onwards|
+
+```sql
+    fromAddress LINE '%support@hornbill.com"'
+```
 
 
 ## Use Mailbox
