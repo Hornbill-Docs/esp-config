@@ -6,6 +6,9 @@ Webhooks are a great way to integrate Hornbill with other applications that are 
 
 A webhook is the opposite of an API call, a webhook is a call over HTTP from your Hornbill instance to a web endpoint of your choosing. Most application actions on a Hornbill instance can trigger an action-specific event when an action is performed. Hornbill can be configured to call to a web endpoint passing the action-specific data to the web service being invoked. This is a very powerful mechanism that enables true, near real-time integration with other business systems.
 
+## Before You Begin
+* Read and understand the [fundaments of Web Hooks](/esp-fundamentals/core-capabilities/integration/web-hooks)
+
 ## Basic Information
 * **Name**<br>Unique name used to identify the Web Hook in the list. This is a mandatory field. No spaces allowed.
 * **Description**<br>Enter a description to allow others to understand the use of this particular Webhook.
