@@ -12,18 +12,18 @@ A webhook is the opposite of an API call, a webhook is a call over HTTP from you
 * **Application**<br>Select the Hornbill application where the event is coming from
 * **Event Source**<br>Select the event
 * **Enabled**<br>Enable or disable this Webhook. This can also be done from the main list of Webhooks
-* **Authentication**<br>Create and safely store authentication credentials to access the End Point using Hornbill KeySafe
+* **Authentication**<br>If the webhook endpoint you are calling requires authentication then you need to create the required credentials in your KeySafe, then, when configuring you web hood you can select the credentials here. 
 
 ## Web Hook Target
-* **URL**<br>The target URL for the Web Hook. This will typically be a php or asp page that you have created
-* **Payload Format**<br>This defines the format of how you would like the data to be received. Choose from XML or JSON
+* **URL**<br>The target URL for the Web Hook. The URL depends on whichever system or platform where you webhook resides. 
+* **Payload Format**<br>This defines the format of how you would like the data to be received. This can either be XML or JSON
 * **Post Mode**
-    * **Asynchronous**<br>Fire and forget. Don't worry about the response
-    * **Synchronous**<br>If a response code other than 200 is returned from the webhook URL then the API call will fail. The response body will be returned as the error message if the content type is text/plain.
-    * **Synchronous Critical**<br>If there is no response a 200 error is returned from the webhook URL and the API call will fail
+    * **Asynchronous**<br>Call the webhook in the background.  If you do not need to act on the response from the webhook being called, this is the recommended mode to ues because any latency or performance issues in the webhook being called will nor be reflected in the Hornbill User Interface. 
+    * **Synchronous**<br>Use this mode if the webhook you call needs to return a response. If a response code other than 200 is returned from the webhook URL, then the action/api call that originated the event may fail.  If there is a non-200 response code, and, if the webhook endpoint returns a response body, and the content-type=text/plain, the response body text will be returned as the error message to the caller that fired the webhook. 
+    * **Synchronous Critical**<br>This is the same as Synchronous but it also mandatory that the webhook being called returns a 200 success response.  If not, then whatever caused this event to be fired will fail and throw an error. 
 
 ## HTTP Protocol Information
-Your web hook should accept a POST verb with either XML or JSON content as the payload (set by webhook properties). For pre-action hooks such as OnCreate, OnUpdate and OnDelete asyncCritical types it is possible to send an error message from your web hook back to the user's screen. To do this simply respond with a 403 response code, set the Content-type: header to text/plain and the actual text message you want to return to the user's display in the response body, the response body should be returned as UTF-8 encoded bytes if non-ascii content is required.
+Your web hook must accept a POST verb with either XML or JSON content as the payload (set by webhook properties). For pre-action hooks such as OnCreate, OnUpdate and OnDelete asyncCritical types it is possible to send an error message from your web hook back to the user's screen. To do this simply respond with a 403 response code, set the Content-type: header to text/plain and the actual text message you want to return to the user's display in the response body, the response body should be returned as UTF-8 encoded bytes if non-ascii content is required.
 
 ## Testing and Examples
 ### RequestBin Test
