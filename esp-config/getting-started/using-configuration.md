@@ -5,9 +5,9 @@ layout: article-toc
 Hornbill Configuration gives you access to all the configuration settings for Hornbill. Configure your organizational structure including departments, teams, and the users who will be using Hornbill.  Set up email, languages, view your subscriptions, install apps, and much more. The different areas within Configuration are sensitive to your rights and each user will only see the options to which they have been granted access.
 
 ## Topics Covered
-* How to access Configuration
-* How to search
-* Browsing Configuration
+* How to access Configuration.
+* How to search.
+* Browsing Configuration.
 
 ## Accessing Configuration
 Access Configuration by selecting the cog icon displayed at the bottom of the left-hand icon bar. Alternatively, use **[Ctrl + Shift + S]** on your keyboard.
@@ -40,7 +40,7 @@ The dropdown menu in Configuration allows you to select the different areas that
 ![Browsing Configuration](_books/esp-config/images/browse-configuration.png)
 
 ::: tip
-Included in this list is access to the configuration for each installed app. The visibility of the apps in this list is controlled by application roles. For more information see the relevant configuration guide for each app.
+This list includes access to the configuration for each installed app. The visibility of the apps in this list is controlled by application roles. For more information, please refer to the relevant configuration guide for each app.
 :::
 
 After an option is selected, the navigation panel can then be used to access individual configuration options and settings.
