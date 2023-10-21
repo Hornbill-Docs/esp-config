@@ -9,6 +9,12 @@ Hornbill Configuration gives you access to all the configuration settings for Ho
 * How to search.
 * Browsing Configuration.
 
+## Before You Begin
+To access Configuration one of the following is required
+* Log in as the Admin User.
+* Log in as a user that has the Admin Role.
+* Log in as a user that has a role that contains a system right to `Manage` one or more of the areas within Configuration. These users will only see the areas in Configuration where they have been provided the system right.
+
 ## Accessing Configuration
 Access Configuration by selecting the cog icon displayed at the bottom of the left-hand icon bar. Alternatively, use **[Ctrl + Shift + S]** on your keyboard.
 

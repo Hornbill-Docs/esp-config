@@ -1,18 +1,18 @@
 ---
 layout: article-toc
 ---
-# Manually creating users
+# Manually Creating Users
 Within Configuration, user accounts can be manually created. Manual creation is typically used when there is a need for initial accounts during a new implementation. These might be used for testing or for special accounts that would not be included in an automated import and synchronization from an external source such as Microsoft Active Directory.
 
-## Before you begin
-* Administrative access to Configuration
-* An understanding of user account types
-* It's recommended to have an organization group structure in place
+## Before You Begin
+* Administrative access to [Configuration](/esp-config/getting-started/using-configuration).
+* An understanding of user account types.
+* It's recommended to have an organization group structure in place.
 
-## Topics covered
-* Manual account creation
-* Mandatory fields
-* Basic user account management
+## Topics Covered
+* Manual account creation.
+* Mandatory fields.
+* Basic user account management.
 
 ## Quick Steps
 1. Open Configuration and search for `users` and select `Manage Users` from the results list
