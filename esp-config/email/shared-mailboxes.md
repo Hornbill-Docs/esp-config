@@ -1,7 +1,7 @@
 ---
 layout: article-toc
 ---
-# Creating a shared mailbox
+# Shared Mailboxes
 Shared mailboxes are created to allow a group of users to share a single mailbox for both outgoing and incoming emails, all using a common email address.
 
 :::note
