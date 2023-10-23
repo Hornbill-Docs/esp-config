@@ -30,10 +30,10 @@ When defining an expression for an Email Routing Rule you can use the following 
 
 |Name|Description|
 |:--|:--|
-|`toAddress`|The full email address to which the message being processed was sent to, for example `support@hornbill.com`|
-|`toDomain`|The email domain to which the message being processed was sent to, for example `hornbill.com`|
-|`ccAddress`|The full email address to which the message being processed was sent to, for example `support@hornbill.com, info@hornbill.com`.  <br><br>If there is more than one address specified, then this variable will contain each email address separated by comma|
-|`ccDomain`|The email domains to which the message being processed was sent to, for example `hornbill.com`.  <br><br>If there is more than one address specified, then this variable will contain each email address separated by comma|
+|`toAddress`|The full email address to which the message being processed was sent to, for example `support@hornbill.com`. <br><br>It is possible that the email was addressed to more than one recipient, in this case this property will contain a string of comma-separated addresses, for example `support@hornbill.com, info@hornbill.com`.  In this case you may want to adopt asimple wildcard matching approach using the LIKE keyword, for example `toAddress LIKE '%support@hornbill.com%'` would match, even if there are multiple addresses present.|
+|`toDomain`|The email domain to which the message being processed was sent to, for example `hornbill.com`. <br><br>It is possible that the email was addressed to more than one recipient, in this case this property may contain a string of comma-separated domains, for example `hornbill.com, google.com`.  In this case you may want to adopt a simple wildcard matching approach using the LIKE keyword, for example `toDomain LIKE '%hornbill.com%'` would match, even if there are multiple domains.|
+|`ccAddress`|The full email address to which the message being processed was sent to, for example `support@hornbill.com`.  <br><br>It is possible that the email was cc'd to more than one recipient, in this case this property will contain a string of comma-separated addresses, for example `support@hornbill.com, info@hornbill.com`.  In this case you may want to adopt a simple wildcard matching approach using the LIKE keyword, for example `toAddress LIKE '%support@hornbill.com%'` would match, even if there are multiple addresses.|
+|`ccDomain`|The email domains to which the message being processed was sent to, for example `hornbill.com`. <br><br>It is possible that the email was addressed to more than one recipient, in this case this property may contain a string of comma-separated domains, for example `hornbill.com, google.com`.  In this case you may want to adopt a simple wildcard matching approach using the LIKE keyword, for example `toDomain LIKE '%hornbill.com%'` would match, even if there are multiple domains.|
 |`fromAddress`|The full email address of the person who sent the message, for example `joe.bloggs@hornbill.com`|
 |`fromDomain`|The full email domain of the person who sent the message, for example `hornbill.com`|
 |`subject`|The message subject text|
@@ -42,7 +42,7 @@ When defining an expression for an Email Routing Rule you can use the following 
 
 These variable names are case-sensitive. 
 
-In addition to the standard expression functions made available by the ExpressLogic expression engine, the following functions are available to help with Email expressions
+In addition to the standard expression functions made available by the [ExpressLogic Reference Guide](/esp-fundamentals/reference-guides/express-logic), the following additional expression functions are available to help with Email expressions.
 
 |Function|Description|
 |:--|:--|
