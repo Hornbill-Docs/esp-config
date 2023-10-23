@@ -223,7 +223,7 @@
           },
           {
             "text": "Shared Mailboxes",
-            "link": "esp-config/email/creating-a-shared-mailbox"
+            "link": "esp-config/email/shared-mailboxes"
           },
           {
             "text": "Templates",
@@ -231,7 +231,7 @@
           },
           {
             "text": "Inbound Routing Rules",
-            "link": "esp-config/email/using-email-routing-rules"
+            "link": "esp-config/email/routing-rules"
           },
           {
             "text": "Direct Outbound",
