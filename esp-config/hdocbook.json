@@ -231,6 +231,10 @@
           },
           {
             "text": "Inbound Routing Rules",
+            "link": "esp-config/email/routing-rules"
+          },
+          {
+            "text": "Inbound Routing Rules",
             "link": "esp-config/email/using-email-routing-rules"
           },
           {
