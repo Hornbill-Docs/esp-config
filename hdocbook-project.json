@@ -3,5 +3,5 @@
   "pdfGeneration": {
     "enable": true,
     "exclude_paths": []
-  } 
+  }
 }
