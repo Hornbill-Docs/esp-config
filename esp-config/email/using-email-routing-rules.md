@@ -5,7 +5,7 @@ layout: article-toc
 # Inbound Routing Rules
 The Routing Rules provide a way of automating the delivery and actions that occur on emails that are received into Hornbill. This may be simply redirecting the email message to a particular shared mailbox or applying advanced operations that are provided by the different Hornbill apps. 
 
-Each Routing rule allows you to define expressions to verify the content of the incoming emails in order for that rule to apply. 
+Each rule allows you to define expressions to verify the content of the incoming emails in order for that rule to apply. 
 
 ## Before You Begin
 * At least one [Shared Mailbox](/esp-config/email/shared-mailboxes) needs to be setup.
@@ -41,10 +41,10 @@ Selecting any of these items from the list will insert that parameter into the R
 
 |Name|Description|
 |:--|:--|
-|`toAddress`|The email address(es) to which the message was sent.<br><br>It is possible that the email was sent to multiple recipients, in which case this variable will contain a comma-separated list of addresses (e.g. support@hornbill.com, info@hornbill.com). We recommend using a wildcard matching approach with the LIKE operator. For example, toAddress LIKE '%support@hornbill.com%' would match, even if there are multiple addresses.|
-|`toDomain`|The email domain(s) to which the message sent. For example `hornbill.com`.<br><br>It is possible that the email was sent to multiple recipients, in which case this variable will contain a comma-separated list of domains, for example `hornbill.com, google.com`.  We recommend using a wildcard matching approach with the LIKE operator. For example, `toDomain LIKE '%hornbill.com%'` would match, even if there are multiple domains.|
-|`ccAddress`|The CC email address(es) to which the message was sent.<br><br>It is possible that the email was cc'd to more than one recipient, in this case this variable will contain a string of comma-separated addresses, for example `support@hornbill.com, info@hornbill.com`.  We recommend using a wildcard matching approach with the LIKE operator. For example, `ccAddress LIKE '%support@hornbill.com%'` would match, even if there are multiple addresses.|
-|`ccDomain`|The CC email domain(s) to which the message was sent. For example `hornbill.com`. <br><br>It is possible that the email was cc'd to more than one recipient, in this case this variable may contain a string of comma-separated domains, for example `hornbill.com, google.com`.   We recommend using a wildcard matching approach with the LIKE operator. For example, `ccDomain LIKE '%hornbill.com%'` would match, even if there are multiple domains.|
+|`toAddress`|The email address(es) to which the message was sent.<br><br>If the email was sent to multiple recipients, this variable will contain a comma-separated list of all the addresses (e.g. support@hornbill.com, info@hornbill.com). When including the toAddress variable in an expression, the LIKE operator should be used. For example, the expression `toAddress LIKE '%support@hornbill.com%'` would match, even if there are multiple addresses.|
+|`toDomain`|The email domain(s) to which the message sent.<br><br>If the email was sent to multiple recipients, this variable will contain a comma-separated list of all the domains (e.g. `hornbill.com, google.com`).  When including the toDomain variable in an expression, the LIKE operator should be used. For example, the expression `toDomain LIKE '%hornbill.com%'` would match, even if there are multiple domains.|
+|`ccAddress`|The CC email address(es) to which the message was sent.<br><br>If the email was sent to multiple CC recipients, this variable will contain a string of comma-separated addresses (e.g. `support@hornbill.com, info@hornbill.com`).  When including the ccAddress variable in an expression, the LIKE operator should be used. For example, the expression `ccAddress LIKE '%support@hornbill.com%'` would match, even if there are multiple addresses.|
+|`ccDomain`|The CC email domain(s) to which the message was sent.<br><br> If the email was sent to multiple CC recipients, this variable will contain a string of comma-separated domains (e.g.  `hornbill.com, google.com`). When including the ccDomain variable in an expression, the LIKE operator should be used. For example, the expression`ccDomain LIKE '%hornbill.com%'` would match, even if there are multiple domains.|
 |`fromAddress`|The full email address of the person who sent the message, for example `joe.bloggs@hornbill.com`|
 |`fromDomain`|The email domain of the person who sent the message, for example `hornbill.com`|
 |`subject`|The message subject text|
