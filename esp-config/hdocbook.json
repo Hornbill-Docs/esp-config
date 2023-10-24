@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "1.0.28",
+  "version": "1.0.29",
   "productFamily": "esp",
   "tags": [
     "esp",
@@ -228,10 +228,6 @@
           {
             "text": "Templates",
             "link": "esp-config/email/templates"
-          },
-          {
-            "text": "Inbound Routing Rules",
-            "link": "esp-config/email/routing-rules"
           },
           {
             "text": "Inbound Routing Rules",
