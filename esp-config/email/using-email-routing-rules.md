@@ -2,14 +2,20 @@
 layout: article-toc
 ---
 
-# Inbound Email Routing
-The Email Routing Rules provide a way of automating the delivery and actions that occur on emails that are received into Hornbill. This may be simply redirecting the email message to a particular shared mailbox or applying advance operations that are provided by the different Hornbill Apps. Each Email Routing rules allow you to define expressions to verify the content of the incoming emails in order for that rule to apply.
+# Inbound Routing Rules
+The Routing Rules provide a way of automating the delivery and actions that occur on emails that are received into Hornbill. This may be simply redirecting the email message to a particular shared mailbox or applying advanced operations that are provided by the different Hornbill apps. 
 
-## Email Routing Rule Form
-From the list of Routing Rules there a few actions and some considerations to keep in mind.
+Each Routing rule allows you to define expressions to verify the content of the incoming emails in order for that rule to apply. 
 
-## Switching On or Off
-At the top of the list a toggle button is provided to turn the Routing Rules to being either On or Off. This setting applies to all rules in this list. For the rules to be processed, this must be set to On.
+## Before You Begin
+* At least one [Shared Mailbox](/esp-config/email/shared-mailboxes) needs to be setup.
+* Be familiar with [ExpressLogic Expressions](/esp-fundamentals/reference-guides/express-logic).
+
+## Routing Rule List
+### Switching On or Off
+At the top of the list, a toggle button is provided to turn the Routing Rules on or off. This setting applies to all rules in this list. For the rules to be processed, this must be set to `ON`.
+
+![On/Off Toggle](_books/esp-config/email/images/on-off-toggle.png)
 
 ## Creating a Rule
 Clicking on the + in the tool bar will allow you to create a new rule.
