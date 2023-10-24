@@ -17,22 +17,27 @@ At the top of the list, a toggle button is provided to turn the Routing Rules on
 
 ![On/Off Toggle](_books/esp-config/email/images/on-off-toggle.png)
 
-## Creating a Rule
-Clicking on the + in the tool bar will allow you to create a new rule.
+### Creating a Rule
+Clicking on the + in the toolbar will allow you to create a new rule.
 
-## Ordering
-Once more than one rule has been created, the order of the rules can be changed by using the up and down arrows located on the right side of each rule. When an email is received, the routing rules will be processed in the order that they are listed, starting at rule 1. If a rule doesn't match it will then check the next rule. If no rules match the email will simply reside in the Inbox.
-Note: If a rule matches, but its action fails to complete, no further rules will be checked and the rule's Fail action will be followed.
+### Ordering
+Routing rules are processed in the order that they are listed, starting at the top.
+* The order can be changed by dragging and dropping a rule to a different position. 
+* If a rule doesn't match it will then check the next rule in the list. 
+* If no rules match, the email will be sent to the inbox of the [Shared Mailbox](/esp-config/email/shared-mailboxes) that matches the `To` address.
 
-## Deleting a Rule
-The Delete option in the tool bar becomes available once one or more Rules are selected in the list
+:::tip
+If a rule matches, but its action fails to complete, no further rules will be checked and the rule's fail action will be followed.
+:::
+
+### Deleting a Rule
+The Delete option in the tool bar becomes available when one or more rules are selected in the list. Deleting a rule will permanently remove the rule.
+
 
 ## Rule Expression Syntax
-Each Routing Rule requires a Rule Expression which is used to validate information held within the email. To help with setting up the Rule Expression a number of parameters have been provided in the Rule Parameters selector located at the top right of the Rule Expression field. Selecting any of these items from the list will insert that Rule Parameter into the Rule Expression field.
+Each rule requires an expression which is used to validate information held within the email. To help with setting up the rule expression a number of parameters have been provided in the Rule Parameters selector located at the top right of the Rule Expression field. 
 
-Email routing rules use Hornbill's ExpressLogic Expression engine for performing logical expressions for rule matching. You can see a detailed [ExpressLogic Reference Guide](/esp-fundamentals/reference-guides/express-logic) to learn more about the syntax, functions and general expression capabilities used in Hornbill
-
-When defining an expression for an Email Routing Rule you can use the following variables in your expressions: -
+Selecting any of these items from the list will insert that parameter into the Rule Expression field.
 
 |Name|Description|
 |:--|:--|
@@ -46,14 +51,27 @@ When defining an expression for an Email Routing Rule you can use the following 
 |`body`|The message body text. If the message was sent as HTML, this will be html-stripped text string.|
 |`mailbox`|The name of the mailbox on Hornbill to which the toAddress email was matched|
 
-These variable names are case-sensitive when being evaluated.  There are many options for expression matching, to find out more about what is available to you, these are described in detail the [ExpressLogic Reference Guide](/esp-fundamentals/reference-guides/express-logic).  
+:::important
+These parameter names are case-sensitive. 
+:::
 
-In addition to the standard expression functions made available by the [ExpressLogic Reference Guide](/esp-fundamentals/reference-guides/express-logic), the following additional expression functions are available to help with Email expressions.
+### Example Expressions
 
+|Operator|Example|
+|-|-|
+|LIKE|subject LIKE '%abc'<br>subject LIKE 'xyz%'<br>subject LIKE '%mno%'|
+|NOT|subject != 'abc'|
+|NOT IN|subject NOT IN ('abc', 'zyx')|
+|IN|subject IN ('abc', 'mno', 'xyx')|
+|=|subject = 'abcd'|
+
+### ExpressLogic
+Routing rules use Hornbill's ExpressLogic Expression engine for performing logical expressions for rule matching. You can see a detailed [ExpressLogic Reference Guide](/esp-fundamentals/reference-guides/express-logic) to learn more about the syntax, functions, and general expression capabilities used in Hornbill.
+
+In addition to the standard expression functions made available by the ExpressLogic expression engine, the following functions are available to help with rule expressions.
 |Function|Description|
 |:--|:--|
 |MESSAGE_HEADER|Return the value of any email message header present in the email message being evaluated. If header is not present this will return NULL. <br><br>`MESSAGE_HEADER('X-Header-Name')`<br><br>For example:-<br><br>`MESSAGE_HEADER('MessageID') LIKE '%hornbill.com%`<br><br><small>*Available in platform build 3801 onwards</small>|
-
 
 ## Use Mailbox
 This option provides the simple routing of incoming emails to a particular Shared Mailbox.
