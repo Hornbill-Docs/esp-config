@@ -78,6 +78,7 @@ In addition to the standard helper functions made available by the ExpressLogic 
 |:--|:--|
 |MESSAGE_HEADER|Return the value of any email message header present in the email message being evaluated. If header is not present this will return NULL. <br><br>`MESSAGE_HEADER('X-Header-Name')`<br><br>For example:-<br><br>`MESSAGE_HEADER('MessageID') LIKE '%hornbill.com%`<br><br><small>*Available in platform build 3801 onwards</small>|
 
+
 ## Routing Rule Action
 When a rule is triggered it can perform an action. The following actions are available for use
 
@@ -95,10 +96,11 @@ You can trigger a specific function provided by any application that implements 
 
 * __Application__: A drop down list of applications that have Email Routing Rule actions defined
 * __Operation__: A dropdown list of available inbound routing rule functions available for the selected application
-* __Target Folder Success__: The specified folder to deliver the message to if the operation was successful.
-* __Target Folder Failure__: The specified folder to deliver the message to if the operation failed.
+* __Target Folder Success__: The specified folder to deliver the message to if the operation was successful (see note below about setting the folder name here).
+* __Target Folder Failure__: The specified folder to deliver the message to if the operation failed. (see note below about setting the folder name here).
 * __Custom Field__: The field called Resource is a field that is customized by different operations, this is not really describable here, you need to refer to the application-specific documentation for more details.
+* __Mark as Read on Success__: If enabled, this will mark the message as read if the FlowCode action completes successfully.  
 
-:::important
-The user interface being described here is currently under review and will be changed to improve usability and intuitiveness, so much of this page will be subject to change following UI updates
-|||
+:::note
+__Folder Names__: The Trigger Application Logic action, at configuration time, does not know what the name of the target mailbox will be, the mailbox is determined at runtime based on the incoming email To address and the target mailbox that matches that address. For this reason, its not possible to select specific folders, instead you need to type in the name of the folder, and the system will resolve that name to the correct folder in the mailbox that will receive the message.  If you leave this field blank, or, if the folder name you specify does not match a folder (an exact folder name match must occur), then the default target folder will be used.  This means for successful processing the message will be moved to the __Deleted Items__ folder, and for failed actions, the message will be delivered to the __Inbox__ folder.
+:::  
