@@ -78,7 +78,7 @@ Routing rules use Hornbill's ExpressLogic Expression engine for evaluating the r
 In addition to the standard helper functions made available by the ExpressLogic expression engine its self, the following additional email-specific functions are available to help with rule expressions.
 |Function|Description|
 |:--|:--|
-|MESSAGE_HEADER|Return the value of any email message header present in the email message being evaluated. If header is not present this will return NULL. <br><br>`MESSAGE_HEADER('X-Header-Name')`<br><br>For example:-<br><br>`MESSAGE_HEADER('MessageID') LIKE '%hornbill.com%`<br><br><small>*Available in platform build 3801 onwards</small>|
+|MESSAGE_HEADER|Return the value of any email message header present in the email message being evaluated. If header is not present this will return NULL. <br><br>`MESSAGE_HEADER('X-Header-Name')`<br><br>For example:-<br><br>`MESSAGE_HEADER('MessageID') LIKE '%hornbill.com%`|
 
 
 ## Routing Rule Action
