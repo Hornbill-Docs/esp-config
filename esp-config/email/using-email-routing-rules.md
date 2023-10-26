@@ -40,9 +40,11 @@ The Delete option in the tool bar becomes available when one or more rules are s
 
 
 ## Rule Expression Syntax
-Each rule uses an expression to match information found within the email message being processed. Information from the email message is made accessible to the expression processor as variables. For convenience, these variables are available in the Rule Parameters selector located at the top right of the Rule Expression field. 
+Each rule uses an expression to match information found within the email message being processed. Information from the email message is made accessible to the expression processor as variables. For convenience, these variables are available in the editor when typing, you will see matching variable names being presented.  You can also look up the variable names in the popup help next to the expression field.  
 
-Selecting any of these items from the list will insert that parameter into the Rule Expression field. Alternatively, as you become more familiar with the system you can simply type the correct variable names into the expression as needed.  The following table lists the available variables and their purpose
+Selecting any of these variables from the list by clicking or using the arrow keys, will insert that variable into the Rule Expression field. 
+
+The following table lists the available variables and their purpose: -
 
 |Variable|Description|
 |:--|:--|
@@ -56,7 +58,7 @@ Selecting any of these items from the list will insert that parameter into the R
 |`body`|The message body text. If the message was sent as HTML, this will be a html-stripped text string.|
 |`mailbox`|The name of the mailbox on Hornbill to which the toAddress email was matched|
 
-:::info
+:::important
 These variable names are case-sensitive when you reference them in your expressions. 
 :::
 
