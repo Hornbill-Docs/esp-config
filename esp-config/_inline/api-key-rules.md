@@ -1,3 +1,5 @@
+# API Key Rules
+
 You can restrict the use of an API Key by specifying one or more rules that restrict the use of the API for specific API's, WebDAV resources and/or IP addresses where the API key use can originate from.
 
 If no rules are specified, then any API that the API key's associated user account has rights to invoked, can be called. If one or more API rules are defined, only API's that match these rules will be allowed, and the same in relation to WebDAV rules.
