@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "1.0.36",
+  "version": "1.0.37",
   "productFamily": "esp",
   "tags": [
     "esp",
@@ -361,5 +361,39 @@
         ]
       }
     ]
-  }
+  },
+  "inline": [
+    {
+      "title": "API Key Rules",
+      "link": "esp-config/_inline/api-key-rules"
+    },
+    {
+      "title": "Date Picker Help",
+      "link": "esp-config/_inline/date-picker"
+    },
+    {
+      "title": "Email Grouping",
+      "link": "esp-config/_inline/email-grouping"
+    },
+    {
+      "title": "Email Routing Rule - Expressions",
+      "link": "esp-config/_inline/email-routing-rule-expressions"
+    },
+    {
+      "title": "Form Field - Data Binding",
+      "link": "esp-config/_inline/ic-form-field-editor-data-binding"
+    },
+    {
+      "title": "Select Organization when Registering On Customer Portal",
+      "link": "esp-config/_inline/customer-portal-select-org-list"
+    },
+    {
+      "title": "Custom Domain Name",
+      "link": "esp-config/_inline/customer-portal-custom-domain-name"
+    },
+    {
+      "title": "Webhook Expression",
+      "link": "esp-config/_inline/webhook-expression"
+    }
+  ]
 }
