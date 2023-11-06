@@ -1,5 +1,3 @@
-title: Reporting - Custom Criteria Field
----
 # Report - Custom Criteria Field
 The custom criteria field allows you to specify static SQL test values. This requires properly structured SQL, as if you were writing part of a standard SQL statement. Therefore you should ensure strings are correctly escaped. 
 

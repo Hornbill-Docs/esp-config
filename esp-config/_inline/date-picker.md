@@ -1,5 +1,3 @@
-title: Date and Time Picker Help
----
 # Date and Time Picker Help
 This control allows typing the date and/or time and selecting the date from a calendar.
 

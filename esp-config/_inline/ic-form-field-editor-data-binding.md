@@ -1,5 +1,3 @@
-title: Form Field - Data Binding
----
 # Form Field - Data Binding
 
 The data binding property allows you to specify another custom form field that you want to overwrite when setting this fields value. 

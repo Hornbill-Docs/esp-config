@@ -1,5 +1,3 @@
-title: Webhook Expression
----
 # Webhook Expression
 
 - References to the event source are prefixed with "record."
