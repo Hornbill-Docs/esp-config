@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "1.0.38",
+  "version": "1.0.39",
   "productFamily": "esp",
   "tags": [
     "esp",
@@ -388,7 +388,7 @@
       "link": "esp-config/_inline/customer-portal-select-org-list"
     },
     {
-      "title": "Custom Domain Name",
+      "title": "Customer Portal Custom Domain Name",
       "link": "esp-config/_inline/customer-portal-custom-domain-name"
     },
     {
