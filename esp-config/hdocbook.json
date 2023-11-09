@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "1.0.48",
+  "version": "1.0.49",
   "productFamily": "esp",
   "tags": [
     "esp",
@@ -366,6 +366,10 @@
     {
       "title": "API Key Rules",
       "link": "esp-config/_inline/api-key-rules"
+    },
+    {
+      "title": "AutoVal Definition",
+      "link": "esp-config/_inline/autoval-definition-reference"
     },
     {
       "title": "Date Picker Help",
