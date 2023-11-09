@@ -32,7 +32,7 @@
     <tbody>
         <tr>
             <td style="text-align:left; white-space: nowrap;"><strong><code>seq(<em>z</em>, <em>[r=10]</em>)</code></strong></td>
-            <td style="text-align:left">Will generate a sequential decimal number. The <code>z</code> parameters sets the number of decimal digits to include in the generated string.  The optional <code>r</code> parameter, which defaults to 10, sets the number base to generate, allowing, octal (8), decimal (10) and hexadecimal (16) number formats.  The sequence value will increment by one each time the AutoVal is generated, and is guaranteed to be unique for the lifetime of the AutoVal definition. If the generated number is a value that exceeds the number of digits specified in the <code>z</code> param, the number will still be generated, but the resultant string of characters will be longer than expected.</td>
+            <td style="text-align:left">Will generate a sequential decimal number. The <code>z</code> parameters sets the number of decimal digits to include in the generated string.  <br><br>The optional <code>r</code> parameter, which defaults to 10, sets the number base to generate, allowing, octal (8), decimal (10) and hexadecimal (16) number formats.  The sequence value will increment by one each time the AutoVal is generated, and is guaranteed to be unique for the lifetime of the AutoVal definition. If the generated number is a value that exceeds the number of digits specified in the <code>z</code> param, the number will still be generated, but the resultant string of characters will be longer than expected.</td>
         </tr>
         <tr>
             <td style="text-align:left; white-space: nowrap;"><strong><code>seqd(<em>z</em>, <em>[r=10]</em>)</code></strong></td>
