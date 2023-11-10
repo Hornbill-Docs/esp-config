@@ -1,4 +1,4 @@
-# Auto Value Definition Reference
+# AutoValue Definition Reference
 
 ### Quick Start Examples
 
@@ -21,7 +21,7 @@
 </tbody>
 </table>
 
-### Function Reference
+### Component Reference
 <table>
     <thead>
         <tr>
