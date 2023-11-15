@@ -5,6 +5,11 @@ layout: article-toc
 ## Translations
 The Translation option provide the ability to translate individual strings of text into the language of your choice. Many of these strings can be translated through the user interfaces, however this is not always the case and some strings must be translated here.
 
+## Accessing Translations
+1. Open Configuration or use [Ctrl+Shift+S] on the keyboard.
+1. Type **Translations** in the search box.
+1. Select `User Interface Translations` from the results.
+
 ## Filter
 The filters work off of the translation key and the default translation. By typing in the the name of the key or the default translation, the list of translation strings will be narrowed down to the matching text.
 
