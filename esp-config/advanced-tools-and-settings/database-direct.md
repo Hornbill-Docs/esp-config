@@ -2,7 +2,11 @@
 layout: article-toc
 ---
 # Database Direct
-Database Direct is an advanced feature of the Hornbill Platform which allows you to query the database that underpins Hornbill using Structured Query Language (SQL). Every Hornbill instance incorporates this feature however it is not exposed by default. This feature is intended for advanced users only.
+Database Direct is an advanced debugging feature of the Hornbill Platform which allows you to query the underlying application database using Structured Query Language (SQL) statements. Every Hornbill instance incorporates this feature however it is not enabled by default and its use is not encouraged. This feature is intended for advanced users only to support diagnostics of issues and problems. 
+
+:::warning
+This function of the Hornbill platform is disabled and protected behind a super-user privilege level because it exposes some inherent security risks with regards to accessing data a user may not be authorized to access.  As a result this feature is likely to be depreciated in the future.  The platform, and our cloud operations and support capabilities have matured beyond the point where this is beneficial, there are no use-0cases where its really necessary to access the underlying database in this way. 
+:::
 
 ## Enabling Database Direct
 The visibility of Database Direct is governed by a system setting `security.database.allowSqlQueryOperation`. Any user wishing to use database direct must be assigned the "Super User Role".
