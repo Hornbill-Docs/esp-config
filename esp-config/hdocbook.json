@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "1.0.53",
+  "version": "1.0.54",
   "productFamily": "esp",
   "tags": [
     "esp",
@@ -334,8 +334,8 @@
         "expand": false,
         "items": [
           {
-            "text": "Database Direct",
-            "link": "esp-config/advanced-tools-and-settings/database-direct",
+            "text": "Low-Level Database Query Tool",
+            "link": "esp-config/advanced-tools-and-settings/low-level-database-query-tool",
             "draft": false
           },
           {
