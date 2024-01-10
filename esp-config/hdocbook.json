@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "1.0.55",
+  "version": "1.0.56",
   "productFamily": "esp",
   "tags": [
     "esp",
@@ -236,6 +236,10 @@
           {
             "text": "Direct Outbound",
             "link": "esp-config/email/direct-outbound"
+          },
+          {
+            "text": "E-mail Protocol Support",
+            "link": "esp-config/email/email-protocol-support"
           }
         ]
       },

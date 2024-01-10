@@ -54,3 +54,4 @@ The pre-defined date settings are explained here:
 |Last Weeks Samples|00:00:00 hours on last week's Sunday to 23:59:59 hours on last week's Saturday|
 
 <!-- https://wiki.hornbill.com/index.php?title=Widgets -->
+<!-- there is still additional information that needs to be brought over from the wiki page -->
