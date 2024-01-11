@@ -5,6 +5,7 @@
     "exclude_paths": []
   },
   "redirects": [
-    { "url": "/esp-config/advanced-tools-and-settings/database-direct", "location": "/esp-config/advanced-tools-and-settings/low-level-database-query-tool", "code": 308 }
+    { "url": "/esp-config/advanced-tools-and-settings/database-direct", "location": "/esp-config/advanced-tools-and-settings/low-level-database-query-tool", "code": 308 },
+    { "url": "/esp-config/email/adding-an-email-domain", "location": "/esp-config/email/email-domains", "code": 308 }
   ]
 }

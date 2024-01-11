@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "1.0.56",
+  "version": "1.0.57",
   "productFamily": "esp",
   "tags": [
     "esp",
@@ -219,7 +219,7 @@
         "items": [
           {
             "text": "Domains",
-            "link": "esp-config/email/adding-an-email-domain"
+            "link": "esp-config/email/email-domains"
           },
           {
             "text": "Shared Mailboxes",
