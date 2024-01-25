@@ -17,24 +17,20 @@ Using the check boxes next to the existing Profiles, select which ones you wish 
 By clicking on the name of any existing Profile, you will be taken to the Details page for that profile. From there you will be able to manage the Profile Tree and other settings.
 
 ## Manage Profiles
-Details
-Settings
-These setting are managed both when creating a new Profile or viewing an existing Profile.
+### Details
+* Name
+* Code Separator
+* Minimum Code Width
+* Maximum Levels
+* Name Separator
+* Maximum Code Width
+* Code Allowed Chars
 
-Name - This must be a unique name. This name is used to display the Profile in the Profile List
-Code Separator -
-Minimum Code Width
-Maximum Levels
-Name Separator
-Maximum Code Width
-Code Allowed Chars
-Custom Fields
-Enabling
-Names
-Editor
-Add/Remove
-Code
-Name
-Description
-Attributes 1 - 8
-Deleting Profiles
+## Editor
+The Editor is used to create the heirarchical structure contained within the profile. 
+
+* **Add an Item**<br>`+ Item` buttons are available to either add a new item at the root level or under an existing item.
+* **Delete an Item**<br>Select an existing item and then in the properties box select the `Delete` button.
+* **Code**<br>The code is used as a short identifier for the item.  These can be generated automatically or manually entered.
+* **Name**<br>The text that is displayed within the profile structure.
+* **Description**<br>Provide a brief description that describes this level. This description may be visible to users where a profile is used.
