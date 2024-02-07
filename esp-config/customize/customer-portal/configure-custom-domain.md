@@ -48,9 +48,15 @@ In order to configure a custom domain, you need to configure the following thing
 
 |Item|Name|Description|
 |:--|:--|:--|
-|2a|DNS|Your chosen custom domain must be hosted on a DNS service somewhere. Typically your corporate domain, like `yourcompany.com` will be configured for your web site, typically www.yourcompnay.com, there is a large variation of DNS hosting and setups generally, so trying to explain how to configure DNS is out of scope for the purpose of this document.  What you need to do is decide what your custom domain for the portal will be, a common use might be `support.yourcompany.com` for example.  You then need to add a CNAME entry into your DNS server, that maps your chosen custom domain to hornbills origin server.|
+|2a|DNS|Your chosen custom domain must be hosted on a DNS service somewhere. Typically your corporate domain, like `yourcompany.com` will be configured for your web site, typically www.yourcompnay.com, there is a large variation of DNS hosting and setups generally, so trying to explain how to configure DNS is out of scope for the purpose of this document.  What you need to do is decide what your custom domain for the portal will be, a common use might be `support.yourcompany.com` for example.  You then need to add a CNAME entry into your DNS server, that maps your chosen custom domain to hornbills origin server. Here is an example of a CNAME configuration: - <br><br> ![dns cnam config](_books/esp-config/customize/customer-portal/images/dns-cname-example.png)|
 |2b|SSL Certificate|It is your responsibility to obtain a valid SSL certificate for your chosen custom domain. You may already have a usable wildcard certificate for *.yourcompany.com or you may decide to have a specific certificate just for your chosen custom domain.  This is really a choice you/your team will make based on your own policies around managing and hosting SSL certificates. From a Hornbill standpoint, the details of your SSL certificate is not relevant, the only requirement Hornbill has is your traffic is encrypted, unencrypted traffic will not work because the domain origin for anything other than https:// is not supported|
 |2c|Proxy| Your SSL certificate needs to be hosted on a proxy server in order to serve encrypted traffic using your own SSL certificates.  This can take many forms, from proxies you host yourself in your own data centers to using 3rd Party front end CDN type providers, like we do with Cloudflare for example.  The odds are very good that you already have these things in place, so your experts need to plan and decide on the specifics of your own configuration. The only thing that is mandatory is your hosting provider must be able to act as a proxy service with support for SSL certificates.|
+
+## Origin Servers
+
+|Server|Description|
+|:--|:--|
+|https://mdh-p01-customer-portal.hornbill.com/|This is the origin server used for custom domain CNAME targets.  These servers are hosted in the UK but work for custom domains in all regions because front end proxy servers will cache content as required.|
 
 The is one final step and that is to configure your Hornbill instance in order that the Hornbill servers will allow traffic to be served to your custom domain.  This step is simple. Navigate to: -
 
@@ -69,17 +75,17 @@ Please ensure what you enter here follows these requirements exactly
 Assuming everything is configured correctly, you should now be able to enter your custom domain into a browser and see your Hornbill customer portal instance.
 
 ## Limitations
-- Only a single custom domain is supported.
-- Hornbill does not have any ability to host or manage your SSL certificates. 
-- Hornbills origin servers are not designed for high traffic volumes, they are there to act as Origin servers for front end content delivery networks or caching proxy servers. 
+- Only a single custom domain is supported for your customer portal.
+- Hornbill does not have any ability to host or manage your SSL certificates, you either need to host these yourself or use a front end network provider like Cloudflare for that. 
+- Hornbills origin servers are not designed for high traffic volumes and direct traffic serving, if we detect that type of traffic we may well block it, these services are specifically for use Origin servers only, and should be used for the sole purpose of acting as the origin source for front end content delivery networks or caching proxy servers. 
 
 ## Troubleshooting
 
+As mentioned above, it is beyond the scope of Hornbill's normal support services or expertise to provide technical support or assistance with troubleshooting the configuration of your custom domain configuration.  This is because most of the configuration effort goes into systems that are completely outside of Hornbill and these external systems can be configured in many different ways, using many different software tools, packages and services, and much of the configuration in these ares are generally dictated by your own companies security and web hosting policies and practices. It is incredibly important that you have the support of your people/team/experts in planning and configuring a custom domain name for the Hornbill Customer Portal. 
 
+Hornbill does have specialist expert services capabilities, but we have limited resources and charge for these services.  So if you really do need Hornbill to get involved and assist you in configuring this, we can do that, but it will be chargeable work, and will likely involve subject matter experts that do not sit within our support or expert services teams.  Contact us if you need help.  Otherwise, we have aimed to set out everything you/your experts need to know in order to configure this successfully. 
 
-
-
-
+If you have questions/clarifications about anything in this document, please use our [Hornbill Community Forums](https://forums.hornbill.com) in the first instance, we will mostly answer most questions that need clarifying by updating this document. 
 
 
 
