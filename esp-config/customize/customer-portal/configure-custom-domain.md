@@ -53,9 +53,11 @@ In order to configure a custom domain, you need to configure the following thing
 |2c|Proxy| Your SSL certificate needs to be hosted on a proxy server in order to serve encrypted traffic using your own SSL certificates.  This can take many forms, from proxies you host yourself in your own data centers to using 3rd Party front end CDN type providers, like we do with Cloudflare for example.  The odds are very good that you already have these things in place, so your experts need to plan and decide on the specifics of your own configuration. The only thing that is mandatory is your hosting provider must be able to act as a proxy service with support for SSL certificates.|
 
 
-## It May Be Simple
+## It May Be Really Simple
 
 If your domain is already hosted on Cloudflare, Akamai, Amazon Cloudfront or one of the many other major front end services, your SSL certs may already be in place and usable. If this is the case, all you really need to do is choose your custom sub-domain and add a single CNAME record into your DNS, then add the custom domain to your portal configuration in Hornbill and thats it. 
+
+![dns cnam config](_books/esp-config/customize/customer-portal/images/dns-cname-example.png)
 
 
 ## Origin Servers
