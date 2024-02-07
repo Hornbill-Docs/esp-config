@@ -1,6 +1,6 @@
 # Customer Portal Custom Domain Name
 
-It is possible to configure your customer portal to be presented to your customers via a custom domain.  You can read more about [configuring a custom domain for your portal](/esp-config/customer-portal/configure-custom-domain) here. 
+It is possible to configure your customer portal to be presented to your customers via a custom domain.  You can read more about [configuring a custom domain for your portal](/esp-config/customize/customer-portal/configure-custom-domain) here. 
 
 The format you enter here has to be accurate and in the exact same format as shown here 
 

@@ -1,8 +1,10 @@
 ---
 layout: article-toc
 ---
-# Customer Portal setup
-The Customer Portal is provided as an entry point for guest users, giving them a window into Hornbill and access to selected Hornbill applications.  The customer portal can be accessed at `https://customer.hornbill.com/<your instance name>/`
+# Customer Portal Configuration
+The Customer Portal is provided as an entry point for guest users, giving them a window into Hornbill and access to a subset of selected Hornbill applications. To find out more about what the customer portal is and how it fits into the overall Hornbill solution, you can read more here [TODO].
+
+The customer portal can be accessed at `https://customer.hornbill.com/<your instance name>/`
 
 ## Topics Covered
 * Designing the Customer Portal
