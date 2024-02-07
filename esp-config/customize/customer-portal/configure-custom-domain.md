@@ -52,6 +52,12 @@ In order to configure a custom domain, you need to configure the following thing
 |2b|SSL Certificate|It is your responsibility to obtain a valid SSL certificate for your chosen custom domain. You may already have a usable wildcard certificate for *.yourcompany.com or you may decide to have a specific certificate just for your chosen custom domain.  This is really a choice you/your team will make based on your own policies around managing and hosting SSL certificates. From a Hornbill standpoint, the details of your SSL certificate is not relevant, the only requirement Hornbill has is your traffic is encrypted, unencrypted traffic will not work because the domain origin for anything other than https:// is not supported|
 |2c|Proxy| Your SSL certificate needs to be hosted on a proxy server in order to serve encrypted traffic using your own SSL certificates.  This can take many forms, from proxies you host yourself in your own data centers to using 3rd Party front end CDN type providers, like we do with Cloudflare for example.  The odds are very good that you already have these things in place, so your experts need to plan and decide on the specifics of your own configuration. The only thing that is mandatory is your hosting provider must be able to act as a proxy service with support for SSL certificates.|
 
+
+## It May Be Simple
+
+If your domain is already hosted on Cloudflare, Akamai, Amazon Cloudfront or one of the many other major front end services, your SSL certs may already be in place and usable. If this is the case, all you really need to do is choose your custom sub-domain and add a single CNAME record into your DNS, then add the custom domain to your portal configuration in Hornbill and thats it. 
+
+
 ## Origin Servers
 
 |Server|Description|
