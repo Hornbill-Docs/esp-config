@@ -32,23 +32,23 @@ The origin server is __NOT__ the web server that your user will connect to when 
 
 The important thing to note here is the role of the SSL certificate.  The connection between the users browser and the front end services uses a TLS connection that is secured with a Hornbill owned SSL certificate.  An SSL certificate is implicitly bound to a specific domain, so that SSL certificate can only secure network traffic that is served on the hornbill.com domain.  The certificate must be hosted on the servers at the "arrow end" of the traffic lines shown in the diagram, so the SSL certificates __2b__ are hosted on __2c__, which means we have given specific permission to our web front end partner (Cloudflare at the time of this writing) to host and use our verified SSL certificates for traffic related to our *.hornbill.com domain.
 
-You will also see that traffic between the front end services and our Origin servers os also securing traffic using an SSL certificate bound to the .hornbill.com domain, this is because we also host our verified SSL certificates for traffic served by our own Origin servers to the front end service provider. 
+You will also see that traffic between the front end services and our Origin servers is also encrypted traffic using an SSL certificate bound to the .hornbill.com domain, this is because we also host our verified SSL certificates for traffic served by our own Origin servers. 
 
 When your user enters service.hornbill.com/your_instance_id into their browser, the browser will resolve that URL to the Cloudflare service via DNS __2a__, this DNS server is under our control, its the DNS service we use for .hornbill.com.   The browser connects to the front end services using our SSL certificate __2b__ which is hosted on the front end servers __2c__.  The front end proxy servers __2c__ know the traffic for this domain needs to be forwarded on to our origin servers __3c__ so lookup the origin servers IP address using the DNS service controller by looking up the host addresses from our DNS service __3a__, again, which is a service Hornbill controls in relation to our .hornbill.com domain. 
 
-In summary, Hornbill control the configuration of all elements of __2__ and __3__ in the diagram, this is important to understand when it comes to configuring a custom domain.
+In summary, Hornbill controls the configuration of all elements of columns __2__ and __3__ in the diagram, this is important to understand when it comes to configuring a custom domain.
 
-When configuring a custom domain, things work a little bit differently. 
+When using a custom domain, things work a little bit differently. 
 
 ![customer portal default](_books/esp-config/customize/customer-portal/images/customer-portal-custom.png)
 
-In this configuration, its important to note that Hornbill only controls the configuration of __3__ in the diagram, and, it should be noted that Hornbill does not need to configure anything specific in __3__ in order for you to configure and make use of a custom domain for your Hornbill service portal instance. 
+In this configuration, it is important to note that Hornbill only controls the configuration of column __3__ in the revised diagram, and, it should be noted that Hornbill does not need to configure anything specific in column __3__ in order for you to configure, and make use of, a custom domain for your Hornbill customer portal instance. 
 
-In order to configure a custom domain, you need to configure the following things. 
+In order to set up a custom domain, you need to configure the following things: - 
 
 |Item|Name|Description|
 |:--|:--|:--|
-|2a|DNS|Your chosen custom domain must be hosted on a DNS service somewhere. Typically your corporate domain, like `yourcompany.com` will be configured for your web site, typically www.yourcompnay.com, there is a large variation of DNS hosting and setups generally, so trying to explain how to configure DNS is out of scope for the purpose of this document.  What you need to do is decide what your custom domain for the portal will be, a common use might be `support.yourcompany.com` for example.  You then need to add a CNAME entry into your DNS server, that maps your chosen custom domain to hornbills origin server. Here is an example of a CNAME configuration: - <br><br> ![dns cnam config](_books/esp-config/customize/customer-portal/images/dns-cname-example.png)|
+|2a|DNS|Your chosen custom domain must be hosted on a DNS service somewhere. Typically your corporate domain, like `yourcompany.com` will be configured for your web site, typically www.yourcompnay.com, there is a large variation of DNS hosting and setups generally, so trying to explain how to configure DNS is out of scope for the purpose of this document.  What you need to do is decide what your custom domain for the portal will be, a common use might be `support.yourcompany.com` for example.  You then need to add a [CNAME](https://en.wikipedia.org/wiki/CNAME_record) entry into your DNS server, that maps your chosen custom domain to hornbill's origin server domain name, often referred to as creating an alias. Here is an example of a [CNAME](https://en.wikipedia.org/wiki/CNAME_record) configuration: - <br><br> ![dns cnam config](_books/esp-config/customize/customer-portal/images/dns-cname-example.png)|
 |2b|SSL Certificate|It is your responsibility to obtain a valid SSL certificate for your chosen custom domain. You may already have a usable wildcard certificate for *.yourcompany.com or you may decide to have a specific certificate just for your chosen custom domain.  This is really a choice you/your team will make based on your own policies around managing and hosting SSL certificates. From a Hornbill standpoint, the details of your SSL certificate is not relevant, the only requirement Hornbill has is your traffic is encrypted, unencrypted traffic will not work because the domain origin for anything other than https:// is not supported|
 |2c|Proxy| Your SSL certificate needs to be hosted on a proxy server in order to serve encrypted traffic using your own SSL certificates.  This can take many forms, from proxies you host yourself in your own data centers to using 3rd Party front end CDN type providers, like we do with Cloudflare for example.  The odds are very good that you already have these things in place, so your experts need to plan and decide on the specifics of your own configuration. The only thing that is mandatory is your hosting provider must be able to act as a proxy service with support for SSL certificates.|
 
@@ -64,7 +64,7 @@ If your domain is already hosted on Cloudflare, Akamai, Amazon Cloudfront or one
 
 |Server|Description|
 |:--|:--|
-|https://mdh-p01-customer-portal.hornbill.com/|This is the origin server used for custom domain CNAME targets.  These servers are hosted in the UK but work for custom domains in all regions because front end proxy servers will cache content as required.|
+|https://mdh-p01-customer-portal.hornbill.com/|This is the origin server used for custom domain [CNAME](https://en.wikipedia.org/wiki/CNAME_record) targets.  These servers are hosted in the UK but work for custom domains in all regions because front end proxy servers will cache content as required.|
 
 The is one final step and that is to configure your Hornbill instance in order that the Hornbill servers will allow traffic to be served to your custom domain.  This step is simple. Navigate to: -
 
