@@ -82,10 +82,10 @@ Please ensure what you enter here follows these requirements exactly
 
 Assuming everything is configured correctly, you should now be able to enter your custom domain into a browser and see your Hornbill customer portal instance.
 
-## Limitations
+## Current Limitations
 - Only a single custom domain is supported for your customer portal.
 - Hornbill does not have any ability to host or manage your SSL certificates, you either need to host these yourself or use a front end network provider like Cloudflare for that. 
-- Hornbills origin servers are not designed for high traffic volumes and direct traffic serving, if we detect that type of traffic we may well block it, these services are specifically for use Origin servers only, and should be used for the sole purpose of acting as the origin source for front end content delivery networks or caching proxy servers. 
+- Hornbills origin servers are not designed for high traffic volumes for direct traffic serving, if we detect that type of traffic we may well block it, these servers are specifically for use Origin duties only, and should be used for the sole purpose of acting as the origin source for front end content delivery networks or caching proxy servers. 
 
 ## Troubleshooting
 
