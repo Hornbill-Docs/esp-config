@@ -1,4 +1,4 @@
-# Using a Custom Domain for your Customer Portal
+# Configuring a Custom Domain for your Customer Portal
 
 :::warning
 This document provides preliminary information that is not yet production ready, both the functionality and this content is under active development
