@@ -94,3 +94,12 @@ As mentioned above, it is beyond the scope of Hornbill's normal support services
 Hornbill does have specialist expert services capabilities, but we have limited resources and charge for these services.  So if you really do need Hornbill to get involved and assist you in configuring this, we can do that, but it will be chargeable work, and will likely involve subject matter experts that do not sit within our support or expert services teams.  Contact us if you need help.  Otherwise, we have aimed to set out everything you/your experts need to know in order to configure this successfully. 
 
 If you have questions/clarifications about anything in this document, please use our [Hornbill Community Forums](https://forums.hornbill.com) in the first instance, we will mostly answer most questions that need clarifying by updating this document. 
+
+
+## Frequently Asked Questions
+
+#### Once configured, would it still be possible to use the hornbill provided url for access the customer portal?
+> Yes, the Hornbill provided endpoint https://customer.hornbill.com/_<your_instance_id>_ will continue to work as normal.
+
+#### Is it possible to have the service portal appear to be in a sub-folder on my website, for example https://www.mycompany.com/support?
+> No, this is not possible, however, you can simply include a redirect on your support page, so from a user point of view they are transported to the correct place.
