@@ -72,12 +72,12 @@ There is one final step and that is to configure your Hornbill instance in order
 
 And in the properties, go to the __Domain Settings__ section and set the __Custom Domain Name__ field. The format you enter here has to be accurate and in the exact same format as shown here: -
 
-https://custom.yourcompany.com
+`custom.yourcompany.com`
 
 Please ensure what you enter here follows these requirements exactly:
 
 - You __MUST__ use only lower-case letters
-- The custom domain __MUST__ start with https:// because only encrypted traffic is allowed
+- The custom domain will be automatically prefixed with `https://`, you should not enter this part
 - The domain name part custom.yourcompany.com __MUST NOT__ include a trailing forward-slash
 
 Assuming everything is configured correctly, you should now be able to enter your custom domain into a browser and see your Hornbill customer portal instance.
