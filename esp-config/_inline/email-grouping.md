@@ -5,4 +5,4 @@ When you assign a template to a grouping you can add new group names on the fly.
 
 You can also un-assign a template, or set of templates, from a grouping. When doing so if that change results in no templates having that original grouping then the grouping ceases to exist (groups are not managed separately to templates)
 
-For more information about Email templates please see <a href="https://wiki.hornbill.com/index.php?title=Email_Templates" target="_blank">Email Templates</a></p>
+For more information about Email templates please see <a href="https://docs.hornbill.com/esp-config/email/templates" target="_blank">Email Templates</a></p>
