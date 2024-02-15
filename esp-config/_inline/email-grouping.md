@@ -1,4 +1,4 @@
-# Email Grouping
+# Email Template Grouping
 Email templates can be assigned a grouping up to 3 levels. This grouping can be used to organize your templates and can help with template selection when using certain application features.
 
 When you assign a template to a grouping you can add new group names on the fly. Some application entities may have a fixed group level one list that you cannot alter though you will be able to define levels two and three.

@@ -7,8 +7,13 @@ Email templates can be used to pre-populate emails with information to create a 
 ## Template List
 The list of templates is controlled by the selection of the application that will be using the template along with the entity or business object within that application for which the template will use variables to include information from the entity when an email is sent using that template.
 
+### Grouping
+Email templates can be assigned a group using up to 3 levels. The Grouping option allows you to filter the list by these groups. When selecting a group, the list will display all templates for that group and any sub-group. The group names and assignments are all mananged within the Template Editor.
+
 ## Template Editor
 The Template Editor is used to construct your email templates. Within the Editor you provide the following areas.
+
+* **Group**<br>The Group option provides a way of organizing email templates using up to 3 levels. You can either add the template to an existing group or you can create a new group name. Groups can be used to filter the Email Template list and can help with template selection when using certain application features.
 
 * **Name**<br>The Name provides a reference within the list of Templates. The BPM Editor and the different Apps that use email templates will also use this name to display where email template selection is available.
 * **Subject**<br>Contents of the Subject of the email. Both text and variables can be used within this section.
