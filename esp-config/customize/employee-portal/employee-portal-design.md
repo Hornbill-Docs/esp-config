@@ -1,7 +1,7 @@
 ---
 layout: article-toc
 ---
-# Employee Portal design
+# Employee Portal Design
 The main Employee Portal page and the pages associated to each domain offer a wide variety of widgets and configuration that allow you build the perfect experience for your users.
 
 ## Roles and Rights
