@@ -43,6 +43,9 @@ Template Variables can be used within the Subject or Message of a template in or
     Modifiers do not apply for extended variables. For example, modifiers cannot be applied (they will not work) on variables like "Customer Coworker.H_first_name"
     :::
 
+
+    
+
 ## Variable Visibility
 ### The "empty" Variable Modifier
 Sometimes you may want to include a variable in your email template that you find under certain circumstances may not be populated. You will notice that when variables fail to find any corresponding information in the database they simply show themselves in their raw form: `{{.variable}}`. This doesn't look terribly good in your otherwise beautifully prepared email templates.
