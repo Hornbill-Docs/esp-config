@@ -7,3 +7,4 @@ slnx.state
 slnx.sqlite
 
 .vscode/settings.json
+.DS_Store
