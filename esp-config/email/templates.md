@@ -92,8 +92,8 @@ You will see that the “Value” field is automatically populated with the high
 The example described here is evaluating a field (Customer Type) that will contain a number (0 or 1). In other situations, you might want to evaluate a field that contains a word, such as `{{.H_resolvedby_teamname}}`. When doing this the field must be surrounded by single quotes e.g. `{{.H_resolvedby_teamname}}` = 'My Team'. i.e. if resolved by team name equals "My Team", show the text bound by the ESP expression.
 :::
 
-When viewing email template, any field that has a Field Expression applied is highlighted in gray.
-To edit an ESP Expression, highlight the field and click the ESP Expression button.
+When viewing/editing and email template, any field that has a Field Expression applied is highlighted in gray.
+To edit Field Expression, highlight the field and click the Edit Expression button.
 
 1. Choose your fields and place them in the template.
 1. Highlight a field and click the ESP Expression button.
