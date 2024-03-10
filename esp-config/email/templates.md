@@ -1,7 +1,7 @@
 ---
 layout: article-toc
 ---
-# Templates
+# Email Templates
 Email templates can be used to pre-populate emails with information to create a standard format for outbound emails. Emails may be sent automatically from Business Process Workflows or manually from within an app.
 
 ## Template List
