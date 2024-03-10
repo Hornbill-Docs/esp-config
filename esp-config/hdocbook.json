@@ -172,6 +172,10 @@
                 "link": "esp-config/customize/employee-portal/employee-portal-design"
               },
               {
+                "text": "Employee Portal Widgets",
+                "link": "esp-config/customize/employee-portal/employee-portal-widgets"
+              },
+              {
                 "text": "Employee Portal Apps",
                 "link": "esp-config/customize/employee-portal/employee-portal-apps",
                 "draft": true
