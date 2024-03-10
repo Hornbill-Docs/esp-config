@@ -28,9 +28,9 @@ As well as the application-specific fields, there are a number of general purpos
 
 |Field ID|Field Name|Field Group|Description|
 |:--|:--|:--|:--|
-|`{{DATE}}`|Current Date|System|The users unique account ID on your Hornbill instance|
-|`{{TIME}}`|Current Time|System|The users unique account ID on your Hornbill instance|
-|`{{instanceId}}`|Instance ID|System|The users unique account ID on your Hornbill instance|
+|`{{DATE}}`|Current Date|-|The users unique account ID on your Hornbill instance|
+|`{{TIME}}`|Current Time|-|The users unique account ID on your Hornbill instance|
+|`{{instanceId}}`|Instance ID|-|The users unique account ID on your Hornbill instance|
 |`{{session.userId}}`|User ID|Session|The users unique account ID on your Hornbill instance|
 |`{{session.firstName}}`|First|Session|The users first name|
 |`{{session.lastName}}`|Last Name|Session|The users last name|
