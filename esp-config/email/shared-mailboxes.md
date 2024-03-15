@@ -46,7 +46,39 @@ The "Addresses" tab is where we specify a "reply address" i.e. the address that 
 The "Status" tab shows provides an overview of the mailbox folders.
 
 ## Associated Roles
-This tab shows which Security Roles give access to this particular Shared Mailbox.
+Providing access to a shared mailbox is done through the creation and association of one or more roles. Once a role is associated with a shared mailbox, users can then be assigned to the roles. A shared mailbox can only be associated with a user created role.
+
+### Create a New Shared Mailbox Role
+If a role for a shared mailbox has not previously been created, you will need to create a role before you can provide access to users.
+1. Open Configuration and search for `Manage Roles`
+1. Within the results under Platform select `Manage Roles`
+1. Click the `Create New Role` button (located to the top right of the list) and populate the fields as follows:
+    * **Role ID**: Mailbox – *(The name of your shared mailbox)*
+    * **Privilege Level**: User
+    * **Type**: Security
+    * **Description**: This role will be used to grant access to the *(The name of your shared mailbox)*
+1. Click on the `Create Role` button.
+1. In the Shared Mailbox field select the shared mailbox that this role will be assocated with.
+1. Click `Save`.
+1. Under the `Shared Mailbox Rights` select the rights that will apply to the users who are assigned this role.
+
+#### Suggested Rights for a Typical User
+This set of rights allows a user to perform all the common actions required to process messages that are received by the Shared Mailbox. It allows a user to view and manage the contents of the shared mailbox.
+
+* Can Get Folder Properties
+* Can Get message
+* Can Flag Message
+* Can Delete Message
+* Can Add File Attachment
+* Can send message
+* Can Edit Message
+* Can Search Message
+
+#### Minimum Rights for Sending An Email
+This set of rights only allows an agent to send a message from the Hornbill Platform. It does not allow the user to view or process the contents of the shared mailbox.
+
+* Can Send Message
+* Can Add File Attachment
 
 ## Frequently Asked Questions
 
