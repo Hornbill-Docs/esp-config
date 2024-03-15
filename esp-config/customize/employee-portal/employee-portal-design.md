@@ -2,17 +2,17 @@
 layout: article-toc
 ---
 # Employee Portal Design
-The main Employee Portal page and the pages associated to each domain offer a wide variety of widgets and configuration that allow you build the perfect experience for your users.
+The main Employee Portal page and the pages associated with each domain offer a wide variety of widgets and configurations that allow you to build the perfect experience for your users.
 
 ## Roles and Rights
-The configuration of each page within the Employee Portal can be governed by granting users specific roles.
+The configuration of each page within the Employee Portal can be governed by granting users specific roles or ownership.
 
-* **Collaboration Role**<br>This role has been updated to include the application right CanManagePage. This right grants the general ability to manage pages. This will be required for Service Domain Owners who will have the ability to create and manage a Service Domain page. In the future, this right will also give any collaboration user the ability create an manage a personal page. Basic Users will not have this ability.
-* **Home Page Manager**<br>This Role grants the rights to manage the main Company Home Page. It includes the application rights CanManagePage and canManageCompanyPages
-* **Domain Owner**<br>Whilst not strictly a role, a user who is configured to own a Domain, will have the rights to add, edit and remove Domain Pages for Domains they are an owner of, on the Employee Portal.
+* **User Role**<br>This role includes the application right CanManagePage. This right grants the general ability to manage pages. This will be required for Service Domain Owners who will have the ability to create and manage a Service Domain page.
+* **Home Page Manager Role**<br>This Role grants the rights to manage the main Company Home Page. It includes the application rights CanManagePage and canManageCompanyPages.
+* **Domain Owner**<br>A user who is configured as the owner of a domain will have the rights to add, edit and remove Domain Pages for that domain.
 
 ## Design Mode
-A user that has the Home Page Manager role or they have been added as the owner of a Service Domain, will have a Cog button available within the header of the page. Clicking on this cog will take the user into the Design Mode for that page. Once in Design Mode the following information is displayed.
+A user that has the Home Page Manager role or they have been added as the owner of a Service Domain will have a Cog button available within the header of the page. Clicking on this cog will take the user into the Design Mode for that page. Once in Design Mode, the following information is displayed.
 
 * **Exit Design Mode**<br>Click this option will return you back to the originating page
 * **Status**
