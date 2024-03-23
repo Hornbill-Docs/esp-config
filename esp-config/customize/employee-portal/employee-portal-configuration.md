@@ -9,6 +9,7 @@ The Employee Portal is a highly configurable environment where you can add widge
 * How to enable the portal
 * Different company configurations
 
+
 ## Accessing
 * Open [Configuration](/esp-config/getting-started/using-configuration) and search for ***Employee Portal***
 
@@ -17,6 +18,10 @@ or
 1. Open [Configuration](/esp-config/getting-started/using-configuration) and select `Platform Configuration`
 1. In the navigation panel locate the section titled ***Customize***
 1. Select `Employee Portal`
+
+Each area of configuration is accessed using the options across the top of the page.
+
+![Employee Portal Customization](_books/esp-config/customize/employee-portal/images/customize-options.png)
 
 ## Page sections
 The Employee Portal pages are split into three sections: header, body, and footer.
@@ -48,7 +53,10 @@ By deselecting all three checkboxes, you can completely remove the footer from t
 :::
 
 ## Company
-When a company is made up from of a number of subsidiary companies, you are able to define this structure within the [Organization configuration](/esp-config/organizational-data/organization) using company groups. Each defined company group can have its own settings applied in order to provide there own unique branding. On the top of the settings form, you can select one of the available companies that you have defined in Hornbill.
+When a company is made up from of a number of subsidiary companies, you are able to define this structure within the [Organization configuration](/esp-config/organizational-data/organization) using company groups. 
+
+
+Each defined company group can have its own settings applied in order to provide there own unique branding. On the top of the settings form, you can select one of the available companies that you have defined in Hornbill.
 
 * **Primary Company**<br>This is the main configuration for the Employee Portal. It will also be used as a template for any Company that is defined within the organization structure. Settings here will be automatically applied to all other companies unless a company has specified a different setting from the Primary Company.
 
