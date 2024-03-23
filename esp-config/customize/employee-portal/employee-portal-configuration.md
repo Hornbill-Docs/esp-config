@@ -30,17 +30,17 @@ The Employee Portal pages are split into three sections: header, body, and foote
 
 ### Header
 * **Logo**<br>Add your company logo to the Employee Portal to give it some branding. Your logo will be displayed on the left side of the header. Adjust the size, background style, and color of your logo to fit in with the Header Background. The size depends on many factors but to give general an idea; The height can be between 80 and 200 pixels and the width between 80 and 300 pixels. It can be of any web format but PNG or SVG is recommended.
-* **Background**<br>The Header Background can be configured to set the height and the color, or add a background image. The size depends on many factors like if the background is a pattern or if it has details, but to give general an idea; 1024 x 300 pixels. It can be of any web format such as JPEG or PNG
-* **Text**<br>The Text on this page includes the main title of the page and the list of different Service Domains which are displayed within the menu bar.
+* **Background**<br>The Header Background can be configured to set the height and the color or add a background image. The recommended size is  1024 x 300 pixels however many factors like if the background is a pattern or what details have been included in the design. It can be of any web image format such as JPEG or PNG.
+* **Text**<br>The color settings apply to the header text that includes the Name, the Short Description of the page, and the list of different Service Domains that are displayed within the menu bar. The background color of the domain menu bar can also be set here.
 
 ::: tip
-Images used for the logo and header background require a URL or link to an image that is stored in a location that is accessible by all users, such as a company web server or the Hornbill Image Library.
+Images used for the logo and header background require a URL or link to an image that is stored in a location that is accessible by all users, such as a company web server or the [Hornbill Image Library](/esp-config/customize/image-library).
 :::
 
 ### Body
-* **Background**<br>Options to either set a background or apply an image to the main body of the portal. The size depends on many factors like if the background is a pattern or if it has details, but to give general an idea; 1024 x 768 pixels. It can be of any web format such as JPEG or PNG.
-* **Section**<br>Sets the default colors for the widgets that are added to the page
-* **Popup**<br>Sets the default colors for popup boxes
+* **Background**<br>Options to either set a background or apply an image to the main body of the portal. The recommended size is 1024 x 768 pixels however many factors like if the background is a pattern or what details have been included in the design. It can be of any web image format such as JPEG or PNG.
+* **Section**<br>Sets the default colors for the widgets that are added to the page.
+* **Popup**<br>Sets the default colors for popup boxes.
 
 ### Footer
 * **Style**<br>Set the color and font options to use within the page footer
