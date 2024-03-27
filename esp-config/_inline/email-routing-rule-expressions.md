@@ -6,6 +6,10 @@
     as you become more familiar with the system you can simply type the correct variable names into the expression as
     needed. The following table lists the available variables and their purpose</p>
 
+:::tip
+These variable names are CASE-SENSITIVE and must be entered in exactly the same way they are documented here.  Use the variable selector, or make sure you type them in as shown
+:::
+
 <table class="doc-pretty-table">
     <thead>
         <tr>
