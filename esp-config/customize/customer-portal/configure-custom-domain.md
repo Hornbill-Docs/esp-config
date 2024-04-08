@@ -1,9 +1,5 @@
 # Configuring a Custom Domain for your Customer Portal
 
-:::warning
-This document provides preliminary information that is not yet production ready, both the functionality and this content is under active development
-:::
-
 ## Custom Domain Overview
 
 The customer portal is a feature of the Hornbill solution designed to allow your external contacts to interact with your Hornbill instance. Typically this is used in the context of you, as the owner of the Hornbill instance, providing support services to your external customers. Please note, external customers are identified in the Hornbill solution as "contacts" and these are a distinctly separate from your employees, where you may be providing internal support. The Customer portal is designed for external users only. 
