@@ -12,7 +12,8 @@ This document looks at the requirements and steps used to create multiple user a
 * Access to a list of the users that you want to add to the CSV file for import
 
 ## Quick Steps
-1. Open Administration and navigate to System->Organisational Data->Users
+1. Open Configuration and select Platform Configuration
+1. In the navigation panel under Organizational Data select `Users`
 1. From the User List tool bar, select the Upload Users button.
 1. Click on the Download Template File button
 1. Populate the CSV Template File with the users that you wish to upload
