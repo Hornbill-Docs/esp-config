@@ -5,37 +5,46 @@ layout: article-toc
 The Hornbill platform supports single sign-on as well as policy-based transparent auto provisioning and data updates of both user and guest accounts thus providing enterprise-class user identity integration with your organizations core IT directory services.
 
 ## Topics covered
-* Setting up meta data
-* Configuring your identity provider
-* Managing your SSO Certificate
+- Setting up meta data
+- Configuring your identity provider
+- Managing your SSO Certificate
 
 ## Before you begin
-* Admin access to Hornbill Configuration
-* An Identity Provider that supports SAML 2.0
+- Make sure you read and understand the [Understanding Single Sign-On (SSO) in Hornbill](/esp-fundamentals/security/single-sign-on)
+- Admin access to Hornbill Configuration
+- An Identity Provider that supports SAML 2.0
 
 ## Accessing Single Sign-On Profiles
-* Open Configuration and search for `sso` and select `SSO Profiles` from the results
+- Open Configuration and search for `sso` and select `SSO Profiles` from the results
  
-## Download the Hornbill Meta data
+## Download the Hornbill SSO Meta data
 
-The Service Provider (Hornbill) meta data files needed for configuring your IdP can be downloaded from your Hornbill instance
-In order to successfully configure your Identity Provider (IdP) you will need details of your Hornbill instance. The Service Provider meta data files contain such things as the Service Provider Entity Id and Assertion Consumer Service (ACS) binding that your IdP needs to communicate during the authentication process.
+The Service Provider (Hornbill) meta data files needed for configuring your IdP can be downloaded from your Hornbill instance.  In order to successfully configure your Identity Provider (IdP) you will need details of your Hornbill instance. The Service Provider meta data files contain such things as the Service Provider Entity Id and Assertion Consumer Service (ACS) binding that your IdP needs to communicate during the authentication process.
 
-To get your meta data files, log into Hornbill Administration and navigate to Home > system > Security > SSO Profiles. Located towards the top right of the list are buttons labeled "Mobile Catalog", "User", "Service", and "Customer". Clicking each of these will download the Hornbill meta data file for the associated Service URL.
+To get your Hornbill instance meta data files, log into Hornbill Administration and navigate to Home > system > Security > SSO Profiles. Located towards the top left of the list are buttons labeled __User__ and __Mobile Catalog__. Clicking each of these will download the Hornbill meta data file for the associated Service URL.
 
-* **USER**<br>Contains information for https://live.hornbill.com/[your instance name]
-* **MOBILE CATALOG**<br>Contains information for https://mcatalog.hornbill.com/[your instance name]
-* **CUSTOMER**<br>Contains information for https://customer.hornbill.com/[your instance name]
+- __USER__<br>Contains information for https://live.hornbill.com/[your instance name]
+- __MOBILE CATALOG__<br>Contains information for https://mcatalog.hornbill.com/[your instance name]
 
-### What Meta data files do I need to download?
-When configuring your IdP, you will need to create entries to represent each of the Hornbill URL's that will be used to access your Hornbill instance and you will need the corresponding meta data files to support the creation of the trusts.
+![Download SAML Metadata](_books/esp-config/security/images/saml-metadata.png)
 
-* **User**<br>This is always necessary. Therefore as a minimum you will have one entry in your IdP.
-* **Mobile catalog**<br>This is required to facilitate access via a mobile device.
-* **Customer**<br>This represents the self service portal used in the delivery of an external support function. This is only required if you need a portal to provide services to those outside of your organization.
+### Manually configuring your IdP
+Sometimes your IdP will require manual configuration.  In this case you should use the values provided in the __SAML Properties (manual configuration)__ information.
+
+* Entity ID 
+* Reply URL
+* Sign-On URL
+
+![Download SAML Metadata](_books/esp-config/security/images/saml-manual-config-props.png)
 
 ## Configure your Identity Provider
-The Hornbill SSO implementation follows the SAML 2.0:2005 specification so will work with any commercial or home-grown identity provider that correctly supports this standard. We have tried to make our system as flexible as possible in terms of configuration and compatibility with the standard. Here is a link to the official standards documentation: - SAML 2.0 2005
+The Hornbill SSO implementation follows the [SAML 2.0:2005](https://saml.xml.org/saml-specifications) specification so will work with any commercial or internally developed identity provider that correctly supports this standard. We have tried to make Hornbill as flexible as possible in terms of configuration and compatibility with the standard. 
+
+Here is a link to the official standards documentation: [SAML 2.0:2005](https://saml.xml.org/saml-specifications)
+
+
+![Download SAML Metadata](_books/esp-config/security/images/saml-config.png)
+
 
 The following identity providers are known to have been configured and work with the Hornbill platform (we will expand this list as we integrate successfully with other systems).
 
@@ -61,38 +70,16 @@ This URL is no longer valid and should be replaced with the following: xxx . Con
 
 ## SSO Certificate Expiry Reminders
 
-Showing the configured state of an SSO profile where certificate time and validity are enabled
-Summary
 Digital certificates generated and used by your Identity Provider typically have an expiry date. Once a digital certificate has expired, and assuming you have not disabled the Time and Cert valid checks (which you should only ever do for troubleshooting), then you will no longer be able to login using SSO. As it is easily forgotten, your Hornbill instance will run a certificate reminder schedule in advance of your signing certificate expiring, acting as a reminder and prompt for you to update the certificates in your SSO Profile(s).
 
-### How the Schedule Works
-The reminder schedule will send email notifications to your registered Primary and Secondary technical contacts, and will follow a schedule defined in “days before expiry” here: -
+Read more about [how the reminder schedule works](/esp-fundamentals/security/single-sign-on#sso-digital-certificates) here.
 
-* **30 Days**<br>A courtesy notification letting you know that your certificate will expire in 30 days, subject of the message will be “Your Single Sign-On Certificate will expire in 30 days”
-* **15 Days**<br>First reminder, subject of the message will be “ATTENTION: Your Single Sign-On Certificate will expire in 15 days”
-* **7 Days**<br>Second reminder, subject of the message will be “WARNING: Your Single Sign-On Certificate will expire in 7 days”
-* **1 Day**<br>Final reminder, subject of the message will be “URGENT: Your Single Sign-On Signing Certificate will expire tomorrow”
-
-At any point during this 30-day schedule, your SSO Profile(s) certificates are updated with new ones, this schedule will be reset and you will not receive any further notifications.
-
-The schedule message, subject, and content of the email messages are fixed and not customizable. The email addresses used are those defined as your primary and secondary technical contacts registered against your instance.
 
 ## SSO Auto Certificate Renewal
 
 In order to eliminate manual administrative overhead, it is possible to configure your Hornbill instance to automatically update the public certificates from your SAML identity provider instead of having to do this manually each time the certificate is renewed on your identity provider.
 
-### Benefit
-By configuring this capability, this certificate renewal automation removes the need for any further maintenance of certificates between your Hornbill instance and your Identity Provider, eliminating situations where someone forgets to update a certificate manually causing a loss of access to your instance while a new certificate is applied manually.
-
-### Overview
-Many SAML 2.0 Identity providers have a feature whereby the signing certificate used for signing SAML assertions is renewed periodically. When a new certificate is generated, it is typically generated in advance of the expiry date of the currently active certificate, creating an overlap period where both the new and the old certificate are active. This is designed to give system administrators time to update any service providers using SSO with the new certificate information.
-
-The policies that control the certificate renewal and overlap periods are defined by the identity provider and beyond the scope of this document, you should see the documentation for the Identity Provider you are using for more information.
-
-### How It works
-When configuring Hornbill to use SSO, one of the things you are required to do as part of the SSO configuration is provide your Hornbill instance with the SAML metadata from your Identity Provider, this is typically a URL that, when viewed in a browser, will return the XML data describing the Identity Provider, its public certificates and so on.  Depending on your particular Identity Provider and the security decisions made by the team responsible for the same, this URL may or may not be publicly available. 
-
-If this is URL is publicly available and is accessible to the Hornbill instance, our servers will periodically look for new certificates from this URL, if you configure it to do so. If a match is found to any registered SSO profile on your instance, and if there are new public key(s), these found, the new certificate(s) will be automatically imported into your Hornbill SSO profile, facilitating a seamless switch-over from an existing certificate, to a new certificate without, any service disruption to your users. 
+Read more about [how SSO Auto Certificate Renewals Work](/esp-fundamentals/security/single-sign-on#sso-auto-certificate-renewal) here.
 
 :::note
 Expired SSO certificates stored in the SSO profile on your Hornbill instance are automatically removed 30 days after their expiry, if, a newer certificate has already been imported. 
@@ -107,12 +94,31 @@ When you configure automatic certificate renewal, you may or may not get one or 
 ### Expired Certificate Auto Deletion
 Certificates that have expired are marked as "expired" and will be displayed in red to indicate this, and are no longer used for verification. Expired certificates are left on the SSO profile for 180 days, after which time, the expired certificates are automatically, and permanently deleted from the SSO profile.
 
-## Configure a Single Sign On Profile in Hornbill
-The final step in setting up SSO for Hornbill is to create a Single Sign On Profile in your Hornbill instance. The following page will provide detail on how to complete this step: Configuring a Single Sign On Profile in Hornbill.
+:::tip
+When auto certificate renewal is enabled, Hornbill will check for new certificates once ever 24 hours. You can check this manually at any time by pressing the reload button here:
+![SAML Metadata Reload](_books/esp-config/security/images/sso-cert-check.png)
+:::
 
-## Enabling Single Sign On in your Web Browser
-Depending on your policy, it may be necessary to make changes to your browser settings to ensure a seamless SSO experience. The following page outlines the steps for some common browsers: Enabling Single Sign On in Your Web Browser.
 
-## Troubleshooting Single Sign On
-Hornbill's Single Sign On implementation is designed to present you with helpful error messages in situations where something may not be quite right. For information in relation common scenarios and what to do to overcome them please see the following page: Troubleshooting Single Sign On.
+## SSO Troubleshooting and Common Issues
+Hornbill's Single Sign On implementation is designed to present you with helpful error messages in situations where something may not be quite right. 
+
+### The public certificate used for signing the assertion is not known to the service provider
+A common cause of this error message is that the signing certificate stored in your Identity provider has been renewed and therefore no longer matches the SSO certificate you have stored in Hornbill against your SSO profile. Some Identity Providers automatically renew signing certificates periodically. This specific error message indicates that the signing certificate given to Hornbill by your identity provider does not match any of the certificates currently stored in the Hornbill SSO Profile. This can be rectified by uploading a new certificate key to the Hornbill SSO Profile or enabling Auto Certificate Renewal.
+
+### Unable to Validate User Credentials
+This error occurs when Hornbill was unable to find a match for the user information sent from the identity provider. When the identity provider successfully authenticates a user, it sends information to Hornbill which Hornbill processes to determine which user account to use in order to establish a session for that user (i.e. log them in).
+
+#### Things to check
+There are several possible reasons for this error:
+
+- The user that has been successfully authenticated does not have a Hornbill user account.
+- The solution here is to create a Hornbill user account for this user. However, it's important to understand why one did not exist as it could indicate a problem with a user import.
+- The Hornbill user account is either archived or suspended.
+- The solution is to set the status of the account to active. However it's important to understand - why the account was suspended or archived as this may be intentional or could indicate a problem with a user import.
+- The Unique Identifier sent from your Identity Provider does not match what is stored in the Logon ID field of the Hornbill User Account.
+- The unique user identifier being sent from the Identity Provider must match the Logon ID of a Hornbill user account.
+- The Unique Identifier is configurable in the Identity Provider. The unique identifier will be a unique directory attribute such as "userPrincipleName". The attribute used can vary between identity providers so it will be necessary for you to understand what is being sent to Hornbill. This is usually configurable in the section responsible for the "user attributes and claims" (again, exactly where this is configured will depend on your identity provider).
+Alternatively, align the Logon ID field of all user accounts to match what your identity provider is sending. For more information on creating and managing users, including Hornbill user account properties, begin at the following page: Users
+
 
