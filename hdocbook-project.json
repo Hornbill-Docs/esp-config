@@ -10,6 +10,6 @@
 
     { "url": "/esp-config/customize/customer-portal-setup", "location": "/esp-config/customize/customer-portal/configure-customer-portal", "code": 308 },
     
-    { "url": "/esp-config/email/routing-rules", "location": "/esp-config/email/using-email-routing-rules", "code": 410 }
+    { "url": "/esp-config/email/routing-rules", "location": "/esp-config/email/using-email-routing-rules", "code": 318 }
   ]
 }
