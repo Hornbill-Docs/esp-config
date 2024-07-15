@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "1.0.102",
+  "version": "1.0.103",
   "productFamily": "esp",
   "tags": [
     "esp",
@@ -384,7 +384,7 @@
       },
       {
         "text": "Hornbill Solution Center",
-        "items":[
+        "items": [
           {
             "text": "Hornbill App Store",
             "link": "esp-config/hornbill-solution-center/hornbill-app-store"
