@@ -17,4 +17,4 @@ Add a description to indicate the specific purpose of the import. It is possible
 ## Types of Data Import Configuration
 The type of Data Import configuration that is selected determines the interface that is presented to you. Currently, only the LDAP user import utility (version 3.0 or later) supports this new interface.
 
-LDAP Import Utility - Full Documentation can be found Here
+Read the [LDAP Import Utility Documentation](/data-imports-guide/users/ldap/overview) for more information.
