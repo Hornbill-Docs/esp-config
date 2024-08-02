@@ -1,7 +1,7 @@
 ---
 layout: article-toc
 ---
-# Profiles
+# Profiles !
 Profiles provide hierarchical tree structures that can be used within different applications for applying profiles or categories.
 
 ## Profile List
