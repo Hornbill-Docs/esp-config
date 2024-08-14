@@ -58,8 +58,31 @@ If you wish to use DNS Routing, this requires the following steps.
 When an email is delivered, our servers will automatically negotiate the highest level of transport encryption supported by the remote SMTP server. This is completely automatic and is negotiated every time a new SMTP connection is made. We support the TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0, and Plain Text protocols, prioritized and negotiated for in that order.  The SPF/TXT record allows Hornbill to send emails using the configured domain without the risk of breaching any anti-spam/email source validation checks.
 
 ::: note
-If the domain name is set to live.hornbill.com, a SPF/TXT Record is not required.
+If the domain name is set to live.hornbill.com, a SPF/TXT Record is not required. If you wish to configure “Use Direct Outbound” and the domain name used in the email from address is not live.hornbill.com, a SPF/TXT Record must be configured.  The SPF/TXT record allows Hornbill to send email using the configured domain without risk of breaching any anti-spam/email source validation checks.
+
+It is recommended that this is configured by a system admin to add this record to your DNS.
+
+The following record is to be added 
+
+**include:_spf.hornbill.com**
+
+An example SPF/TXT record would be 
+
+**v=spf1 include:_spf.hornbill.com ~all**
+
+On all outbound email for this domain, Hornbill checks that the SPF/TXT record has the  '''include:_spf.hornbill.com''' section set otherwise the mail will refuse to send.
+
+This check is put in place to ensure Hornbill is allowed to send email as the given domain and to prevent abuse such as someone sending email pretending to be from a domain they do not own.
+
+SPF/TXT – these are both types of DNS record which should be set although SPF have been officially deprecated it still may be used so it can be a good idea to set. The main record that needs to be added is the TXT version.
+
+To confirm that the include has been added to a TXT/SPF record it is possible to check using this 3rd party website http://mxtoolbox.com/SuperTool.aspx?action=spf (Hornbill takes no responsibility for 3rd party websites).
+
 :::
+
+
+
+
 
 ### Option 2: SMTP SmartHost
 A smart host is a type of email message transfer agent that allows a Simple Mail Transfer Protocol (SMTP) server to route email via an intermediate e-mail server rather than directly to the recipient's server. With this method, an e-mail server within your organization is configured to allow the relaying of emails from your Hornbill instance (based in our data center) to your end users. With the relay configured, any outbound email will pass through your domain, and therefore, from the recipient's perspective, the source domain will correspond to that used in the "from address" that we configure within Hornbill.
