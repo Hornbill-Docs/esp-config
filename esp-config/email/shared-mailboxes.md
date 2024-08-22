@@ -5,7 +5,7 @@ layout: article-toc
 Shared mailboxes are created to allow a group of users to share a single mailbox for both outgoing and incoming emails, all using a common email address.
 
 :::note
-The first two shared mailboxes are free, but any more mailboxes are subject to an additional monthly subscription charge.
+The first two shared mailboxes are included with every instance. Additional mailboxes are subject to an additional monthly subscription charge.
 :::
 
 
@@ -29,7 +29,11 @@ This tab is where we tell Hornbill where it will retrieve email messages. Rememb
 * **Password**<br>The mail account password.
 
 ::: important
-As soon as a successful connection is established with the mailbox on your mail server, Hornbill will immediately retrieve all the emails that reside in the inbox. All of these messages will be **deleted** from the server once they are downloaded to Hornbill. If you have any need for the messages to remain on the mail server, you should ask your mail administrator to implement some rules that duplicate any message sent to this mail account to another folder/location.
+As soon as a successful connection is established with the mailbox on your mail server, Hornbill will immediately retrieve all the emails that reside in the Inbox folder.  All of these messages will be **deleted** from the server once they are downloaded to Hornbill.
+
+Deletion of messages **ONLY** applies to messages that are in the Inbox folder, messages in other folders are not processed. 
+
+If you have a requirement for the messages in remain on your mail server, you should ask your email system administrator to implement some rules that duplicate any message sent to this mail account to another folder/location.
 :::
 
 ## Linking an Outbound Mail Route (Domain)
@@ -84,3 +88,4 @@ This set of rights only allows an agent to send a message from the Hornbill Plat
 
 1. **Which protocol should I use, IMAP4 or POP3?**<br>When Hornbill integrates with your enterprise or public e-mail system for shared mailboxes, we only use your mail server to transport mail. Once we read a mail message from your server and move it safely into our database, we delete the message on the remote server. So in this context, both POP3 and IMAP4 do the exact same job. If your server supports IMAP4, this would be the recommended protocol. IMAP4 is a more modern and flexible protocol that allows for instant mail notifications instead of polling for mail.
 1. **Why does Hornbill delete mail from my mail server?**<br>Hornbill stores all emails it receives into its shared mailboxes in a database. Once your mail messages and attachments are in our database, they are as safe as the rest of your data on our platform. One of the problems with IMAP and POP3 with the mail systems that implement these protocols is there is generally a finite amount of storage available for mail. So the question about how to keep storage use at manageable levels becomes a complication and an administrative overhead. To combat this, many systems impose storage limits and forced message deletion policies. Another good reason is the technical details of how the IMAP and POP3 protocols are implemented. As data sets become large on your mail system, it takes more and more time and network bandwidth to synchronize between Hornbill and your mail system. For these reasons, it works a lot better and is the maintenance-free option to move the messages from your mail server to our platform.
+1. **Will messages from folders other than the Inbox folder be deleted from my mailserver during import to Hornbill**<br>No, only messages in the Inbox folder are retrievd and moved to the Hornbill shared mailbox.  Messages in any other folder on your own mailbox will be loeft alone. If you want to retain a copy of the inbound emails on your mailbox, we reccomenned you ask you email system administrator to add some rules to the mailbox to make a copy of all incoming messages into another folder (i.e. Inbox Archive) on your mailbox.
