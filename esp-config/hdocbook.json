@@ -258,6 +258,25 @@
         ]
       },
       {
+        "text": "Managing Storage",
+        "expand": false,
+        "draft": true,
+        "items": [
+          {
+            "text": "Emails",
+            "link": "esp-config/storage/emails"
+          },
+          {
+            "text": "Workflows",
+            "link": "esp-config/storage/workflows"
+          },
+          {
+            "text": "Requests",
+            "link": "esp-config/storage/requests"
+          }
+        ]
+      },
+      {
         "text": "Data",
         "expand": false,
         "items": [

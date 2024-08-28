@@ -1,8 +1,8 @@
 ---
 layout: article-toc
 ---
-# Profiles !
-Profiles provide hierarchical tree structures that can be used within different applications for applying profiles or categories.
+# Profiles
+Profiles provide hierarchical tree structures that you can use within different applications for applying profiles or categories.
 
 ## Profile List
 The Profile List shows all of the existing profiles. Some of these profiles may have been automatically added through the installation of an application and are pre-configured and ready to be used by these applications.
