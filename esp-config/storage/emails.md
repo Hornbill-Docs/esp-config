@@ -31,6 +31,8 @@ The [Email Archiver utility](https://wiki.hornbill.com/index.php?title=Email_Arc
 Once downloaded, the email message and attachment will be deleted and will no longer be accessible from your Hornbill instance. Emails and their attachments will be available for reference in the location to which they were downloaded.
 
 ### Empty an entire email message folder
-An entire folder can be emptied via an interface located in Hornbill Administration. This can be found in System > Email > Shared Mailboxes. Select a shared mailbox and then the tab labeled “status”. All folders which exist for that mailbox will be listed. The folder can be emptied by clicking on the red trash-can icon.
+To empty an entire folder, navigate to Configuration > Platform Configuration > Email > Shared Mailboxes. All folders that exist for that shared mailbox will be listed. 
+
+Click a shared mailbox, then in the Status tab, find the folder you want to empty and click its red **Empty Folder** button. 
 
 <!-- esp-config/storage/emails>
