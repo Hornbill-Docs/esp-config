@@ -3,28 +3,27 @@ layout: article-toc
 ---
 
 ## Workflows
-As System administrators come and go and your Service Delivery evolves, the number of business processes configured in your instance will inevitably grow over time. This is one area where good house keeping is important, not just from a storage perspective, but also from an administrative standpoint. Business Processes can be managed via the Hornbill Administration interface in the business process section associated with the application e.g. Service Manager Hornbill Administration > Applications > Service Manager > Business Processes.
+As system administrators come and go and your service delivery evolves, the number of workflows configured in your instance inevitably grows over time. This is one area where good housekeeping is important, not just from a storage perspective, but also from an administrative standpoint. Workflows can be managed in Configuration > Service Manager > Customize > Workflows.
 
-### Ensure your Business Processes are Reliable
-Failed business processes can contribute to greater storage consumption. As part of business process execution, an event log is generated so it’s actions and responses can be reviewed in the event of an issue or error. An event log is generated for every business process which is running in the application.
+### Ensure your workflows are reliable
+Failed workflows can contribute to greater storage consumption. As part of workflow execution, an event log is generated; in the event of an issue, you can review the log's actions and responses. An event log is generated for every workflow that is running in the application.
 
-Assuming the business process reaches a successful conclusion (i.e. a state of “Completed”) or is canceled (a state of “Canceled”) it’s logs are purged 7 days after it entered one of these states. Logs are only maintained for business process instances with a state of “in progress”, “suspended”, or “failed”. Business process that are “in progress” or “suspended” are still active, however those that are in a failed state have encountered problems and have stalled. Logs for failed processes are retained for much longer (3 months) so action should be taken to understand the reason for failure and address this in the process design so further business process instances can avoid failure. Processes that have already failed should be dealt with appropriately either by fixing or canceling the specific business process instance.
+When the workflow reaches a successful conclusion (i.e. a state of *Completed*) or is canceled (a state of *Canceled*) its logs are purged 7 days after. Logs are only retained for workflow instances with a state of *In progress*, *Suspended*, or *Failed*. Workflows that are *In progress* or *Suspended* are still active, however those that are in a failed state have encountered problems and have stalled. Logs for failed processes are retained for much longer (3 months), so you have time to take action to understand the reason for failure and address this in the workflow design so that further workflow instances can avoid failure. Workflows that have already failed should be dealt with appropriately, either by fixing or canceling the specific workflow instance.
 
-The detail of any active business process can be inspected via the Hornbill Administration interface in the business process section associated with the application (e.g. Service Manager). There is a button located to the top right of the list of bpm processes labeled “Manage Executed Processes” which presents a list of all the active business process instances.
+You can inspect the details of any active workflow in the Workflows section (Configuration > *[application]* > Manage Executed Workflows), of the associated application, for example, Service Manager.
 
-The “Manage Executed Processes” area should be checked periodically to ensure processes are running reliably through to completion. Any failed processes should be investigated and the root caused addressed.Ensure your Business Processes are Reliable
-Failed business processes can contribute to greater storage consumption. As part of business process execution, an event log is generated so it’s actions and responses can be reviewed in the event of an issue or error. An event log is generated for every business process which is running in the application.
+You should monitor the *Manage Executed Workflows* area periodically to ensure workflows are running reliably through to completion. Any failed workflows should be investigated, and the root caused addressed.
 
-Assuming the business process reaches a successful conclusion (i.e. a state of “Completed”) or is canceled (a state of “Canceled”) it’s logs are purged 7 days after it entered one of these states. Logs are only maintained for business process instances with a state of “in progress”, “suspended”, or “failed”. Business process that are “in progress” or “suspended” are still active, however those that are in a failed state have encountered problems and have stalled. Logs for failed processes are retained for much longer (3 months) so action should be taken to understand the reason for failure and address this in the process design so further business process instances can avoid failure. Processes that have already failed should be dealt with appropriately either by fixing or canceling the specific business process instance.
+### Delete old workflow designs
+Deleting old workflows that are no longer used will help manage the storage consumed.
 
-The detail of any active business process can be inspected via the Hornbill Administration interface in the business process section associated with the application (e.g. Service Manager). There is a button located to the top right of the list of bpm processes labeled “Manage Executed Processes” which presents a list of all the active business process instances.
+To delete a workflow, click the **Delete workflow** button (trash can icon) in the workflow's row in the list.
 
-The “Manage Executed Processes” area should be checked periodically to ensure processes are running reliably through to completion. Any failed processes should be investigated and the root caused addressed.
+Workflows can be deleted only if there are no active instances of the design running in the application, for example in the case of Service Manager workflows running against requests.
 
-### Delete Old Process Designs
-Deleting old processes that are no longer used will help manage the storage consumed. Processes can be deleted using the trash can icon located to the right hand side of the process. Processes can only be deleted if there are no active instances of the design running in the application e.g. in the case of service manager business processes run against requests.
+### Design efficiently
+Many workflow operations have the option to post a timeline update to a request as part of performing the operation. While an individual timeline update doesn't contribute a great deal to storage consumption, these will accumulate over time. Consider whether a timeline update as part of the workflow operation is really necessary before enabling it.
 
-### Design Efficiently
-Many business process operations have the option to post a timeline update to a request as part of performing the operation. While an individual timeline update doesn't contribute a great deal to storage consumption, these will accumulate over time. Consider whether a timeline update as part of the business process operation is really necessary before enabling it. The timeline content generated by business process nodes can be controlled in the configuration of each node by setting the “System Timeline Update” and “Manual Timeline Update” parameters to “ignore”.
+To control the timeline content generated by a workflow node, hover over the node, click the cog icon, and in *Options*, set the System Timeline Update and Manual Timeline Update parameters to **Ignore**.
 
 <!-- esp-config/storage/workflows>
