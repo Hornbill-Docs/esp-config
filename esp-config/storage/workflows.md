@@ -2,7 +2,6 @@
 layout: article-toc
 ---
 
-## Workflows
 As system administrators come and go and your service delivery evolves, the number of workflows configured in your instance inevitably grows over time. This is one area where good housekeeping is important, not just from a storage perspective, but also from an administrative standpoint. Workflows can be managed in Configuration > Service Manager > Customize > Workflows.
 
 ### Ensure your workflows are reliable

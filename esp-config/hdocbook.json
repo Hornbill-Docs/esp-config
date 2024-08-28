@@ -260,7 +260,7 @@
       {
         "text": "Managing Storage",
         "expand": false,
-        "draft": true,
+        "draft": false,
         "items": [
           {
             "text": "Emails",
