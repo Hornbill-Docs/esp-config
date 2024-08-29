@@ -4,7 +4,7 @@ layout: article-toc
 
 Storage over and above the instance storage quota attracts an additional monthly cost. While this is a nominal fee, regular housekeeping and some best-practice guidelines can help you manage your storage effectively.
 
-You can review the storage consumed by your Hornbill instance in ~~Hornbill Administration > Your Subscription.~~ *??Should this be the following?* Configuration > Hornbill Solution Center > Subscription > Your Usage.
+You can review the storage consumed by your Hornbill instance in Configuration > Hornbill Solution Center > Subscription > Your Usage.
 
 For more detail on our approach to Cloud storage, see [Data Storage](/hornbill-cloud/data-storage).
 
