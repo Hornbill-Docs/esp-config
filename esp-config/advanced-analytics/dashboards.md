@@ -53,4 +53,10 @@ Once the Dashboard layout, and widget content is configured it is important to c
 * **Save**<br>Save the Dashboard by selecting the Save (disk) icon.
 * **Copy**<br>Create a copy of the Dashboard layout by selecting the Save As option from the drop down next to the Save (disk) icon, and giving the new Dashboard a name.
 
+### Notes On Dashboards
+While dashboards offer real-time insights, Dashboards are complementary to reports, not replacements. Dashboards serve as a valuable tool that complements traditional reports rather than serving as a replacement for them. They provide real-time insights and a visual representation of data that can be easily interpreted at a glance. However, it is important to note that an excessive number of widgets on a dashboard can sometimes lead to performance issues, particularly when dealing with complex queries or large datasets.
+
+If you find that your dashboard is experiencing performance issues, Hornbill offers assistance in optimizing your dashboard to improve its efficiency. This may involve streamlining the layout, reducing the number of widgets, or fine-tuning the queries to ensure smoother operation. In some cases, it may be necessary to explore alternative solutions, such as transitioning to our Enterprise platform, which is designed to handle more complex data processing and analysis tasks effectively. By working closely with Hornbill, you can ensure that your dashboard functions optimally and continues to provide valuable insights for your business operations.
+
+
 <!-- https://wiki.hornbill.com/index.php?title=Dashboards -->
