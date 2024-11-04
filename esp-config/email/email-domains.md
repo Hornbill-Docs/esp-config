@@ -104,6 +104,21 @@ The origin IP that should be specified in any such firewall rules is one of the 
 You will find a default domain entry (live.hornbill.com) comes already configured with your instance which allows you to test aspects of the Hornbill applications while you are organizing the email configuration required in your infrastructure.
 :::
 
+## Sending Email from a custom domain
+Because Hornbill is a cloud solution, when sending e-mails from your Hornbill instance, you may want to send those e-mails from your corporate domain rather than a .hornbill.com sub-domain. 
+
+There are two configuration possibilities to achieve that:
+
+### Using the Sender Policy Framework (SPF) standard
+This is the most straightforward scheme to implement, you simply add your domain to the hornbill instance and ensure that your DNS includes a directive in your SPF policy to tell mail servers out there that you are authorizing mail messages coming from our servers to be from someone@yourdomain.com - because of automated SPF checks done by our servers during configuration this can easily be set up by our customers without our assistance.
+
+Additional reference Documents
+RFC4408 http://www.ietf.org/rfc/rfc4408.txt
+http://www.openspf.org/FAQ
+
+### Using SMTP Smart Host
+Instead of our servers taking care of mail routing, we can simply route all outbound e-mails for your specified domain to an SMTP relaying server of your choice. Typically this is your own enterprise SMTP server which you have to provide us access to (generally by creating special firewall rules to enable our servers to connect).
+
 ## FCrDNS
 This is known as Forward-Confirmed reverse DNS (FCrDNS). This means that the hostname's A record must match the reverse DNS (PTR) record for the IP (and Vice Versa). This was a historic attempt to ensure that the Sender owned the domain and the DNS record. In reality, it never really worked once cloud services or multi-tenant systems became a reality with multiple SMTP serves serving many customers and having resilience and was dropped by all but 2 lists years ago.
 
