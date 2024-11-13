@@ -2,7 +2,9 @@
   "docId": "esp-config",
   "pdfGeneration": {
     "enable": true,
-    "exclude_paths": [],
+    "exclude_paths": []
+  },
+  "validation": {
     "exclude_links": [
       "https://www.mycompany.com/support"
     ]

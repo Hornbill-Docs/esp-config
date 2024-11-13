@@ -97,5 +97,5 @@ If you have questions/clarifications about anything in this document, please use
 #### Once configured, would it still be possible to use the hornbill provided url for access the customer portal?
 > Yes, the Hornbill provided endpoint https://customer.hornbill.com/_<your_instance_id>_ will continue to work as normal.
 
-#### Is it possible to have the service portal appear to be in a sub-folder on my website?
+#### Is it possible to have the service portal appear to be in a sub-folder on my website, for example https://www.mycompany.com/support ?
 > No, this is not possible, however, you can simply include a redirect on your support page, so from a user point of view they are transported to the correct place.
