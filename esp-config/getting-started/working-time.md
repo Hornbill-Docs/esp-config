@@ -45,7 +45,7 @@ To access Working Time Calendars
 1. Open Configuration.
 1. Search for Working Time Calendars.
 
-![Working Time Calendar](_books/esp-config/images/working-time-calendar.png)
+![Working Time Calendar](/_books/esp-config/images/working-time-calendar.png)
 
 ### Time Zone
 Hornbill can be used across multiple geographical regions and time zones. Select the time zone that represents where the teams or users who will be using this particular Working Time Calendar are located. This will ensure that the correct times are stored for the activities that they perform.

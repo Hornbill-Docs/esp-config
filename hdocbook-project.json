@@ -2,7 +2,10 @@
   "docId": "esp-config",
   "pdfGeneration": {
     "enable": true,
-    "exclude_paths": []
+    "exclude_paths": [],
+    "exclude_links": [
+      "https://www.mycompany.com/support"
+    ]
   },
   "redirects": [
     { "url": "/esp-config/advanced-tools-and-settings/database-direct", "location": "/esp-config/advanced-tools-and-settings/low-level-database-query-tool", "code": 308 },

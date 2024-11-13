@@ -42,7 +42,7 @@ Each field on the user profile has a number of properties that can be changed.  
 * Make it read-only
 * Add input validation
 
-![User profile field properties](_books/esp-config/customize/images/user-profile-field-properties.png)
+![User profile field properties](/_books/esp-config/customize/images/user-profile-field-properties.png)
 
 ### Labels and Translations
 As part of designing the user profile form, you may want to change some of the labels or provide translations into different languages.  There are three different ways to achieve this.

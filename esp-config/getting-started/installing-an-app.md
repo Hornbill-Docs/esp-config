@@ -20,7 +20,7 @@ The Hornbill App Store is a place where one can go to browse, install, and remov
 1. Select one of the apps from the group of free apps.
 1. Click on the `Install` button to start the installation.
 
-![Hornbill App Store](_books/esp-config/getting-started/images/app-store.png)
+![Hornbill App Store](/_books/esp-config/getting-started/images/app-store.png)
 
 ::: note
 Premium apps can be installed at any time, however, subscription licenses must be applied before any users can be given access to the app.

@@ -18,11 +18,11 @@ or
 1. Select `Supported Languages`
 
 
-![Supported Languages](_books/esp-config/internationalization/images/supported-languages.png)
+![Supported Languages](/_books/esp-config/internationalization/images/supported-languages.png)
 
 ## Languages
 
-![Languages](_books/esp-config/internationalization/images/languages-button.png)
+![Languages](/_books/esp-config/internationalization/images/languages-button.png)
 
 The `Languages` option allows you to turn on the languages that are available to your users. Once a language has been turned on it will be available for users to select within their user profile under Regional Settings.
 
@@ -32,7 +32,7 @@ The `Languages` option allows you to turn on the languages that are available to
 
 ## Translate
 
-![Translate](_books/esp-config/internationalization/images/translate-button.png)
+![Translate](/_books/esp-config/internationalization/images/translate-button.png)
 
 The `Translate` option is used to provide translations for any string that is currently missing a translation for a selected application and language.  
 

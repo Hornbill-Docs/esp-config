@@ -114,7 +114,7 @@ This is the most straightforward scheme to implement, you simply add your domain
 
 Additional reference Documents
 RFC4408 http://www.ietf.org/rfc/rfc4408.txt
-http://www.openspf.org/FAQ
+http://www.open-spf.org/FAQ
 
 ### Using SMTP Smart Host
 Instead of our servers taking care of mail routing, we can simply route all outbound e-mails for your specified domain to an SMTP relaying server of your choice. Typically this is your own enterprise SMTP server which you have to provide us access to (generally by creating special firewall rules to enable our servers to connect).

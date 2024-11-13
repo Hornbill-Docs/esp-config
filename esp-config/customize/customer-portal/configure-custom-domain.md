@@ -24,7 +24,7 @@ The high-level operating principle of a custom domain is quite simple.  The web 
 
 The origin server is __NOT__ the web server that your user will connect to when you enter the portal URL into your browser. The Origin server is not directly accessible, it only serves traffic when originating from a specific domain.  In the case of Hornbill, the general portal URL is https://customer.hornbill.com/ and this is the normal domain Origin these servers are configured to serve traffic.  The host customer.hornbill.com host resolves to a load balancer and a group of proxy servers, these servers are owned and operated by our web application front end content delivery network partner, in our case this is a company called Cloudflare.
 
-![customer portal default](_books/esp-config/customize/customer-portal/images/customer-portal-default.png)
+![customer portal default](/_books/esp-config/customize/customer-portal/images/customer-portal-default.png)
 
 The important thing to note here is the role of the SSL certificate.  The connection between the users browser and the front end services uses a TLS connection that is secured with a Hornbill owned SSL certificate.  An SSL certificate is implicitly bound to a specific domain, so that SSL certificate can only secure network traffic that is served on the hornbill.com domain.  The certificate must be hosted on the servers at the "arrow end" of the traffic lines shown in the diagram, so the SSL certificates __2b__ are hosted on __2c__, which means we have given specific permission to our web front end partner (Cloudflare at the time of writing) to host and use our verified SSL certificates for traffic related to our *.hornbill.com domain.
 
@@ -36,7 +36,7 @@ In summary, Hornbill controls the configuration of all elements of columns __2__
 
 When using a custom domain, things work a little bit differently. 
 
-![customer portal default](_books/esp-config/customize/customer-portal/images/customer-portal-custom.png)
+![customer portal default](/_books/esp-config/customize/customer-portal/images/customer-portal-custom.png)
 
 In this configuration, it is important to note that Hornbill only controls the configuration of column __3__ in the revised diagram, and, it should be noted that Hornbill does not need to configure anything specific in column __3__ in order for you to configure, and make use of, a custom domain for your Hornbill customer portal instance. 
 
@@ -44,7 +44,7 @@ In order to set up a custom domain, you need to configure the following things: 
 
 |Item|Name|Description|
 |:--|:--|:--|
-|2a|DNS|Your chosen custom domain must be hosted on a DNS service somewhere. Typically your corporate domain, like `yourcompany.com` will be configured for your web site, typically www.yourcompany.com, there is a large variation of DNS hosting and setups generally, so trying to explain how to configure DNS is out of scope for the purpose of this document.  What you need to do is decide what your custom domain for the portal will be, a common use might be `support.yourcompany.com` for example.  You then need to add a [CNAME](https://en.wikipedia.org/wiki/CNAME_record) entry into your DNS server, that maps your chosen custom domain to hornbill's origin server domain name, often referred to as creating an alias. Here is an example of a [CNAME](https://en.wikipedia.org/wiki/CNAME_record) configuration: - <br><br> ![dns cnam config](_books/esp-config/customize/customer-portal/images/dns-cname-example.png)|
+|2a|DNS|Your chosen custom domain must be hosted on a DNS service somewhere. Typically your corporate domain, like `yourcompany.com` will be configured for your web site, typically www.yourcompany.com, there is a large variation of DNS hosting and setups generally, so trying to explain how to configure DNS is out of scope for the purpose of this document.  What you need to do is decide what your custom domain for the portal will be, a common use might be `support.yourcompany.com` for example.  You then need to add a [CNAME](https://en.wikipedia.org/wiki/CNAME_record) entry into your DNS server, that maps your chosen custom domain to hornbill's origin server domain name, often referred to as creating an alias. Here is an example of a [CNAME](https://en.wikipedia.org/wiki/CNAME_record) configuration: - <br><br> ![dns cnam config](/_books/esp-config/customize/customer-portal/images/dns-cname-example.png)|
 |2b|SSL Certificate|It is your responsibility to obtain a valid SSL certificate for your chosen custom domain. You may already have a usable wildcard certificate for *.yourcompany.com or you may decide to have a specific certificate just for your chosen custom domain.  This is really a choice you/your team will make based on your own policies around managing and hosting SSL certificates. From a Hornbill standpoint, the details of your SSL certificate is not relevant, the only requirement Hornbill has is your traffic is encrypted, unencrypted traffic will not work because the domain origin for anything other than https:// is not supported|
 |2c|Proxy| Your SSL certificate needs to be hosted on a proxy server in order to serve encrypted traffic using your own SSL certificates.  This can take many forms, from proxies you host yourself in your own data centers to using 3rd Party front end CDN type providers, like we do with Cloudflare for example.  The odds are very good that you already have these things in place, so your experts need to plan and decide on the specifics of your own configuration. The only thing that is mandatory is your hosting provider must be able to act as a proxy service with support for SSL certificates.|
 
@@ -53,7 +53,7 @@ In order to set up a custom domain, you need to configure the following things: 
 
 If your domain is already hosted on Cloudflare, Akamai, Amazon Cloudfront or one of the many other major front end services, your SSL certs may already be in place and usable. If this is the case, all you really need to do is choose your custom sub-domain and add a single CNAME record into your DNS, then add the custom domain to your portal configuration in Hornbill and thats it. 
 
-![dns cname config](_books/esp-config/customize/customer-portal/images/dns-cname-example.png)
+![dns cname config](/_books/esp-config/customize/customer-portal/images/dns-cname-example.png)
 
 
 ## Origin Servers
@@ -97,5 +97,5 @@ If you have questions/clarifications about anything in this document, please use
 #### Once configured, would it still be possible to use the hornbill provided url for access the customer portal?
 > Yes, the Hornbill provided endpoint https://customer.hornbill.com/_<your_instance_id>_ will continue to work as normal.
 
-#### Is it possible to have the service portal appear to be in a sub-folder on my website, for example https://www.mycompany.com/support?
+#### Is it possible to have the service portal appear to be in a sub-folder on my website?
 > No, this is not possible, however, you can simply include a redirect on your support page, so from a user point of view they are transported to the correct place.

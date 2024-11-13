@@ -26,7 +26,7 @@ Access Configuration by selecting the cog icon displayed at the bottom of the le
 ## Searching Configuration
 The search bar presents results as you type. Search results only include items based on the rights and roles of the user performing the search.
 
-![search]( _books/esp-config/images/search-config.png )
+![search](/_books/esp-config/images/search-config.png)
 
 ### Using Search from the Keyboard
 Access the Configuration Search from anywhere within Hornbill using the keyboard shortcut **Ctrl+Shift+S**. After you have entered search mode start typing and the most relevant search results will be returned as you type. Once you are presented with one or more search results. Use the Up/Down arrow keys to highlight the search result of interest and press <return> to navigate to that item.
@@ -38,12 +38,12 @@ Access the Configuration Search from anywhere within Hornbill using the keyboard
 1. Click on `Manage Users`.
 
 ### Search Help
-Click on the <img src="_books/esp-config/images/search-help.png"> to show a list of additional search options. This includes prefixes that can be added to your search text in order to get more focused results.
+Click on the <img src="/_books/esp-config/images/search-help.png"> to show a list of additional search options. This includes prefixes that can be added to your search text in order to get more focused results.
 
 ## Browse
 The dropdown menu in Configuration allows you to select the different areas that can be configured. When first opening Configuration, the view will default to `My Personal Settings` where a user can update and modify their profile. Other available options include `Platform Configuration`, `Hornbill Solution Center`, and a list of the installed applications.  The availability of these items is determined by the rights and roles of the current user.
 
-![Browsing Configuration](_books/esp-config/images/browse-configuration.png)
+![Browsing Configuration](/_books/esp-config/images/browse-configuration.png)
 
 ::: tip
 This list includes access to the configuration for each installed app. The visibility of the apps in this list is controlled by application roles. For more information, please refer to the relevant configuration guide for each app.
@@ -51,4 +51,4 @@ This list includes access to the configuration for each installed app. The visib
 
 After an option is selected, the navigation panel can then be used to access individual configuration options and settings.
 
-![Navigating Configuration](_books/esp-config/images/navigating-configuration.png)
+![Navigating Configuration](/_books/esp-config/images/navigating-configuration.png)

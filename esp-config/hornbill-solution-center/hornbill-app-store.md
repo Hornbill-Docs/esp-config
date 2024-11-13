@@ -1,7 +1,7 @@
 # Hornbill App Store
 The Hornbill App Store is a place where one can go to browse, install, and remove applications on your Hornbill Instance. Applications are categorized under Installed, Premium, and Free. By clicking on each available application you can view the details of that application.
 
-![Hornbill App Store](_books/esp-config/hornbill-solution-center/images/hornbill-app-store.png)
+![Hornbill App Store](/_books/esp-config/hornbill-solution-center/images/hornbill-app-store.png)
 
 ## Application Details
 Click on an app to see more details about the app.

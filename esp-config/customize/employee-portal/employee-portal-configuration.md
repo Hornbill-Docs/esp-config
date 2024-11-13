@@ -21,12 +21,12 @@ or
 
 Each area of configuration is accessed using the options across the top of the page.
 
-![Employee Portal Customization](_books/esp-config/customize/employee-portal/images/customize-options.png)
+![Employee Portal Customization](/_books/esp-config/customize/employee-portal/images/customize-options.png)
 
 ## Page sections
 The Employee Portal pages are split into three sections: header, body, and footer.
 
-![Employee Portal Sections](_books/esp-config/customize/employee-portal/images/header-body-footer.png)
+![Employee Portal Sections](/_books/esp-config/customize/employee-portal/images/header-body-footer.png)
 
 ### Header
 * **Logo**<br>Add your company logo to the Employee Portal to give it some branding. Your logo will be displayed on the left side of the header. Adjust the size, background style, and color of your logo to fit in with the Header Background. The height can be between 80 and 200 pixels and the width between 80 and 300 pixels. It can be of any web format but PNG or SVG is recommended.
@@ -59,7 +59,7 @@ Each defined company group can have its own Employee Portal settings applied to 
 
 At the top of the Header, Body, and Footer configuration sections, you can select the company to be configured.  
 
-![Company Customization](_books/esp-config/customize/employee-portal/images/company-customization.png)
+![Company Customization](/_books/esp-config/customize/employee-portal/images/company-customization.png)
 
 * **Primary Company**<br>This is the main configuration for the Employee Portal. It will also be used as a starting template for any Company that is defined within the organization structure. Settings here will be automatically applied to all other companies unless a company has specified a different setting from the Primary Company.
 

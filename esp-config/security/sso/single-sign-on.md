@@ -26,7 +26,7 @@ To get your Hornbill instance meta data files, log into Hornbill Administration 
 - __USER__<br>Contains information for https://live.hornbill.com/[your instance name]
 - __MOBILE CATALOG__<br>Contains information for https://mcatalog.hornbill.com/[your instance name]
 
-![Download SAML Metadata](_books/esp-config/security/images/saml-metadata.png)
+![Download SAML Metadata](/_books/esp-config/security/images/saml-metadata.png)
 
 ### Manually configuring your IdP
 Sometimes your IdP will require manual configuration.  In this case you should use the values provided in the __SAML Properties (manual configuration)__ information.
@@ -35,7 +35,7 @@ Sometimes your IdP will require manual configuration.  In this case you should u
 * Reply URL
 * Sign-On URL
 
-![Download SAML Metadata](_books/esp-config/security/images/saml-manual-config-props.png)
+![Download SAML Metadata](/_books/esp-config/security/images/saml-manual-config-props.png)
 
 ## Configure your Identity Provider
 The Hornbill SSO implementation follows the [SAML 2.0:2005](https://saml.xml.org/saml-specifications) specification so will work with any commercial or internally developed identity provider that correctly supports this standard. We have tried to make Hornbill as flexible as possible in terms of configuration and compatibility with the standard. 
@@ -43,7 +43,7 @@ The Hornbill SSO implementation follows the [SAML 2.0:2005](https://saml.xml.org
 Here is a link to the official standards documentation: [SAML 2.0:2005](https://saml.xml.org/saml-specifications)
 
 
-![Download SAML Metadata](_books/esp-config/security/images/saml-config.png)
+![Download SAML Metadata](/_books/esp-config/security/images/saml-config.png)
 
 
 The following identity providers are known to have been configured and work with the Hornbill platform (we will expand this list as we integrate successfully with other systems).
@@ -96,7 +96,7 @@ Certificates that have expired are marked as "expired" and will be displayed in 
 
 :::tip
 When auto certificate renewal is enabled, Hornbill will check for new certificates once ever 24 hours. You can check this manually at any time by pressing the reload button here:
-![SAML Metadata Reload](_books/esp-config/security/images/sso-cert-check.png)
+![SAML Metadata Reload](/_books/esp-config/security/images/sso-cert-check.png)
 :::
 
 

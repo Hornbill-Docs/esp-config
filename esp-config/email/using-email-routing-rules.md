@@ -15,7 +15,7 @@ The Routing Rules provide a way of automating the delivery and triggering automa
 ### Switching On or Off
 At the top of the list, a toggle button is provided to turn the Routing Rules on or off. This setting applies to all rules in this list. For any rules to be processed, this option must be set to `ON`.
 
-![On/Off Toggle](_books/esp-config/email/images/on-off-toggle.png)
+![On/Off Toggle](/_books/esp-config/email/images/on-off-toggle.png)
 
 ### Creating a Rule
 Clicking on the + in the toolbar will allow you to create a new rule.
