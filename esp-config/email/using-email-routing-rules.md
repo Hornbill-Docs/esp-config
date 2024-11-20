@@ -67,6 +67,7 @@ These variable names are case-sensitive when you reference them in your expressi
 |Operator|Example|
 |-|-|
 |LIKE|subject LIKE '%abc'<br>subject LIKE 'xyz%'<br>subject LIKE '%mno%'|
+|NOT LIKE|subject NOT LIKE '%abc'<br>subject NOT LIKE 'xyz%'<br>subject NOT LIKE '%mno%'|
 |NOT|subject != 'abc'|
 |NOT IN|subject NOT IN ('abc', 'zyx')|
 |IN|subject IN ('abc', 'mno', 'xyx')|

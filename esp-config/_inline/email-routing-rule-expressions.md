@@ -90,6 +90,10 @@ These variable names are CASE-SENSITIVE and must be entered in exactly the same 
             <td>subject LIKE ‘%abc’<br>subject LIKE ‘xyz%’<br>subject LIKE ‘%mno%’</td>
         </tr>
         <tr>
+            <td>NOT LIKE</td>
+            <td>subject NOT LIKE ‘%abc’<br>subject NOT LIKE ‘xyz%’<br>subject NOT LIKE ‘%mno%’</td>
+        </tr>
+        <tr>
             <td>NOT</td>
             <td>subject != ‘abc’</td>
         </tr>
