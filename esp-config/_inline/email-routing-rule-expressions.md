@@ -76,6 +76,7 @@ Selecting any of these items from the list will insert that parameter into the R
 </table>
 
 <h3>Example Expressions</h3>
+
 :::note
 Please see the [ExpressLogic Reference Guide](/esp-fundamentals/reference-guides/express-logic) to learn more about whats possible with ExpressLogic expressions beyond the simple examples shown here. 
 :::
