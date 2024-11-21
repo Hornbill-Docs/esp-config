@@ -91,7 +91,7 @@ Please see the [ExpressLogic Reference Guide](/esp-fundamentals/reference-guides
     <tbody>
         <tr>
             <td>LIKE</td>
-            <td>subject LIKE ‘%abc’<br>subject LIKE ‘xyz%’<br>subject LIKE ‘%mno%’</td>
+            <td>subject LIKE ‘%abc’<br>subject LIKE ‘xyz%’ AND fromDomain = ‘hornbill.com’<br>subject LIKE ‘%mno%’ OR subject LIKE '%dce%'</td>
         </tr>
         <tr>
             <td>NOT LIKE</td>
