@@ -4,10 +4,9 @@ Each rule uses an expression to match information found within the email message
 
 Selecting any of these items from the list will insert that parameter into the Rule Expression field. Alternatively, as you become more familiar with the system you can simply type the correct variable names into the expression as needed. The following table lists the available variables and their purpose.
 
-For advanced use, please see the [ExpressLogic Reference Guide](/esp-fundamentals/reference-guides/express-logic) for more information about ExpressLogic and its capabilities. 
-
 :::tip
-These variable names are CASE-SENSITIVE and must be entered in exactly the same way they are documented here.  Use the variable selector, or make sure you type them in as shown
+- These variable names are CASE-SENSITIVE and must be entered in exactly the same way they are documented here.  Use the variable selector, or make sure you type them in as shown
+- For advanced use, please see the [ExpressLogic Reference Guide](/esp-fundamentals/reference-guides/express-logic) for more information about ExpressLogic and its capabilities. 
 :::
 
 <table class="doc-pretty-table">
