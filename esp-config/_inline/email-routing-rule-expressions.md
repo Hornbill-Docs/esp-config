@@ -1,10 +1,10 @@
 <h1>Email Routing Rule - Expressions</h1>
-<p>Each rule uses an expression to match information found within the email message being processed. Information from
-    the email message is made accessible to the expression processor as variables. For convenience, these variables are
-    available in the Rule Parameters selector located at the top right of the Rule Expression field.</p>
-<p>Selecting any of these items from the list will insert that parameter into the Rule Expression field. Alternatively,
-    as you become more familiar with the system you can simply type the correct variable names into the expression as
-    needed. The following table lists the available variables and their purpose</p>
+
+Each rule uses an expression to match information found within the email message being processed. Information from the email message is made accessible to the expression processor as variables. For convenience, these variables are available in the Rule Parameters selector located at the top right of the Rule Expression field.
+
+Selecting any of these items from the list will insert that parameter into the Rule Expression field. Alternatively, as you become more familiar with the system you can simply type the correct variable names into the expression as needed. The following table lists the available variables and their purpose.
+
+For advanced use, please see the [ExpressLogic Reference Guide](esp-fundamentals/reference-guides/express-logic) for more information about ExpressLogic and its capabilities. 
 
 :::tip
 These variable names are CASE-SENSITIVE and must be entered in exactly the same way they are documented here.  Use the variable selector, or make sure you type them in as shown
@@ -76,7 +76,11 @@ These variable names are CASE-SENSITIVE and must be entered in exactly the same 
     </tbody>
 </table>
 
-<h3>Simple Example Expressions</h3>
+<h3>Example Expressions</h3>
+:::info
+Please see the [ExpressLogic Reference Guide](esp-fundamentals/reference-guides/express-logic) to learn more about whats possible with ExpressLogic expressions beyond the simple examples shown here. 
+:::
+
 <table class="doc-pretty-table">
     <thead>
         <tr>
