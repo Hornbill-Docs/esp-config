@@ -18,7 +18,7 @@ With Two-factor Authentication (2fa) enabled, when a user (guest) logs in to Hor
 
 The user retrieves this code from an email sent to their account's email address, and uses it to complete the log in process.
 
-![2FA Code](/_books/esp-config/security/images/2fa.png)
+![2FA Code](/_books/esp-config/security/images/two-fa.png)
 
 ## Settings
 2FA Timeouts are set in Advanced System Settings.  
