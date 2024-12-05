@@ -218,6 +218,11 @@
             "link": "esp-config/integration/api-keys"
           },
           {
+            "text": "Hornbill AI",
+            "link": "esp-config/integration/hornbill-ai",
+            "draft": true
+          },
+          {
             "text": "Webhooks",
             "link": "esp-config/integration/webhooks"
           },
