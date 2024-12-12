@@ -16,4 +16,4 @@ The company's office network's IP address is usually a single IP (/32).
 To allow a Hornbill instance to communicate with other Hornbill services, add an entry to allow access to 10.4.0.0/16, 10.5.0.0/16, 10.11.0.0/16, 10.10.0.0/16 and 84.207.237.38
 To deny access to the rest of the world, create a deny rule with the value 0.0.0.0/0.
 
-[Network Rules](/_books/esp-config/security/images/network-rules.png)
+![Network Rules](/_books/esp-config/security/images/network-rules.png)

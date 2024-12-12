@@ -1,7 +1,7 @@
 # Security Audit
 
 :::info
-This features is only available on the Enterprise Edition.
+This feature is only available on the [Enterprise Edition](/esp-fundamentals/about/hornbill-editions#enterprise-edition-architecture).
 :::
 
 The Security Audit View, available on the Enterprise Edition, keeps track of events that relate to user access to Hornbill. From here you can quickly identify when the access took place and by who or what.
