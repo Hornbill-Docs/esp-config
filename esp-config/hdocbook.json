@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "1.0.131",
+  "version": "1.0.132",
   "productFamily": "esp",
   "tags": [
     "esp",
@@ -141,6 +141,10 @@
           {
             "text": "Security Audit",
             "link": "esp-config/security/security-audit"
+          },
+          {
+            "text": "Network Rules",
+            "link": "esp-config/security/network-rules"
           }
         ]
       },
