@@ -40,7 +40,7 @@ Add this widget to create a list of custom links. Links to external web sites, c
 #### Configure
 * **Display as Tiles**<br>Selecting options lets you toggle between a list view and a tile view.
 * **Icon**<br>Select an icon to accompany the name of the link.
-* **Address**<br>Specify an address for the link - if referencing a Hornbill link which needs to be accessible from the Employee Portal or the Employee Mobile App, ensure to use the relative path in this field - i.e for a progressive capture link catalog/new-service-request/com.hornbill.servicemanager/1/1/ (Where 1/1/ IS Replaced with the service and progressive capture ID's)
+* **Address**<br>Specify an address for the link - if referencing a Hornbill link which needs to be accessible from the Employee Portal or the Employee Mobile App, ensure to use the relative path in this field. For example, for an Intelligent Capture link `catalog/new-service-request/com.hornbill.servicemanager/1/1/` (where `1/1/` is replaced with the service ID and progressive capture ID.)
 * **Image**<br>Use an image to represent the link.
 * **Name**<br>Add a name for your link.
 * **Description**<br>Add a description to display if you want a little more detail about the link.
