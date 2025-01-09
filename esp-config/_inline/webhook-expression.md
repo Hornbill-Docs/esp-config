@@ -45,7 +45,7 @@ These variable names are CASE-SENSITIVE and must be entered in exactly the same 
 
 <h3>Learn More</h3>
 <ul>
-    <li><a href="https://docs-internal.hornbill.com/esp-fundamentals/core-capabilities/integration/web-hooks" target="_blank">Read about WebHooks</a></a></li>
+    <li><a href="https://docs.hornbill.com/esp-fundamentals/core-capabilities/integration/web-hooks" target="_blank">Read about WebHooks</a></a></li>
     <li><a href="https://docs.hornbill.com/esp-fundamentals/reference-guides/express-logic" target="_blank">ExpressLogic
             Reference</a></a></li>
 </ul>
