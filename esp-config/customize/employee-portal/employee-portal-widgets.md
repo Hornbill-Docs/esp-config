@@ -1,5 +1,6 @@
 ---
 layout: article-toc
+keywords: static content
 ---
 # Employee Portal Widgets
 ## Collaboration Widgets
