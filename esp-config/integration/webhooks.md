@@ -17,6 +17,9 @@ A webhook is the opposite of an API call, a webhook is a call over HTTP from you
 * **Enabled**<br>Enable or disable this Webhook. This can also be done from the main list of Webhooks
 * **Authentication**<br>If the webhook endpoint you are calling requires authentication then you need to create the required credentials in your KeySafe, then, when configuring you web hood you can select the credentials here. 
 
+## Available Event Sources
+Each application defines the Webhook Event Sources it wants to make available, and each Event Source will include a data payload which is driven by the applications specific data model.  Therefore to understand what data should be available for each event source you need to refer to the specific applications configuration documentation which will provide that detail to you. 
+
 ## Web Hook Target
 * **URL**<br>The target URL for the Web Hook. The URL depends on whichever system or platform where you webhook resides. 
 * **Payload Format**<br>This defines the format of how you would like the data to be received. This can either be XML or JSON
