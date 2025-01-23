@@ -9,11 +9,6 @@ A webhook is the opposite of an API call; a webhook is a call over HTTP from you
 ## Before you begin
 * Read and understand the [fundamentals of webhooks](/esp-fundamentals/core-capabilities/integration/web-hooks).
 
-## Considerations regarding custom fields if you plan to use webhooks
-If you plan to use webhook services in your Hornbill implementation, then it is important to consider how you use your custom fields. Also note that webhooks are entity-bound, so you cannot trigger a webhook for one entity on an event in another entity. Consider this when using the custom fields for webhooks.
-
-If you want to use custom field values in the webhooks, you should reserve the first 30 custom fields for those values that need to be expressed for webhook triggers. While there are 80 custom fields, the webhook options in the trigger expression only go up to Custom 30.
-
 ## Available event sources
 Each application defines the webhook event sources it wants to make available, and each event source will include a data payload that is driven by the application's specific data model.  Therefore, to understand what data should be available for each event source, you need to refer to the specific application's configuration documentation. 
 
