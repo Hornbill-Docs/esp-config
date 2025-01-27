@@ -40,7 +40,9 @@ The Delete option in the tool bar becomes available when one or more rules are s
 
 
 ## Rule Expression Syntax
-Each rule uses an expression to match information found within the email message being processed. Information from the email message is made accessible to the expression processor as variables. For convenience, these variables are available in the editor when typing, you will see matching variable names being presented.  You can also look up the variable names in the popup help next to the expression field.  
+Each routing rule uses an expression to match information found within the email message being processed in order to determine if the rule should be triggered. Information from the email message is made accessible to the expression processor as variables. For convenience, these variables are available in the editor when typing, you will see matching variable names being presented.  You can also look up the variable names in the popup help next to the expression field.  
+
+Routing rules use Hornbill's ExpressLogic Expression engine for evaluating the rule expressions. You can see a detailed [ExpressLogic Reference Guide](/esp-fundamentals/reference-guides/express-logic) to learn more about the syntax, functions, and general expression capabilities used in Hornbill.
 
 Selecting any of these variables from the list by clicking or using the arrow keys, will insert that variable into the Rule Expression field. 
 
@@ -62,6 +64,12 @@ The following table lists the available variables and their purpose: -
 These variable names are case-sensitive when you reference them in your expressions. 
 :::
 
+In addition to the standard helper functions made available by the [ExpressLogic](/esp-fundamentals/reference-guides/express-logic) expression engine its self, the following additional email-specific functions are available to help with rule expressions.
+
+|Function|Description|
+|:--|:--|
+|MESSAGE_HEADER|Return the value of any email message header present in the email message being evaluated. If header is not present this will return NULL. <br><br>`MESSAGE_HEADER('X-Header-Name')`<br><br>For example:-<br><br>`MESSAGE_HEADER('MessageID') LIKE '%hornbill.com%`|
+
 ### Simple Example Expressions
 
 |Operator|Example|
@@ -72,14 +80,6 @@ These variable names are case-sensitive when you reference them in your expressi
 |NOT IN|subject NOT IN ('abc', 'zyx')|
 |IN|subject IN ('abc', 'mno', 'xyx')|
 |=|subject = 'abcd'|
-
-### ExpressLogic
-Routing rules use Hornbill's ExpressLogic Expression engine for evaluating the rule expressions. You can see a detailed [ExpressLogic Reference Guide](/esp-fundamentals/reference-guides/express-logic) to learn more about the syntax, functions, and general expression capabilities used in Hornbill.
-
-In addition to the standard helper functions made available by the ExpressLogic expression engine its self, the following additional email-specific functions are available to help with rule expressions.
-|Function|Description|
-|:--|:--|
-|MESSAGE_HEADER|Return the value of any email message header present in the email message being evaluated. If header is not present this will return NULL. <br><br>`MESSAGE_HEADER('X-Header-Name')`<br><br>For example:-<br><br>`MESSAGE_HEADER('MessageID') LIKE '%hornbill.com%`|
 
 
 ## Routing Rule Action
