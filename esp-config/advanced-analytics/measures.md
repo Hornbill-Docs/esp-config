@@ -51,7 +51,6 @@ You can change the direction of the threshold by clicking the arrow to the right
 
 * **Table.** This is the primary table from which the measure will collect its data.
 * **Key Column.** This is the primary key of the named table. Being the primary key, this provides a unique identifier for each record.
-* **Additional Tables.** Here you can specify any additional tables from which the measure will collect its data.
 * **Date Ranging Column.** Here you select a date column that the measure will base its data collection on. The dates held in this column will be used to count/sum/average the records based on frequency, such as last month, last year, or all records since the beginning of this year.
 * **Date Ranging Column 2.** This is an optional field where you can provide a second date column to be included as part of the criteria for data collection. This will be used to count/sum/average the records where the collected data for the selected frequency will be based on both Date Ranging Column AND Date Ranging Column 2.
 * **Query where clause.** Here you can add a filter to the measure.
