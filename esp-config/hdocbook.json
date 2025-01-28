@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "1.0.143",
+  "version": "1.0.144",
   "productFamily": "esp",
   "tags": [
     "esp",
@@ -25,23 +25,23 @@
         "link": "esp-config/overview"
       },
       {
-        "text": "Getting Started",
+        "text": "Getting started",
         "expand": true,
         "items": [
           {
-            "text": "Using Configuration",
+            "text": "Using configuration",
             "link": "esp-config/getting-started/using-configuration"
           },
           {
-            "text": "Configuring Regional Settings",
+            "text": "Configuring regional settings",
             "link": "esp-config/getting-started/regional-settings"
           },
           {
-            "text": "Defining Working Time",
+            "text": "Defining working time",
             "link": "esp-config/getting-started/working-time"
           },
           {
-            "text": "Installing an App",
+            "text": "Installing an app",
             "link": "esp-config/getting-started/installing-an-app"
           }
         ]
@@ -55,20 +55,20 @@
             "expand": false,
             "items": [
               {
-                "text": "About User Accounts",
+                "text": "About user accounts",
                 "link": "esp-config/organizational-data/user-accounts/about-user-accounts"
               },
               {
-                "text": "Manually Creating Users",
+                "text": "Manually creating users",
                 "link": "esp-config/organizational-data/user-accounts/users"
               },
               {
-                "text": "CSV User Import",
+                "text": "CSV user import",
                 "expand": false,
                 "link": "esp-config/organizational-data/user-accounts/csv-user-import"
               },
               {
-                "text": "Import and Synchronization Tools",
+                "text": "Import and synchronization tools",
                 "link": "esp-config/organizational-data/user-accounts/user-import-tools"
               }
             ]
@@ -94,25 +94,25 @@
             "link": "esp-config/organizational-data/user-availability-states"
           },
           {
-            "text": "Guest Accounts",
+            "text": "Guest accounts",
             "link": "esp-config/organizational-data/guest-accounts"
           },
           {
-            "text": "Guest Account Templates",
+            "text": "Guest account templates",
             "link": "esp-config/organizational-data/guest-account-templates"
           }
         ]
       },
       {
-        "text": "Security and Access Controls",
+        "text": "Security and access controls",
         "expand": false,
         "items": [
           {
-            "text": "Password Policies",
+            "text": "Password policies",
             "link": "esp-config/security/password-policies"
           },
           {
-            "text": "Two Factor Authentication",
+            "text": "Two-Factor authentication",
             "link": "esp-config/security/two-factor-authentication"
           },
           {
@@ -120,15 +120,15 @@
             "expand": false,
             "items": [
               {
-                "text": "Single Sign-On with SAML 2.0",
+                "text": "Single sign-On with SAML 2.0",
                 "link": "esp-config/security/sso/sso-with-saml"
               },
               {
-                "text": "Configuring Single Sign-On Profiles",
+                "text": "Configuring single sign-On profiles",
                 "link": "esp-config/security/sso/single-sign-on"
               },
               {
-                "text": "Auto-Provisioning User Accounts",
+                "text": "Auto-provisioning user accounts",
                 "link": "esp-config/security/sso/auto-provisioning"
               }
             ]
@@ -184,12 +184,12 @@
                 "link": "esp-config/customize/employee-portal/employee-portal-widgets"
               },
               {
-                "text": "Employee Portal Apps",
+                "text": "Employee portal apps",
                 "link": "esp-config/customize/employee-portal/employee-portal-apps",
                 "draft": true
               },
               {
-                "text": "Employee Portal Mobile",
+                "text": "Employee portal mobile",
                 "link": "esp-config/customize/employee-portal/employee-portal-mobile",
                 "draft": true
               }
@@ -265,13 +265,13 @@
             "link": "esp-config/email/direct-outbound"
           },
           {
-            "text": "E-mail Protocol Support",
+            "text": "E-mail protocol support",
             "link": "esp-config/email/email-protocol-support"
           }
         ]
       },
       {
-        "text": "Managing Storage",
+        "text": "Managing storage",
         "expand": false,
         "draft": false,
         "items": [
@@ -384,7 +384,7 @@
         "expand": false,
         "items": [
           {
-            "text": "Low-Level Database Query Tool",
+            "text": "Database Direct",
             "link": "esp-config/advanced-tools-and-settings/low-level-database-query-tool",
             "draft": false
           },
