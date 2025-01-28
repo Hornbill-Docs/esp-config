@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "1.0.144",
+  "version": "1.0.145",
   "productFamily": "esp",
   "tags": [
     "esp",
@@ -17,6 +17,11 @@
   ],
   "languages": [
     "en"
+  ],
+  "redirects":[
+    { "url": "/esp-config/internationalization/user-interface-translations", "location": "/esp-config/localization/user-interface-translations"},
+    { "url": "/esp-config/internationalization/supported-languages", "location": "/esp-config/localization/supported-languages"},
+    { "url": "/esp-config/internationalization/translation-mode", "location": "/esp-config/localization/translation-mode"}
   ],
   "navigation": {
     "items": [
