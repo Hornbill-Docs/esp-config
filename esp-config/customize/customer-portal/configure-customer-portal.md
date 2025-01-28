@@ -105,7 +105,7 @@ This section defines the contents of the login page.  The login page is accessed
 The translations allow you to change the displayed text and provide translations into multiple languages.
 
 ### Language Selection
-From the language pick-list select the language that you want to translate.  This list will only show [supported languages](/esp-config/internationalization/supported-languages).
+From the language pick-list select the language that you want to translate.  This list will only show [supported languages](/esp-config/localization/supported-languages).
 
 ### Translated
 Click on the text within the Translated column.  You will be presented with a dialog box to change the translation.  If you are translating to a language that is different from your own language, a `Suggest` button can be used to provide a Google translation. 

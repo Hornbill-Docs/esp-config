@@ -53,9 +53,9 @@ Hornbill is a multi-language environment that includes the translation of the us
 ### Enabling / Disabling Available Languages
 Within Hornbill, you can enable over 400 languages.  
 
-[Enabled languages](/esp-config/internationalization/supported-languages) are available for users to choose from within their profiles.  When selected, users will view all areas of Hornbill in that language. By disabling languages, you control which languages users can select from. 
+[Enabled languages](/esp-config/localization/supported-languages) are available for users to choose from within their profiles.  When selected, users will view all areas of Hornbill in that language. By disabling languages, you control which languages users can select from. 
 
 #### Language Translations
-Enabled languages require a level of regular maintenance to ensure that all translations are in place. [Language translations](/esp-config/internationalization/supported-languages#translate) are done by Google Translate and are not verified by Hornbill. You are responsible for verifying and maintaining the translations provided by Google Translate across your instance. 
+Enabled languages require a level of regular maintenance to ensure that all translations are in place. [Language translations](/esp-config/localization/supported-languages#translate) are done by Google Translate and are not verified by Hornbill. You are responsible for verifying and maintaining the translations provided by Google Translate across your instance. 
 
 Configure languages by opening [Configuration](/esp-config/getting-started/using-configuration) and search `manage system languages`.

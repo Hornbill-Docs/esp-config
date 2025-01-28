@@ -13,7 +13,7 @@ The Translation option provide the ability to translate individual strings of te
 ## Filter
 The filters work off of the translation key and the default translation. By typing in the the name of the key or the default translation, the list of translation strings will be narrowed down to the matching text.
 
-![Translation Filter](/_books/esp-config/internationalization/images/translation-search.png)
+![Translation Filter](/_books/esp-config/localization/images/translation-search.png)
 
 ## Translating
 Under the Translated column you can see the translations which relate to the selected language in the tool bar. If a translation has not been provided it will show the default language of English. Clicking on any translation string in this column will open a translation box where you can do one of the following:

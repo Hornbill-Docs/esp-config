@@ -67,7 +67,7 @@ Please note that the `Upload Locations` is designed to create new locations, and
 
 * **Custom fields 0-9**<br>Use custom fields to store additional information about your location.
 ::: tip
- By using [Translation Mode](/esp-config/internationalization/translation-mode), you can quickly rename each label to describe the content of the field.  Translation Mode can be enabled or disabled through the User Profile menu by users that have the Translation role. 
+ By using [Translation Mode](/esp-config/localization/translation-mode), you can quickly rename each label to describe the content of the field.  Translation Mode can be enabled or disabled through the User Profile menu by users that have the Translation role. 
 :::
 
 ### Assigning Users to a Location
