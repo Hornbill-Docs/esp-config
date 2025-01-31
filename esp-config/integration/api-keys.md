@@ -18,18 +18,11 @@ Click on the + button to start creating a new API key.
 ## API Key Expiry and Auto-Delete
 Once an API key has expired, it will automatically be deleted from the system 7 days after the expiry date is reached. 
 
-## Rules
-This is a list of Hornbill APIs (https://api.hornbill.com/) that can be used by the API key. You can restrict the use of an API key here by specifying only certain APIs that can be used by the API key.
+## API Key Rules
+API Key rules is a very flexible scheme that gives you fine grain control over API's that can be accessed using any given API key.  
 
-If no rules are specified, then any API that the API key's associated user account has rights to call, can be called. If one or more rules are defined, only API's that match these rules will be allowed.
-
-Each rule is a simple string that can include DOS-style wildcards. Rules are evaluated until a match is found, if no match is found the API call is rejected. Click on the `?` to get a list of example rules.
-
-
-Each rule needs to be in the following format: <service>:<api_name>. Replace <service> and <api_name> with relevant values.
-Click on the "Create" button to finish creating the new API key.
+Learn more about [API Key Rules](/esp-fundamentals/security/api-keys#api-key-security-controls)
 
 ::: tip
 API Keys can also be viewed or managed from a user account.  Each user account will show any API Key that that have been created under the context of that account.
 :::
-<!-- https://wiki.hornbill.com/index.php?title=API_keys -->
