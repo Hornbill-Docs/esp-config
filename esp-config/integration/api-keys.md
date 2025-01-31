@@ -13,7 +13,10 @@ Click on the + button to start creating a new API key.
 * **User Account**<br>The user account under which this API will run under.  The API will inherit the rights of the selected user. The API Key can be restricted further by using rules.
 * **Description**<br>This is a simple description of the API key that is being created
 * **State**<br>This defines the current state of the API key. The options are Active, Revoked or Suspended. Any API key that is not in Active state cannot be used.
-* **Expires**<br>This defines the date and time until the API key is active. Once the expiry date is reached the API key can no longer be used. This is mandatory, following best security practices.
+* **Expires**<br>This defines the date and time until the API key is active. Once the expiry date is reached the API key can no longer be used. This is mandatory, following best security practices.  
+
+## API Key Expiry and Auto-Delete
+Once an API key has expired, it will automatically be deleted from the system 7 days after the expiry date is reached. 
 
 ## Rules
 This is a list of Hornbill APIs (https://api.hornbill.com/) that can be used by the API key. You can restrict the use of an API key here by specifying only certain APIs that can be used by the API key.

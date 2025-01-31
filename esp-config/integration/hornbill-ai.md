@@ -15,9 +15,9 @@ To manage any aspect of Hornbill AI on your instance, your User Account must be 
 
 **Note:** Applications may extend Hornbill AI functionality and have addition roles to manage application specific settings.
 
-## Value Dashboard
+## Usage Dashboard
 
-The value dashboard shows real time metrics for monitoring the usage of Hornbill AI, each use calculates an approximate time saved value in minutes to represent how much time using the capabilities of Hornbill AI has saved the individual. The dashboard rolls this up into hours saved and using a setting for defining the hourly rate converts to a financial savings for your organizations. Time and Financial savings are then highlighted on the dashboard for the last 30 days with a comparison to the previous 30 days as well as being tracked monthly for the last 12 months.
+The usage dashboard shows real time metrics for monitoring the usage of Hornbill AI, each use calculates an approximate time saved value in minutes to represent how much time using the capabilities of Hornbill AI has saved the individual. The dashboard rolls this up into hours saved and using a setting for defining the hourly rate converts to a financial savings for your organizations. Time and Financial savings are then highlighted on the dashboard for the last 30 days with a comparison to the previous 30 days as well as being tracked monthly for the last 12 months.
 
 ### Savings Calculations
 
