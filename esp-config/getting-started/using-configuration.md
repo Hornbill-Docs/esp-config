@@ -4,14 +4,14 @@ layout: article-toc
 # Using Configuration
 Hornbill Configuration gives you access to all the configuration settings for Hornbill. Configure your organizational structure including departments, teams, and the users who will be using Hornbill.  Set up email, languages, view your subscriptions, install apps, and much more. The different areas within Configuration are sensitive to your rights and each user will only see the options to which they have been granted access.
 
-## Topics Covered
+## Topics covered
 * How to access Configuration.
 * How to search.
 * Browsing Configuration.
 
-## Before You Begin
+## Before you begin
 To access Configuration one of the following is required
-* Log in as the Admin User.
+* Log in as the [Admin User](/esp-fundamentals/security/user-accounts#admin-account).
 * Log in as a user that has the Admin Role.
 * Log in as a user that has a role that contains a system right to `Manage` one or more of the areas within Configuration. These users will only see the areas in Configuration where they have been provided the system right.
 
@@ -28,7 +28,7 @@ The search bar presents results as you type. Search results only include items b
 
 ![search](/_books/esp-config/images/search-config.png)
 
-### Using Search from the Keyboard
+### Using Search from the keyboard
 Access the Configuration Search from anywhere within Hornbill using the keyboard shortcut **Ctrl+Shift+S**. After you have entered search mode start typing and the most relevant search results will be returned as you type. Once you are presented with one or more search results. Use the Up/Down arrow keys to highlight the search result of interest and press <return> to navigate to that item.
 
 #### Example search:
