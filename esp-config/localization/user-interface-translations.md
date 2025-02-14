@@ -3,24 +3,29 @@ layout: article-toc
 ---
 # User Interface Translations
 ## Translations
-The Translation option provide the ability to translate individual strings of text into the language of your choice. Many of these strings can be translated through the user interfaces, however this is not always the case and some strings must be translated here.
+Hornbill's Translation feature provides the ability to translate individual strings of text into the language of your choice. Many of these strings can be translated directly [in the user interface](/esp-config/localization/translation-mode). In some cases, however, strings must be translated in Configuration.
 
 ## Accessing Translations
-1. Open Configuration or use [Ctrl+Shift+S] on the keyboard.
-1. Type **Translations** in the search box.
-1. Select `User Interface Translations` from the results.
+1. Open [Configuration](/esp-config/getting-started/using-configuration) using [Ctrl+Shift+S] on the keyboard.
+1. Type *translations* in the search box, then select **User Interface Translations** from the results.
+
+or
+1. Navigate to **Configuration > Platform Configuration > Internationalization > User Interface Translations**.
 
 ## Filter
-The filters work off of the translation key and the default translation. By typing in the the name of the key or the default translation, the list of translation strings will be narrowed down to the matching text.
+The filters work off of the translation key and the default translation. Type the name of the key or the default translation to narrow down the list of translation strings that match the text you enter.
 
 ![Translation Filter](/_books/esp-config/localization/images/translation-search.png)
 
 ## Translating
-Under the Translated column you can see the translations which relate to the selected language in the tool bar. If a translation has not been provided it will show the default language of English. Clicking on any translation string in this column will open a translation box where you can do one of the following:
+In the Translated column, you can see the translations that relate to the selected language in the Profile toolbar. If a translation has not been provided, the default language of English is shown.
 
-* Type your own translation in the text box and save
-* Click on `Suggest` to do an automatic translation and save
+**To enter a translation:**
+1. In the Translated column, click on a translation string.
+1. In the *Please provide...* box, do one of the following:
+    * Type your own translation in the text box and click **Save**.
+    * Click **Suggest** to do an automatic translation and click **Save**.
 
-:::tip
-The `Suggest` option will only show if the selected language is different from the language set in your user profile.
-:::
+    :::note
+    The **Suggest** option only shows if the selected language is different from the language set in your user profile.
+    :::

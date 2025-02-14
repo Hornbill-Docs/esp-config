@@ -1,5 +1,6 @@
 ---
 layout: article-toc
+keywords: translate strings in the UI
 ---
 # Translation mode
 Throughout every application within the Hornbill user interface, you are presented with forms containing text to describe labels, messages, hints, and more. The Hornbill environment provides an in-app ability to translate this text so you can make sure the translation is in context with how it is being used.
@@ -28,13 +29,18 @@ Once translation mode is enabled, each string that allows for a translation to b
 
 ![Translate Mode Underline](/_books/esp-config/localization/images/translation-mode-underline.png)
 
-Right-click on this text to be presented with a Translate UI option.
-* **From**<br>Shows the current value for the string.
-* **To**<br>Lets you manually enter a new value for this string.
-* **In**<br>Lets you select an alternative language to translate this string into.
-* **Default**<br> Returns the string's translation to its original default value.
-* **Suggest**<br>This will perform a Google Translate to automatically populate the `To` box
-* **Save**<br>This will save this translation and make it visible to everyone using that language.
+**To translate a UI string:**
+1. In the Profile toolbar, click **Start Translation Mode**. (If instead, you see **Stop Translation Mode**, then you are already in translation mode.)
+1. In the Hornbill UI, find a string that you want to translate and right-click on it.
+1. In the Translate dialog, add your translation and then click **Save**. The options available to you are the following:
+
+    * **From.** Shows the current value for the string.
+    * **To.** Lets you manually enter a new value for the string.
+    * **In.** Lets you select an alternative language to translate this string into.
+    * **Reset.** Returns the string's translation to its original default value.
+    * **Suggest Translation.** Performs a Google Translate to automatically populate the `To` box.
+
+Once you have saved the translation, and it will be visible to everyone using that language.
 
 ![Translation Dialog Box](/_books/esp-config/localization/images/translation-dialog.png)
 
