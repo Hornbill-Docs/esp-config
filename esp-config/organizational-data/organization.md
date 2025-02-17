@@ -105,4 +105,4 @@ This option is only available for Teams.  Having the Allow Task Assignments set 
 |Setting Name|Description|
 |-|-|
 |task.onlyManagerCanAssignGroupUser|If this is set to true then only group manager can assign a task to a user which is already assigned to group.|
-|system.groups.mode|The the mode this instance's internal user org strcuture operates in. Information about the modes can be found here [organizational team structure](/esp-fundamentals/core-capabilities/organization-and-teams#organization-structure-implementation-strategy)|
+|system.groups.mode|The the mode this instance's internal user org strcuture operates in. Information about the modes can be found here [organizational team structure](/esp-fundamentals/core-capabilities/organization-and-teams)
