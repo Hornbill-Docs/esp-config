@@ -16,6 +16,22 @@
 
     { "url": "/esp-config/customize/customer-portal-setup", "location": "/esp-config/customize/customer-portal/configure-customer-portal", "code": 308 },
     
-    { "url": "/esp-config/email/routing-rules", "location": "/esp-config/email/using-email-routing-rules", "code": 308 }
+    { "url": "/esp-config/email/routing-rules", "location": "/esp-config/email/using-email-routing-rules", "code": 308 },
+   
+    {
+      "url": "/esp-config/internationalization/user-interface-translations",
+      "location": "/esp-config/localization/user-interface-translations",
+      "code":301
+    },
+    {
+      "url": "/esp-config/internationalization/supported-languages",
+      "location": "/esp-config/localization/supported-languages",
+      "code": 301
+    },
+    {
+      "url": "/esp-config/internationalization/translation-mode",
+      "location": "/esp-config/localization/translation-mode",
+      "code": 301
+    }
   ]
 }
