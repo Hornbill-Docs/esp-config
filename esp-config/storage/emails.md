@@ -26,7 +26,7 @@ Email messages and associated attachments will be deleted from your Hornbill ins
 Mailbox folders can also be managed via the main mailbox interface where messages can be selected and deleted as required. Messages will only be permanently deleted once they are moved to the Deleted Items folder. When using this method, first move messages to the Deleted Items folder, then select and permanently delete them. Only users with the appropriate permissions to a shared mailbox will be able to permanently delete messages from the Deleted Items folder.
 
 ### Archive email messages and attachments
-The [Email Archiver utility](https://wiki.hornbill.com/index.php?title=Email_Archiver) provides a simple, safe, and secure way to archive email messages and their associated attachments from a Hornbill instance. The utility downloads the email message and attachments from a Hornbill instance and saves them in a location on a local machine of your choice.
+The Email Archiver utility provides a simple, safe, and secure way to archive email messages and their associated attachments from a Hornbill instance. The utility downloads the email message and attachments from a Hornbill instance and saves them in a location on a local machine of your choice.
 
 Once downloaded, the email message and attachment will be deleted and will no longer be accessible from your Hornbill instance. Emails and their attachments will be available for reference in the location to which they were downloaded.
 

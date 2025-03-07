@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "1.0.154",
+  "version": "1.0.155",
   "productFamily": "esp",
   "tags": [
     "esp",
