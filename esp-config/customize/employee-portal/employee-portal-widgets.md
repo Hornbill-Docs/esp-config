@@ -3,7 +3,9 @@ layout: article-toc
 keywords: static content
 ---
 # Employee Portal Widgets
-## Collaboration Widgets
+Widgets are small, standalone applications that can be embedded into the employee portal pages to add interactivity or additional features. Widgets enhance the usability and provide quick access to information.
+
+## General Widgets
 ### My Services
 Add this widget to present users with a list of Services that they are subscribed to.
 
@@ -45,7 +47,7 @@ Add this widget to create a list of custom links. Links to external web sites, c
 * **Name**<br>Add a name for your link.
 * **Description**<br>Add a description to display if you want a little more detail about the link.
 
-### Style
+#### Style
 * **Header**<br>Define the top banner of the widget.
 * **Header Type**<br>Choose from Basic, Custom, or No Banner.
 * **Body**<br>Configure the text and background colors of the widget. If no specific color preferences are set in the widget configuration, the style defined in the Employee Portal settings is applied.
@@ -70,6 +72,35 @@ Add this widget to give users a way to quickly access Hornbill workspaces, apps,
 * **Header**<br>Define the top banner of the widget
 * **Header Type**<br>Choose from Basic, Custom, or No Banner.
 * **Body**<br>Configure the text and background colors of the widget. If no specific color preferences are set in the widget configuration, the style defined in the Employee Portal settings is applied.
+
+### Text
+Add this widget to create a simple text based message board.
+
+#### Configure
+* **Title**<br>Add a main title within the text area.
+* **Description**<br>Add the main content that you want to display. Format your text using Wiki Markup.
+* **Text Centered**<br>Centers the Title within the widget.
+
+#### Style
+* **Header**<br>Define the top banner of the widget
+* **Header Type**<br>Choose from Basic, Custom, or No Banner.
+* **Body**<br>Configure the text and background colors of the widget. If no specific color preferences are set in the widget configuration, the style defined in the Employee Portal settings is applied.
+
+### External Frame
+The external frame, often referred to as an iframe, is used to embed content from an external web page into the Employee Portal. This can be used to display content from external sources, such as videos, maps, or entire web pages.
+
+:::note
+Not all web pages can be embedded into an iframe.  Tools are available on the internet to test if a url is compatible with iframes before adding to the External Frame widget.
+:::
+
+#### Configure
+* **URL**. The URL of the web page to be added to the widget.
+* **Preferred Height**.  Set the number of pixels for the height of the widget.  Leave this blank to have it automatically adjust to an appropriate height.
+
+
+<!-- 
+### RSS Feed
+
 
 ### Workspace
 Add this widget to display the user's News Feed which shows the latest updates to all the workspaces that they follow. Or select a specific Workspace.
@@ -110,19 +141,6 @@ Add this widget to present users with a Search box for finding Services, FAQs, D
 * **Header Type**<br>Choose from Basic, Custom, or No Banner.
 * **Body**<br>Configure the text and background colors of the widget. If no specific color preferences are set in the widget configuration, the style defined in the Employee Portal settings is applied.
 
-### Text
-Add this widget to create a simple text based message board.
-
-#### Configure
-* **Title**<br>Add a main title within the text area.
-* **Description**<br>Add the main content that you want to display. Format your text using Wiki Markup.
-* **Text Centered**<br>Centers the Title within the widget.
-
-#### Style
-* **Header**<br>Define the top banner of the widget
-* **Header Type**<br>Choose from Basic, Custom, or No Banner.
-* **Body**<br>Configure the text and background colors of the widget. If no specific color preferences are set in the widget configuration, the style defined in the Employee Portal settings is applied.
-
 ### My Team
 Add this widget to view members of all or a specific organizational grouping, and where applicable their availability status. The default will show a user all other members of any teams, departments or companies they are members of.
 
@@ -137,3 +155,4 @@ Add this widget to view members of all or a specific organizational grouping, an
 * **Header**<br>Define the top banner of the widget
 * **Header Type**<br>Choose from Basic, Custom, or No Banner.
 * **Body**<br>Configure the text and background colors of the widget. If no specific color preferences are set in the widget configuration, the style defined in the Employee Portal settings is applied.
+-->
