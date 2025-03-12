@@ -90,11 +90,11 @@ Add this widget to create a simple text based message board.
 The external frame, often referred to as an iframe, is used to embed content from an external web page into the Employee Portal. This can be used to display content from external sources, such as videos, maps, or entire web pages.
 
 :::note
-Not all web pages can be embedded into an iframe.  Tools are available on the internet to test if a url is compatible with iframes before adding to the External Frame widget.
+Not all web pages can be embedded into an iframe.  Tools are available on the internet to test if a URL is compatible with iframes before adding to the External Frame widget.
 :::
 
 #### Configure
-* **URL**. The URL of the web page to be added to the widget.
+* **URL**. Enter the URL of the web page that will be displayed in the widget.
 * **Preferred Height**.  Set the number of pixels for the height of the widget.  Leave this blank to have it automatically adjust to an appropriate height.
 
 
