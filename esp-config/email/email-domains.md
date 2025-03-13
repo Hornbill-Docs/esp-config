@@ -25,7 +25,7 @@ This article takes you through administrative configurations. In order to create
 1. Click **+ Add Outbound Route**.
 1. Configure the outbound mail route using the information that follows.
 1. (Optional) To enable DomainKeys Identified Mail, see [Enabling DKIM](/esp-config/email/email-domains#enabling-dkim).
-1. There are two methods of outbound routing available in Hornbill. Choose either [DNS routing](/esp-config/email/email-domains#option-1-dns-routing) or [SMTP smart host](/esp-config/email/email-domains#option-2-smtp-smarthost).
+1. There are two methods of outbound routing available in Hornbill. Choose either [DNS routing](/esp-config/email/email-domains#option-1-dns-routing) or [SMTP smart host](/esp-config/email/email-domains#option-2-smtp-smart-host).
 
 ### Details
 * **Domain Name.** This must be a valid domain name. For example, mycompany.com.
