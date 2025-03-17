@@ -21,8 +21,8 @@ Your first two shared mailboxes are included with every Hornbill instance. Addit
 
 ## Before you begin
 * **Have you configured a domain for your new shared mailbox?** Prior to [linking an outbound mail route](/esp-config/email/shared-mailboxes#addresses), you must have already [configured your outbound mail route](/esp-config/email/email-domains).
-    * Prior to [configuring your outbound mail route](/esp-config/email/email-domains), you must have a domain in place. Creating a new mailbox in Hornbill creates the ability to send and receive email in a shared mailbox, but it does not create a new domain for you. 
-* **Do you have a user-created role available for this shared mailbox?** You must have at least one user-created role available so that you can [associate a role to the mailbox](/esp-config/email/shared-mailboxes#associated-roles). A user-created roles (also known as a custom role) is what gives users access to a shared mailbox. To learn more, see [User-created roles](/esp-config/organizational-data/roles#user-created-roles).
+    * Prior to configuring your outbound mail route, you must have a domain in place. Creating a new mailbox in Hornbill creates the ability to send and receive email in a shared mailbox, but it does not create a new domain for you. 
+* **Do you have a user-created role available for this shared mailbox?** You must have at least one user-created role available so that you can [associate a role to the mailbox](/esp-config/email/shared-mailboxes#associated-roles). A user-created role (also known as a custom role) is what gives users access to a shared mailbox. To learn more, see [User-created roles](/esp-config/organizational-data/roles#user-created-roles).
 
 ## Details
 This tab is where the basic details of the mailbox are specified:
