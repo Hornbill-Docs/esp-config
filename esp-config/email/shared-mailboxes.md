@@ -1,6 +1,6 @@
 ---
 layout: article-toc
-keywords: custom role, user-created role
+keywords: custom role, user-created role, link a domain
 ---
 # Shared mailboxes
 Email in Hornbill is received by and sent from shared mailboxes. Shared mailboxes  allow a group of users to share a single mailbox for both outgoing and incoming emails, all using a common email address.
