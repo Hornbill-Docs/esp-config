@@ -1,13 +1,13 @@
 ---
 layout: article-toc
 ---
-# User Roles
+# User roles
 A Role is a collection of rights that allow a user to perform actions in Hornbill. Hornbill comes with a range of roles ready for you to assign to your users and custom roles can be created to meet your specific needs.
 
 In addition to platform roles, each application comes with roles specifically designed to govern access to that application.
 * [Service Manager User Roles](/servicemanager-config/setup/service-manager-roles)
 
-## Topics Covered
+## Topics covered
 * Describing the different types of roles.
 * The different ways to assign roles to users.
 * How roles can affect application subscriptions.
@@ -18,12 +18,12 @@ In addition to platform roles, each application comes with roles specifically de
 * The rights Manage Role, Create Role, Delete Role, and Update Role are available for custom roles.
 
 
-## Role Types
+## Role types
 Two types of Roles exist within Hornbill, Security Roles and Assignment Roles:
 
-* **Security Roles**<br>Are used to control access to Hornbill Applications and to the different areas within each application. Security roles have a "Privilege Level" which determines the level of access provided to users that are assigned to the role.
-* **Assignment Roles**<br>Provide restrictions on the assignment of Activities. For example, when configuring a Human Task node within a Business process, it is possible to assign that task to a Role. This is especially useful if you wish to restrict the assignment of an activity to several users within a particular group or if you want to expose this activity to a selection of users across multiple groups.
-It is also possible to share certain items based on an assignment Role. One example is Dashboards. Assignment Roles can only be associated with application Users"
+* **Security roles**<br>Security roles are used to control access to Hornbill through the use of rights. Security roles include a [Privilege Level](/esp-config/organizational-data/roles#privileges) which determines the level of access provided to users that are assigned to the role.
+* **Assignment roles**<br>Assignment roles provide restrictions on the assignment of activities. For example, when configuring a Human Task node within a workflow, it is possible to assign that task to a role. This is especially useful if you wish to restrict the assignment of an activity to several users within a particular group or if you want to expose this activity to a selection of users across multiple groups.
+It is also possible to share certain items based on an assignment role. One example is Dashboards. Assignment roles can only be associated with application Users.
 
 ## Privileges
 Security roles use the following privileges to control the level of access for a user that has been assigned to the role.
@@ -40,15 +40,15 @@ Security roles use the following privileges to control the level of access for a
 A user's overall privilege level is determined by the highest privilege level of all their combined roles.
 :::
 
-## System Roles
+## System roles
 There are a number of roles that are provided with Hornbill.  These roles are read-only and contain a set rights for performing a particular set of tasks.  Additional rights cannot be added.    
 
 System roles can be easily identified in the list of roles by the closed padlock icon.
 
-## User Created Roles
+## User created roles
 If the roles that come with Hornbill do not meet your specific needs, you can create your own roles.
 
-### Creating a Custom Role
+### Creating a custom role
 1. Open Configuration
 1. Select where the new role will be created (either Platform Configuration or a specific Hornbill App) from the drop down menu.
 1. Select `Roles` in the left-hand navigation panel.
@@ -61,7 +61,7 @@ If the roles that come with Hornbill do not meet your specific needs, you can cr
 1. Users can be allocated subscriptions through role assignments. If you assign a user to an application role that has a privilege level of `user` a subscription will be allocated to that user when they next log in.
 :::
 
-### System and Application Rights
+### System and application rights
 * **System Rights**<br>All roles have the option to add system rights.
 * **Application Rights**<br>This will only be available if the role is associated to an application. Only the rights for the associated application will be available.
 
@@ -110,13 +110,6 @@ If the roles that come with Hornbill do not meet your specific needs, you can cr
 |Add Lists|Add a new simple list. Requires the `Manage Lists` right|
 |Update Lists|Update an existing simple list. Requires the `Manage Lists` right|
 |Delete Lists|Delete a simple list. Requires the `Manage Lists` right| 
-|Manage Profile Categories||
-|Create Profile Categories||
-|Update Profile Categories||
-|Delete Profile Categories||
-|Add Profiles||
-|Update Profiles||
-|Delete Profiles||
 |Manage Scheduled Jobs|Allows the user to view their own scheduled jobs within the user app. Users that have a privilege level of admin will also be able to view all users' scheduled jobs from within Configuration and reassign the owner of a job|
 <!--
 |Create Scheduled Jobs||
