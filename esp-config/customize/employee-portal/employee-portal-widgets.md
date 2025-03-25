@@ -7,7 +7,6 @@ Widgets are small, standalone applications that can be embedded into the employe
 
 Each installed application can provide additional widgets. For more information on the functional and configuration detail of these widgts, please see the application-specific documention.
 
-# General Widgets
 ## My Services
 Add this widget to present users with a list of Services that they are subscribed to.
 
