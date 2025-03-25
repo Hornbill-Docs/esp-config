@@ -5,11 +5,13 @@ keywords: static content
 # Employee Portal Widgets
 Widgets are small, standalone applications that can be embedded into the employee portal pages to add interactivity or additional features. Widgets enhance the usability and provide quick access to information.
 
-## General Widgets
-### My Services
+Each installed application can provide additional widgets. For more information on the functional and configuration detail of these widgts, please see the application-specific documention.
+
+# General Widgets
+## My Services
 Add this widget to present users with a list of Services that they are subscribed to.
 
-#### Configure
+### Configure
 * **Filter By Service Domain**<br>Selecting this option will display a list of the available Domains. Once a Domain is selected, the list of services will be limited to that Domain.
 * **Show Impacted Only**<br>Only subscribed services that are currently impacted will be displayed.
 * **Show Favorites Only**<br>Only Services that have been marked as a favorite by the user will be displayed.
@@ -17,29 +19,29 @@ Add this widget to present users with a list of Services that they are subscribe
 * **Display Layout as Tiles**<br>Displays the services as tiles with large icons.
 * **Show Service Request Items**<br>Below each Service, display a list of its Request Catalog Items. Only available when not using tiles.
 
-#### Style
+### Style
 * **Hide if no data is available**<br>The widget will not be included on the page if there is nothing to display.
 * **Header**<br>Define the top banner of the widget.
 * **Header Type**<br>Choose from Basic, Custom, or No Banner.
 * **Body**<br>Configure the text and background colors of the widget. If no specific color preferences are set in the widget configuration, the style defined in the Employee Portal settings is applied.
 
-### Bulletins
+## Bulletins
 Add this widget to present Bulletins that have been published through their subscribed services.
 
-#### Configure
+### Configure
 * **Filter By Service Domain**<br>Selecting this option will display a list of the available Domains. Only Bulletins associated to the selected Domain will be displayed.
 * **Transition Time**<br>Set how long each Bulletin will be displayed for.
 
-#### Style
+### Style
 * **Hide if no data is available**<br>The widget will not be included on the page if there is nothing to display.
 * **Header**<br>Define the top banner of the widget
 * **Header Type**<br>Choose from Basic, Custom, or No Banner.
 * **Body**<br>Configure the text and background colors of the widget. If no specific color preferences are set in the widget configuration, the style defined in the Employee Portal settings is applied.
 
-### Links
+## Links
 Add this widget to create a list of custom links. Links to external web sites, cloud services, intranet, and other Employee Portal Pages.
 
-#### Configure
+### Configure
 * **Display as Tiles**<br>Selecting options lets you toggle between a list view and a tile view.
 * **Icon**<br>Select an icon to accompany the name of the link.
 * **Address**<br>Specify an address for the link - if referencing a Hornbill link which needs to be accessible from the Employee Portal or the Employee Mobile App, ensure to use the relative path in this field. For example, for an Intelligent Capture link `catalog/new-service-request/com.hornbill.servicemanager/1/1/` (where `1/1/` is replaced with the service ID and progressive capture ID.)
@@ -47,82 +49,55 @@ Add this widget to create a list of custom links. Links to external web sites, c
 * **Name**<br>Add a name for your link.
 * **Description**<br>Add a description to display if you want a little more detail about the link.
 
-#### Style
+### Style
 * **Header**<br>Define the top banner of the widget.
 * **Header Type**<br>Choose from Basic, Custom, or No Banner.
 * **Body**<br>Configure the text and background colors of the widget. If no specific color preferences are set in the widget configuration, the style defined in the Employee Portal settings is applied.
 
-### Activities
+## Activities
 Add this widget to give the user a list of their current activities that are assigned to them.
 
-#### Configure
+### Configure
 * **Show Activities**<br>Include Activities that are assigned to the user.
 * **Show Authorizations**<br>Include authorizations assigned to the user.
 
-#### Style
+### Style
 * **Header**<br>Define the top banner of the widget.
 * **Header Type**<br>Choose from Basic, Custom, or No Banner.
 * **Body**<br>Configure the text and background colors of the widget. If no specific color preferences are set in the widget configuration, the style defined in the Employee Portal settings is applied.
 * **Information**<br>This widget should only be used on pages that are accessible to full users. Basic users will not have access to activities. Add to User Version pages only. It is also not available on the Mobile app.
 
-### Recently Viewed
+## Recently Viewed
 Add this widget to give users a way to quickly access Hornbill workspaces, apps, requests, projects, and more which they have recently viewed.
 
-#### Style
+### Style
 * **Header**<br>Define the top banner of the widget
 * **Header Type**<br>Choose from Basic, Custom, or No Banner.
 * **Body**<br>Configure the text and background colors of the widget. If no specific color preferences are set in the widget configuration, the style defined in the Employee Portal settings is applied.
 
-### Text
+## Text
 Add this widget to create a simple text based message board.
 
-#### Configure
+### Configure
 * **Title**<br>Add a main title within the text area.
 * **Description**<br>Add the main content that you want to display. Format your text using Wiki Markup.
 * **Text Centered**<br>Centers the Title within the widget.
 
-#### Style
+### Style
 * **Header**<br>Define the top banner of the widget
 * **Header Type**<br>Choose from Basic, Custom, or No Banner.
 * **Body**<br>Configure the text and background colors of the widget. If no specific color preferences are set in the widget configuration, the style defined in the Employee Portal settings is applied.
 
-### External Frame
+## External Frame
 The external frame, often referred to as an iframe, is used to embed content from an external web page into the Employee Portal. This can be used to display content from external sources, such as videos, maps, or entire web pages.
 
 :::note
 Not all web pages can be embedded into an iframe.  Tools are available on the internet to test if a URL is compatible with iframes before adding to the External Frame widget.
 :::
 
-#### Configure
+### Configure
 * **URL**. Enter the URL of the web page that will be displayed in the widget.
 * **Preferred Height**.  Set the number of pixels for the height of the widget.  Leave this blank to have it automatically adjust to an appropriate height.
-
-## Service Manager Widgets
-These widgets are available only when Service Manager is installed.  
-
-### Search
-The Search widget provides a unified search for users to find information on services, FAQs, service requests, known issues, the user's active requests, and knowledge articles.
-
-![Search Widget](/_books/esp-config/customize/employee-portal/images/search-widget.png)
-
-#### Configure
-* **Filter by Service Domain**. Select a single service domain that the search will apply to.  
-* **Filter by Types**. The search can be limited to only searching selected types of records.
-    * Service
-    * FAQ
-    * Service Request
-    * Known Issues
-    * My Service Requests
-    * Articles
-
-### Knowledge Base Articles
-This widget presents a list of knowledge base articles that are available to the user. A search and knowledge base filter allows the user to find a particular article. The search is based on the article's name.  Clicking on an article in the list will open the full article in the Knowledge Browser. 
-
-![Knowledge Article Widget](/_books/esp-config/customize/employee-portal/images/knowledge-article-widget.png)
-
-#### Configure
-* **Knowledge Bases**. A list of selectable knowledges allows you to select which knowledge bases will be included when searched.
-* **Knowledge Base Article Types**.  A list of selectable knowledge types can be used to control the types of knowledge articles that will be searched.
 
 <!-- 
 ### RSS Feed
