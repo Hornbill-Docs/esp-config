@@ -294,10 +294,6 @@
         "expand": false,
         "items": [
           {
-            "text": "Profiles",
-            "link": "esp-config/data/profiles"
-          },
-          {
             "text": "Simple Lists",
             "link": "esp-config/data/simple-lists"
           },
