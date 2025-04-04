@@ -32,6 +32,8 @@
       "url": "/esp-config/internationalization/translation-mode",
       "location": "/esp-config/localization/translation-mode",
       "code": 301
-    }
+    },
+    { "url": "/esp-config/data/profiles", "location": "/servicemanager-config/administration/profiles", "code": 308, 
+    "skip_location_validation": true }
   ]
 }
