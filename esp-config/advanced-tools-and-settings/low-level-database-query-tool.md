@@ -2,20 +2,25 @@
 layout: article-toc
 ---
 # Low-Level Database Query Tool
-The Low-Level Database Query Tool is an advanced debugging feature of the Hornbill Platform which allows you to query the underlying application database using Structured Query Language (SQL) statements. Every Hornbill instance incorporates this feature however it is not enabled by default and its use is not encouraged. This feature is intended for advanced users only to support diagnostics of issues and problems. 
+The Low-Level Database Query Tool, also known as Database Direct, is an advanced debugging feature of the Hornbill Platform that allows you to query the underlying application database using Structured Query Language (SQL) statements. Every Hornbill instance incorporates this feature however it is not enabled by default and its use is not encouraged. This feature is intended for advanced users only to support diagnostics of issues and problems. 
 
 :::warning
 This function of the Hornbill platform is disabled and protected behind a super-user privilege level because it exposes some inherent security risks with regards to accessing data a user may not be authorized to access.  As a result this feature is likely to be depreciated in the future.  The platform, and our cloud operations and support capabilities have matured beyond the point where this is beneficial, there are no use-0cases where its really necessary to access the underlying database in this way. 
 :::
 
-## Enabling the Low-Level Database Query Tool
-The visibility of Low-Level Database Query Tool is governed by a system setting `security.database.allowSqlQueryOperation`. Any user wishing to use the Low-Level Database Query Tool must be assigned the "Super User Role".
+## Before you begin
+* The visibility of the Low-Level Database Query Tool is governed by a system setting `security.database.allowSqlQueryOperation`. This setting must be turned on.
+* Any user wishing to use the Low-Level Database Query Tool must be assigned the "Super User Role".
 
 Once the application setting has been enabled, it may be necessary to refresh your browser to allow this change in this setting to be acknowledged. If the association of a role is also required, it will be necessary for the user to log out and then log in again to ensure the user's session is aware of the recent association of the Super User role.
 
-## Using Low-Level Database Query Tool
-Once enabled, Low-Level Database Query Tool can be found via Home > System > Data > Low-Level Database Query Tool. The key features are outlined below.
+## How to access
+Once enabled, Low-Level Database Query Tool can be found via Configuration > Platform Configuration > Advanced Tools & Settings > Database Direct.
+1. Open the Configuration search (ctrl+shift+s).
+1. Type `database` in the search box.
+1. In the results list, under the Platform section, click on Low-Level Database Query Tool.
 
+## How to use 
 * **Query Editor**<br>Type your SQL query here
 * **Data Format**<br>Choose whether raw data values are displayed (e.g. boolean flags will appear as 0 or 1) or if data formatters are to be applied (e.g. No or Yes). Not all data is subject to data formatting.
 * **Clear**<br>Clears the current query in the query pane and result set.
