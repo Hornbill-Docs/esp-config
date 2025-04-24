@@ -60,7 +60,12 @@ This tab is where you specify a reply address --- the address that recipients wi
 A green dot now appears to the right of the address to indicate that this is the default address.
 
 ## Status
-This tab provides an overview of the mailbox folders.
+This tab provides an overview of the mailbox folders. This includes the number of messages and the size of the folder. 
+* **Empty Folder**. Each folder has an option to permanently delete all of the messages that are stored within it.  This should be done with caution as some messages may be linked to entities that would lose access once deleted.
+
+    :::tip
+    [Advanced sytem settings](/esp-config/advanced-tools-and-settings/advanced-system-settings) are availble to automatically purge the **Deleted Items** and **Sent Items** folders after a selected period of time. These settings are `emails.purgeDeletedItemsAfter` and `emails.purgeSentItemsAfter`.
+    :::
 
 ## Associated Roles
 In this tab, you provide access to a shared mailbox by creating and associating one or more roles. Once a role is associated with a shared mailbox, users can then be assigned to the roles. The only type of role that can be associated with a shared mailbox is a user-created (custom) role.
