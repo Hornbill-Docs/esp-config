@@ -12,14 +12,18 @@ Click on the + button to start creating a new API key.
 
 * **User Account**<br>The user account under which this API will run under.  The API will inherit the rights of the selected user. The API Key can be restricted further by using rules.
 * **Description**<br>This is a simple description of the API key that is being created
-* **State**<br>This defines the current state of the API key. The options are Active, Revoked or Suspended. Any API key that is not in Active state cannot be used.
+* **State**<br>This defines the current state of the API key. The options are Active, Revoked or Suspended. Any API key that is not in an active state cannot be used.
 * **Expires**<br>This defines the date and time until the API key is active. Once the expiry date is reached the API key can no longer be used. This is mandatory, following best security practices.  
 
 ## API Key Expiry and Auto-Delete
 Once an API key has expired, it will automatically be deleted from the system 7 days after the expiry date is reached. 
 
 ## API Key Rules
-API Key rules is a very flexible scheme that gives you fine grain control over API's that can be accessed using any given API key.  
+API Key rules are a very flexible scheme that gives you granular control over APIs that can be accessed using any given API key.  
+
+![API Key Rules](/_books/esp-config/images/api-key-rules.png)
+
+Multiple rules can be added, with each rule being placed on a new line.
 
 Learn more about [API Key Rules](/esp-fundamentals/security/api-keys#api-key-security-controls)
 
