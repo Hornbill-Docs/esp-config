@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "1.0.168",
+  "version": "1.0.169",
   "productFamily": "esp",
   "tags": [
     "esp",
@@ -57,6 +57,10 @@
               {
                 "text": "About user accounts",
                 "link": "esp-config/organizational-data/user-accounts/about-user-accounts"
+              },
+              {
+                "text": "Selecting the best method to create users",
+                "link": "esp-config/organizational-data/user-accounts/user-creation-options"
               },
               {
                 "text": "Manually creating users",
