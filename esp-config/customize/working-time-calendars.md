@@ -5,8 +5,13 @@ layout: article-toc
 The Working Time Calendars define the working or operational hours which can then be used by the different Hornbill Apps to determine when users or teams are working.
 
 ## Before you begin
-* Users with the Admin or Super User role can manage working time calenders.
-* The rights Manage Working Time Calenders, Create Working Time Calendar, Delete Working Time Calendar, and Update Working Time Calendar are available for the creation of custom roles.
+* You should be familiar with how to use [Configuration](/esp-config/getting-started/using-configuration).
+* You will need the Admin or Super User role to manage all aspects of the working time calenders.
+* Limited access can be provided to users by adding one or more of the following rights to a [user created role](/esp-config/organizational-data/roles#user-created-roles).
+    * Manage Working Time Calenders
+    * Create Working Time Calendar
+    * Delete Working Time Calendar
+    * Update Working Time Calendar
 
 ## Time zone
 Hornbill can be used across multiple geographical regions and time zones. Select the time zone that represents where the teams or users who will be using this particular Working Time Calendar are located. This will ensure that the correct times are stored for the activities that they perform.
