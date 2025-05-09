@@ -45,6 +45,35 @@ There are a number of roles that are provided with Hornbill.  These roles are re
 
 System roles can be easily identified in the list of roles by the closed padlock icon.
 
+|Role|Description|Privilege Level|
+|-|-|-|
+|Activities Template Manager|This role grants the rights to manage activities templates.|user|
+|Admin Role|This role provides administrative functionality to the Hornbill platform and should only be granted to an administrator.|user|
+|Advanced Reporting Admin|This role grants the ability to manage, create, edit and delete reporting measures, widgets, dashboards, slideshow and advanced reporting using tables and entities. Advanced reporting relies on standard SQL SELECT statements for the report definition, so requires a comfortable knowledge of SQL and underlying database schema.|user|
+|Anonymous Guest|This role grants the rights limited guest access without a registered account. Used for integrations.|none|
+|Authorized Guest|This role grants the rights to guest users that have been authenticated.|guest|
+|Basic User Role|This role provide very limited, mostly read-only access to the system to support co-worker self-service users.|basic|
+|Business Process Manager|This role grants the rights to define business process workflows.|user|
+|Contacts Admin|This role grants the rights to add, edit and delete contacts as well as customize portals.|user|
+|Coworker Lifecycle|This role grants the rights to design and use the lifecycle button on the coworkers page.|user|
+|Dashboard Viewer|This role grants the rights to view dashboards and slideshow.|user|
+|Form Designer|This role grants the rights to design existing forms including adding additional fields as well as changing the default layouts.|user|
+|HAi Manager|This role should only be used for managing HAi configurations.|user|
+|Home Page Manager|This role grants the rights to manage the Home Page.|user|
+|Hornbill Authorized Guest|This role grants the rights to guest users that have been authenticated.|guest|
+|Locations Manager|This role grants the rights to manage Locations.|user|
+|Organizations Admin|This role grants the rights to add, edit and delete organizations.|user|
+|Page Manager|This role grants the rights to manage pages.|user|
+|Progressive Capture Manager|This role grants the rights to define progressive capture workflows.|user|
+|Reporting Admin|This role grants the ability to manage, create, edit and delete reporting measures, widgets, dashboards and slideshow.|user|
+|Reporting User|This role grants the ability to view reporting and preview/run reports.|user|
+|Service Domain Administrator|This role grants the rights to manage Service Catalogs and Domains.|user|
+|Sites Manager|This role grants the rights to manage Sites.|user|
+|Super User Role|This role provides super user functionality to the system as it overrides all rights and permissions. A super user should never log into the user application, and the role should only ever be used when first setting up the system, or in an emergency to recover the system.|admin|
+|Translator|This role grants the rights to define translations for application strings between different languages.|user|
+|User Import|This role should only be used for User Import Tool.	user
+|User Role|This role provides all standard platform user functionality.|user|
+
 ## User created roles
 If the roles that come with Hornbill do not meet your specific needs, you can create your own roles.
 
@@ -103,7 +132,7 @@ If the roles that come with Hornbill do not meet your specific needs, you can cr
 |canCancelProcess|| 
 |changeDocumentOwner|| 
 -->
-### Data
+#### Data
 |Name|Description|
 |-|-|
 |Manage Lists|Provides read access to the [Simple Lists](/esp-config/data/simple-lists) under Platform Configuration and with each application where the user has a subscription.  Additional rights are required to be able to create, update, and delete lists| 
