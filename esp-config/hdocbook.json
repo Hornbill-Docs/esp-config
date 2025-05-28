@@ -430,6 +430,21 @@
             "link": "esp-config/hornbill-solution-center/subscription"
           }
         ]
+      },
+      {
+        "text": "Automation",
+        "draft": true,
+        "items":[
+          {
+            "text": "Workflow",
+            "items":[
+              {
+                "text": "Workflow Designer",
+                "link": "esp-config/automation/workflow-designer/"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
