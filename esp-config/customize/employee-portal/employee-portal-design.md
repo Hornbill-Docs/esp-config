@@ -19,7 +19,7 @@ A user that has the Home Page Manager role or they have been added as the owner 
     * **Draft**<br>Changes have been made to the page but are not yet published. These changes will not be visible to users until published
     * **Published**<br>All changes made to the page have been saved and published.
 * **Visibility**<br>A page can be made visible to different types of users. Basic Users, Users, or All Users. This shows the current visibility version that is being viewed.
-
+    
 ## Page Details
 Once in Design Mode the Page Details configuration box is made available on the right hand pop-out panel.
 
@@ -28,7 +28,7 @@ Once in Design Mode the Page Details configuration box is made available on the 
 This field will accept User Variables
 * **Short Description**<br>This will be displayed in a small font, under the page name.
 This field will accept User Variables
-* **Visibility Versions**<br>A single page can have different configurations depending on the types of users accessing the page. This allows you to add widgets that are particular to each type of user.
+* **User Visibility Versions**<br>A single page can have different configurations based on the types of users accessing the page. The [available widgets](/esp-config/customize/employee-portal/employee-portal-design#available-widgets) for a page will vary, depending on if they were designed to be seen or used by Basic Users or Full Users.  
     * **Current user visibility versions**<br>These are the currently used visibility versions for this page. Selecting a version from this list will switch to the design mode to this selected version.
     * **Add new user visibility version**<br>Add a user visibility version to the list of Current user visibility versions
     * **Remove this user visibility version**<br>This removes all the configuration for the currently selected version.
@@ -62,8 +62,12 @@ Widgets bring your page to life. In this section you can select and configure th
 ## Available Widgets
 
 ### Add Page Widgets
-* **Available Widgets**<br>The list of available widgets for the currently selected application. From this section you can use your mouse to drag and drop the widget to the Page Widgets section to add the widget to the current page.
-* **Application Selector**<br>Select each application to see the widgets that they offer
+* **Available Widgets**<br>This displays a list of available widgets for the currently selected application. From this section you can use your mouse to drag and drop the widget to the Page Widgets section to add the widget to the current page.
+* **Application Selector**<br>Select each application to see the widgets that they offer.
+
+    :::important
+    The list of available widgets will vary, depending on the [User Visibility Version](/esp-config/customize/employee-portal/employee-portal-design#edit-page-details) that the page has been set to.  (Please refer to the documentation for each widget to determine the compatible User Visibility Version.)
+    :::
 
 ## Page Widgets
 Widgets which have been added to the page, can then be configured, sized and if needed hidden using the icons visible when hovering over each icon's name.
