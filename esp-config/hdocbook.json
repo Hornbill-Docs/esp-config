@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "1.0.172",
+  "version": "1.1.0",
   "productFamily": "esp",
   "tags": [
     "esp",
@@ -354,6 +354,15 @@
           {
             "text": "Reports",
             "link": "esp-config/reporting/reports"
+          }
+        ]
+      },
+      {
+        "text": "Scheduling",
+        "items":[
+          {
+            "text": "Scheduled Jobs",
+            "link": "esp-config/scheduling/scheduled-jobs"
           }
         ]
       },
