@@ -45,10 +45,12 @@ RSS Feed
 
 -->
 
-# Employee Portal widgets
-Widgets are small, stand-alone applications that can be embedded into the Employee Portal pages to add interactivity and additional features. Widgets enhance the usability and provide quick access to information.
+# General Widgets
+Widgets are small, stand-alone appplets that can be embedded into the Employee Portal pages to add interactivity and additional features. Widgets enhance the usability and provide quick access to information.
 
-Each installed application can provide additional widgets. For more information on the functional and configuration detail of these widgets, see the application-specific documentation.
+![General Widgets](/_books/esp-config/images/employee-portal-general-widgets.png)
+
+The **General** widgets are provided with the Hornbill platform. Each installed application can provide additional widgets. For more information on these widgets, see the application-specific documentation.
 
 <!-- JAMES: Cammy added the note below-->
 ::: note
@@ -67,7 +69,6 @@ This article provides reference information on the following widgets:
 * [RSS Feed](/esp-config/customize/employee-portal/employee-portal-widgets#rss-feed)
 * [Workspace](/esp-config/customize/employee-portal/employee-portal-widgets#workspace)
 * [Post](/esp-config/customize/employee-portal/employee-portal-widgets#post)
-* [Search](/esp-config/customize/employee-portal/employee-portal-widgets#search)
 * [My Team](/esp-config/customize/employee-portal/employee-portal-widgets#my-team)
 
 ## My Services
@@ -146,7 +147,7 @@ Add this widget to create a list of custom links. Links to external web sites, c
 ## Activities
 Add this widget to give the user a list of the activities currently assigned to them.
 
-**Visibility:** full users only
+**Visibility:** full only
 ::: note
 This widget should only be used on pages that are accessible to full users. Basic users do not have access to activities. This widget is also not available on the mobile app.
 :::
@@ -264,27 +265,6 @@ Add this widget to display a particular post or the last post from a selected wo
 * **Last post in a workspace.** This option displays only the last post in the selected workspace. There is no option to scroll through previous posts.
 * **Post ID.** Add the activity ID of the post you would like to display. To get the post's ID, right-click on the timestamp (e.g.: *1 day ago*) displayed on a post and get a copy of the link. Add this to the Post ID field, removing the leading domain name, up to the URN.
 <!--* **Public Workspace.** Select the public workspace you want to use. IS THIS ONE GONE NOW?-->
-
-### Style
-* **Use Content Height.**
-* **Header.** Define the top banner of the widget.
-    * **Header Type.** Choose from Basic, Custom, or No Header.
-    * **Label.**
-    * **Link.**
-* **Body.** Configure the text and background colors of the widget. If no specific color preferences are set in the widget configuration, the style defined in the Employee Portal settings is applied.
-
-## Search
-Add this widget to present users with a Search box for finding services, FAQs, documents, requests, and more.
-
-**Visibility:** basic users, full users
-
-### Configure
-* **Filter by service domain.** This option displays a list of the available domains. Once a domain is selected, the search results will come only from information linked to that domain.
-* **Filter by types.**
-* **Title.** Add a title to display to the user at the top of the widget.
-* **Placeholder.** Add text to display within the Search box.
-* **Description.**
-* **Text Centered.** Centers the title within the widget.
 
 ### Style
 * **Use Content Height.**

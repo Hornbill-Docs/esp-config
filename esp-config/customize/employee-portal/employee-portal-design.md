@@ -28,7 +28,7 @@ Once in Design Mode the Page Details configuration box is made available on the 
 This field will accept User Variables
 * **Short Description**<br>This will be displayed in a small font, under the page name.
 This field will accept User Variables
-* **User Visibility Versions**<br>A single page can have different configurations based on the types of users accessing the page. The [available widgets](/esp-config/customize/employee-portal/employee-portal-design#available-widgets) for a page will vary, depending on if they were designed to be seen or used by Basic Users or Full Users.  
+* **User Visibility Versions**<br>A single page can have different configurations based on the types of users accessing the page. The [available widgets](/esp-config/customize/employee-portal/employee-portal-design#add-widgets) for a page will vary, depending on if they were designed to be seen or used by Basic Users or Full Users.  
     * **Current user visibility versions**<br>These are the currently used visibility versions for this page. Selecting a version from this list will switch to the design mode to this selected version.
     * **Add new user visibility version**<br>Add a user visibility version to the list of Current user visibility versions
     * **Remove this user visibility version**<br>This removes all the configuration for the currently selected version.
@@ -56,12 +56,7 @@ These are the available variables:
 * user.jobTitle
 And these needs to be wrapped in double curly braces {{ }}.
 
-### Widgets
-Widgets bring your page to life. In this section you can select and configure the widgets that you would like to use on your page
-
-## Available Widgets
-
-### Add Page Widgets
+## Add Widgets
 * **Available Widgets**<br>This displays a list of available widgets for the currently selected application. From this section you can use your mouse to drag and drop the widget to the Page Widgets section to add the widget to the current page.
 * **Application Selector**<br>Select each application to see the widgets that they offer.
 
@@ -70,7 +65,7 @@ Widgets bring your page to life. In this section you can select and configure th
     :::
 
 ## Page Widgets
-Widgets which have been added to the page, can then be configured, sized and if needed hidden using the icons visible when hovering over each icon's name.
+This lists the widgets that have aready been added to the page.  From here, each widget can be configured, sized, and if needed hidden by using the displayed options when hovering over each widget.
 
 ### Hide Widget
 Use the eye icon to decide if the widget should be visible on the page. This feature is useful if you are editing your page and you don't want to delete and remove a widget from the page, but you also don't want it visible.
