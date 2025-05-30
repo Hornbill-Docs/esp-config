@@ -72,10 +72,11 @@ This article provides reference information on the following widgets:
 * [My Team](/esp-config/customize/employee-portal/employee-portal-widgets#my-team)
 
 ## My Services
-Add this widget to present users with a list of services that they are subscribed to.
+Add this widget to present users with a list of services that they are subscribed to. Each sevice can be clicked on to show the details of the service.
 <!-- JAMES: Cammy added the visibility info below. Please check this for all widgets.-->
+![My Services Widget](/_books/esp-config/images/services-widget.png)
 
-**Visibility:** basic users, full users
+**[User visibility versions](/esp-config/customize/employee-portal/employee-portal-design#edit-page-details):** All Users, Basic Users, Full Users.
 
 ### Configure
 * **Items per page.**
@@ -86,7 +87,7 @@ Add this widget to present users with a list of services that they are subscribe
 * **Show favorites only.** Only services that have been marked as a favorite by the user are displayed.
 * **Automatically select the layout.** The layout of this widget will adapt automatically based on the space it has. It will switch between a tiled view and a list view depending on how many services there are to display and the number of columns it spans.
 * **Display layout as tiles.** Displays the services as tiles with large icons.
-<!-- JAMES: IS THIS ONE GONE NOW? * **Show Service Request Items.** Below each service, display a list of its request catalog Items. Only available when not using tiles.-->
+* **Show Service Request Items.** Below each service, display a list of its request catalog Items. Only available when not using tiles.
 * **Align to the center.**
 * **Service icon color.**
 
@@ -264,7 +265,7 @@ Add this widget to display a particular post or the last post from a selected wo
 * **Show specific post.** If you have an important post that you want to always be displayed, select this option and specify the ID of the post.
 * **Last post in a workspace.** This option displays only the last post in the selected workspace. There is no option to scroll through previous posts.
 * **Post ID.** Add the activity ID of the post you would like to display. To get the post's ID, right-click on the timestamp (e.g.: *1 day ago*) displayed on a post and get a copy of the link. Add this to the Post ID field, removing the leading domain name, up to the URN.
-<!--* **Public Workspace.** Select the public workspace you want to use. IS THIS ONE GONE NOW?-->
+* **Public Workspace.** Select the public workspace you want to use.
 
 ### Style
 * **Use Content Height.**

@@ -14,6 +14,8 @@ The configuration of each page within the Employee Portal can be governed by gra
 ## Design Mode
 A user that has the Home Page Manager role or they have been added as the owner of a Service Domain will have a Cog button available within the header of the page. Clicking on this cog will take the user into the Design Mode for that page. Once in Design Mode, the following information is displayed.
 
+![Design Mode](/_books/esp-config/images/employee-portal-design-mode.png)
+
 * **Exit Design Mode**<br>Click this option will return you back to the originating page
 * **Status**
     * **Draft**<br>Changes have been made to the page but are not yet published. These changes will not be visible to users until published
@@ -28,7 +30,7 @@ Once in Design Mode the Page Details configuration box is made available on the 
 This field will accept User Variables
 * **Short Description**<br>This will be displayed in a small font, under the page name.
 This field will accept User Variables
-* **User Visibility Versions**<br>A single page can have different configurations based on the types of users accessing the page. The [available widgets](/esp-config/customize/employee-portal/employee-portal-design#add-widgets) for a page will vary, depending on if they were designed to be seen or used by Basic Users or Full Users.  
+* **User Visibility Versions**<br>A single page can have different configurations based on the types of users accessing the page. The [available widgets](/esp-config/customize/employee-portal/employee-portal-design#add-widgets) for a page will vary, depending on if they were designed to be seen or used by **All Users**, **Basic Users**, or **Full Users**.  
     * **Current user visibility versions**<br>These are the currently used visibility versions for this page. Selecting a version from this list will switch to the design mode to this selected version.
     * **Add new user visibility version**<br>Add a user visibility version to the list of Current user visibility versions
     * **Remove this user visibility version**<br>This removes all the configuration for the currently selected version.
