@@ -452,6 +452,10 @@
                 "link": "esp-config/automation/workflow-designer/"
               },
               {
+                "text": "Variable Picker",
+                "link": "esp-config/automation/variable-picker/"
+              },
+              {
                 "text": "External Authorization",
                 "link": "esp-config/automation/external-authorization/"
               },
