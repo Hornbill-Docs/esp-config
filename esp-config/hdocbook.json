@@ -452,6 +452,10 @@
                 "link": "esp-config/automation/workflow-designer/"
               },
               {
+                "text": "External Authorization",
+                "link": "esp-config/automation/external-authorization/"
+              },
+              {
                 "text": "Human Task",
                 "link": "esp-config/automation/human-task/"
               }
