@@ -449,19 +449,27 @@
             "items":[
               {
                 "text": "Workflow Designer",
-                "link": "esp-config/automation/workflow-designer/"
+                "link": "esp-config/automation/workflow-designer"
               },
               {
                 "text": "Variable Picker",
-                "link": "esp-config/automation/variable-picker/"
+                "link": "esp-config/automation/variable-picker"
+              },
+              {
+                "text": "Authorization",
+                "link": "esp-config/automation/authorization"
               },
               {
                 "text": "External Authorization",
-                "link": "esp-config/automation/external-authorization/"
+                "link": "esp-config/automation/external-authorization"
               },
               {
                 "text": "Human Task",
-                "link": "esp-config/automation/human-task/"
+                "link": "esp-config/automation/human-task"
+              },
+              {
+                "text": "Decision Node",
+                "link": "esp-config/automation/decision"
               }
             ]
           }

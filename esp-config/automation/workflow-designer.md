@@ -79,7 +79,7 @@ This node will end the workflow and will cause the heads up display to show as r
 ### Set Checkpoint
 This node will allow you to set a visible indicator that a task / or important milestone in the workflow has been met - In order to use this node, checkpoints must have been defined for the stage of the workflow (Stage Properties). It is also possible to mark a checkpoint as having been met on the all the above nodes as a configuration option.
 ### Start Parallel Processing
-This node can be used when there is a need to invoke more than one stream of processing at the same time. This is commonly used with [human tasks](/servicemanager-config/customize/workflows/workflow-designer#human-tasks) that can be assigned and worked on independantly, but they must all be completed before the workflow can continue.
+This node can be used when there is a need to invoke more than one stream of processing at the same time. This is commonly used with [human tasks](/esp-config/automation/human-task) that can be assigned and worked on independantly, but they must all be completed before the workflow can continue.
 
 ![Parallel Processing](/_books/esp-config/images/parallel-processing.png)
 
