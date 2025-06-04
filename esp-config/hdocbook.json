@@ -450,6 +450,10 @@
               {
                 "text": "Workflow Designer",
                 "link": "esp-config/automation/workflow-designer/"
+              },
+              {
+                "text": "Human Task",
+                "link": "esp-config/automation/human-task/"
               }
             ]
           }
