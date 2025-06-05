@@ -9,7 +9,7 @@ The variable picker is available to use in most workflow nodes and their fields,
 You can use the variable picker to inject or overwrite variable values into node fields.
 
 ## Using the variable picker
-While you can manually insert variables into node fields (see [Request Variables](/servicemanager-config/customize/workflows/request-variables)), you also have the option of using the variable picker.
+While you can manually insert variables into node fields, you also have the option of using the variable picker.
 
 You can open the variable picker in multiple ways:
 * In most fields in workflow nodes, click the variable picker icon --- the epsilon, or ε.

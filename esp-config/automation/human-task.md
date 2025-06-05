@@ -4,9 +4,9 @@ When your workflow involves a manual activity, use a Human Task node. The workfl
 You need to define the name and details of the activity, the role or individual assigned, and the expected outcomes. Optionally, you can include variables from the linked parent request that may assist in the completion of the task.
 
 ## Topics covered
-* [Reference](/servicemanager-config/customize/workflows/human-task#reference)
-* [Using outcomes](/servicemanager-config/customize/workflows/human-task#using-outcomes)
-* [Using checklists](/servicemanager-config/customize/workflows/human-task#using-checklists)
+* [Reference](/esp-config/automation/human-task#reference)
+* [Using outcomes](/esp-config/automation/human-task#using-outcomes)
+* [Using checklists](/esp-config/automation/human-task#using-checklists)
 
 ## Reference
 * **Language.** You can define a human task in a single language or in multiple languages. For an additional language, you create a copy of the human task in any other languages enabled on your instance. This allows users working in different languages to receive the human task either in the default language or in the language defined in their profile.
@@ -49,7 +49,7 @@ Variables used for lifespan settings must be in the ISO date/time format, for ex
 ### Task Details
 Define the details for the human task. This can be a combination of text and, if required, variables from the parent request.
 
-The task details can comprise a summary, description fields, custom fields, or even answers to Intelligent Capture questions. See more [about inserting request variables](/servicemanager-config/customize/workflows/variable-picker).
+The task details can comprise a summary, description fields, custom fields, or even answers to Intelligent Capture questions. See more [about inserting variables](/esp-config/automation/variable-picker).
 
 ### Task Options
 * **Do not allow completion unless checklist is 100% complete.** This option becomes available if one or more checklists have been added to the task (using the **Manage Checklist** button). Select this option to make the task unable to be completed while there are outstanding checklist items.
@@ -58,14 +58,14 @@ The task details can comprise a summary, description fields, custom fields, or e
 * **Time spent is mandatory for completion.** This option becomes available if the above option is selected. Set the default time spent.
 
 ### Outcomes
-Configure the possible outcome options available for the user to choose when completing the human task. By default, two are provided: *Completed* and *Not Completed*. Use the **Add New** button to configure other possible outcomes. See [Using outcomes](/servicemanager-config/customize/workflows/human-task#using-outcomes).
+Configure the possible outcome options available for the user to choose when completing the human task. By default, two are provided: *Completed* and *Not Completed*. Use the **Add New** button to configure other possible outcomes. See [Using outcomes](/esp-config/automation/human-task#using-outcomes).
 
 ### Capture Task Fields
 * **Field Properties.** Provide a title for the field, add a custom field ID, or leave the default.
 * **Default Flags.** Configure whether the field is mandatory, visible on the form, in read-only view, and so on.
 * **Field Type Settings.** Configure the type of capture you wish to use --- single, multi-line, static or dynamic dropdown, checkbox, radio button, label, and so on. Provide the context-based attributes as required.
 
-For more information, see [Adding capture fields to tasks](/servicemanager-config/customize/workflows/human-task#adding-capture-fields-to-tasks).
+For more information, see [Adding capture fields to tasks](/esp-config/automation/human-task#adding-capture-fields-to-tasks).
 
 ### Set Stage Checkpoints
 Use the **Add** button to configure any stage checkpoints you want to be set on completion of the task.
