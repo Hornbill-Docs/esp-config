@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "productFamily": "esp",
   "tags": [
     "esp",
@@ -359,7 +359,7 @@
       },
       {
         "text": "Scheduling",
-        "items":[
+        "items": [
           {
             "text": "Scheduled Jobs",
             "link": "esp-config/scheduling/scheduled-jobs"
@@ -442,10 +442,10 @@
       },
       {
         "text": "Automation",
-        "items":[
+        "items": [
           {
             "text": "Workflow",
-            "items":[
+            "items": [
               {
                 "text": "Workflow Designer",
                 "link": "esp-config/automation/workflow-designer"

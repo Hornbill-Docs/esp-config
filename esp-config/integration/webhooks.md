@@ -18,7 +18,11 @@ Each application defines the webhook event sources it wants to make available, a
 * **Application.** Select the Hornbill application where the event is coming from.
 * **Event Source.** Select the event.
 * **Enabled.** Enable or disable this webhook. This can also be done from the main list of webhooks.
-* **Authentication.** If the webhook endpoint you are calling requires authentication, then you need to create the required credentials in your KeySafe. Then, when configuring your webhook, you can select the credentials here. 
+* **Authentication.** If the webhook endpoint you are calling requires authentication, then you need to create the required credentials in your KeySafe. Then, when configuring your webhook, you can select the credentials here.
+
+::: important
+Hornbill Webhooks only support **HTTP Basic** type authentication, so you will only be able to select Keysafe Keys of type **HTTP Basic Authentication (Username + Password)** against your webhooks.
+:::
 
 ## Webhook target
 * **URL.** The target URL for the webhook. The URL depends on whichever system or platform where your webhook resides. 
