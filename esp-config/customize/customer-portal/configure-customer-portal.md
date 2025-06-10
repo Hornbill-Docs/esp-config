@@ -1,23 +1,23 @@
 ---
 layout: article-toc
 ---
-# Customer Portal Configuration
+# Customer Portal configuration
 The Customer Portal is provided as an entry point for guest users, giving them a window into Hornbill and access to a subset of selected Hornbill applications. To find out more about what the customer portal is and how it fits into the overall Hornbill solution, you can read more here [TODO].
 
 The customer portal can be accessed at `https://customer.hornbill.com/<your instance name>/`
 
-## Topics Covered
+## Topics covered
 * Designing the Customer Portal
 * Giving access to the Customer Portal
 * Advanced settings
 
 ## Before you begin
-* Knowledge of adding contacts and organizations
+* Knowledge of adding contacts and companies
 * Administrative access to Configuration
 
 ## Details
 
-### Regional Settings
+### Regional settings
 The Regional Settings are the defaults for the Customer Portal on the login page and when contacts do not have any regional information set against their contact record.
 * **Language**<br>The default language that is displayed to users when accessing the login page and subsequent pages if a language has not been set against their contact record.
 * **Time Zone**<br>The default time zone for contacts. All visible date and time fields will be displayed based on this setting. The default is set to (GMT) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London.
@@ -26,7 +26,7 @@ The Regional Settings are the defaults for the Customer Portal on the login page
 * **Time Format**<br>The format of fields that contain just a time. The default is set to 23:30:35.
 * **Currency**<br>This is not currently used.
 
-### Security Settings
+### Security settings
 
 * **Single Sign On Profile**<br>The Customer Portal by default uses basic authentication provided by Hornbill. It is possible to enable the use of a third-party identity provider. See [Single Sign On Profiles](/esp-config/security/sso/single-sign-on) for more information on creating SSO profiles.
 
@@ -40,7 +40,7 @@ The Regional Settings are the defaults for the Customer Portal on the login page
 
 * **Permissions**<br>Permissions are available to control self-registration and profile updates. 
     * **Allows contacts to register themselves on this portal**<br>A new visitor to the customer portal will be able to register themselves and have immediate access to the Customer Portal.  This will create a new contact record in Hornbill.
-    * **Allow contacts to select their organization as part of online registration**<br>When enabled the customer registration form on the portal will show an organization select box. The select list is populated with organization records that are marked as being visible on the registration page. Click on the ? icon for instruction on how to make an orgianization available in the select box.
+    * **Allow contacts to select their company as part of online registration**<br>When enabled the customer registration form on the portal will show an company select box. The select list is populated with company records that are marked as being visible on the registration page. Click on the ? icon for instruction on how to make an orgianization available in the select box.
     * **Allow contacts to reset their password**<br>Following registration, a temporary generated password may be provided to the contact. Enabling this will allow the contact to change this password.
     * **New guest registrations require authorization before they can log on**<br>Select this option if you require any registration to be authorized before allowing them to log in.
     * **Allow contacts to update their profile**<br>Turning this option `ON` will allow a contact to view and update their profile information.
@@ -57,13 +57,13 @@ This section allows you to configure the look and feel of the Customer Portal.
     * **Navbar Text color**<br>Text color for any text that appears in the top navigation bar.
     * **Home Page Background color**<br>This applies to the middle section of the page, below the image.
 
-* **Home Page Text**<br>
+* **Home Page text**<br>
     * **Main Image Text**<br>This text will overlay the logo in the top banner. Set to 0 (zero) if you do not wish to include this text.
     * **Section Title (When not logged in)**<br>.This is sub-text that sits under the Main Image Text. Set to 0 (zero) if you do not wish to include this sub-text.
     * **Section Title (When not logged in)**<br>Set to 0 (zero) if you do not wish to include this title.
     * **Section Text**<br>Set to 0 (zero) if you do not wish to include this title.
 
-* **Social Information**<br>This section lets you include links to your company's social media sites. Each included entry will be represented on the portal by is associated logo.
+* **Social information**<br>This section lets you include links to your company's social media sites. Each included entry will be represented on the portal by is associated logo.
     * **Twitter ID**<br>Add your company's Twitter ID. Enter 0 (zero) to hide.
     * **Linkedin ID**<br>Add your company's LinkedIn ID. Enter 0 (zero) to hide
     * **YouTube ID**<br>Add your company's YouTube Channel link. Enter 0 (zero) to hide
@@ -76,17 +76,17 @@ This section allows you to configure the look and feel of the Customer Portal.
 If all Social Information Fields contain a 0 (zero), this section will be completely removed
 :::
 
-* **Contact Information**<br>Add contact information for your users on how to contact your Service Desk. Set any field to 0 (zero) in order to hide it from view. Added 0 (zero) to all fields will hide this entire section.
+* **Contact information**<br>Add contact information for your users on how to contact your Service Desk. Set any field to 0 (zero) in order to hide it from view. Added 0 (zero) to all fields will hide this entire section.
     * **Contact Title**<br>Contact Us.
     * **Phone Number**<br>+44 (0)20 8582 8282
     * **Email**<br>support@hornbill.com
     * **Address**<br>Hornbill, Apollo - Odyssey Business Park, West End Road, Ruislip, HA4 6QD, United Kingdom
 
-* **About Details**
+* **About details**
     * **About Title**<br>Hornbill Customer Portal
     * **About Text**<br>The Customer Portal can be used to view and update requests.
 
-* **Login Details**<br>
+* **Login details**<br>
 This section defines the contents of the login page.  The login page is accessed from the landing page when the `login` option is selected.
     * **Auto Login**<br>With this option enabled, the home page will be bypassed and the user will be taken straight to the login page when they access the URL `https://customer.hornbill.com/<instance name>`.
     * **Splash Image**<br>The image displayed on the login page.
@@ -104,16 +104,16 @@ This section defines the contents of the login page.  The login page is accessed
 ## Translations
 The translations allow you to change the displayed text and provide translations into multiple languages.
 
-### Language Selection
+### Language selection
 From the language pick-list select the language that you want to translate.  This list will only show [supported languages](/esp-config/localization/supported-languages).
 
 ### Translated
 Click on the text within the Translated column.  You will be presented with a dialog box to change the translation.  If you are translating to a language that is different from your own language, a `Suggest` button can be used to provide a Google translation. 
 
-## Contact Access
+## Contact access
 The Contact Access list shows the contacts or Guest Accounts that have been associated with the Customer Portal and have been given permission to log in to the Customer Portal.
 
-### Add Contact
+### Add contact
 Add an existing contact to the Customer Portal Account
 
 * **Set Access**<br>Change the access a contact has to the Customer Portal
