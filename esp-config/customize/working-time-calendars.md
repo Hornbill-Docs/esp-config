@@ -13,6 +13,8 @@ The Working Time Calendars define the working or operational hours which can the
     * Delete Working Time Calendar
     * Update Working Time Calendar
 
+    ![Working Time Calendar rights](/_books/esp-config/images/wtc-rights.png)
+    
 ## Time zone
 Hornbill can be used across multiple geographical regions and time zones. Select the time zone that represents where the teams or users who will be using this particular Working Time Calendar are located. This will ensure that the correct times are stored for the activities that they perform.
 
