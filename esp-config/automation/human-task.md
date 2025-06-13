@@ -9,7 +9,7 @@ You need to define the name and details of the activity, the role or individual 
 * [Using checklists](/esp-config/automation/human-task#using-checklists)
 
 ## Reference
-* **Language.** You can define a human task in a single language or in multiple languages. For an additional language, you create a copy of the human task in any other languages enabled on your instance. This allows users working in different languages to receive the human task either in the default language or in the language defined in their profile.
+* **Language.** You can define a human task in a single language or multiple languages. For an additional language, you create a copy of the human task in any other language enabled on your instance. This allows users working in different languages to receive the human task either in the default language or in the language defined in their profile.
 * **Display.** The display name for the human task node in the Workflow Designer. This name does not appear on the human task.
 
 ### Task Settings
@@ -18,9 +18,9 @@ You need to define the name and details of the activity, the role or individual 
 * **Priority.** Set a priority to indicate the priority of the task.
 
 ### Owner
-The owner can be notified about the task in reminders, and  also has the ability to reassign the assignee if required. The owner can be either a named user or a variable.
+The owner can be notified about the task in reminders and also can reassign the assignee if required. The owner can be either a named user or a variable.
 * **User.** Pick from a list of coworkers.
-* **Variable.** You can see a list of possible variables, such as request owner, if you precede the Human Task node with a Hornbill Automation node with the following settings (or any other node that outputs a user ID as a value):
+* **Variable.** You can see a list of possible variables, such as request owner if you precede the Human Task node with a Hornbill Automation node with the following settings (or any other node that outputs a user ID as a value):
     * Entity: Requests
     * Type: Get Request Information
     * Task: Request Details
@@ -43,7 +43,7 @@ You can set a start date, due date, and expiry date for the task based on either
 Expiry is a valid outcome for a human task, and setting a value here allows for --- via a Decision node following the task --- branching based on the task expiring rather than an outcome being selected.
 
 ::: tip
-Variables used for lifespan settings must be in the ISO date/time format, for example: 2021-11-26T11:30:00.000Z. Values from a date/time picker will be in this format, but values from a date picker will not.
+Variables used for lifespan settings must be in the ISO date/time format, for example 2021-11-26T11:30:00.000Z. Values from a date/time picker will be in this format, but values from a date picker will not.
 :::
 
 ### Task Details
@@ -53,7 +53,7 @@ The task details can comprise a summary, description fields, custom fields, or e
 
 ### Task Options
 * **Do not allow completion unless checklist is 100% complete.** This option becomes available if one or more checklists have been added to the task (using the **Manage Checklist** button). Select this option to make the task unable to be completed while there are outstanding checklist items.
-* **Hide the completion reason field when completing the task.** Select this to set whether the Reason field is required or hidden when completion of the task happens.
+* **Hide the completion reason field when completing the task.** Select this to set whether the Reason field is required or hidden when the completion of the task happens.
 * **Show the time spent field when completing the task.** Select this to set whether the Time Spent field is hidden or shown to the user completing the task.
 * **Time spent is mandatory for completion.** This option becomes available if the above option is selected. Set the default time spent.
 
@@ -84,7 +84,7 @@ You can also use outcomes and/or outcome-capture fields to branch in the workflo
 1. Click **Apply Settings**.
 
 ### Adding capture fields to outcomes
-1. Get to the *Edit Outcome Settings* dialog by either clicking **Edit** (the pencil icon) on an existing outcome, or by adding a new outcome (using the **Add New** button).
+1. Get to the *Edit Outcome Settings* dialog by either clicking **Edit** (the pencil icon) on an existing outcome or by adding a new outcome (using the **Add New** button).
 1. In the *Capture Outcome Fields* section, click **Add Field**.
 1. Configure the following fields:
     * **Field Properties.** Provide a title for the field, add a custom field ID, or leave the default.
@@ -148,7 +148,7 @@ You can use both task-capture fields and outcome-capture fields on the same task
 Once a task has been completed and any task-capture fields completed, the answers from these fields are available to be used elsewhere in the lifecycle of the workflow.
 
 * You can branch and make decisions on the answers using the Custom Expression builder. Select the relevant task and capture field to evaluate.
-* You can inject the answers from task-capture fields into request fields or into other tasks. Use the variable picker in a node following the task, but make sure it is in the same stage of the workflow.
+* You can inject the answers from task-capture fields into request fields or other tasks. Use the variable picker in a node following the task, but make sure it is in the same stage of the workflow.
 * The task-capture field answers will be written to the timeline of the entity the task has been completed against.
 
 ## Using checklists
