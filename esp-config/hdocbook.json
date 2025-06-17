@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "productFamily": "esp",
   "tags": [
     "esp",
@@ -108,7 +108,26 @@
         ]
       },
       {
-        "text": "Security and access controls",
+        "text": "Guest Access (External)",
+        "expand":false,
+        "draft": true,
+        "items":[
+          {
+            "text": "Contacts",
+            "link": "esp-config/guest-access/contacts"
+          },
+          {
+            "text": "Companies",
+            "link": "esp-config/guest-access/companies"
+          },
+          {
+            "text": "Contact Templates",
+            "link": "esp-config/guest-access/contact-templates"
+          }
+        ]
+      },
+      {
+        "text": "Security",
         "expand": false,
         "items": [
           {
