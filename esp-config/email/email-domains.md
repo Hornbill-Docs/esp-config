@@ -116,7 +116,6 @@ For further information, see:
 ### Using SMTP smart host
 Instead of our servers taking care of mail routing, we can simply route all outbound emails for your specified domain to an SMTP-relaying server of your choice. Typically, this is your own enterprise SMTP server, which you must provide us access to (generally by creating special firewall rules to enable our servers to connect).
 
-## FCrDNS
-This is known as Forward-Confirmed reverse DNS (FCrDNS). This means that the hostname's A record must match the reverse DNS (PTR) record for the IP (and vice versa). This was a historic attempt to ensure that the sender owned the domain and the DNS record. In reality, it never really worked once cloud services or multi-tenant systems became a reality with multiple SMTP servers serving many customers and having resilience. It was dropped by all but two lists years ago.
+
 
 Therefore, as with many other cloud vendors, we are advising our customers and their email recipients to avoid using any blacklist that implements FCrDNS. If this is not possible, our advice is to configure Hornbill to use your own smart host rather than the live.hornbill.com-provided smart host.
