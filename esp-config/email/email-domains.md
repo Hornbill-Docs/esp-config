@@ -118,4 +118,3 @@ Instead of our servers taking care of mail routing, we can simply route all outb
 
 
 
-Therefore, as with many other cloud vendors, we are advising our customers and their email recipients to avoid using any blacklist that implements FCrDNS. If this is not possible, our advice is to configure Hornbill to use your own smart host rather than the live.hornbill.com-provided smart host.
