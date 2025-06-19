@@ -116,7 +116,7 @@ For further information, see:
 ### Using SMTP smart host
 Instead of our servers taking care of mail routing, we can simply route all outbound emails for your specified domain to an SMTP-relaying server of your choice. Typically, this is your own enterprise SMTP server, which you must provide us access to (generally by creating special firewall rules to enable our servers to connect).
 
-## Live.Hornbill.Com
+## Using the live.hornbill.com email domain
 
 All Hornbill instances are delivered with a default, pre-configured domain: live.hornbill.com. This foundational domain is immutable and cannot be removed or altered, with the exception of specific email-related functionalities. These permissible adjustments include the ability to enable or disable email processing through Auto Responder rules and the creation of dedicated mailboxes for individual users.
 
