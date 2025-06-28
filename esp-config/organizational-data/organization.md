@@ -98,8 +98,8 @@ BPM Automations can be used to add and remove users from groups. This can be use
 This option is only available for Teams.  Having the Allow Task Assignments set to `Yes` on a team makes the team name available on the task form for assignment.
 
 ### Associated user task management
-* **Allow task view**<br>From the Task View, users with this option can see tasks that are assigned to their group.
-* **Allow task action**<br>From the Task View, users with this option can action the tasks that are assigned to their group, such as assigning the task to themselves or completing the task.
+* **Allow task view**<br>From the [My Activities View](/esp-user-guide/my-activities/overview), users with this option can see tasks that are assigned to their group.
+* **Allow task action**<br>From the [My Activities View](/esp-user-guide/my-activities/overview), users with this option can action the tasks that are assigned to their group, such as assigning the task to themselves or completing the task.
 
 ## Advanced settings
 |Setting Name|Description|
