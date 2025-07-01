@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "1.3.5",
+  "version": "1.3.6",
   "productFamily": "esp",
   "tags": [
     "esp",
@@ -96,10 +96,6 @@
           {
             "text": "User Availability States",
             "link": "esp-config/organizational-data/user-availability-states"
-          },
-          {
-            "text": "Guest accounts",
-            "link": "esp-config/organizational-data/guest-accounts"
           },
           {
             "text": "Guest account templates",
