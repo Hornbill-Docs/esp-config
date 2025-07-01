@@ -1,5 +1,5 @@
-# Select Organization When Registering On Customer Portal
-Allow contacts to select their company as part of online registration.
+# Select Organization When User Self-Registers on the Customer Portal
+This option allows individual contacts to select their company during the login self-registration process.
 
 - When enabled the customer registration form on the portal will show a company select box.
 - The select list is populated with company records that are marked as being visible on the registration page.

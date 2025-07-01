@@ -8,7 +8,8 @@
     "exclude_links": [
       "https://www.mycompany.com/support",
       "https://saml.xml.org/saml-specifications",
-      "https://www.iso.org/obp/ui/"
+      "https://www.iso.org/obp/ui/",
+      "https://pipedream.com/requestbin"
     ]
   },
   "redirects": [
