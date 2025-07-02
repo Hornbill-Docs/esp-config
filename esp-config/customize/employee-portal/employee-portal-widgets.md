@@ -146,7 +146,9 @@ Add this widget to create a list of custom links. Links to external web sites, c
 * **Body.** Configure the text and background colors of the widget. If no specific color preferences are set in the widget configuration, the style defined in the Employee Portal settings is applied.
 
 ## Activities
-Add this widget to give the user a list of the activities currently assigned to them.
+Add this widget to give the user a list of the activities and approvals currently assigned to them.
+
+![Activities Widget](/_books/esp-config/images/employee-portal-activity-widget.png)
 
 **Visibility:** full only
 ::: note
@@ -154,12 +156,12 @@ This widget should only be used on pages that are accessible to full users. Basi
 :::
 
 ### Configure
-* **Show Activities.** Include activities that are assigned to the user.
-* **Show Approvals.** Include approvals (authorizations) assigned to the user.
-* **Show Overdue Activities/Approvals.**
-* **Show Future Activities/Approvals.**
-* **Show No Due Date (Someday).**
-* **Maximum items per list.**
+* **Show Activities.** Select this option to include activities that are assigned to the user.
+* **Show Approvals.** Select this option to include approvals (authorizations) assigned to the user.
+* **Show Overdue Activities/Approvals.** Show both activities and approvals that have passed their due date. These will be displayed in a column called Overdue.
+* **Show Future Activities/Approvals.** Show activities and approvals that have a due date that is more than two days away.  These will be displayed in a column called Later.
+* **Show No Due Date (Someday).** Show activities that don't have a due date. These will be displayed in a column called Someday.
+* **Maximum items per list.** This setting will help control the layout within the Employee Portal and display a set number of activities per list. A `More` button will be displayed when the number of activities exceeds this value. Clicking on the `More` button will open the [My Activities](/esp-user-guide/my-activities/overview) view. 
 
 ### Style
 * **Use Content Height.**
