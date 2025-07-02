@@ -1,4 +1,4 @@
-# Select Organization When Registering On Customer Portal
+# Select Company When Registering On Customer Portal
 Allow contacts to select their company as part of online registration.
 
 - When enabled the customer registration form on the portal will show a company select box.
