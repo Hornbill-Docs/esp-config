@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "1.3.8",
+  "version": "1.4.0",
   "productFamily": "esp",
   "tags": [
     "esp",
@@ -128,9 +128,9 @@
         "expand": false,
         "items": [
           {
-            "text": "Password policies",
-            "link": "esp-config/security/password-policies"
-          },
+            "text": "Logon History",
+            "link": "esp-config/security/logon-history"
+          },          
           {
             "text": "Two-Factor authentication",
             "link": "esp-config/security/two-factor-authentication"
@@ -161,6 +161,10 @@
           {
             "text": "Security Audit",
             "link": "esp-config/security/security-audit"
+          },
+          {
+            "text": "Password policies",
+            "link": "esp-config/security/password-policies"
           },
           {
             "text": "Network Rules",
