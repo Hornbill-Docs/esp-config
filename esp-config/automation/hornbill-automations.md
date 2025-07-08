@@ -1,22 +1,29 @@
 # Hornbill Automations
-A Hornbill Automation is a definable automated task that will occur within the workflow. The available Hornbill Automations are provided by each application that uses Workflows.
+A Hornbill automation is a definable automated task that will occur within the workflow. The following Hornbill automations are included with the Hornbill platform.  Additional automations are provided by each installed application that uses workflows. 
 
-## Adding a Hornbill Automation
-When viewing a workflow canvas, there are a couple of ways to add a Hornbill Automation.
+## Adding a Hornbill automation
+When viewing a workflow canvas, there are a couple of ways to add a Hornbill automation.
 
-* **Add after existing node**. Drag an arrow from an existing workflow node. When you let go of the mouse button, you are presented with a list of nodes that you can select from. Select Hornbill Automation
+* **Add after existing node**. Drag an arrow from an existing workflow node. When you let go of the mouse button, you are presented with a list of nodes that you can select from. Select Hornbill automation.
 
-* **Add between existing nodes**. Click on an arrow between two existing nodes. Once the arrow is selected, right-click on the arrow and select Add node between connected nodes. Select Hornbill Automation from the list of available nodes.
+* **Add between existing nodes**. Click on an arrow between two existing nodes. Once the arrow is selected, right-click on the arrow and select Add node between connected nodes. Select Hornbill automation from the list of available nodes.
 
-Hornbill Automations can be easily identified in a workflow as a light blue rectangular node.
+Hornbill automations can be easily identified in a workflow as a light blue rectangular node.
 
+![Hornbill Automation](/_books/esp-config/images/workflow-hornbill-automation.png)
+
+## Hornbill automation help
+![Help Button](/_books/esp-config/images/workflow-help-button.png)
+
+Each automation includes a help option  that provides information on all of the inputs and outputs for each of the available tasks. 
+ 
 ## Location
 The location automation provides the ability to create and update [locations](/esp-config/organizational-data/locations).
 
 ![Location Automation](/_books/esp-config/images/workflow-location.png)
 
 ### Available tasks
-* **Create**. Add a new location to Hornbill.  
+* **Create**. Add a new location.  
 * **Update**. Update an existing location.
 
 ### Options
