@@ -10,6 +10,20 @@ When viewing a workflow canvas, there are a couple of ways to add a Hornbill Aut
 
 Hornbill Automations can be easily identified in a workflow as a light blue rectangular node.
 
+## Location
+The location automation provides the ability to create and update [locations](/esp-config/organizational-data/locations).
+
+![Location Automation](/_books/esp-config/images/workflow-location.png)
+
+### Available tasks
+* **Create**. Add a new location to Hornbill.  
+* **Update**. Update an existing location.
+
+### Options
+#### Mandatory Options
+* **Name**. A name must be provided for both the create and update automations. The name is the full display name of the location and not the numerical ID.  The name is a unique value so that no two locations can be named the same.  
+
+
 ## Utility
 ### Get Email Addresses For Group Members
 This utility will output a list of email addresses for users that belong to an organizational group. This list can then be used in other automations such as sending an email.
