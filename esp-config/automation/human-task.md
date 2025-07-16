@@ -1,36 +1,43 @@
 # Human task
-When your workflow involves a manual activity, use a Human Task node. The workflow will wait for a person assigned by name or role to update the activity with one of the expected outcomes. 
+When your workflow requires a user to complete a manual activity, use a Human Task node. The Human Task will be added to the assignee's [Activity List](/esp-user-guide/my-activities/activity-list). Once a Human Task is assigned, the workflow will wait for the completion of the task before continuing. 
 
-You need to define the name and details of the activity, the role or individual assigned, and the expected outcomes. Optionally, you can include variables from the linked parent request that may assist in the completion of the task.
-
-## Topics covered
-* [Reference](/esp-config/automation/human-task#reference)
-* [Using outcomes](/esp-config/automation/human-task#using-outcomes)
-* [Using checklists](/esp-config/automation/human-task#using-checklists)
+![Human Task](/_books/esp-config/images/workflow-human-task.png)
 
 ## Reference
 * **Language.** You can define a human task in a single language or multiple languages. For an additional language, you create a copy of the human task in any other language enabled on your instance. This allows users working in different languages to receive the human task either in the default language or in the language defined in their profile.
-* **Display.** The display name for the human task node in the Workflow Designer. This name does not appear on the human task.
+* **Display.** The display name for the human task node in the Workflow Designer. The default value is set to *Human Task*. This name does not appear on the assigned activity.
+
+    :::tip
+    The Human Task node can be easily identified from other nodes in the [workflow designer](/esp-config/automation/workflow-designer) as a gray rectangle.
+
+    ![Human Task Node](/_books/esp-config/images/workflow-human-task-node.png)
+    :::
+
 
 ### Task Settings
-* **Title.** This appears as the title of the human task.
-* **Category.** This appears on the human task.
+* **Title.** This appears as the title of the task.
+* **Category.** This appears on the task.
 * **Priority.** Set a priority to indicate the priority of the task.
 
 ### Owner
-The owner can be notified about the task in reminders and also can reassign the assignee if required. The owner can be either a named user or a variable.
+The owner is typically a person who is overseeing the tasks.  This could be the manager of the assignee or a team lead. 
+
+If the owner field is left blank, a system account is automatically added as a user. While this field is not mandatory, it is recommended that an owner be added.
+
+The owner can receive task reminders and completion notifications, but most importantly, they can reassign the task to another assignee if required. 
 * **User.** Pick from a list of coworkers.
-* **Variable.** You can see a list of possible variables, such as request owner if you precede the Human Task node with a Hornbill Automation node with the following settings (or any other node that outputs a user ID as a value):
-    * Entity: Requests
-    * Type: Get Request Information
-    * Task: Request Details
+* **Variable.** Using the [variable picker](/esp-config/automation/variable-picker), you can see a list of possible variables that have been provided by previous nodes in the workflow. 
 
 ### Task Assignment
-Use the dropdowns to make a selection to assign the human task:
+The assignees of a task are those who will be completing the task.  Use the dropdowns to make a selection to assign the human task:
 * **Assign to Role.** This is populated from the default roles and any custom roles defined on your instance. Any users who are assigned the role will receive the human task and any notifications.
 * **Assign to Team.** This is populated from the default teams and any custom teams defined on your instance. Any users who are assigned the role will receive the human task and any notifications.
 * **Assign to User.** Begin typing to select an individual.
 * **Assign to Variable.** Use the Variable Picker.
+
+:::tip
+Both the owner and assignee of a task must have a platform subscription. Tasks can not be assigned to basic users.
+:::
 
 ### Lifespan Settings
 You can set a start date, due date, and expiry date for the task based on either a predefined value or a variable (e.g. `respond by` or `fix by`) from the parent request.
