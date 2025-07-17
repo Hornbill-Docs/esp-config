@@ -25,6 +25,7 @@ The location automation provides the ability to create and update [locations](/e
 ### Available tasks
 * **Create**. Add a new location.  
 * **Update**. Update an existing location.
+* **Delete**. Delete an existing location.
 
 ### Options
 #### Mandatory Options
