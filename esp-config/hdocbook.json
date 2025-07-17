@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "1.4.6",
+  "version": "1.5.0",
   "productFamily": "esp",
   "tags": [
     "esp",
@@ -238,6 +238,10 @@
           {
             "text": "Working Time Calendars",
             "link": "esp-config/customize/working-time-calendars"
+          },
+          {
+            "text": "Custom Buttons",
+            "link": "esp-config/customize/custom-buttons"
           }
         ]
       },
