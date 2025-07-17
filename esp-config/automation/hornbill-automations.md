@@ -32,7 +32,7 @@ The location automation provides the ability to create and update [locations](/e
 * **Name**. A name must be provided for both the create and update automations. The name is the full display name of the location and not the numerical ID.  The name is a unique value so that no two locations can be named the same.  
 
 ## Groups & Teams
-The [Groups & Teams](/esp-config/organizational-data/organization#how-groups-are-used) automation can be used to bring back information about a single group or team.  This can be particularly useful for accessing information held in the custom attributes. 
+The Groups & Teams automation can be used to bring back information about a single [group or team](/esp-config/organizational-data/organization#how-groups-are-used).  This can be particularly useful for accessing information held in the custom attributes. 
 
 ![Groups & Teams Automation](/_books/esp-config/images/workflow-groups-and-teams.png)
 
@@ -43,6 +43,18 @@ The [Groups & Teams](/esp-config/organizational-data/organization#how-groups-are
 #### Mandatory Options
 * **ID**. Either the ID or URN of a group or team needs to be provided.
 
+## Email
+
+![Email Automation](/_books/esp-config/images/workflow-direct-message.png)
+
+### Available tasks
+* **Direct Message Send**. This automation is used to send a mail message directly to one or more recipients without going through a shared or personal mailbox. For this to be used, an [Email Domain](/esp-config/email/email-domains) must be set up. Emails that have been sent using this automation can be viewed in the list of [Direct Outbound](/esp-config/email/direct-outbound) emails.
+
+### Options
+#### Mandatory options
+* **From Address**. As a direct send email does not go through a mailbox, a sender address is not automatically applied, and one must be provided.  Direct send emails are commonly used for notifications or one-way communications, and a noreply email address is often used.
+* **Subject**. The subject of the email.
+* **Body**. The body of the email.
 
 ## Utility
 ### Get Email Addresses For Group Members
