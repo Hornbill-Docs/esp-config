@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "productFamily": "esp",
   "tags": [
     "esp",
@@ -242,6 +242,10 @@
           {
             "text": "Custom Buttons",
             "link": "esp-config/customize/custom-buttons"
+          },
+          {
+            "text": "Form Designer",
+            "link": "esp-config/customize/form-designer"
           }
         ]
       },
