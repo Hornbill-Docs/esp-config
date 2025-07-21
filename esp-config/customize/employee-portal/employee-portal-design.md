@@ -12,15 +12,16 @@ The configuration of each page within the Employee Portal can be governed by gra
 * **Domain Owner**<br>A user who is configured as the owner of a domain will have the rights to add, edit and remove Domain Pages for that domain.
 
 ## Design Mode
-A user that has the Home Page Manager role or they have been added as the owner of a Service Domain will have a Cog button available within the header of the page. Clicking on this cog will take the user into the Design Mode for that page. Once in Design Mode, the following information is displayed.
+A user who has the Home Page Manager role or has been added as the owner of a Service Domain will have a Cog button available within the header of the page. Clicking on this cog will take the user into the Design Mode for that page. Once in Design Mode, the following information is displayed.
 
 ![Design Mode](/_books/esp-config/images/employee-portal-design-mode.png)
 
-* **Exit Design Mode**<br>Click this option will return you back to the originating page
+* **Exit Design Mode**. Clicking this option will return you to the originating page.
+* **Domains**. This drop-down option will display a list of all the [service domains](/esp-config/customize/service-domains) that have been created. Selecting a domain will open the configuration for that domain in the right-hand sidebar. From here you can choose to either design the page or add a redirect to another URL.
 * **Status**
-    * **Draft**<br>Changes have been made to the page but are not yet published. These changes will not be visible to users until published
-    * **Published**<br>All changes made to the page have been saved and published.
-* **Visibility**<br>A page can be made visible to different types of users. Basic Users, Users, or All Users. This shows the current visibility version that is being viewed.
+    * **Draft**. Changes have been made to the page but, are not yet published. These changes will not be visible to users until published
+    * **Published**. All changes made to the page have been saved and published.
+* **Visibility**. A page can be made visible to different types of users. Basic Users, Users, or All Users. This shows the current visibility version that is being viewed.
     
 ## Page Details
 Once in Design Mode the Page Details configuration box is made available on the right hand pop-out panel.
