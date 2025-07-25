@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "1.6.1",
+  "version": "1.6.2",
   "productFamily": "esp",
   "tags": [
     "esp",
@@ -501,6 +501,15 @@
               {
                 "text": "Decision Node",
                 "link": "esp-config/automation/decision"
+              }
+            ]
+          },
+          {
+            "text": "Intelligent Capture",
+            "items":[
+              {
+                "text": "Intelligent Capture Designer",
+                "link": "esp-config/automation/intelligent-capture-designer"
               }
             ]
           }
