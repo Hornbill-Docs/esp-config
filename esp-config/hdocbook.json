@@ -510,6 +510,10 @@
               {
                 "text": "Intelligent Capture Designer",
                 "link": "esp-config/automation/intelligent-capture-designer"
+              },
+              {
+                "text": "Intelligent Capture Validation",
+                "link": "esp-config/automation/intelligent-capture-validation"
               }
             ]
           }
