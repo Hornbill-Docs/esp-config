@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "1.6.3",
+  "version": "1.6.4",
   "productFamily": "esp",
   "tags": [
     "esp",
@@ -510,6 +510,10 @@
               {
                 "text": "Intelligent Capture Designer",
                 "link": "esp-config/automation/intelligent-capture-designer"
+              },
+              {
+                "text": "Customized Forms",
+                "link": "esp-config/automation/customized-forms"
               },
               {
                 "text": "Intelligent Capture Validation",
