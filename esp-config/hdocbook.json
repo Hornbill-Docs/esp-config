@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "1.6.4",
+  "version": "1.6.5",
   "productFamily": "esp",
   "tags": [
     "esp",
@@ -96,10 +96,6 @@
           {
             "text": "User Availability States",
             "link": "esp-config/organizational-data/user-availability-states"
-          },
-          {
-            "text": "Guest account templates",
-            "link": "esp-config/organizational-data/guest-account-templates"
           }
         ]
       },
@@ -118,7 +114,7 @@
           },
           {
             "text": "Contact Templates",
-            "draft": true,
+            "draft": false,
             "link": "esp-config/guest-access/contact-templates"
           }
         ]
