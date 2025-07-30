@@ -99,7 +99,9 @@ Add this widget to present users with a list of services that they are subscribe
 * **Body.** Configure the text and background colors of the widget. If no specific color preferences are set in the widget configuration, the style defined in the Employee Portal settings is applied.
 
 ## Bulletins
-Add this widget to present bulletins that have been published through their subscribed services.
+Add this widget to present bulletins that have been published through the logged on user's subscribed services. This widget is a slide deck that works its way through all of the available bulletins.
+
+![Bulletins Widget](/_books/esp-config/images/employee-portal-bulletin-widget.png)
 
 **Visibility:** basic users, full users
 
