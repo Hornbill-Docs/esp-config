@@ -15,8 +15,22 @@ Hornbill automations can be easily identified in a workflow as a light blue rect
 ## Hornbill automation help
 ![Help Button](/_books/esp-config/images/workflow-help-button.png)
 
-Each automation includes a help option  that provides information on all of the inputs and outputs for each of the available tasks. 
- 
+Each automation includes a help option that provides information on all of the options and outputs for each of the available tasks. 
+
+## Contact
+The contact automation provides the ability to create and update [contact records](/esp-config/guest-access/contacts). This can be used in environments where the creation and management of contacts is required through automated workflows rather than being done manually. Automating the creation and management of contacts can help assure consistency. 
+
+![Contact Automation](/_books/esp-config/images/workflow-contact.png)
+
+### Available tasks
+* **Create Contact**. Create a new contact record.
+* **Archive Contact**. Archive an existing contact record.
+* **Get Contact**.  Get information that is stored in the contact's record so that it can be used elsewhere in the workflow.
+* **Portal Access**. Set the status of the contact's access to the [Customer Portal](/esp-config/customize/customer-portal/configure-customer-portal) to approved, suspended, or none.
+* **Set Contact Two-Factor Authentication**. Enable two-factor authentication for a contact and specify if email or the Microsoft Authenticator app is used.
+* **Unarchive Contact**. Make an archived contact record active again.
+* **Update Contact**.  Update the information held in a contact record.
+
 ## Location
 The location automation provides the ability to create and update [locations](/esp-config/organizational-data/locations).
 
