@@ -20,20 +20,20 @@ When your workflow requires a user to complete a manual activity, use a Human Ta
 * **Priority.** Set a priority to indicate the priority of the task.
 
 ### Owner
-The owner is typically a person who is overseeing the tasks.  This could be the manager of the assignee or a team lead. 
+The owner is typically a person who is overseeing the tasks.  This could be the manager of the assignee or a team leader. An owner can see the task on the [My Activities](/esp-user-guide/my-activities/overview) view to oversee all of the assigned tasks.
 
-If the owner field is left blank, a system account is automatically added as a user. While this field is not mandatory, it is recommended that an owner be added.
+If the owner field is left blank, a system account is automatically added as the owner. While this field is not mandatory, it is recommended that an owner be added.
 
 The owner can receive task reminders and completion notifications, but most importantly, they can reassign the task to another assignee if required. 
 * **User.** Pick from a list of coworkers.
-* **Variable.** Using the [variable picker](/esp-config/automation/variable-picker), you can see a list of possible variables that have been provided by previous nodes in the workflow. 
+* **Variable.** Using the [Variable Picker](/esp-config/automation/variable-picker), you can see a list of possible variables that have been provided by previous nodes in the workflow. If the owner can be determined from information held in the entity that the workflow is running against, using a variable is the recommended way to assign a owner to a task.  Providing specific user names for the owner requires workflows to be modified if the user is no longer available. 
 
 ### Task Assignment
 The assignees of a task are those who will be completing the task.  Use the dropdowns to make a selection to assign the human task:
 * **Assign to Role.** This is populated from the default roles and any custom roles defined on your instance. Any users who are assigned the role will receive the human task and any notifications.
-* **Assign to Team.** This is populated from the default teams and any custom teams defined on your instance. Any users who are assigned the role will receive the human task and any notifications.
+* **Assign to Team.** This is populated from the default teams and any custom teams defined on your instance. Any users who are associated to the team will receive the human task and any notifications.
 * **Assign to User.** Begin typing to select an individual.
-* **Assign to Variable.** Use the Variable Picker.
+* **Assign to Variable.** Use the [Variable Picker](/esp-config/automation/variable-picker). If the assignee can be determined from information held in the entity that the workflow is running against, using a variable is the recommended way to assign a task.  Providing specific user names for the assignee requires workflows to be modified if the user is no longer available for assignment. 
 
 :::tip
 Both the owner and assignee of a task must have a platform subscription. Tasks can not be assigned to basic users.
