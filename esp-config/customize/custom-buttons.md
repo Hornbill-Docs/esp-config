@@ -53,3 +53,17 @@ Each custom button can be configured to be one of the following:
 #### Response
 * **Display Autotask progress in timeline**. Select this option if you want a post to be added to the entity's timeline to audit the running of the Auto Task process and its progress and success.
 * **Open popup with Autotask progress**. Select this option if you want a popup to display when the custom button is selected, and to show the user the progress of the executed Auto Task process.
+
+## Custom Button Groups
+Custom button groups allow you to group together related custom buttons that will appear together in a drop-down. 
+
+![Custom Button Groups](/_books/esp-config/images/custom-button-groups.png)
+
+* **Adding groups**. Click on `Add Button Group` and a new group will be added.
+* **Naming a group**. Click on the edit icon for the group, modify the name, and press `Enter` on the keyboard.
+* **Moving groups**.  The order that the groups are displayed can be changed by using the drag and drop option to the left of the group title.
+* **Moving buttons**. Each button can be moved between groups by using the drag and drop option to the left of the button title.
+
+:::note
+If the number of buttons and drop-down groups exceed the available space, a single drop-down menu containing all the groups and non-grouped buttons will be used.
+:::
