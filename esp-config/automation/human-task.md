@@ -4,7 +4,7 @@ When your workflow requires a user to complete a manual activity, use a Human Ta
 ![Human Task](/_books/esp-config/images/workflow-human-task.png)
 
 ## Reference
-* **Language.** You can define a human task in a single language or multiple languages. For an additional language, you create a copy of the human task in any other language enabled on your instance. This allows users working in different languages to receive the human task either in the default language or in the language defined in their profile.
+* **Language.** Select a language to provide a translated display name that is visible within the workflow.  The language seletion will also display the translations that have been provided on Outcomes and Capture Task Fields. Translations are not available  for the task title or task details.
 * **Display.** The display name for the human task node in the Workflow Designer. The default value is set to *Human Task*. This name does not appear on the assigned activity.
 
     :::tip
