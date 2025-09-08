@@ -22,7 +22,9 @@ When your workflow requires a user to complete a manual activity, use a Human Ta
 ### Owner
 The owner is typically a person who is overseeing the tasks.  This could be the manager of the assignee or a team leader. An owner can see the task on the [My Activities](/esp-user-guide/my-activities/overview) view to oversee all of the assigned tasks.
 
-If the owner field is left blank, a system account is automatically added as the owner. While this field is not mandatory, it is recommended that an owner be added.
+:::tip
+If the owner field is left blank, a system account is automatically assigned as the owner. While this field is not mandatory, it is recommended that an owner be added.
+:::
 
 The owner can receive task reminders and completion notifications, but most importantly, they can reassign the task to another assignee if required. 
 * **User.** Pick from a list of coworkers.
@@ -40,14 +42,13 @@ Both the owner and assignee of a task must have a platform subscription. Tasks c
 :::
 
 ### Lifespan Settings
-You can set a start date, due date, and expiry date for the task based on either a predefined value or a variable (e.g. `respond by` or `fix by`) from the parent request.
-* **Start**, **Due**, and **Expires After.** Configure each of these settings to your chosen number of days, hours, and minutes after the creation of the task. Or, you can base the lifespan on a variable such as `log date`, `resolve by`, or `fix by`. If using the variable option, you must precede the node with a Hornbill Automation node with these settings:
-    * Entity: Request
-    * Type: Get Request Information
-    * Task: Request Details
+You can set a start date, due date, and expiry date for the task based on either a predefined value or a date variable.
 
-#### About the *Expires After* setting
-Expiry is a valid outcome for a human task, and setting a value here allows for --- via a Decision node following the task --- branching based on the task expiring rather than an outcome being selected.
+* **Start**. When the assignee needs to start the task.
+* **Due**.  When the assignee needs to complete the task.
+* **Expires After.**. If the task has not been completed before the expiry time, the [outcome](/esp-config/automation/human-task#outcomes) of the task will be set to Expired and the task canceled.  A [Decision node](/esp-config/automation/decision) will commonly follow a task that has an expiry outcome set, allowing branching based on the task expiring rather than an outcome being selected.
+
+Configure each of these settings to your chosen number of days, hours, and minutes after the creation of the task. Or, you can base the lifespan on a date variable that contains a specific date.
 
 ::: tip
 Variables used for lifespan settings must be in the ISO date/time format, for example 2021-11-26T11:30:00.000Z. Values from a date/time picker will be in this format, but values from a date picker will not.
@@ -57,6 +58,30 @@ Variables used for lifespan settings must be in the ISO date/time format, for ex
 Define the details for the human task. This can be a combination of text and, if required, variables from the parent request.
 
 The task details can comprise a summary, description fields, custom fields, or even answers to Intelligent Capture questions. See more [about inserting variables](/esp-config/automation/variable-picker).
+
+### Using checklists
+You can add to-do items in checklists for a task.
+
+**To add a checklist to a human task:**
+1. In the *Task Options* section, click **Manage Checklist** and then **Add Group**.
+1. Give the checklist group a name.
+1. Click the **+** button to add one or more checklist items.
+1. (Optional) Use the arrows to re-order the checklist items in the checklist group.
+1. (Optional) To remove checklist items or the checklist group, click **Delete** (the trash can icon).
+1. (Optional) Use **Add Group** to add subsequent checklist groups to the same task.
+1. (Optional) Use the arrows to re-order the checklist groups on the task.
+1. When finished, click **Apply** to add the checklist group or groups to the task.
+
+**To edit or delete checklists:**<br>
+Click **Manage Checklist** to edit or delete the checklists associated to the task.
+
+#### About the task-progress percentage
+When a user marks a checklist item as complete on a task, the **% progression** through the checklist items will be indicated on the task.
+
+![Task Progression](/_books/esp-config/images/task-progression.png)
+
+**To prevent the completion of the task while one or more outstanding checklist items remain:**
+1. In the *Task Options* section, select **Do not allow completion unless checklist is 100% complete**.
 
 ### Task Options
 * **Do not allow completion unless checklist is 100% complete.** This option becomes available if one or more checklists have been added to the task (using the **Manage Checklist** button). Select this option to make the task unable to be completed while there are outstanding checklist items.
@@ -68,14 +93,19 @@ The task details can comprise a summary, description fields, custom fields, or e
 Configure the possible outcome options available for the user to choose when completing the human task. By default, two are provided: *Completed* and *Not Completed*. Use the **Add New** button to configure other possible outcomes. See [Using outcomes](/esp-config/automation/human-task#using-outcomes).
 
 ### Capture Task Fields
-* **Field Properties.** Provide a title for the field, add a custom field ID, or leave the default.
-* **Default Flags.** Configure whether the field is mandatory, visible on the form, in read-only view, and so on.
-* **Field Type Settings.** Configure the type of capture you wish to use --- single, multi-line, static or dynamic dropdown, checkbox, radio button, label, and so on. Provide the context-based attributes as required.
+When a user is completing a Human Task, one or more capture task fields can be used to prompt for additional information. This information is stored as part of the completion information for the task.
 
-For more information, see [Adding capture fields to tasks](/esp-config/automation/human-task#adding-capture-fields-to-tasks).
+![Capture Task Fields](/_books/esp-config/images/workflow-human-task-capture.png)
 
-### Set Stage Checkpoints
-Use the **Add** button to configure any stage checkpoints you want to be set on completion of the task.
+#### Adding capture fields to tasks
+1. In the *Capture Task Fields* section, click `Add Field`.
+1. In the *Edit Field Settings* dialog, configure the following fields:
+    * **Field Properties.** Provide a title for the field, add a custom field ID, or leave the default.
+    * **Default Flags.** Configure whether the field is mandatory, visible on the form, in read-only view, and so on.
+    * **Field Type Settings.** Configure the type of capture you wish to use --- single, multi-line, static or dynamic dropdown, checkbox, radio button, label, and so on. Provide the context-based attributes as required.
+1. Click `Apply Settings` to add the capture field to the task.
+
+
 
 ## Using outcomes
 You can create new options for the outcomes available to be selected. You can edit outcome settings (including adding fields), and you can delete outcomes.
@@ -125,21 +155,8 @@ It is possible to use both task capture fields and outcome capture fields on the
 <!-- 10 APR 2025 - CAMMY: I AM HIDING THIS CONTENT B/C I SEARCHED WORKSPACES AND I SEE THE allowcustomtaskfields SETTING WAS REMOVED FIVE YEARS AGO.
 ### Enabling Capture Outcome fields
 You may have a need to record additional information against the chosen outcome of a task. In order to do this, you can enable Capture Outcome fields and use these to add additional fields to capture additional information when a specific outcome is chosen on a task.
-
-**To enable Capture Outcome fields:**
-1. In Configuration, navigate to Home > System > Settings > Advanced and enable the following setting:
-* experimental.feature.bpm.allowcustomtaskfields
-
-With this setting enabled it is now possible to configure both capture fields per outcome on a task, as well as at the task level.
 -->
-### Adding capture fields to tasks
-1. In the *Capture Task Fields* section, click **Add Field**.
-1. In the *Edit Field Settings* dialog, configure the following fields:
-    * **Field Properties.** Provide a title for the field, add a custom field ID, or leave the default.
-    * **Default Flags.** Configure whether the field is mandatory, visible on the form, in read-only view, and so on.
-    * **Field Type Settings.** Configure the type of capture you wish to use — single, multi-line, static or dynamic dropdown, checkbox, radio button, label, and so on. Provide the context-based attributes as required.
-1. Click **Apply Settings** to add the capture field to the task.
-1. Repeat the process for any additional capture fields you need for the task.
+
 
 <!-- ### Considerations
 * **Default Reason field**<br>You may decide that the Reason field on the task is no longer relevant if you have added your own capture fields, and this can be hidden from the task by ticking the Hide reason option under the Task Options settings.-->
@@ -158,30 +175,5 @@ Once a task has been completed and any task-capture fields completed, the answer
 * You can inject the answers from task-capture fields into request fields or other tasks. Use the variable picker in a node following the task, but make sure it is in the same stage of the workflow.
 * The task-capture field answers will be written to the timeline of the entity the task has been completed against.
 
-## Using checklists
-You can add to-do items in checklists for a task.
-
-**To add a checklist to a human task:**
-1. In the *Task Options* section, click **Manage Checklist** and then **Add Group**.
-1. Give the checklist group a name.
-1. Click the **+** button to add one or more checklist items.
-1. (Optional) Use the arrows to re-order the checklist items in the checklist group.
-1. (Optional) To remove checklist items or the checklist group, click **Delete** (the trash can icon).
-1. (Optional) Use **Add Group** to add subsequent checklist groups to the same task.
-1. (Optional) Use the arrows to re-order the checklist groups on the task.
-1. When finished, click **Apply** to add the checklist group or groups to the task.
-
-**To edit or delete checklists:**<br>
-Click **Manage Checklist** to edit or delete the checklists associated to the task.
-
-### About the task-progress percentage
-When a user marks a checklist item as complete on a task, the **% progression** through the checklist items will be indicated on the task.
-
-![Task Progression](/_books/esp-config/images/task-progression.png)
-
-**To prevent the completion of the task while one or more outstanding checklist items remain:**
-1. In the *Task Options* section, select **Do not allow completion unless checklist is 100% complete**.
-
-<!-- https://wiki.hornbill.com/index.php?title=BPM_Human_Tasks-->
-<!-- https://wiki.hornbill.com/index.php?title=Checklists -->
-<!-- https://wiki.hornbill.com/index.php?title=Capture_Task_Fields -->
+### Set Stage Checkpoints
+Use the **Add** button to configure any stage checkpoints you want to be set on completion of the task.
