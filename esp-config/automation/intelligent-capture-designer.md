@@ -18,6 +18,11 @@ When building a capture workflow, there are a few different nodes that are avail
 * **End**<br>Every capture workflow must have at least one of these to end the workflow.
 * **Cancel**<br>The Cancel node allows the capture workflow to exit without any further processing. This behaves the same as if the user had selected the cancel button that is available when filling out a capture. The user will be returned to where the Intelligent Capture was initiated from.
 
+    :::tip
+    Any form that precedes a Cancel node will display a `Cancel` button in place of the `Finish` button.
+    ![Cancel Capture](/_books/esp-config/images/capture-cancel-button.png)
+    :::
+
 ### Decision node
 The decision node allows the workflow designer to send the user down different paths to collect information based on the choices that are made on the previous forms or based on session and global variables.
 
