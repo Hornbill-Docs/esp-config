@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "1.6.13",
+  "version": "1.6.14",
   "productFamily": "esp",
   "tags": [
     "esp",
@@ -101,8 +101,8 @@
       },
       {
         "text": "Guest Access (External)",
-        "expand":false,
-        "items":[
+        "expand": false,
+        "items": [
           {
             "text": "Contacts",
             "link": "esp-config/guest-access/contacts"
@@ -126,7 +126,7 @@
           {
             "text": "Logon History",
             "link": "esp-config/security/logon-history"
-          },          
+          },
           {
             "text": "Two-Factor authentication",
             "link": "esp-config/security/two-factor-authentication"
@@ -490,7 +490,7 @@
                 "text": "Human Task",
                 "link": "esp-config/automation/human-task"
               },
-               {
+              {
                 "text": "Hornbill Automations",
                 "link": "esp-config/automation/hornbill-automations"
               },
@@ -502,7 +502,7 @@
           },
           {
             "text": "Intelligent Capture",
-            "items":[
+            "items": [
               {
                 "text": "Intelligent Capture Designer",
                 "link": "esp-config/automation/intelligent-capture-designer"
