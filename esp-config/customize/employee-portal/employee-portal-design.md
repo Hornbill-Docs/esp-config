@@ -31,14 +31,14 @@ Once in Design Mode the Page Details configuration box is made available on the 
 This field will accept User Variables
 * **Short Description**<br>This will be displayed in a small font, under the page name.
 This field will accept User Variables
-* **User Visibility Versions**<br>A single page can have different configurations based on the types of users accessing the page. The [available widgets](/esp-config/customize/employee-portal/employee-portal-design#add-widgets) for a page will vary, depending on if they were designed to be seen or used by **All Users**, **Basic Users**, or **Full Users**.  
-    * **Current user visibility versions**<br>These are the currently used visibility versions for this page. Selecting a version from this list will switch to the design mode to this selected version.
+* **User Visibility Versions**<br>A single page can have different configurations based on the types of users accessing the page. The available [widgets](/esp-config/customize/employee-portal/employee-portal-design#add-widgets) for a page will vary, depending on if they were designed to be seen or used by **All Users**, **Basic Users**, or **Full Users**.  
+    * **Current user visibility versions**<br>Click on the drop-down to show the visibility versions that are currently set up for this page. Selecting a version from this list will switch to the design mode to this selected version.
     * **Add new user visibility version**<br>Add a user visibility version to the list of Current user visibility versions
     * **Remove this user visibility version**<br>This removes all the configuration for the currently selected version.
     * **Revert to Published Version**<br>If you have made a number of changes and you would like to revert back to the published version, selecting this will clear the current draft version.
 
     ::: tip
-    If All Users is one of your selected visibility versions, this will supersede both User and Basic User versions.
+    If All Users is one of your selected visibility versions, this will supersede both User and Basic User versions. Both basic users and full users will be redirected to the page configured with the All Users visibility.
     :::
 
 ### User Variables

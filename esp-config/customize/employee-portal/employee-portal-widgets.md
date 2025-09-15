@@ -52,12 +52,14 @@ Widgets are small, stand-alone applets that can be embedded into the Employee Po
 
 The **General** widgets are provided with the Hornbill platform. Each installed application can provide additional widgets. For more information on these widgets, see the application-specific documentation.
 
-<!-- JAMES: Cammy added the note below-->
-::: note
-Some widgets are only available to *Users* (i.e. full users). If you have the page's visibility set to *All Users*, then only  widgets that *all* users can see are shown. Widgets that do not provide visibility to basic users are excluded. These widgets include Activities and My Team, among others.
-:::
+## Before you begin
+* Understand how the [page visibility versions](/esp-config/customize/employee-portal/employee-portal-design#edit-page-details) work.
 
-<!-- JAMES: Cammy added the subheading links below-->
+    ::: note
+    Some widgets can only be added to a page where the visibility has been set to [Full User](/esp-config/customize/employee-portal/employee-portal-design#edit-page-details).
+    :::
+
+<!-- JAMES: Cammy added the subheading links below
 This article provides reference information on the following widgets:
 * [My Services](/esp-config/customize/employee-portal/employee-portal-widgets#my-services)
 * [Bulletins](/esp-config/customize/employee-portal/employee-portal-widgets#bulletins)
@@ -70,15 +72,13 @@ This article provides reference information on the following widgets:
 * [Workspace](/esp-config/customize/employee-portal/employee-portal-widgets#workspace)
 * [Post](/esp-config/customize/employee-portal/employee-portal-widgets#post)
 * [My Team](/esp-config/customize/employee-portal/employee-portal-widgets#my-team)
-
-## My Services
+-->
+## My Services widget
 Add this widget to present users with a list of services that they are subscribed to. Each sevice can be clicked on to show the details of the service.
-<!-- JAMES: Cammy added the visibility info below. Please check this for all widgets.-->
+
 ![My Services Widget](/_books/esp-config/images/services-widget.png)
 
-**[User visibility versions](/esp-config/customize/employee-portal/employee-portal-design#edit-page-details):** All Users, Basic Users, Full Users.
-
-### Configure
+#### Configure
 * **Items per page.**
 * **Filter by service domain.** This option displays a list of the available domains. Once a domain is selected, the list of services is limited to that domain.
 * **Include services without domain.** 
@@ -91,27 +91,25 @@ Add this widget to present users with a list of services that they are subscribe
 * **Align to the center.**
 * **Service icon color.**
 
-### Style
+#### Style
 * **Use content height.**
 * **Hide if no data is available.** This option hides the widget from the page if there is nothing to display.
 * **Header.** Define the top banner of the widget.
     * **Header Type.** Choose from Basic, Custom, or No Header.
 * **Body.** Configure the text and background colors of the widget. If no specific color preferences are set in the widget configuration, the style defined in the Employee Portal settings is applied.
 
-## Bulletins
+## Bulletins widget
 Add this widget to present bulletins that have been published through the logged on user's subscribed services. This widget is a slide deck that works its way through all of the available bulletins.
 
 ![Bulletins Widget](/_books/esp-config/images/employee-portal-bulletin-widget.png)
 
-**Visibility:** basic users, full users
-
-### Configure
+#### Configure
 * **Filter By Service Domain.** This option displays a list of the available domains. Only bulletins associated to the selected domain are displayed.
 * **Transition Time.** Set how long each bulletin will be displayed for.
 * **Hide Link to Service.**
 * **Set Height.**
 
-### Style
+#### Style
 * **Use Content Height.**
 * **Hide if no data is available** This option hides the widget from the page if there is nothing to display.
 * **Header.** Define the top banner of the widget.
@@ -120,12 +118,10 @@ Add this widget to present bulletins that have been published through the logged
     * **Link.**
 * **Body.** Configure the text and background colors of the widget. If no specific color preferences are set in the widget configuration, the style defined in the Employee Portal settings is applied.
 
-## Links
+## Links widget
 Add this widget to create a list of custom links. Links to external web sites, cloud services, intranet, and other Employee Portal pages.
 
-**Visibility:** basic users, full users
-
-### Configure
+#### Configure
 * **Display as Tiles.** This options lets you toggle between a list view and a tile view.
 * **Add Link.**
     * **Address.** Specify an address for the link. If referencing a Hornbill link that needs to be accessible from the Employee Portal or the Employee mobile app, make sure to use the relative path in this field. For example, for an Intelligent Capture link `catalog/new-service-request/com.hornbill.servicemanager/1/1/` (where `1/1/` is replaced with the service ID and Intelligent Capture ID.)
@@ -138,7 +134,7 @@ Add this widget to create a list of custom links. Links to external web sites, c
     * **Add Padding.**
     * **Visibility.**
 
-### Style
+#### Style
 * **Use Content Height.**
 * **Hide if no data is available** This option hides the widget from the page if there is nothing to display.
 * **Header.** Define the top banner of the widget.
@@ -147,17 +143,16 @@ Add this widget to create a list of custom links. Links to external web sites, c
     * **Link.**
 * **Body.** Configure the text and background colors of the widget. If no specific color preferences are set in the widget configuration, the style defined in the Employee Portal settings is applied.
 
-## Activities
+## Activities widget
 Add this widget to give the user a list of the activities and approvals currently assigned to them.
 
 ![Activities Widget](/_books/esp-config/images/employee-portal-activity-widget.png)
 
-**Visibility:** full only
 ::: note
-This widget should only be used on pages that are accessible to full users. Basic users do not have access to activities. This widget is also not available on the mobile app.
+This widget can only be added to pages where the visibility has been set to [Full User](/esp-config/customize/employee-portal/employee-portal-design#edit-page-details).
 :::
 
-### Configure
+#### Configure
 * **Show Activities.** Select this option to include activities that are assigned to the user.
 * **Show Approvals.** Select this option to include approvals (authorizations) assigned to the user.
 * **Show Overdue Activities/Approvals.** Show both activities and approvals that have passed their due date. These will be displayed in a column called Overdue.
@@ -165,7 +160,7 @@ This widget should only be used on pages that are accessible to full users. Basi
 * **Show No Due Date (Someday).** Show activities that don't have a due date. These will be displayed in a column called Someday.
 * **Maximum items per list.** This setting will help control the layout within the Employee Portal and display a set number of activities per list. A `More` button will be displayed when the number of activities exceeds this value. Clicking on the `More` button will open the [My Activities](/esp-user-guide/my-activities/overview) view. 
 
-### Style
+#### Style
 * **Use Content Height.**
 * **Header.** Define the top banner of the widget.
     * **Header Type.** Choose from Basic, Custom, or No Header.
@@ -173,12 +168,10 @@ This widget should only be used on pages that are accessible to full users. Basi
     * **Link.**
 * **Body.** Configure the text and background colors of the widget. If no specific color preferences are set in the widget configuration, the style defined in the Employee Portal settings is applied.
 
-## Recently Viewed
+## Recently Viewed widget
 Add this widget to give users a way to quickly access Hornbill workspaces, apps, requests, projects, and other items they have recently viewed.
 
-**Visibility:** basic users, full users
-
-### Style
+#### Style
 * **Use Content Height.**
 * **Hide if no data is available** This option hides the widget from the page if there is nothing to display.
 * **Header.** Define the top banner of the widget.
@@ -187,17 +180,15 @@ Add this widget to give users a way to quickly access Hornbill workspaces, apps,
     * **Link.**
 * **Body.** Configure the text and background colors of the widget. If no specific color preferences are set in the widget configuration, the style defined in the Employee Portal settings is applied.
 
-## Text
+## Text widget
 Add this widget to create a simple text based message board.
 
-**Visibility:** basic users, full users
-
-### Configure
+#### Configure
 * **Title.** Add a main title within the text area.
 * **Description.** Add the main content that you want to display. Format your text using wiki markup.
 * **Text Centered.** Centers the title within the widget.
 
-### Style
+#### Style
 * **Use Content Height.**
 * **Header.** Define the top banner of the widget.
     * **Header Type.** Choose from Basic, Custom, or No Header.
@@ -205,20 +196,18 @@ Add this widget to create a simple text based message board.
     * **Link.**
 * **Body.** Configure the text and background colors of the widget. If no specific color preferences are set in the widget configuration, the style defined in the Employee Portal settings is applied.
 
-## External Frame
+## External Frame widget
 The external frame, often referred to as an iframe, is used to embed content from an external web page into the Employee Portal. This can be used to display content --- such as videos, maps, or entire web pages --- from external sources
 
 :::note
 Not all web pages can be embedded into an iframe.  Tools are available on the Internet to test if a URL is compatible with iframes before adding to the External Frame widget.
 :::
 
-**Visibility:** basic users, full users
-
-### Configure
+#### Configure
 * **URL.** Enter the URL of the web page to display in the widget.
 * **Preferred Height.**  Set the number of pixels for the height of the widget.  Leave this blank to have it automatically adjust to an appropriate height.
 
-### Style
+#### Style
 * **Use Content Height.**
 * **Header.** Define the top banner of the widget.
     * **Header Type.** Choose from Basic, Custom, or No Header.
@@ -226,15 +215,13 @@ Not all web pages can be embedded into an iframe.  Tools are available on the In
     * **Link.**
 * **Body.** Configure the text and background colors of the widget. If no specific color preferences are set in the widget configuration, the style defined in the Employee Portal settings is applied.
 
-## RSS Feed
-<!-- JAMES: I added this one.-->
-**Visibility:** basic users, full users
+## RSS Feed widget
 
-### Configure
+#### Configure
 * **URL.** Enter the URL of the RSS feed to display in the widget.
 * **Display Header.**
 
-### Style
+#### Style
 * **Use Content Height.**
 * **Hide if no data is available** This option hides the widget from the page if there is nothing to display.
 * **Header.** Define the top banner of the widget.
@@ -243,15 +230,17 @@ Not all web pages can be embedded into an iframe.  Tools are available on the In
     * **Link.**
 * **Body.** Configure the text and background colors of the widget. If no specific color preferences are set in the widget configuration, the style defined in the Employee Portal settings is applied.
 
-## Workspace
+## Workspace widget
 Add this widget to display the user's News Feed which shows the latest updates to all the workspaces that they follow. Or select a specific Workspace.
 
-**Visibility:** full users only
+::: note
+This widget can only be added to pages where the visibility has been set to [Full User](/esp-config/customize/employee-portal/employee-portal-design#edit-page-details).
+:::
 
-### Configure
+#### Configure
 * **Show News Feed.** This option lets you show the users news feed. When not selected, you can select an individual workspace to show instead.
 
-### Style
+#### Style
 * **Use Content Height.**
 * **Hide if no data is available** This option hides the widget from the page if there is nothing to display.
 * **Header.** Define the top banner of the widget.
@@ -260,18 +249,20 @@ Add this widget to display the user's News Feed which shows the latest updates t
     * **Link.**
 * **Body.** Configure the text and background colors of the widget. If no specific color preferences are set in the widget configuration, the style defined in the Employee Portal settings is applied.
 
-## Post
+## Post widget
 Add this widget to display a particular post or the last post from a selected workspace.
 
-**Visibility:** full users only
+::: note
+This widget can only be added to pages where the visibility has been set to [Full User](/esp-config/customize/employee-portal/employee-portal-design#edit-page-details).
+:::
 
-### Configure
+#### Configure
 * **Show specific post.** If you have an important post that you want to always be displayed, select this option and specify the ID of the post.
 * **Last post in a workspace.** This option displays only the last post in the selected workspace. There is no option to scroll through previous posts.
 * **Post ID.** Add the activity ID of the post you would like to display. To get the post's ID, right-click on the timestamp (e.g.: *1 day ago*) displayed on a post and get a copy of the link. Add this to the Post ID field, removing the leading domain name, up to the URN.
 * **Public Workspace.** Select the public workspace you want to use.
 
-### Style
+#### Style
 * **Use Content Height.**
 * **Header.** Define the top banner of the widget.
     * **Header Type.** Choose from Basic, Custom, or No Header.
@@ -279,12 +270,14 @@ Add this widget to display a particular post or the last post from a selected wo
     * **Link.**
 * **Body.** Configure the text and background colors of the widget. If no specific color preferences are set in the widget configuration, the style defined in the Employee Portal settings is applied.
 
-## My Team
+## My Team widget
 Add this widget to view members of all or a specific organizational grouping, and where applicable their availability status. The default shows a user all other members of any teams, departments, or companies they are members of.
 
-**Visibility:** full users only
+::: note
+This widget can only be added to pages where the visibility has been set to [Full User](/esp-config/customize/employee-portal/employee-portal-design#edit-page-details).
+:::
 
-### Configure
+#### Configure
 * **Use a specific group.** This option filters the widget to show only members of the page viewer's chosen group type (Team, Department, Company).
 * **Exclude myself.** Choose to exclude yourself from the member list.
 * **Show availability and online status.** Choose if the widget should show member availability status and online presence.
@@ -292,7 +285,7 @@ Add this widget to view members of all or a specific organizational grouping, an
 * **Show minimal layout.** Choose to hide member image and job title, and replace availability status and online presence with a color indicator, icon, and hover-over options to maximize space.
 * **Refresh automatically to get status updates.**
 
-### Style
+#### Style
 * **Use Content Height.**
 * **Hide if no data is available** This option hides the widget from the page if there is nothing to display.
 * **Header.** Define the top banner of the widget.
