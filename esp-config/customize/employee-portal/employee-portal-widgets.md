@@ -46,7 +46,7 @@ RSS Feed
 -->
 
 # General Widgets
-Widgets are small, stand-alone appplets that can be embedded into the Employee Portal pages to add interactivity and additional features. Widgets enhance the usability and provide quick access to information.
+Widgets are small, stand-alone applets that can be embedded into the Employee Portal pages to add interactivity and additional features. Widgets enhance the usability and provide quick access to information.
 
 ![General Widgets](/_books/esp-config/images/employee-portal-general-widgets.png)
 
