@@ -185,9 +185,11 @@ Add this widget to give users a way to quickly access Hornbill workspaces, apps,
 ## Text widget
 Add this widget to create a simple text based message board.
 
+![Text Widget](/_books/esp-config/images/employee-portal-text-widget.png)
+
 #### Configure
 * **Title.** Add a main title within the text area.
-* **Description.** Add the main content that you want to display. Format your text using wiki markup.
+* **Description.** Add the main content that you want to display. Format your text using [wiki markup](/esp-fundamentals/reference-guides/hornbill-wiki-markup).
 * **Text Centered.** Centers the title within the widget.
 
 #### Style
