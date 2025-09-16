@@ -121,6 +121,8 @@ Add this widget to present bulletins that have been published through the logged
 ## Links widget
 Add this widget to create a list of custom links. Links to external web sites, cloud services, intranet, and other Employee Portal pages.
 
+![Links Widget](/_books/esp-config/images/employee-portal-links-widget.png)
+
 #### Configure
 * **Display as Tiles.** This options lets you toggle between a list view and a tile view.
 * **Add Link.**
