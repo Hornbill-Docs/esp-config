@@ -201,7 +201,9 @@ Add this widget to create a simple text based message board.
 * **Body.** Configure the text and background colors of the widget. If no specific color preferences are set in the widget configuration, the style defined in the Employee Portal settings is applied.
 
 ## External Frame widget
-The external frame, often referred to as an iframe, is used to embed content from an external web page into the Employee Portal. This can be used to display content --- such as videos, maps, or entire web pages --- from external sources
+The external frame, often referred to as an iframe, is used to embed content from an external web page into the Employee Portal. This can be used to display content such as videos, maps, or entire web pages.
+
+![External Frame Widget](/_books/esp-config/images/employee-portal-external-frame-widget.png)
 
 :::note
 Not all web pages can be embedded into an iframe.  Tools are available on the Internet to test if a URL is compatible with iframes before adding to the External Frame widget.
