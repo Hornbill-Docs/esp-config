@@ -4,6 +4,11 @@ layout: article-toc
 # Image Library
 The Image Library is used to host images that can be used within different areas of Hornbill. For example, the Employee and Customer portals.
 
+## Before you begin
+To access the Image Library, you must have one of the following roles.
+* Admin role.
+* A user created role that contains the system configuration right **manageImageShare**.
+
 ## How images are used
 A URL is provided with each image that can be used within a number of areas within Hornbill
 * Employee Portal
