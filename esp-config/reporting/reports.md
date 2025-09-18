@@ -54,7 +54,7 @@ Report History
 Report Types
 Reports can be created based on Entities, Measures or by using the SQL Schema Designer.
 
-### Output Options
+### Output options
 Reports are output by default in PDF format. In the Output Formats section you can also choose to output the report in the following additional formats
 
 * CSV
@@ -65,6 +65,7 @@ Reports are output by default in PDF format. In the Output Formats section you c
 HTML, XML and JSON export formats are available with the [Enterprise Edition](/esp-fundamentals/about/hornbill-editions).
 :::
 
+#### Report limitations
 When creating reports, the max row limit is set by default on instances to 1000, this can be increased to a maximum of 25000 rows using the following system setting: api.xmlmc.queryExec.maxResultsAllowed
 
 The only exception to this is for the creation of PDF reports output, this is limited to the following max outputs:
