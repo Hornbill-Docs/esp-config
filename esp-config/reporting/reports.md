@@ -60,15 +60,18 @@ Reports are output by default in PDF format. In the Output Formats section you c
 * CSV
 * XLS
 * XLSX
-When creating reports, the max row limit is set by default on instances to 1000, this can be increased to a maximum of 25000 rows using the following system setting:api.xmlmc.queryExec.maxResultsAllowed
+
+:::note 
+HTML, XML and JSON export formats are available with the [Enterprise Edition](/esp-fundamentals/about/hornbill-editions).
+:::
+
+When creating reports, the max row limit is set by default on instances to 1000, this can be increased to a maximum of 25000 rows using the following system setting: api.xmlmc.queryExec.maxResultsAllowed
 
 The only exception to this is for the creation of PDF reports output, this is limited to the following max outputs:
 * reporting.display.maxcolumns = 20
 * reporting.display.maxrows=5000
 
 If either of these limits are exceeded when trying to generate a PDF output, the PDF generation will fail. PDF reports can only be generated on in A4 format (either portrait or landscape). Because of this restriction, there could be a scenario where not all included columns will be visible in a PDF report, depending on the data contained in these columns. In this scenario, we can only advise reducing the number of columns or opting for a different output type.
-
-Generation of CSV, XLS, XLSX adhere to the maximum row limit you have set on your instance under the following system setting: api.xmlmc.queryExec.maxResultsAllowed
 
 :::note
 Any hidden columns will only be excluded from the visual PDF output, with the data being included in the CSV, XLS and XLSX outputs. If you do not wish the data to be included in these output formats, the column should be removed from the report.
