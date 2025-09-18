@@ -77,7 +77,7 @@ The only exception to this is for the creation of PDF reports output, this is li
 If either of these limits are exceeded when trying to generate a PDF output, the PDF generation will fail. PDF reports can only be generated on in A4 format (either portrait or landscape). Because of this restriction, there could be a scenario where not all included columns will be visible in a PDF report, depending on the data contained in these columns. In this scenario, we can only advise reducing the number of columns or opting for a different output type.
 
 ##### Field limits
-An individual field has a default size limit of 1024.  This can be updated to a maximum value of 4096 using the system setting reporting.reports.maxFieldLength.  Fields that exceed the length specified on this setting will be truncated to the set value.
+An individual field in a report output has a default size limit of 1024.  This can be updated to a maximum value of 4096 using the system setting reporting.reports.maxFieldLength.  Fields on a report that exceed the length specified on this setting will be truncated to the set value.
  
 ##### Hidden columns
 Any hidden columns will only be excluded from the visual PDF output, with the data being included in the CSV, XLS and XLSX outputs. If you do not wish the data to be included in these output formats, the column should be removed from the report.
