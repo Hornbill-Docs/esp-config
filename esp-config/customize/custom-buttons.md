@@ -1,5 +1,5 @@
 # Custom Buttons
-Custom Buttons can be added to the user interface on several entities, such as contact and company records to extend the available option and perform unique acctions on the entity.
+Custom Buttons can be added to the user interface on several entities, such as contact and company records, to extend the available options and perform unique actions on the entity.
 
 Custom buttons can be configured to allow one of three options. 
 
@@ -7,7 +7,7 @@ Custom buttons can be configured to allow one of three options.
 * Open a pop-up.
 * Run an Auto Task Process.
 
-Custom Buttons can be personalized with descriptions, icons, tooltips, and can optionally be set to only display if configured rules are met.
+Custom Buttons can be personalized with descriptions, icons, tooltips, and optionally can be set to only show if a set of rules is met.
 
 ## Before you begin
 To work with custom buttons the following roles need to be considered.
@@ -60,6 +60,8 @@ Custom button groups allow you to group together related custom buttons that wil
 * **Moving groups**.  The order that the groups are displayed can be changed by using the drag and drop option to the left of the group title.
 * **Moving buttons**. Each button can be moved between groups by using the drag and drop option to the left of the button title.
 
-:::note
 If the number of buttons and drop-down groups exceed the available space, a single drop-down menu containing all the groups and non-grouped buttons will be used.
-:::
+
+:::tip
+The label *Custom Buttons* that is displayed when button groups are collapsed into a single drop-down menu or when grouping is not used can be renamed using [translations](/esp-config/localization/user-interface-translations). Changing this will apply to all entities where custom buttons are used. Ideas for naming this button may include *Menu*, *Options*, *Actions*, or *Advanced Actions*.
+:::  
