@@ -1,5 +1,5 @@
 # Custom Buttons
-Custom Buttons can be added to the user interface on several entities, such as contact and company records. Installed applications may also include the option to add custom buttons to entities.
+Custom Buttons can be added to the user interface on several entities, such as contact and company records to extend the available option and perform unique acctions on the entity.
 
 Custom buttons can be configured to allow one of three options. 
 
@@ -29,10 +29,6 @@ By default, the custom button will appear on all forms used by the entity. Rules
 
 ### Action
 Each custom button can be configured to be one of the following:
-
-* Open URL
-* Popup
-* Run an Auto Task process
 
 ### Open URL
 * Add a URL that you wish to launch from the custom button. 
