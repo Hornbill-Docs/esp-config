@@ -50,14 +50,15 @@ Once you have defined your organizational structure, many other parts of Hornbil
 * **Groups** <br> Use `groups` to build your organizational structure along with the associated people that belong to each group.
 * **Teams** <br> Use `teams` for associating subscribed users that work together within the different Hornbill apps.
 
-|Feature|Group|Team|Function|
+|Feature|Group|Team|[Function](/esp-fundamentals/core-capabilities/internal-groups-and-teams#functional-organizational-unit-ou-types)|
 |-|-|-|-|
 |Can contain sub-groups|Yes|No|No|
 |Associate Basic Accounts|Yes|No|No|
 |Associate User Accounts|Yes|Yes|Yes|
 |Allow Task Assignment|No|Yes|Yes|
 
-## Adding a group
+## Groups
+### Adding a group
 
 From the organization view click on the `+ Create New Group` button.
 
@@ -78,7 +79,7 @@ From the organization view click on the `+ Create New Group` button.
 **Reporting** - Groups are stored in the table h_sys_groups and the types described above are represented by an integer value between 0 and 5 in a column called h_type. These are as follows: 0=general, 1=team, 2=department, 3=costcenter, 4=division, 5=company. The group type may be useful when creating measures, widgets, and reports.
 :::
 
-## Associated users
+### Associated users
 Once a group has been created, users can be associated to the group.
 
 1. Click the group in which the user(s) need to be associated with
@@ -91,15 +92,19 @@ Once a group has been created, users can be associated to the group.
 * **Membership** Select whether the user is a Member, Team Leader, or Manager of the group.
 
 :::tip
-BPM Automations can be used to add and remove users from groups. This can be useful as part of any workflow that manages new or leaving staff.
+Workflow Automations can be used to add and remove users from groups. This can be useful as part of any workflow that manages new or leaving staff.
 :::
 
-## Allow task assignments
-This option is only available for Teams.  Having the Allow Task Assignments set to `Yes` on a team makes the team name available on the task form for assignment.
+## Teams
+### Allow task assignments
+This option is only available for Teams and not available on Groups.  Having the Allow Task Assignments set to `Yes` on a team makes the team name available on the task form for assignment when manually creating a task.
 
-### Associated user task management
+![Allow team task assignment](/_books/esp-config/images/team-allow-task-assignment.png)
+
+### Member management
+When adding members to a team, there are some additional options related to task assignment.
 * **Allow task view**<br>From the [My Activities View](/esp-user-guide/my-activities/overview), users with this option can see tasks that are assigned to their group.
-* **Allow task action**<br>From the [My Activities View](/esp-user-guide/my-activities/overview), users with this option can action the tasks that are assigned to their group, such as assigning the task to themselves or completing the task.
+* **Allow task action**<br>From the [My Activities View](/esp-user-guide/my-activities/overview), users with this option can action the tasks that are assigned to their group, such as assigning the task to themselves or completing the task. When this is turned off, they can see this teams tasks in the Activities view, but they can't be opened.
 
 ## Advanced settings
 |Setting Name|Description|
