@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "1.6.24",
+  "version": "1.6.25",
   "productFamily": "esp",
   "tags": [
     "esp",
@@ -82,7 +82,7 @@
             "link": "esp-config/organizational-data/roles"
           },
           {
-            "text": "Organization",
+            "text": "Groups and Teams",
             "link": "esp-config/organizational-data/organization"
           },
           {

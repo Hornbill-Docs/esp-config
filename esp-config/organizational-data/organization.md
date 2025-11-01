@@ -1,7 +1,7 @@
 ---
 layout: article-toc
 ---
-# Organization
+# Groups and Teams
 The Hornbill platform allows for the creation of a hierarchical structure that represents your organization. Create and manage your organization's groups and teams, and the members that belong to them. Some examples of the different group types include companies, divisions, departments, and cost centers. 
 
 ## Topics covered
@@ -13,7 +13,7 @@ The Hornbill platform allows for the creation of a hierarchical structure that r
 ## Before you begin
 * Admin user access is required
 * Knowledge of the existing structure of your organization
-* You should fully understand how the Hornbill Platform supports an [organizational team structure](/esp-fundamentals/core-capabilities/organization-and-teams)
+* You should fully understand how the Hornbill Platform supports a [group and team structure](/esp-fundamentals/core-capabilities/internal-groups-and-teams)
 * You should fully understand how the organizational and team structure works with [Human Tasks](/esp-fundamentals/core-capabilities/human-tasks)
 
 ## How groups are used
@@ -60,9 +60,9 @@ Once you have defined your organizational structure, many other parts of Hornbil
 ## Groups
 ### Adding a group
 
-From the organization view click on the `+ Create New Group` button.
+From the groups and teams view click on the `+ Create New Group` button.
 
-* **Organization Id**<br>This is the unique identifier for this group. 
+* **Id**<br>This is the unique identifier for this group. 
     * This value can only contain letters, numbers, and underscores
     * It cannot begin with a numeric digit
     * Must be at least two characters long and is limited to a maximum of 160 characters
