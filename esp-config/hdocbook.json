@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "1.6.26",
+  "version": "1.6.27",
   "productFamily": "esp",
   "tags": [
     "esp",
@@ -531,6 +531,14 @@
       "link": "esp-config/_inline/autoval-definition-reference"
     },
     {
+      "title": "Customer Portal Custom Domain Name",
+      "link": "esp-config/_inline/customer-portal-custom-domain-name"
+    },
+    {
+      "title": "Select Organization when Registering On Customer Portal",
+      "link": "esp-config/_inline/customer-portal-select-org-list"
+    },
+    {
       "title": "Date Picker Help",
       "link": "esp-config/_inline/date-picker"
     },
@@ -547,16 +555,24 @@
       "link": "esp-config/_inline/ic-form-field-editor-data-binding"
     },
     {
-      "title": "Select Organization when Registering On Customer Portal",
-      "link": "esp-config/_inline/customer-portal-select-org-list"
+      "title": "Form Field - Inpu Masks",
+      "link": "esp-config/_inline/ic-input-mask"
     },
     {
-      "title": "Customer Portal Custom Domain Name",
-      "link": "esp-config/_inline/customer-portal-custom-domain-name"
+      "title": "Report Filter Custom Value",
+      "link": "esp-config/_inline/report-filter-customvalue"
     },
     {
       "title": "Webhook Expression",
       "link": "esp-config/_inline/webhook-expression"
+    },
+    {
+      "title": "Workflow Authorization Lifespan Settings",
+      "link": "esp-config/_inline/workflow-auth-lifespan-settings"
+    },
+    {
+      "title": "Workflow Human Task Lifespan Settings",
+      "link": "esp-config/_inline/workflow-task-lifespan-settings"
     }
   ]
 }
