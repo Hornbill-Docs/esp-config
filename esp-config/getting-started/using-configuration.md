@@ -38,7 +38,7 @@ Access the Configuration Search from anywhere within Hornbill using the keyboard
 1. Click on `Manage Users`.
 
 ### Search Help
-Click on the <img src="/_books/esp-config/images/search-help.png"> to show a list of additional search options. This includes prefixes that can be added to your search text in order to get more focused results.
+Click on the <img alt="Search Help" src="/_books/esp-config/images/search-help.png"> to show a list of additional search options. This includes prefixes that can be added to your search text in order to get more focused results.
 
 ## Browse
 The dropdown menu in Configuration allows you to select the different areas that can be configured. When first opening Configuration, the view will default to `My Personal Settings` where a user can update and modify their profile. Other available options include `Platform Configuration`, `Hornbill Solution Center`, and a list of the installed applications.  The availability of these items is determined by the rights and roles of the current user.
