@@ -3,7 +3,7 @@
 The **authorisation lifespan** begins the moment the **authorisation node** is reached in the workflow process.  
 This timestamp is known as the **authorisation creation date/time**.
 
----
+
 
 ### Due On Duration
 
@@ -13,7 +13,7 @@ The **Due On** duration represents the amount of **days**, **hours**, or **minut
   - an **xs:duration** formatted string, or  
   - a **datetime ISO** string.
 
----
+
 
 ### Expires On Duration
 
