@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "1.3.7",
+  "version": "1.6.26",
   "productFamily": "esp",
   "tags": [
     "esp",
@@ -82,7 +82,7 @@
             "link": "esp-config/organizational-data/roles"
           },
           {
-            "text": "Organization",
+            "text": "Groups and Teams",
             "link": "esp-config/organizational-data/organization"
           },
           {
@@ -96,10 +96,6 @@
           {
             "text": "User Availability States",
             "link": "esp-config/organizational-data/user-availability-states"
-          },
-          {
-            "text": "Guest account templates",
-            "link": "esp-config/organizational-data/guest-account-templates"
           }
         ]
       },
@@ -118,7 +114,7 @@
           },
           {
             "text": "Contact Templates",
-            "draft": true,
+            "draft": false,
             "link": "esp-config/guest-access/contact-templates"
           }
         ]
@@ -128,8 +124,8 @@
         "expand": false,
         "items": [
           {
-            "text": "Password policies",
-            "link": "esp-config/security/password-policies"
+            "text": "Logon History",
+            "link": "esp-config/security/logon-history"
           },
           {
             "text": "Two-Factor authentication",
@@ -161,6 +157,10 @@
           {
             "text": "Security Audit",
             "link": "esp-config/security/security-audit"
+          },
+          {
+            "text": "Password policies",
+            "link": "esp-config/security/password-policies"
           },
           {
             "text": "Network Rules",
@@ -234,6 +234,14 @@
           {
             "text": "Working Time Calendars",
             "link": "esp-config/customize/working-time-calendars"
+          },
+          {
+            "text": "Custom Buttons",
+            "link": "esp-config/customize/custom-buttons"
+          },
+          {
+            "text": "Form Designer",
+            "link": "esp-config/customize/form-designer"
           }
         ]
       },
@@ -489,6 +497,23 @@
               {
                 "text": "Decision Node",
                 "link": "esp-config/automation/decision"
+              }
+            ]
+          },
+          {
+            "text": "Intelligent Capture",
+            "items": [
+              {
+                "text": "Intelligent Capture Designer",
+                "link": "esp-config/automation/intelligent-capture-designer"
+              },
+              {
+                "text": "Customized Forms",
+                "link": "esp-config/automation/customized-forms"
+              },
+              {
+                "text": "Intelligent Capture Validation",
+                "link": "esp-config/automation/intelligent-capture-validation"
               }
             ]
           }

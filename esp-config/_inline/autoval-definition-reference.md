@@ -174,5 +174,9 @@
             <td style="text-align:left; white-space: nowrap;"><code>rec(<em>column_name</em>)</code></td>
             <td style="text-align:left">Will generate a string who's value is obtained from a the database column related to the table where this auto-val is being used.</td>
         </tr>
+        <tr>
+            <td style="text-align:left; white-space: nowrap;"><code>tick()</code></td>
+            <td style="text-align:left">Returns high (microsecond) or low (milisecond) resolution tick count value for precision time stamp generation. You would use this in cpombination with an epoc time to compose a precision timestamp.  For example <code>{udate(epoch)}{tick(uM,6)}</code>.</td>
+        </tr>
     </tbody>
 </table>

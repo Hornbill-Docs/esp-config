@@ -37,6 +37,7 @@
     },
     { "url": "/esp-config/data/profiles", "location": "/servicemanager-config/administration/profiles", "code": 308, 
     "skip_location_validation": true },
-    { "url": "/esp-config/organizational-data/guest-accounts", "location": "/esp-config/guest-access/contacts", "code": 301 }
+    { "url": "/esp-config/organizational-data/guest-accounts", "location": "/esp-config/guest-access/contacts", "code": 301 },
+    { "url": "/esp-config/organizational-data/guest-account-templates", "location": "/esp-config/guest-access/contact-templates", "code": 301 }
   ]
 }
