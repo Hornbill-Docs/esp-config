@@ -40,7 +40,7 @@ This can be used to enable HPEOO administrators to include Hornbill Collaboratio
 The flows within the Content Pack use three System Properties to identify the Hornbill instance and API key to use to invoke Hornbill API calls. These properties should be populated as so:
 
 * **Configuration\System Properties\APIKey**: This is the API key for the user account that should be used to perform the Hornbill API calls.
-* **Configuration\System Properties\Instance**: This is the (case sensitive) ID of your Hornbill instance (the yourinstancename part of your Hornbill URL: `https://live.hornbill.com/<yourinstancename>`).
+* **Configuration\System Properties\Instance**: This is the (case sensitive) ID of your Hornbill instance (the yourinstancename part of your Hornbill URL: `https://live.hornbill.com/yourinstancename`).
 * **Configuration\System Properties\InstanceZone**: This is the zone where your Hornbill instance resides:
     * eur - If your instance resides in the European zone.
     * nam - If your instance resides in the North American zone.
@@ -76,4 +76,17 @@ Using the Business Process Designer and the Cloud Automation node you can invoke
 ### Content Pack
 As well as having the option to invoke your Runbooks from a business process, we have also provided a collection of our own runbooks for Microsoft System Center Orchestrator 2012 R2, to demonstrate runbook automation and integration with the Hornbill Collaboration platform and Service Manager application.
 
-Download the Hornbill Runbooks following the instructions in the Microsoft Orchestrator Content Pack from the Related Articles Section.
+#### Installation
+Download the [Runbook Export](https://github.com/hornbill/SCOrchHornbillIntegration/blob/master/Hornbill_Integration_Runbooks.ois_export) from the [Github repository](https://github.com/hornbill/SCOrchHornbillIntegration), and place on your System Center server.
+
+The file supplied is an export of a collection of runbooks, developed in SCOrch 2012 R2. This can be imported in to SCOrch by right-clicking on the Runbooks folder of your choice within the Orchestrator Runbook Designer, and click Import.
+
+The runbooks use three global variables to identify the Hornbill instance and API key to use to invoke Hornbill API calls. These variables should be populated as so:
+
+* **Hornbill\Hornbill API Key**: This is the API key for the user account that should be used to perform the Hornbill API calls
+* **Hornbill\Hornbill Instance ID**: This is the (case sensitive) ID of your Hornbill instance (the yourinstancename part of your Hornbill URL: `http://live.hornbill.com/yourinstancename`)
+* **Hornbill\Hornbill Instance Zone**: This is the zone where your Hornbill instance resides:
+    * eur - If your instance resides in the European zone
+    * nam - If your instance resides in the North American zone
+
+Once the runbooks have been imported, and the global variables have been configured, please see the description against each for more information about the runbook, and the APIs that they use.
