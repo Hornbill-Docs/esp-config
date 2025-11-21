@@ -495,6 +495,10 @@
                 "link": "esp-config/automation/hornbill-automations"
               },
               {
+                "text": "Cloud Automation",
+                "link": "/esp-config/automation/cloud-automation"
+              },
+              {
                 "text": "Decision Node",
                 "link": "esp-config/automation/decision"
               }
