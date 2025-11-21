@@ -33,12 +33,23 @@ As well as having the option to invoke your Runbooks from a business process we 
 
 This can be used to enable HPEOO administrators to include Hornbill Collaboration and Service Manager automations in their flow orchestrations.
 
-Download the Hornbill Content Pack following the instructions in the HP Operations Orchestration Content Pack from the Related Articles Section.
+#### Installation
+1. Download the zipped content pack from the [Hewlett Packard Enterprise ITOM Marketplace](https://marketplace.opentext.com/itom/content/hornbill-service-manager-and-collaboration-integration).
+1. Extract the JAR file from the ZIP, and import as a Content Pack in to the Operations Orchestration Studio.
+
+The flows within the Content Pack use three System Properties to identify the Hornbill instance and API key to use to invoke Hornbill API calls. These properties should be populated as so:
+
+* **Configuration\System Properties\APIKey**: This is the API key for the user account that should be used to perform the Hornbill API calls.
+* **Configuration\System Properties\Instance**: This is the (case sensitive) ID of your Hornbill instance (the yourinstancename part of your Hornbill URL: `https://live.hornbill.com/<yourinstancename>`).
+* **Configuration\System Properties\InstanceZone**: This is the zone where your Hornbill instance resides:
+    * eur - If your instance resides in the European zone.
+    * nam - If your instance resides in the North American zone.
+
+Once the Content Pack has been imported, and the System Properties have been configured, please see the description against each flow for more information about the flow, its inputs/outputs, and the APIs that they use.
 
 :::note
 Any number of HPOO Connectors are currently supported so if you multiple HP OO Servers you need to connect to these can all be added just make sure to give each one an identifiable title so that they are easily selected from the Integration Node.
 :::
-
 
 ## Microsoft Orchestrator
 ### Configuration
