@@ -28,7 +28,7 @@ Typically a Firewall change will be needed for your Instance to communicate back
 ### Invoking Orchestration Flows
 Using the Business Process Designer and the Cloud Automation node you can invoke any of your defined Orchestration Flows from your configured HP Operations Orchestration instances within your business processes.
 
-### HPE Operations Orchestration 10.50+ Content Pack
+### Content Pack download
 As well as having the option to invoke your Runbooks from a business process we have provided a Content Pack for HPE Operations Orchestration 10.50+, to demonstrate integration with the Hornbill Collaboration platform and Service Manager application.
 
 This can be used to enable HPEOO administrators to include Hornbill Collaboration and Service Manager automations in their flow orchestrations.
@@ -73,7 +73,7 @@ Typically a Firewall change will be needed for your Instance to communicate back
 ### Invoking Microsoft Orchestrator Runbooks
 Using the Business Process Designer and the Cloud Automation node you can invoke any of your defined Runbooks from your configured Microsoft Orchestrator instances within your business processes
 
-### Microsoft System Center Content Pack
+### Content Pack download
 As well as having the option to invoke your Runbooks from a business process, we have also provided a collection of our own runbooks for Microsoft System Center Orchestrator 2012 R2, to demonstrate runbook automation and integration with the Hornbill Collaboration platform and Service Manager application.
 
 #### Installation
