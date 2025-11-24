@@ -1,7 +1,7 @@
 # Network Rules
 
 
-The Network Rules option within Hornbill Administration allows Enterprise customers to control the access to the Hornbill instance.
+The Network Rules option within Hornbill Administration allows customers to control the access to the Hornbill instance.
 
 ## Settings
 Rules can be added to allow or deny access. A mixture of the two could also be used. For example, to allow access to an instance via the company's office network only and deny access to the rest of the world.
