@@ -22,6 +22,8 @@ By either selecting the Create New Report or by clicking on the name of an exist
 * **Download**<br>Download a definition file for the report. This allows you to share a report definition with another Hornbill instance. This option is only available after the new report has been saved for the first time.
 * **Upload**<br>Upload a definition file for the report. This allows you to take a report that has been shared with you and upload it to your Hornbill instance. Uploading a definition file will overwrite any settings that you have previously set for that report, including the name.
 
+:::warning Exporting a Report definition will include any configured schedule or delivery information which may contain email addresses or details of upload location. Similarly, Importing a saved Report definition file will import this saved scheduled or delivery information. You should therefore ensure that on Exporting or Importing a report you check to ensure that this data does not exist if not required :::
+
 ### General
 * **Name**<br>The name of the report. This is displayed in the list of reports as well has providing the default title on the report output.
 * **Description**<br>Use this area to describe the report.
