@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "productFamily": "esp",
   "tags": [
     "esp",
@@ -501,6 +501,10 @@
               {
                 "text": "Cloud Automation",
                 "link": "/esp-config/automation/cloud-automation"
+              },
+              {
+                "text": "IT Automation",
+                "link": "esp-config/automation/it-automation"
               },
               {
                 "text": "Decision Node",
