@@ -50,8 +50,8 @@ To create or edit a report, select **Create New Report** or select an existing r
 * **Select Tables** - Select one or more tables for the report.
 * **Table Join** - Create a join to link data when you use multiple tables.
   * ***Join (Inner Join)*** - Keep only the matching rows from both tables and drop everything else.
-  * ***Left Join*** - Keep all of the rows from the left table and the matched rows n the right. Drop the rows in the right table that don't have a match in the left.
-  * ***Right Join*** - Keep all of the rows from the right table and the matched rows in the right.  Drop the rows in the left table that don't have a match in the right.
+  * ***Left Join*** - Keep all of the rows from the left table and the matched rows from the right. Drop the rows in the right table that don't have a match in the left.
+  * ***Right Join*** - Keep all of the rows from the right table and the matched rows from the left.  Drop the rows in the left table that don't have a match in the right.
 * **Select Columns** - Select which columns to include in the report. Click **Select Column** for each column you want.
     :::tip
     Hold Ctrl while selecting to choose multiple columns at once.
