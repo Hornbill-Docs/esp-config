@@ -3,21 +3,22 @@ layout: article-toc
 ---
 # Reports
 
-Use reports to gather the data you need. Reports show a snapshot of your data at the time you run them, which makes them ideal for analyzing lists of data. You can create reports in multiple formats and schedule them to be delivered to Document Manager or by email. See the sections below to learn about your report options.
+Use reports to gather the data you need. Reports show a snapshot of your data at the time you run them, which makes them ideal for analyzing lists of data. You can create reports in multiple formats and schedule them to be delivered to [Document Manager](/documentmanager-user-guide/index) or by email. See the sections below to learn about your report options.
 
 ## Report list
 
-Each Hornbill application has its own Report List. To access it, go to Admin > Applications, then select the application you want to report on. A reports section appears if reporting is available for that app.
+Each Hornbill application has its own Report List. To access it, go to [Configuration](/esp-config/getting-started/using-configuration), then select either Platform Configuration or the application you want to report on. A reporting section appears if reporting is available for that app.
 
 ### Report list toolbar
 
 * **Filter** - Find reports you've already created.
+* **Import/Export Reports** - Import a report package file or export listed reports.
 * **Create New Report** - Create a new report.
 * **Delete Selected** - Remove selected reports from your list.
 
 ## Creating and editing a report
 
-To create or edit a report, select **Create New Report** or click an existing report name in your Report List. You can then configure the report settings.
+To create or edit a report, select **Create New Report** or select an existing report name from the list. You can then configure the report settings.
 
 ### Report toolbar
 
@@ -48,6 +49,9 @@ To create or edit a report, select **Create New Report** or click an existing re
 
 * **Select Tables** - Select one or more tables for the report.
 * **Table Join** - Create a join to link data when you use multiple tables.
+  * ***Join (Inner Join)*** - Keep only the matching rows from both tables and drop everything else.
+  * ***Left Join*** - Keep all of the rows from the left table and the matched rows n the right. Drop the rows in the right table that don't have a match in the left.
+  * ***Right Join*** - Keep all of the rows from the right table and the matched rows in the right.  Drop the rows in the left table that don't have a match in the right.
 * **Select Columns** - Select which columns to include in the report. Click **Select Column** for each column you want.
     :::tip
     Hold Ctrl while selecting to choose multiple columns at once.
@@ -59,8 +63,13 @@ To create or edit a report, select **Create New Report** or click an existing re
 
 Create filters to include only specific data in your reports.
 
-* **Select Ordering** - Choose which column to sort the report by when you have multiple columns.
-* **Data Preview** - View a sample of the data that will appear in your report. This preview doesn't show grouping for grouped reports.
+#### Select Ordering
+
+Choose which column to sort the report by when you have multiple columns.
+
+#### Data Preview
+
+View a sample of the data that will appear in your report. This preview doesn't show grouping for grouped reports.
 
 ### Output Formats
 
