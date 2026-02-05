@@ -1,6 +1,10 @@
 # Logon History
 The logon history provides an audit trail of each time there is a user logon to your Hornbill.  This can be a useful tool to identify logon attempts from unknown sources.
 
+For Standard Versions the logs are kept for 2 Months
+
+For Enterprise Vesions the logs are kept for 12 Months
+
 ![Logon History Filter](/_books/esp-config/images/logon-history-filter.png)
 
 * **Filter by account**. The list can be filtered by individual user by typing in a user ID.
