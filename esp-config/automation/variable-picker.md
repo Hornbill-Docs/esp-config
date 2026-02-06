@@ -1,6 +1,6 @@
 # Variable Picker
 
-The variable picker is a tool that allows you to select variables that can dynamically insert data into node fields. Instead of typing static text, you can use the variable picker to pull information such as a customer's name, a request ID, or a task outcome directly into a workflow node.
+The variable picker is a tool that allows you to select variables that can dynamically insert data into workflow node fields. Instead of typing static text, you can use the variable picker to pull information such as a customer's name, a request ID, or a task outcome directly into a workflow node.
 
 ![Variable Picker](/_books/esp-config/images/workflow-variable-picker.png)
 
