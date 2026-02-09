@@ -1,50 +1,74 @@
 # Decision Node
-A Decision Node within a Workflow allows the workflow to branch down different paths based on the outcomes of previous nodes within the workflow stage. Default outcomes are available to test the outcomes of the node that immediately precedes the decision node.
+
+A Decision Node within a workflow enables it to branch into different paths based on the results of previous nodes within the workflow stage. Default outcomes are available to evaluate the results of the node that directly precedes the decision node.
 
 ![Decision Outcomes](/_books/esp-config/images/workflow-decision.png)
 
 The outcomes available will depend on the node that precedes the decision node and may include:
-* Failure
-* Success
-* No Match
-* Expired
-* Task or Authorisation outcomes
 
-In addition to these default options, you can also build your own custom expressions using the Custom Expression Builder. Custom Expressions will allow you to evaluate the outcomes of any node that precedes the decision node within the same stage.
+* **Failure** - The previous node encountered an error.
+* **Success** - The previous node completed as intended.
+* **No Match** - No specific criteria were met.  
+* **Expired** - The previous node timed out.
+* **Task or Authorization outcomes** - Specific results like "Approved" or "Rejected".
+* **Custom Expression** - A custom defined expression to evaluate the outcomes of any node that precedes the decision node, within the same stage.
 
-## What is a Custom Expression
-A Custom Expression consists of one or more tests that evaluate the outcomes of nodes within the current stage. If the tests within the expression are met, that path out of the decision node will be followed. To add a Custom Expression, click on the description box of a connector that exits a Decision Node and in the Goto If dialog box, select Custom Expression from the list of outcomes.
+## Custom Expressions
 
-## Building Expressions
-The custom expression builder allows you to create one or more tests which can be evaluated when a workflow reaches the decision node.
+Custom Expressions allow you to build complex logic. Unlike default outcomes, Custom Expressions can evaluate data from any node within the same workflow stage, not just the one immediately before the Decision Node.
 
-### Adding your first Expression
-Following a decision node, draw out a line and add a new node. On the line you have drawn out you will see ?? icons. Click on the icons and a pop up window is presented, this will contain a drop down with default outcomes and an option for Custom Expression.
-* Provide a display name for the Custom Expression
-* Select Edit Expression and + to add
+### Create a custom expression
+
+Follow these steps to set up your first Custom Expression:
+
+1. In the Workflow Designer, draw a connector line from a **Decision Node** to a subsequent node.
+2. Select the `??` label located on the connector line.
+3. In the **Goto If** dialog box, select **Custom Expression** from the **Outcome is** dropdown list.
+4. Enter a **Display Name** for your expression. This will replace the `??` label displayed on the connector line.
+5. Select **Edit Expression**, then select the `+` button to add your first expression.
 
 ![Custom Expression](/_books/esp-config/images/workflow-custom-expression.png)
 
-### Options
-By default the rule question will be presented in the Selected Test Setup section, picked up from the node proceeding the decision node. This can be left the same or using the Variable Picker Icon you can change what you want to evaluate by choosing from the list of available variables (See the variable picker to understand what options can be presented here)
-* **Operators**<br>Choose what condition for the chosen question you are looking to test ( ==, Contains, <,> etc)
-* **Value**<br>Choose to insert:
-    * ***Static Value***<br>Here you can manually insert a value to evaluate against
-    * ***Variable***<br>Here you can choose to use the variable picker to look up a value to evaluate against, examples maybe an answer to a progressive capture question, a customers custom field value or a custom filed on a task.
-    * ***Value to evaluate***<br>Choose to use either the raw value or display value for the variable - the raw value is unlikely to change so maybe more consistent to use, compared with the display value which may be changed or different language variants of the variable may exist.
+### Configure an expression
 
-If only one rule (expression) is required click apply to save.
+When you build an expression, you define what the workflow should look for before following that path.
 
-## Adding Additional Rules
-It is possible to add multiple rules (expressions) to a single custom expression and you can do so by simply selecting the + icon and repeating the steps above.
+1. **Select a variable** - Select the [Variable Picker](/esp-config/automation/variable-picker) icon (`Σ`) to choose the data you want to evaluate (e.g., a node outcome or a task status).
+1. **Choose an operator** - Select a logical operator to be used when evaluating the variable, such as:
+    * `==` (Equals)
+    * `Contains`
+    * `<` (Less than)
+    * `>` (Greater than)
+1. Select the value to evaluate against:
+    * **Static value** - Manually type a specific value to evaluate against.
+    * **Variable** - Use the **Variable Picker** (`Σ`) to select a value stored in a variable to evaluate against.
+1. Select **Apply** to save the expression.
 
-When more than one rule (expression) exists you can add conditions which can be evaluated:
-* AND / OR - Decide if the defined rules (expressions) must all match or if there is a combination of AND or OR conditions
-* Groupings ( ) - Use the expression groupings to build out more complex (rule / expressions)
+:::tip
+When using the Variable Picker, some variables contain both a raw value and a display value. When selecting the **Overwrite** button, you will have an option to select which one of these you wish to use.
+:::
 
-## Administration
-* Select a rule (expression) to either edit or delete it
-* Select a grouping bracket to delete it
-*Use the `Delete All` option to delete all the rules (expressions)
+### Add multiple conditions
 
-<!-- https://wiki.hornbill.com/index.php?title=Custom_Expression_Builder -->
+You can add multiple conditions to a single Custom Expression to create more advanced logic.
+
+1. Select the `+` icon within the Expression Builder to add another condition.
+1. Use **AND / OR** logical operators to determine how the compounded conditions are evaluated:
+    * **AND**: All conditions must be true for the workflow to follow this path.
+    * **OR**: Only one of the conditions must be true.
+1. Use **Groupings ( )** to organize complex "if/then" scenarios.
+
+## Manage Expressions
+
+* **Edit a condition** -  Select an existing condition to load that condition into the expression builder and make the necessary changes.
+* **Delete a condition** - Select an existing condition to enable the **Delete selected condition** button.
+* **Delete all conditions** - Use the `Delete All` option to delete all the conditions within the expression and start over.
+* **Add a grouping bracket**
+  * Select an existing condition, then select the `Add (...` button to add an opening bracket to the left of the condition.
+  * Select an existing condition, then select the `Add ...)` button to add a closing bracket to the right of the condition.
+  * Brackets without a matching open or close bracket will be highlighted in red.  
+* **Delete grouping brackets**
+  * Select a grouping bracket to delete it. Its matching bracket will also be highlighted.
+  * Select the `Delete (...)` button to delete both brackets.
+  * Select the `Delete (...` button to only delete the opening bracket.
+  * Select the `Delete ...)` button to only delete the closing bracket.
