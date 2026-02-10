@@ -1,38 +1,49 @@
 # Date and Time Picker Help
-This control allows typing the date and/or time and selecting the date from a calendar.
 
-Valid formats:
-- `Mar 25 2022`
-- `25/3/2022`
-- `25-03-2022`
+The Date and time picker allows you to enter dates and times by typing directly into the field or by selecting a date from the calendar icon. This tool is designed to recognize various formats and natural language to make data entry faster.
 
-In this case the correct date can be deduced because 25 cannot be a month, so it can determine that the format is mm/dd/yyyy or dd/mm/yyyy
-- `3/25/2022`
-- `25/3/2022`
+## Date formats
 
+The system recognizes several numeric and text-based date formats. You can use any of the following examples as a guide:
 
-However, when its not possible to correctly deduce the month and day elements, the user's profile date format setting will be used to establish the expected day/date order.
-- `3/3/2022`
+* `Mar 25 2022`
+* `25/3/2022`
+* `25-03-2022`
+* `3/25/2022`
 
-More generalized natural language date shortcuts:
-- `today`
-- `now`
-- `tomorrow`
-- `yesterday`
-- `next week`
-- `next year`
-- `next Monday`
-- `last Monday`
-- `previous Monday`
+### How the system determines dates
 
-Time format:
-- `22:30`
-- `10:30pm`
-- `10:30pm`
-- `10pm`
+The system automatically identifies the month and day based on the numbers you provide. For example, if you type `25/3/2022`, the system recognizes that 25 must be the day because there are only 12 months in a year.
 
-Where the input allows both a date and time input, you can use the above in combination
-- `today at 22:30`
-- `today at 10:30pm`
-- `next week at 10:30pm`
-- `Mar 25 2022 10pm`
+If the date you enter is ambiguous, such as `3/3/2022`, the system refers to your user profile settings to determine the correct order of the day and month.
+
+## Natural language shortcuts
+
+To save time, you can type common words and phrases. The system will convert these into the appropriate date.
+
+* `today`
+* `now`
+* `tomorrow`
+* `yesterday`
+* `next week`
+* `next year`
+* `next Monday`
+* `last Monday`
+* `previous Monday`
+
+## Time formats
+
+When entering time, you can use a 24-hour clock or a 12-hour clock with AM or PM notations.
+
+* `22:30`
+* `10:30pm`
+* `10pm`
+
+## Combined date and time entries
+
+If the field requires both a date and a time, you can combine any of the formats mentioned above. You may use the word `at` to separate the date and time for better clarity.
+
+* `today at 22:30`
+* `today at 10:30pm`
+* `next week at 10:30pm`
+* `Mar 25 2022 10pm`
