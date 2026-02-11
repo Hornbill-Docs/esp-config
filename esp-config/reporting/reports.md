@@ -91,10 +91,23 @@ Choose how to format and display your report:
 
 ### Schedule
 
-In addition to running reports manually, you can schedule reports to run and distribute them at regular intervals.
+Report Schedules can be set with the following intervals:
 
-* **Report Schedule** - Set when and how often the report runs.
-* **Publishing** - Configure how and where the report is delivered.
+* Run Once
+* Run Daily - Choose to run on all or specific days at a set time
+* Run Monthly - Choose to run on all or specific months on a set day and time in each month
+* Run Every Period (Minutes)
+
+When publishing a report there are two types of publishing available:
+
+* **Email:** Reports can be distributed to one or more email recipients.  These emails are sent using [direct outbound messages](/esp-config/email/direct-outbound).
+* **Document Manager:** If Document Manager is installed, reports can be scheduled to be distributed to an existing document in Document Manager. Find the document you want the report to be distributed to by searching for documents using their document tags.
+
+Once the Report is Scheduled, it will show as **Running**.
+
+* Pause the Schedule and prevent further distribution of the report by clicking on the pause icon
+  * This will mark the report as disabled
+  * Click the play icon to resume the report schedule
 
 ### Report History
 
