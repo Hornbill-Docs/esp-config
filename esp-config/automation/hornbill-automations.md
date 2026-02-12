@@ -1,4 +1,4 @@
-# Hornbill Automations
+# Hornbill Automation
 
 A Hornbill automation is a definable node that can be added to a workflow to perform a number of tasks. Additional Hornbill automations are provided by each installed application. Any application that utilizes workflows can access and use the Core Hornbill automations.
 
@@ -19,7 +19,7 @@ Hornbill automations can be easily identified in a workflow as a light blue rect
 * **Application** - The name of the application that provides the automation.
 * **Scope** - Application or Entity. Automations are broken down between general application automations and those that are for a specific entity.
 * **Type** - Each type contains a collection of related tasks.
-* **Task** - The task that will be automated. Each task contains serveral options that are used to fulfill the automation.
+* **Task** - The task that will be automated. Each task contains several options that are used to fulfill the automation.
 * **Result Reference** - This is a unique identifier for the node. This is used in the construction of a variable that is selected using the [variable picker](/esp-config/automation/variable-picker). If there are multiple nodes in a workflow that perform the same task, the result reference makes sure that the correct node is being referenced.
 
 ## Hornbill automation help
@@ -30,7 +30,7 @@ Each automation includes a help option ![Help Button](/_books/esp-config/images/
 
 ## Contact
 
-The contact automation provides the ability to create and update [contact records](/esp-config/guest-access/contacts). This can be used in environments where the creation and management of contacts is required through automated workflows rather than being done manually. Automating the creation and management of contacts can help assure consistency. 
+The contact automation provides the ability to create and update [contact records](/esp-config/guest-access/contacts). This can be used in environments where the creation and management of contacts is required through automated workflows rather than being done manually. Automating the creation and management of contacts can help assure consistency.
 
 ![Contact Automation](/_books/esp-config/images/workflow-contact.png)
 
@@ -54,7 +54,7 @@ The location automation provides the ability to create and update [locations](/e
 
 * **Create** - Add a new location.  
 * **Update** - Update an existing location.
-* **Delete** - Delete an existing location.hdoc 
+* **Delete** - Delete an existing location.
 
 ### Options
 
@@ -82,7 +82,7 @@ The Groups & Teams automation can be used to bring back information about a sing
 
 ![Email Automation](/_books/esp-config/images/workflow-direct-message.png)
 
-### Available tasks
+### Email tasks
 
 * **Direct Message Send** - This automation is used to send a mail message directly to one or more recipients without going through a shared or personal mailbox. For this to be used, an [Email Domain](/esp-config/email/email-domains) must be set up. Emails that have been sent using this automation can be viewed in the list of [Direct Outbound](/esp-config/email/direct-outbound) emails.
 
@@ -93,6 +93,31 @@ The Groups & Teams automation can be used to bring back information about a sing
 * **From Address**. As a direct send email does not go through a mailbox, a sender address is not automatically applied, and one must be provided.  Direct send emails are commonly used for notifications or one-way communications, and a noreply email address is often used.
 * **Subject** - The subject of the email.
 * **Body** - The body of the email.
+
+## Users
+
+![Users Automation](/_books/esp-config/images/workflow-user-automation.png)
+
+### User tasks
+
+* Add User to Organization
+* Add User to a Public Workspace
+* Add Role to User
+* Archive User
+* Create New User
+* Create New User From Template
+* Delete User
+* Get User Details
+* Get User Custom Attributes
+* Get User Groups
+* Get User Manager Details
+* Update User Profile
+* Remove User From All Organizations
+* Remove User From Organization
+* Remove User from a Public Workspace
+* Remove Role from User
+* Update User Status
+* Update User Account
 
 ## Utility
 
@@ -112,4 +137,4 @@ Any user who is part of the group but doesn't have an email address set on their
 
 #### Output
 
-* **Email Addresses** - This output provides a comma-seperated list of email addresses.
+* **Email Addresses** - This output provides a comma-separated list of email addresses.
