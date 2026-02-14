@@ -5,7 +5,7 @@ Intelligent Capture is a graphical workflow tool that lets you define a script t
 ## Before you begin
 
 * Be familiar with using [Configuration](/esp-config/getting-started/using-configuration).
-* You will need either the Admin or the Progressive Capture Manager [system role](/esp-config/organizational-data/roles#system-roles) to access the designer in Configuration.
+* You will need either the Admin or the Intelligent Capture Manager [system role](/esp-config/organizational-data/roles#system-roles) to access the designer in Configuration.
 
 ## Nodes
 
