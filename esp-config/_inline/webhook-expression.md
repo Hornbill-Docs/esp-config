@@ -23,7 +23,7 @@ These variable names are CASE-SENSITIVE and must be entered in exactly the same 
     <tbody>
         <tr>
             <td noWrap><code>record.*</code></td>
-            <td>The record-specific field values, they use the samne names/data types as defined in the database.
+            <td>The record-specific field values, they use the same names/data types as defined in the database.
             </td>
         </tr>
         <tr>
