@@ -1,6 +1,6 @@
 # Cloud Automation
 
-The Cloud Automation node can be invoked from the business process designer and is used to call either iBridge automations, HP Operations Orchestration Flows. or Microsoft Orchestrator Runbooks
+The Cloud Automation node can be invoked from the workflow designer and is used to call either iBridge automations, HP Operations Orchestration Flows. or Microsoft Orchestrator Runbooks
 
 ## Adding the Cloud Automation Node
 
@@ -24,14 +24,14 @@ Two options are available to expose the properties of the Hornbill Cloud Automat
 ### Cloud Automation
 
 * **Language**. Select the language that you want to work in. This will default to the language set in your profile. If you have other users who will be viewing the workflow that operate in a different language, you may want to provide translations for them by selecting their language and providing the appropriate translations.
-* **Display**. Give the Cloud Automation node a display name for how it will appear on the business process design canvas.
+* **Display**. Give the Cloud Automation node a display name for how it will appear on the workflow design canvas.
 
 ### Request
 
 * **Connector**. This drop-down list displays the list of available connectors. By default, the Hornbill Integration Bridge connector will be available. If you have configured any Business Process Connectors using Microsoft Orchestrator or HP Operations Orchestration, these will also be available.
 * **Method**. Clicking on the edit icon allows you to browse the content catalog for the selected Connector. Click and expand each item to see the available Methods, and then select the Method that you would like to use
-* **Result Reference**. If you are using multiple Cloud Automation Nodes in your business process, it is good practice to give each Cloud Automation Node a unique Result Reference. With each Method having the ability to return Output parameters such as an ID, Reference number, etc you may want to use these Output parameters in other business process nodes, and they will be identified in your variable picker by their Result Reference name.If a unique name is not given, every result reference option in the variable picker will be represented with the default Integration name.
-* **Continue on Error**. By default, this is set to No, and the business process will not continue if the Cloud Automation fails. Change this to Yes if you wish the business process to continue even if the Cloud Automation fails.
+* **Result Reference**. If you are using multiple Cloud Automation Nodes in your workflow, it is good practice to give each Cloud Automation Node a unique Result Reference. With each Method having the ability to return Output parameters such as an ID, Reference number, etc you may want to use these Output parameters in other workflow nodes, and they will be identified in your variable picker by their Result Reference name.If a unique name is not given, every result reference option in the variable picker will be represented with the default Integration name.
+* **Continue on Error**. By default, this is set to No, and the workflow will not continue if the Cloud Automation fails. Change this to Yes if you wish the workflow to continue even if the Cloud Automation fails.
 
 ### Request Credentials
 
@@ -55,7 +55,7 @@ Each Method will have a set of specific request parameters (Inputs). These are t
 
 ### Response Parameters
 
-Most methods will return Response Parameters (Outputs) once they complete. You may wish to use these later or further down your business process. For example, if you chose to create a new Board using the Trello CreateBoard method, one of the response parameters will be the newly created board's id. This id can then be used as a request(input) parameter for another Cloud Automation, or example if you wanted to add a List or Card to the Trello Board.
+Most methods will return Response Parameters (Outputs) once they complete. You may wish to use these later or further down your workflow. For example, if you chose to create a new Board using the Trello CreateBoard method, one of the response parameters will be the newly created board's id. This id can then be used as a request(input) parameter for another Cloud Automation, or example if you wanted to add a List or Card to the Trello Board.
 
 * The Response Parameters will be available to use from the Variable Picker and will be listed under each Result Reference name.
 

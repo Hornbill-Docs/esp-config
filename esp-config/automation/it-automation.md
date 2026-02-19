@@ -1,12 +1,10 @@
----
-url: https://wiki.hornbill.com/index.php?title=IT_Automation
----
 # IT Automation
-Introduction The **IT Automation** node is used to execute an ITOM package operation in a similar way to that of creating an IT Automation Job. Each time the node is used, a new Job will appear in the Job queue where it can be monitored/managed in the same manner as other ITOM jobs. 
+
+Introduction The **IT Automation** node is used to execute an ITOM package operation in a similar way to that of creating an IT Automation Job. Each time the node is used, a new Job will appear in the Job queue where it can be monitored/managed in the same manner as other ITOM jobs.
 
 ## Adding the IT Automation Node
 
-* From an existing Node within a Business Process
+* From an existing Node within a workflow
 
 1. Place the mouse pointer over the node to expose the connection arrows.
 2. From a connection arrow, drag out a new connection line
@@ -20,7 +18,6 @@ Introduction The **IT Automation** node is used to execute an ITOM package opera
 
 > IT Automation nodes are displayed in Tan; to help differentiate from other node types.
 
-  
 ## Configuration
 
 Two options are available to expose the properties of the IT Automation process node, place the mouse pointer over the node to expose the **Cog** icon and click on this icon or double click anywhere on the node.
@@ -33,13 +30,12 @@ Select the language to work in, this defaults to the language set in the user's 
 
 * **Display**
 
-Provide the node with a display name that will appear on the business process design canvas
+Provide the node with a display name that will appear on the workflow design canvas
 
 * **Description**
 
 Optional text area that can be used to provide a description detailing the node's function
 
-  
 ### Job Request
 
 * **Package**
@@ -100,4 +96,4 @@ A variable that refers to an object that enables access to the output parameters
 
 * **Continue on Error**
 
-When this option set to _No_ (default), the business process will not continue if the IT Automation fails. Setting the option to _Yes_ enables the business process to continue execution after the failed IT Automation node.
+When this option set to _No_ (default), the workflow will not continue if the IT Automation fails. Setting the option to _Yes_ enables the workflow to continue execution after the failed IT Automation node.
