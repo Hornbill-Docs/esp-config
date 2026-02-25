@@ -82,7 +82,7 @@ Typically a Firewall change will be needed for your Instance to communicate back
 
 ### Invoking Microsoft Orchestrator Runbooks
 
-Using the Workflow Designer and the Cloud Automation node you can invoke any of your defined Runbooks from your configured Microsoft Orchestrator instances within your business processes
+Using the Workflow Designer and the Cloud Automation node you can invoke any of your defined Runbooks from your configured Microsoft Orchestrator instances.
 
 ### Content Pack download
 
