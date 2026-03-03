@@ -10,7 +10,7 @@ Types of Direct Outbound Emails
 * [Workflow Authorizations](/esp-config/automation/authorization)
 * [Workflow External Authorizations](/esp-config/automation/external-authorization)
 * [Workflow Direct Messages](/esp-config/automation/hornbill-automations#email)
-* [Report Delivery](/esp-config/reporting/reports#schedule)
+* [Report Delivery](/esp-config/reporting/reports#schedule-settings)
 
 ## Delivery Status
 
