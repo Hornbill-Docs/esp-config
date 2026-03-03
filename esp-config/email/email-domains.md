@@ -67,7 +67,7 @@ An example SPF/TXT record would be:
 On all outbound email for this domain, Hornbill checks that the SPF/TXT record has the  '''include:_spf.hornbill.com''' section set. If not, the mail will refuse to send. This check is put in place to ensure Hornbill is allowed to send email as the given domain and to prevent abuse such as someone sending email pretending to be from a domain they do not own.
 
 :::note
-SPF and TXT are types of DNS records that should be set. Although SPF has been officially deprecated, it still may be used; so it is a good idea to set it. The main record that needs to be added is the TXT version.
+SPF and TXT are types of DNS records that should be set. Although SPF has been officially deprecated, it still may be used; so it is a good idea to set it. The main record that needs to be added is the TXT version. The include for Hornbill must exist at the top level. Hornbill does not support Redirects
 :::
 
 <!--
