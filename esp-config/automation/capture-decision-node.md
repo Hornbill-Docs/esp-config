@@ -50,4 +50,4 @@ The *No Match* option is used when there are no other conditions that are met fo
 
 ![No Match](/_books/esp-config/images/intelligent-capture-no-match.png)
 
-It is recommended to always have a *No Match* option to ensure that there is always a valid path to take, especially when the custom expressions use variables that may not always be set. For example, if you have a custom expression that is based on a session variable for the user's location, but there is a possibility that the user's location may not be set, then having a *No Match* option will ensure that there is still a valid path to take.
+It is recommended to always have a *No Match* option to ensure that there is a valid path to take, especially when the custom expressions use variables that may not always be set. For example, if you have a custom expression that is based on a session variable for the user's location, but there is a possibility that the user's location may not be set, then having a *No Match* option will ensure that there is still a valid path to take.
