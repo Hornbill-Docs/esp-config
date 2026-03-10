@@ -61,7 +61,7 @@ There are also settings for the beginning of the calendar year (`reporting.calen
 Pre-defined date settings are as follows:
 
 |Date Setting|Definition|
-| - | - |
+|-|-|
 |Start Of This Week|00:00:00 hours on the last Sunday before today|
 |Start Of This Month|00:00:00 hours on the first day of the current month|
 |Start Of Financial Year|0:00:00 hours on the first day of the current financial year|
