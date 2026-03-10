@@ -2,18 +2,21 @@
 layout: article-toc
 ---
 # Widgets
+
 With widgets, you can create plug-in data for use in building dashboards. Some widget types make use of existing measures and provide the ability to display them in a more appealing format. Certain widget types allow you to return and display data based on configuration carried out within the widget.
 
 ## Topics covered
+
 * [General settings](/advanced-analytics/widgets#general-settings)
 * [General look and feel](/advanced-analytics/widgets#general-look-and-feel)
 * [Data source settings](/advanced-analytics/widgets#data-source-settings)
 * [Widget settings](/advanced-analytics/widgets#widget-settings)
 * [About pre-defined date settings](/advanced-analytics/widgets#about-pre-defined-date-settings)
 
-
 ## General settings
+
 Use this dialog to manage widget properties.
+
 * **Data chart.** See [Data source settings](/advanced-analytics/widgets#data-source-settings).
 * **Scorecard.** A scorecard widget can be used to display one or more measures that have previously been defined.
 * **Target counter.** This type of widget is used to display how a single measure is performing against its target.
@@ -22,24 +25,30 @@ Use this dialog to manage widget properties.
 * **Custom.** The custom widget type allows you to specify a URL and display the content as an image, in an iframe or div.
 
 ## General look and feel
-Use this dialog to style the widget according to your preferences. You can set colors, transparency, and border styles. 
+
+Use this dialog to style the widget according to your preferences. You can set colors, transparency, and border styles.
 
 ## Data source settings
+
 When creating data charts, you specify data types to define how the data for the chart will be created. Select from the following data types:
-* **Measured Samples.** This type allows you to add multiple measures' data to a single chart, to display the data using definable sample intervals, and to display history.
-* **Measure Group By.** This type allows a single measure's data to be displayed and grouped by Saved Data Columns.
-* **Measure Samples Group By.** This type allows a single measure's sampled data to be grouped and displayed by Saved Data Columns and by definable sample periods (manual or predefined date settings).
-* **SQL Group By.** This type allows you to specify a database table, which column to group on, which column to count on, as well as to define filter conditions for the data and the sample history duration.
+
+* **Measured Samples.** This type allows you to add multiple measures' data to a single chart, to display the data using definable sample intervals, and to display history. Available chart types for this data type are bar and line.
+* **Measure Group By.** This type allows a single measure's data to be displayed and grouped by [Saved Data Columns](/advanced-analytics/measures#saved-data-columns). Available chart types for this data type are bar and pie.
+* **Measure Samples Group By.** This type allows a single measure's sampled data to be grouped and displayed by [Saved Data Columns](/advanced-analytics/measures#saved-data-columns) and by definable sample periods (manual or predefined date settings). Available chart types for this data type are bar and line.
+* **SQL Group By.** This type allows you to specify a database table, which column to group on, which column to count on, as well as to define filter conditions for the data and the sample history duration. Available chart types for this data type are bar and pie.
 
 ## Widget settings
+
 Use this dialog to adjust the chart settings, as well as the options for axis, grid, and legend. Here you can also adjust settings for target lines.
 
 ## About pre-defined date settings
+
 When creating widgets within Hornbill Advanced Analytics, you can use some widget types to set the sampling type and the sampling period.
 
-The sample period, when using predefined date settings, consists of multiple options to provide you the flexibility to set the widget to report on a specific period in time. Some of these options relate to the beginning of a week (this week or last week), and because the week start day can be different for organizations based in different countries, Hornbill have also provided a setting to enable this to be set per Hornbill instance within Configuration. By default, this setting is set to Sunday as the start of the week. 
+The sample period, when using predefined date settings, consists of multiple options to provide you the flexibility to set the widget to report on a specific period in time. Some of these options relate to the beginning of a week (this week or last week), and because the week start day can be different for organizations based in different countries, Hornbill have also provided a setting to enable this to be set per Hornbill instance within Configuration. By default, this setting is set to Sunday as the start of the week.
 
 **To customize the beginning of the week start:**
+
 1. Select the **Configuration** cog at the bottom of the left-hand application menu bar.
 1. In Configuration, from the navigation dropdown, select **Platform Configuration**.
 1. Navigate to Advanced Tools & Settings > Advanced System Settings.
@@ -50,6 +59,7 @@ There are also settings for the beginning of the calendar year (`reporting.calen
 :::
 
 Pre-defined date settings are as follows:
+
 |Date Setting|Definition|
 | - | - |
 |Start Of This Week|00:00:00 hours on the last Sunday before today|
@@ -70,6 +80,3 @@ Pre-defined date settings are as follows:
 |Last Financial Quarter Samples|00:00:00 hours on the first day of the last financial quarter to 23:59:59 hours on the last day of the last financial quarter. A quarter can end in March, June, September or December|
 |Last Months Samples|00:00:00 hours on the first day of last month to 23:59:59 hours on the last day of last month|
 |Last Weeks Samples|00:00:00 hours on last week's Sunday to 23:59:59 hours on last week's Saturday|
-
-<!-- https://wiki.hornbill.com/index.php?title=Widgets -->
-<!-- there is still additional information that needs to be brought over from the wiki page -->
