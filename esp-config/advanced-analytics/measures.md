@@ -30,6 +30,7 @@ The data sampled by measures can also be used to define [widgets](/esp-config/ad
 
 ### Measure
 
+* **Timezone**: The time zone used to determine when to take samples for the measure. This is important for ensuring that data is collected at the correct times, especially if your organization operates across multiple time zones.
 * **Frequency.** This is how often the measure will take a data sample. The options are:
   * DAILY
   * WEEKLY
