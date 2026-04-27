@@ -195,11 +195,11 @@ To create or edit a report, select **Create New Report** or select an existing r
 * **Save** - Save the report after entering its name. You must save a report before you can run it.
 * **Copy Report As** - Create a duplicate report with a different name. Available after you save the report for the first time.
 * **Run** - Manually run the report. Results are added to the Report History. Not available when there are unsaved changes or if a report is already generating.
-* **Download** - Export the report definition file to share with another Hornbill instance. Available after you save the report.
+* **Download** - Export the report definition file to share with another Hornbill instance. Available after you save the report. Drop down allows to export with our without Scheule or Delivery options (see Warning) 
 * **Upload** - Import a report definition file from another Hornbill instance. This overwrites your current report settings.
 
     :::warning
-    Report definitions include schedule and delivery information, such as email addresses and upload locations. Before downloading or uploading a report, review this data to ensure it's appropriate for sharing.
+    Report definitions include schedule and delivery information, such as email addresses and upload locations. Before downloading or uploading a report, review this data to ensure it's appropriate for sharing. If you do not wish to export the report with the Schedule information such as recipients email address or SFTP details then you should choose from the Dropdown list Download without senstive information 
     :::
 
 ### General
