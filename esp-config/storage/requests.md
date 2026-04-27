@@ -10,6 +10,6 @@ The [Request Attachment Archiver utility](https://github.com/hornbill/goRequestA
 Once downloaded, the attachment is deleted from the request and is no longer accessible from your Hornbill instance. The utility does not affect the request in any other way.
 
 ### Delete selected requests
-The [Hornbill Clean Utility](https://github.com/hornbill/goHornbillCleaner) provides a quick and easy method of removing requests from a specified Hornbill instance. This utility allows requests to be deleted based on various criteria such as date logged, status, individual request ID, or service. Clearing out test requests periodically is good practice. You also may wish to delete requests older than x number of years. 
+The [Hornbill Clean Utility](https://github.com/hornbill/Hornbill-Cleaner-Utility) provides a quick and easy method of removing requests from a specified Hornbill instance. This utility allows requests to be deleted based on various criteria such as date logged, status, individual request ID, or service. Clearing out test requests periodically is good practice. You also may wish to delete requests older than x number of years. 
 
 The utility deletes the request record, its associated timeline, and its attachments.
