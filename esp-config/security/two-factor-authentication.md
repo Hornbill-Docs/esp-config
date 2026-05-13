@@ -7,7 +7,7 @@ Hornbill supports two-factor authentication (2FA) for both user and guest accoun
 
 2FA can either be enabled for all accounts, or on an account-by-account basis.
 
-Hornbill provies 2FA either via an Emailed code or AUthenticator App
+Hornbill provies 2FA either via an Emailed code or Authenticator App
 
 ## Before you begin
 * Hornbill must have an [email domain](/esp-config/email/adding-an-email-domain#creating-an-email-domain) set up for outbound routing
