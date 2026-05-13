@@ -56,7 +56,7 @@ When either the user or guest mode settings are set to `optional` the option to 
 1. Select `Email`.
 
 ### How to enable 2FA on the Authenticator App
-Unlike Email which can be configured without the user,the Authenticator app requires the user to scan a bar code in the Authenticator app of their choice so must be completed by the user. 
+Unlike Email which can be configured without the user,the Authenticator app requires the user to scan a QR code in the Authenticator app of their choice so must be completed by the user. 
 1. Login as the User
 1. Goto the Users Profile Settings Authentication tab
 1. Change Type to Authenticator App
