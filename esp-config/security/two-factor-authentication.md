@@ -7,7 +7,7 @@ Hornbill supports two-factor authentication (2FA) for both user and guest accoun
 
 2FA can either be enabled for all accounts, or on an account-by-account basis.
 
-Hornbill provies 2FA either via an Emailed code or Authenticator App
+Hornbill provies 2FA either via an Emailed code or Authenticator App of users choice (For example Microsofts Authenticator or Google Authenticator) 
 
 ## Before you begin
 * Hornbill must have an [email domain](/esp-config/email/adding-an-email-domain#creating-an-email-domain) set up for outbound routing
@@ -41,22 +41,22 @@ When either the user or guest mode settings are set to `optional` the option to 
 * **Email**<br>2FA is enabled.  Authentication codes are sent to the users by email.
 * **Authenticator App**<br>2FA is enabled.  Authentication codes are available in the Authenticator App of user.
 
-### How to enable 2FA on a user account
+### How to enable Email 2FA on a user account
 1. Using the Configuration search, type the name of the user to be changed to 2FA.
 1. In the list of results, select the user name.
 1. On the Details tab of the user account, locate the Security Settings section.
 1. Under Two-Factor Authentication select `Email'.
 1. Save Changes.
 
-### How to enable 2FA on a guest account
+### How to enable Email 2FA on a guest account
 1. Using the Configuration search, type `Guest`.
 1. In the list of results, click on `Guest Accounts`.
 1. In the list of guest accounts, select the account to be changed to 2FA.
 1. Click on the Two-Factor Authentication icon in the toolbar.
 1. Select `Email`.
 
-## How to enable 2FA on the Authenticator App
-Unlike Email which can be configured without the user, Authenticator app requires the user to scan a bar code in the Authenticator app of their choice so must be completed by the user. 
+### How to enable 2FA on the Authenticator App
+Unlike Email which can be configured without the user,the Authenticator app requires the user to scan a bar code in the Authenticator app of their choice so must be completed by the user. 
 
 1. Login as the User
 1. Goto the Users Profile Settings Authentication tab
