@@ -45,12 +45,12 @@ The following actions are available in the toolbar when a report is open:
 * **Save**: Commit your changes. You must save a report before you can run it.
 * **Copy Report As**: Create a duplicate of the current report with a new name. This option appears after the initial save.
 * **Run**: Manually execute the report. Find the results in the **Report History** tab. The **Run** button is disabled if there are unsaved changes or if a report is currently generating.
-* **Download**: Export the report definition file to your computer.
+* **Download** - Export the report definition file to share with another Hornbill instance. Available after you save the report. A Drop down allows to export with our without Scheule or Delivery options (see Warning) 
 * **Upload**: Import a report definition file. This action overwrites all current settings for the report.
 
-::: warning
-Report definitions include sensitive data such as email addresses, schedule details, and upload locations. Review this data before you share a report definition.
-:::
+ :::warning
+  Report definitions include schedule and delivery information, such as email addresses and upload locations. Before downloading or uploading a report, review this data to ensure it's appropriate for sharing. If you do not wish to export the report with the Schedule information such as recipients email address or SFTP details then you should choose from the Dropdown list Download without senstive information 
+  :::
 
 ### General settings
 
