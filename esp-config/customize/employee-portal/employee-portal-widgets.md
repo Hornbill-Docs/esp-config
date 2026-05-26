@@ -34,7 +34,7 @@ This article provides reference information on the following widgets:
 * [My Team](/esp-config/customize/employee-portal/employee-portal-widgets#my-team)
 -->
 ## My Services widget
-Add this widget to present users with a list of services that they are subscribed to. Each sevice can be clicked on to show the details of the service.
+Add this widget to present users with a list of services that they are subscribed to. Each service can be clicked on to show the details of the service.
 
 ![My Services Widget](/_books/esp-config/images/services-widget.png)
 

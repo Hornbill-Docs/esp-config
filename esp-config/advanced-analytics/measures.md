@@ -39,7 +39,7 @@ The data sampled by measures can also be used to define [widgets](/esp-config/ad
   * YEARLY
 * **Value Aggregate.** This is the type of calculation that the measure will perform. The calculated value will be displayed on the scorecard.
   * **COUNT**: An integer that represents a count of items in a sample set that match specific criteria.
-  * **SUM**: The sum of a selected *Value Column* for all the samples take during the sample period.
+  * **SUM**: The sum of a selected *Value Column* for all the samples taken during the sample period.
   * **AVERAGE**: A numeric value that represents the average value in a series of values in the data set.
   * **MIN**: A numeric value that represents the lowest value in a series of values in the data set.
   * **MAX**: A numeric value that represents the highest value in a series of values in the data set.

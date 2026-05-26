@@ -3,7 +3,7 @@ layout: article-toc
 ---
 # Integration Connectors
 
-Hornbill provides integration connectors with HP Operations Orchestration and Microsoft Orchestrator. This allows you to plugin with your 'HP Operations Orchestration or Microsoft Orchestrator from a Hornbill workflow using the Cloud Automation node.
+Hornbill provides integration connectors with HP Operations Orchestration and Microsoft Orchestrator. This allows you to plug in with your 'HP Operations Orchestration or Microsoft Orchestrator from a Hornbill workflow using the Cloud Automation node.
 
 ## HP Operations Orchestration Content Pack
 
@@ -55,7 +55,7 @@ The flows within the Content Pack use three System Properties to identify the Ho
 Once the Content Pack has been imported, and the System Properties have been configured, please see the description against each flow for more information about the flow, its inputs/outputs, and the APIs that they use.
 
 :::note
-Any number of HPOO Connectors are currently supported so if you multiple HP OO Servers you need to connect to these can all be added just make sure to give each one an identifiable title so that they are easily selected from the Integration Node.
+Any number of HPOO Connectors are currently supported so if you have multiple HP OO Servers you need to connect to these can all be added just make sure to give each one an identifiable title so that they are easily selected from the Integration Node.
 :::
 
 ## Microsoft Orchestrator

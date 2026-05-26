@@ -160,23 +160,23 @@
         </tr>
         <tr>
             <td style="text-align:left; white-space: nowrap;"><code>uuid(<em>[type]</em>)</code></td>
-            <td style="text-align:left">Will generate a UUID value.  If type=normal this will generate a UUID that is unique.  Of type=secure then this will generate a UUID that cannot be traced to specific system attributes such as the Ethernet address of the computer on which it was generated.</td>
+            <td style="text-align:left">Will generate a UUID value.  If type=normal this will generate a UUID that is unique.  If type=secure then this will generate a UUID that cannot be traced to specific system attributes such as the Ethernet address of the computer on which it was generated.</td>
         </tr>
         <tr>
             <td style="text-align:left; white-space: nowrap;"><code>sess(<em>prop_name</em>)</code></td>
-            <td style="text-align:left">Will generate a string who's value is obtained from a the named session variable.</td>
+            <td style="text-align:left">Will generate a string whose value is obtained from a the named session variable.</td>
         </tr>
         <tr>
             <td style="text-align:left; white-space: nowrap;"><code>param(<em>param_name</em>)</code></td>
-            <td style="text-align:left">Will generate a string who's value is obtained from a parameter passed into the API being called that causes the autoVal to be generated.</td>
+            <td style="text-align:left">Will generate a string whose value is obtained from a parameter passed into the API being called that causes the autoVal to be generated.</td>
         </tr>
         <tr>
             <td style="text-align:left; white-space: nowrap;"><code>rec(<em>column_name</em>)</code></td>
-            <td style="text-align:left">Will generate a string who's value is obtained from a the database column related to the table where this auto-val is being used.</td>
+            <td style="text-align:left">Will generate a string whose value is obtained from a the database column related to the table where this auto-val is being used.</td>
         </tr>
         <tr>
             <td style="text-align:left; white-space: nowrap;"><code>tick()</code></td>
-            <td style="text-align:left">Returns high (microsecond) or low (milisecond) resolution tick count value for precision time stamp generation. You would use this in cpombination with an epoc time to compose a precision timestamp.  For example <code>{udate(epoch)}{tick(uM,6)}</code>.</td>
+            <td style="text-align:left">Returns high (microsecond) or low (millisecond) resolution tick count value for precision time stamp generation. You would use this in combination with an epoch time to compose a precision timestamp.  For example <code>{udate(epoch)}{tick(uM,6)}</code>.</td>
         </tr>
     </tbody>
 </table>

@@ -40,7 +40,7 @@ Once translation mode is enabled, each string that allows for a translation to b
     * **Reset.** Returns the string's translation to its original default value.
     * **Suggest Translation.** Performs a Google Translate to automatically populate the `To` box.
 
-Once you have saved the translation, and it will be visible to everyone using that language.
+Once you have saved the translation, it will be visible to everyone using that language.
 
 ![Translation Dialog Box](/_books/esp-config/localization/images/translation-dialog.png)
 

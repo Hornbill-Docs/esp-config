@@ -1,6 +1,6 @@
 # Defining Input Mask
 
-Adding masking to input will enforce user to provide value in expected format.
+Adding masking to input will enforce the user to provide a value in the expected format.
 
 ## Default masking definitions
 
@@ -29,7 +29,7 @@ There are also predefined ready to use mask aliases:
 
 Full phone number leading with country number: <br />
 ``+(99[9]) 999-999-999[9]`` <br />
-[] means that content inside it optional. 
+[] means that content inside is optional. 
 
 Valid values: <br />
 **+(44) 123-456-789** <br />

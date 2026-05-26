@@ -57,7 +57,7 @@ These are the available variables:
 * user.email
 * user.handle
 * user.jobTitle
-And these needs to be wrapped in double curly braces {{ }}.
+These need to be wrapped in double curly braces {{ }}.
 
 ## Add Widgets
 * **Available Widgets**<br>This displays a list of available widgets for the currently selected application. From this section you can use your mouse to drag and drop the widget to the Page Widgets section to add the widget to the current page.
@@ -68,7 +68,7 @@ And these needs to be wrapped in double curly braces {{ }}.
     :::
 
 ## Page Widgets
-This lists the widgets that have aready been added to the page.  From here, each widget can be configured, sized, and if needed hidden by using the displayed options when hovering over each widget.
+This lists the widgets that have already been added to the page.  From here, each widget can be configured, sized, and if needed hidden by using the displayed options when hovering over each widget.
 
 ### Hide Widget
 Use the eye icon to decide if the widget should be visible on the page. This feature is useful if you are editing your page and you don't want to delete and remove a widget from the page, but you also don't want it visible.

@@ -13,7 +13,7 @@ Click on an app to see more details about the app.
 * **Latest Changes**<br>You can view the latest updates to each application, including what's new, changed and fixed. If there is a pending update, the most recently displayed changes will not be applied until the update has been performed.
 
 ### Road Map
-Get a peak at some of the planned features for each app.
+Get a peek at some of the planned features for each app.
 * **Incoming**<br>Features that have been agreed on and incorporated into our roadmap, but no timeframes allocated.
 * **90 Day Commit**<br>Features that have been committed for work to start within 90 days of being added.
 * **In Progress**<br>Features that are currently under development

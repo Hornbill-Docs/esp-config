@@ -48,7 +48,7 @@ Each field on the user profile has a number of properties that can be changed.  
 As part of designing the user profile form, you may want to change some of the labels or provide translations into different languages.  There are three different ways to achieve this.
 
 * Within the properties of a field you can change the field label.  This change will apply only to the language that you are currently using.  By changing your session language you can update the translations for that language.
-* Enable Translation Mode.  This give you a more flexible means to change the field label into other languages directly on the user interface.  This method also provides an option for suggested translations.
+* Enable Translation Mode.  This gives you a more flexible means to change the field label into other languages directly on the user interface.  This method also provides an option for suggested translations.
 * Update the translations using the [User Interface Translations](/esp-config/localization/user-interface-translations#translations)
 
 :::tip

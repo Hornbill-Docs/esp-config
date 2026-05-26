@@ -10,7 +10,7 @@ Introduction The **IT Automation** node is used to execute an ITOM package opera
 2. From a connection arrow, drag out a new connection line
 3. Select _IT Automation_
 
-* From a Connection Line between to nodes
+* From a Connection Line between two nodes
 
 1. Select the Connection Line and Right Click
 2. Select _Add node between connected nodes_ from the context menu

@@ -65,12 +65,12 @@ The **Status** tab provides an overview of your mailbox folders, including messa
 * **Empty Folder:** You can permanently delete all messages in a specific folder. Use this option carefully, as deleting messages may remove access to emails linked to specific tasks or records.
 
     :::tip
-    [Advanced sytem settings](/esp-config/advanced-tools-and-settings/advanced-system-settings) are availble to automatically purge the **Deleted Items** and **Sent Items** folders after a selected period of time. These settings are `emails.purgeDeletedItemsAfter` and `emails.purgeSentItemsAfter`.
+    [Advanced system settings](/esp-config/advanced-tools-and-settings/advanced-system-settings) are available to automatically purge the **Deleted Items** and **Sent Items** folders after a selected period of time. These settings are `emails.purgeDeletedItemsAfter` and `emails.purgeSentItemsAfter`.
     :::
 
 ## Associated roles
 
-To give your team access to the mailbox, you must create associate a custom role.
+To give your team access to the mailbox, you must create and associate a custom role.
 
 ### Steps to associate a role
 

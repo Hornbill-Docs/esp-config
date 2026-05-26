@@ -21,7 +21,7 @@ To work with custom buttons the following roles need to be considered.
 
 ### Creating a Custom Button
 
-Entities that support custom buttons will display a cog button ![Cog Button](/_books/esp-config/images/configuration-button.png) on the right-hand side of the title bar.  This will only be visible to uses with the Form Designer role. Click on this cog to add a new custom button.
+Entities that support custom buttons will display a cog button ![Cog Button](/_books/esp-config/images/configuration-button.png) on the right-hand side of the title bar.  This will only be visible to users with the Form Designer role. Click on this cog to add a new custom button.
 
 * **Label**. Provide a label for the new custom button.
 * **Icon**. Optionally choose an icon to represent and sit alongside the custom button label on the entity form.

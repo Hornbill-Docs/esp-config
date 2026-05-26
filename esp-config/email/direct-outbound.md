@@ -28,7 +28,7 @@ When viewing the email the delivery status is displayed for each recipient as a 
 * Green - delivered
 * Red - failed
 
-You can click on each envelop and use the following options.
+You can click on each envelope and use the following options.
 
 * **Delivery status:** This will display a detailed log of the delivery status.
 * **Resend:** If an email has not been sent due to a temporary issue that has since been fixed, you can use the `Resend` option to try to send the email again. After selecting `Resend` the email status will change to pending.

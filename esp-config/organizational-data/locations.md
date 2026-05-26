@@ -54,7 +54,7 @@ The `Upload Locations` option will allow you to upload multiple location records
 |Country|h_country|The country where the location is. The value expected is the [ISO 3166 alpha 2 country code](https://www.iso.org/obp/ui/). For example United Kingdom = GB, United States = US.|
 |Phone|h_phone_number|The main phone number for the location.|
 |Fax|h_fax_number|The main fax number for the location.|
-|Notes|h_notes|Any other information you feel is necessary to hold against a location record. This field as a maximum 2000 characters|
+|Notes|h_notes|Any other information you feel is necessary to hold against a location record. This field has a maximum 2000 characters|
 
 :::note
 Please note that the `Upload Locations` is designed to create new locations, and cannot be used to manage changes to existing locations.

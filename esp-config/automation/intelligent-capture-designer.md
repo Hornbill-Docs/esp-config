@@ -42,7 +42,7 @@ Using this node will in effect, continue from the initial capture workflow into 
 
 ## Sharing and visibility
 
-Intelligent Capture owners will be able to view their own captures scripts as well as capture scripts that have been shared with them from the capture workflow list.
+Intelligent Capture owners will be able to view their own capture scripts as well as capture scripts that have been shared with them from the capture workflow list.
 
 When creating or editing a capture, it is possible via the Manage Process Settings and Grant Access To option to share your process with:
 

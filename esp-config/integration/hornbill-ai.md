@@ -13,7 +13,7 @@ To manage any aspect of Hornbill AI on your instance, your User Account must be 
 |Admin|This role provides administrative functionality to the Hornbill platform and should only be granted to an administrator.|
 |HAi Manager|This role should only be used for managing HAi configurations.|
 
-**Note:** Applications may extend Hornbill AI functionality and have addition roles to manage application specific settings.
+**Note:** Applications may extend Hornbill AI functionality and have additional roles to manage application specific settings.
 
 ## Usage Dashboard
 
@@ -21,7 +21,7 @@ The usage dashboard shows real time metrics for monitoring the usage of Hornbill
 
 ### Savings Calculations
 
-Every feature within Hornbill AI has a distinct savings calculation built in which is evaluated in real time and stored in the Usage Log, as minutes. An over simplification would be that based on each task i.e summarizing a request or generating a customer reply, and estimate of the time saved is calculated using the size of the request being summarized or the amount of text generated.
+Every feature within Hornbill AI has a distinct savings calculation built in which is evaluated in real time and stored in the Usage Log, as minutes. An over simplification would be that based on each task i.e summarizing a request or generating a customer reply, an estimate of the time saved is calculated using the size of the request being summarized or the amount of text generated.
 
 For example, a long request being summarized uses the length of text that makes up the request history being summarized and the average rate at which a human can read and understand text to get an approximate value for time saved.
 
@@ -60,7 +60,7 @@ Unlike AI-Assist which does not log its usage, HAi Usage is logged so customers 
 
 ## HAi Service Providers
 
-The Hornbill provides seamless integration with available AI Service Providers, including OpenAI and Azure AI. Hornbill ESP's integration layer makes AI services available to applications and features in Hornbill in a way that is abstracted from any specific AI service provider.  This allows each customer to choose specific AI services providers and in some cases even specific AI models.  The Hornbill ESP platform makes integration with AI service providers a simple point and click exercise, we implement real time result streaming providing modern real-time service integrations for optimal user experience when making use of HAi features.  
+Hornbill provides seamless integration with available AI Service Providers, including OpenAI and Azure AI. Hornbill ESP's integration layer makes AI services available to applications and features in Hornbill in a way that is abstracted from any specific AI service provider.  This allows each customer to choose specific AI services providers and in some cases even specific AI models.  The Hornbill ESP platform makes integration with AI service providers a simple point and click exercise, we implement real time result streaming providing modern real-time service integrations for optimal user experience when making use of HAi features.  
 
 ### Available Providers
 
@@ -74,7 +74,7 @@ The Following HAi Service Providers are currently available (as of 11/2024):
 |Microsoft Azure (EU)|Premium|Integration with AI Services provided by Microsoft, with all data processing done in EU data centers operated by Microsoft. Hornbill picks up the bill for all usage for this service provider option|
 |Microsoft Azure (Customer Provided)|Premium|You can choose to provide credentials to your own registered Microsoft Azure account, which gives you full access to the Microsoft Azure AI services reporting, statistics and usage restrictions controls that the Microsoft Azure AI service provides.|
 
-You can find HAi Service Providers by selecting the Cog in the lower left, switching the drop down in the top right to **Platform Configuration** and selecting **HAi Services** under Integration, you will need the **Admin Role** or a custom role with **Mange Integrations System Rights** to access this view.
+You can find HAi Service Providers by selecting the Cog in the lower left, switching the drop down in the top right to **Platform Configuration** and selecting **HAi Services** under Integration, you will need the **Admin Role** or a custom role with **Manage Integrations System Rights** to access this view.
 
 ![HAi Service Providers](/_books/esp-config/images/hai-service-providers.png)
 

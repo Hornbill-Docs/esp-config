@@ -8,7 +8,7 @@ Hornbill is designed to interoperate with public and enterprise class e-mail sys
 | **POP3** |   |   | 110 | Defined in RFC 2595  |
 | **POP3** |   | 995 |   | Full description is “pop3 protocol over TLS/SSL (was spop3)  |
 | **IMAP4** | 143 |   |   | IMAP Version 4 as defined in RFC 2060  |
-| **IMAP4** |   | 993 |   | Full description is “imap4 protocol over TLS/SSL”. Use this port instead of the now depreciated TCP port 585 “imap4-ssl”.  |
+| **IMAP4** |   | 993 |   | Full description is “imap4 protocol over TLS/SSL”. Use this port instead of the now deprecated TCP port 585 “imap4-ssl”.  |
 | **IMAP4** |   |   | 143 | Using TLS explicit STARTTLS with IMAP Version 4 as defined in RFC 2595  |
 | **SMTP** | 25 |   |   | Incoming SMTP mail, generally the mail server will not route mail outside of the internal mail network so the mail server can not be used as a spam distributor.  This is generally were most mail-related security restrictions are placed for incoming mail.  |
 | **SMTP** |   | 465 |   | The use of this port has become a typical port for accepting incoming mail over SSL. Port 465 for SMTPS shows up in Appendix A of the 1996 "SSL Protocol Version 3.0" draft-standard published by Netscape hereThe SSL Protocol Version 3.0. Unfortunately, the use of this port never became a standard, the port is not registered with the IANA for SMTPS, it’s instead registered for URD – “URL Rendezvous Directory for SSM” by Cisco. So while port 465 may be used in some places the recommended approach is to use TLS encryption (STARTTLS) on submission port 587 or standard port 25 instead.  |

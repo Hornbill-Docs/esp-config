@@ -25,7 +25,7 @@ To access any of the settings described in this document, open [Configuration](/
 ### User Password Policy Settings
 |Name|Description|Default|
 |-|-|-|
-|security.user.passwordPolicy.checkBlacklists|Checks the password blacklists* to make sure the password is not excluded form use on this system|Off|
+|security.user.passwordPolicy.checkBlacklists|Checks the password blacklists* to make sure the password is not excluded from use on this system|Off|
 |security.user.passwordPolicy.checkPersonalInfo|Checks to make sure that the password does not contain the users ID or name|Off|
 |security.user.passwordPolicy.excludedPasswords|A list of comma-separated passwords that are not allowed to be used. The check against this list is done in a case-insensitive manner.|None|
 |security.user.passwordPolicy.minimumLength|The minimum length a password must be. Set to ZERO to disable minimum length enforcement|8|
@@ -42,7 +42,7 @@ To access any of the settings described in this document, open [Configuration](/
 ### Guest Password Policy Settings
 |Name|Description|Default|
 |-|-|-|
-|security.guest.passwordPolicy.checkBlacklists|Checks the password blacklists* to make sure the password is not excluded form use on this system|Off|
+|security.guest.passwordPolicy.checkBlacklists|Checks the password blacklists* to make sure the password is not excluded from use on this system|Off|
 |security.guest.passwordPolicy.checkPersonalInfo|Checks to make sure that the password does not contain the users ID or name|Off|
 |security.guest.passwordPolicy.excludedPasswords|A list of comma-separated passwords that are not allowed to be used. The check against this list is done in a case-insensitive manner.|None|
 |security.guest.passwordPolicy.minimumLength|The minimum length a password must be. Set to ZERO to disable minimum length enforcement|8|

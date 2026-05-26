@@ -25,7 +25,7 @@ Clicking on any of the available log files will give you access to all the trans
 The log files can be filled with important information that includes both successful transactions as well as errors.
 
 ## Severity
-A number of Severity Levels are provide to allow you to filter down on the type of transactions that are important to you.
+A number of Severity Levels are provided to allow you to filter down on the type of transactions that are important to you.
 * Emergency
 * Alert
 * Critical

@@ -4,7 +4,7 @@
 
 The customer portal is a feature of the Hornbill solution designed to allow your external contacts to interact with your Hornbill instance. Typically this is used in the context of you, as the owner of the Hornbill instance, providing support services to your external customers. Please note, external customers are identified in the Hornbill solution as "contacts" and these are a distinctly separate from your employees, where you may be providing internal support. The Customer portal is designed for external users only. 
 
-Because the Customer Portal is designed to provide you with a portal that gives your customers access to the support services you provide, an important element of the portal is the ability to customize its appearance in order to blend the portal into your companies own brand design language. Every aspect of the portal is customizable, including logo, color scheme and aspects of layout and content.  Beyond appearance of the pages that make up the portal its self, it's often highly desirable to have the portal presented on your own brands domain name, making it easier for your customer to locate the portal and identify it's from you by the URL/link you may provide to it. The Custom Domain capabilities allows you to achieve this.
+Because the Customer Portal is designed to provide you with a portal that gives your customers access to the support services you provide, an important element of the portal is the ability to customize its appearance in order to blend the portal into your company's own brand design language. Every aspect of the portal is customizable, including logo, color scheme and aspects of layout and content.  Beyond appearance of the pages that make up the portal its self, it's often highly desirable to have the portal presented on your own brands domain name, making it easier for your customer to locate the portal and identify it's from you by the URL/link you may provide to it. The Custom Domain capabilities allows you to achieve this.
 
 ## What You Need to Know Before Configuring a Custom Domain
 
@@ -51,7 +51,7 @@ In order to set up a custom domain, you need to configure the following things: 
 
 ## It May Be Really Simple
 
-If your domain is already hosted on Cloudflare, Akamai, Amazon Cloudfront or one of the many other major front end services, your SSL certs may already be in place and usable. If this is the case, all you really need to do is choose your custom sub-domain and add a single CNAME record into your DNS, then add the custom domain to your portal configuration in Hornbill and thats it. 
+If your domain is already hosted on Cloudflare, Akamai, Amazon Cloudfront or one of the many other major front end services, your SSL certs may already be in place and usable. If this is the case, all you really need to do is choose your custom sub-domain and add a single CNAME record into your DNS, then add the custom domain to your portal configuration in Hornbill and that's it. 
 
 ![dns cname config](/_books/esp-config/customize/customer-portal/images/dns-cname-example.png)
 
@@ -81,11 +81,11 @@ Assuming everything is configured correctly, you should now be able to enter you
 ## Current Limitations
 - Only a single custom domain is supported for your customer portal.
 - Hornbill does not have any ability to host or manage your SSL certificates, you either need to host these yourself or use a front end network provider like Cloudflare for that. 
-- Hornbills origin servers are not designed for high traffic volumes for direct traffic serving, if we detect that type of traffic we may well block it, these servers are specifically for use Origin duties only, and should be used for the sole purpose of acting as the origin source for front end content delivery networks or caching proxy servers. 
+- Hornbill's origin servers are not designed for high traffic volumes for direct traffic serving, if we detect that type of traffic we may well block it, these servers are specifically for use Origin duties only, and should be used for the sole purpose of acting as the origin source for front end content delivery networks or caching proxy servers. 
 
 ## Troubleshooting
 
-As mentioned above, it is beyond the scope of Hornbill's normal support services or expertise to provide technical support or assistance with troubleshooting your custom domain configuration. This is because most of the configuration effort goes into systems that are completely outside of Hornbill and these external systems can be configured in many different ways, using many different software tools, packages and services, and much of the configuration in these areas are generally dictated by your own companies security and web hosting policies and practices. It is incredibly important that you have the support of your people/team/experts in planning and configuring a custom domain name for the Hornbill Customer Portal.
+As mentioned above, it is beyond the scope of Hornbill's normal support services or expertise to provide technical support or assistance with troubleshooting your custom domain configuration. This is because most of the configuration effort goes into systems that are completely outside of Hornbill and these external systems can be configured in many different ways, using many different software tools, packages and services, and much of the configuration in these areas are generally dictated by your own company's security and web hosting policies and practices. It is incredibly important that you have the support of your people/team/experts in planning and configuring a custom domain name for the Hornbill Customer Portal.
 
 Hornbill does have specialist expert services capabilities, but we have limited resources and charge for these services.  So if you really do need Hornbill to get involved and assist you in configuring this, we can do that, but it will be chargeable work, and will likely involve subject matter experts that do not sit within our support or expert services teams.  Contact us if you need help.  Otherwise, we have aimed to set out everything you/your experts need to know in order to configure this successfully. 
 
@@ -94,7 +94,7 @@ If you have questions/clarifications about anything in this document, please use
 
 ## Frequently Asked Questions
 
-#### Once configured, would it still be possible to use the hornbill provided url for access the customer portal?
+#### Once configured, would it still be possible to use the hornbill provided url for accessing the customer portal?
 > Yes, the Hornbill provided endpoint https://customer.hornbill.com/_<your_instance_id>_ will continue to work as normal.
 
 #### Is it possible to have the service portal appear to be in a sub-folder on my website, for example https://www.mycompany.com/support ?

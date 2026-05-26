@@ -82,7 +82,7 @@ Hornbill has provided a Intelligent Web App (PWA) to give users a fast and UI ri
 
 ## Settings
 
-These settings can plan a key role in how you first introduce the Employee Portal to your users. Make sure you are familiar with these settings and when to use them.
+These settings can play a key role in how you first introduce the Employee Portal to your users. Make sure you are familiar with these settings and when to use them.
 
 * **Users to preview the Employee Portal:** This is an important first step to setting up your Employee Portal. This setting allows you to add a list of comma-separated user names of people you want to have access to the Employee Portal. This allows you to have one or more people test and provide feedback on the Employee Portal design before you open it up to all users. Changing this setting will also be one of your last steps. Once you have completed your configuration and you are ready to make it available to all users, simply remove these names. Once the list of names is empty, it becomes available to everyone.
 * **Enable Employee Portal:** Turning this setting to On will make a new navigation menu item `My Company` available in the Home menu on the main Hornbill web app. If you have provided one or more names in the previous setting, only those users will see the menu item.

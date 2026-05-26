@@ -3,7 +3,7 @@ layout: article-toc
 ---
 # Advanced System Settings
 
-The Advanced Settings provides access to all of the available settings within your instance. These offer serveral detailed configuration options to configure your instance just the way that you want it. Some of these settings can also be managed from within other areas of the Administration interface or from the Hornbill Client. Before changing a setting, it is important to understand how the setting is used in order to prevent any disruption on your instance.
+The Advanced Settings provides access to all of the available settings within your instance. These offer several detailed configuration options to configure your instance just the way that you want it. Some of these settings can also be managed from within other areas of the Administration interface or from the Hornbill Client. Before changing a setting, it is important to understand how the setting is used in order to prevent any disruption on your instance.
 
 ![Advanced System Settings](/_books/esp-config/images/advanced-system-settings.png)
 

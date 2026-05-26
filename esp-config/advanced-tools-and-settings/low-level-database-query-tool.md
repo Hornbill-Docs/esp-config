@@ -5,7 +5,7 @@ layout: article-toc
 The Low-Level Database Query Tool, also known as Database Direct, is an advanced debugging feature of the Hornbill Platform that allows you to query the underlying application database using Structured Query Language (SQL) statements. Every Hornbill instance incorporates this feature however it is not enabled by default and its use is not encouraged. This feature is intended for advanced users only to support diagnostics of issues and problems. 
 
 :::warning
-This function of the Hornbill platform is disabled and protected behind a super-user privilege level because it exposes some inherent security risks with regards to accessing data a user may not be authorized to access.  As a result this feature is likely to be depreciated in the future.  The platform, and our cloud operations and support capabilities have matured beyond the point where this is beneficial, there are no use-0cases where its really necessary to access the underlying database in this way. 
+This function of the Hornbill platform is disabled and protected behind a super-user privilege level because it exposes some inherent security risks with regards to accessing data a user may not be authorized to access.  As a result this feature is likely to be deprecated in the future.  The platform, and our cloud operations and support capabilities have matured beyond the point where this is beneficial, there are no use cases where it's really necessary to access the underlying database in this way. 
 :::
 
 ## Before you begin

@@ -1,6 +1,6 @@
 # Form Field - Data Binding
 
-The data binding property allows you to specify another custom form field that you want to overwrite when setting this fields value. 
+The data binding property allows you to specify another custom form field that you want to overwrite when setting this field's value. 
 
 So for example if you have a custom form with id of "FormA" and in it a field with id of "CustomerID". To overwrite the value captured in that form you would set the data binding in this field to FormA.CustomerID
 

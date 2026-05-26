@@ -95,7 +95,7 @@ When you configure automatic certificate renewal, you may or may not get one or 
 Certificates that have expired are marked as "expired" and will be displayed in red to indicate this, and are no longer used for verification. Expired certificates are left on the SSO profile for 180 days, after which time, the expired certificates are automatically, and permanently deleted from the SSO profile.
 
 :::tip
-When auto certificate renewal is enabled, Hornbill will check for new certificates once ever 24 hours. You can check this manually at any time by pressing the reload button here:
+When auto certificate renewal is enabled, Hornbill will check for new certificates once every 24 hours. You can check this manually at any time by pressing the reload button here:
 ![SAML Metadata Reload](/_books/esp-config/security/images/sso-cert-check.png)
 :::
 

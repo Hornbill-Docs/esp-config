@@ -47,7 +47,7 @@ A user's overall privilege level is determined by the highest privilege level of
 
 ## System roles
 
-There are a number of roles that are provided with Hornbill.  These roles are read-only and contain a set rights for performing a particular set of tasks.  Additional rights cannot be added.
+There are a number of roles that are provided with Hornbill.  These roles are read-only and contain a set of rights for performing a particular set of tasks.  Additional rights cannot be added.
 
 System roles can be easily identified in the list of roles by the closed padlock icon.
 
@@ -58,7 +58,7 @@ System roles can be easily identified in the list of roles by the closed padlock
 |Advanced Reporting Admin|This role grants the ability to manage, create, edit and delete reporting measures, widgets, dashboards, slideshow and advanced reporting using tables and entities. Advanced reporting relies on standard SQL SELECT statements for the report definition, so requires a comfortable knowledge of SQL and underlying database schema.|user|
 |Anonymous Guest|This role grants the rights limited guest access without a registered account. Used for integrations.|none|
 |Authorized Guest|This role grants the rights to guest users that have been authenticated.|guest|
-|Basic User Role|This role provide very limited, mostly read-only access to the system to support co-worker self-service users.|basic|
+|Basic User Role|This role provides very limited, mostly read-only access to the system to support co-worker self-service users.|basic|
 |Business Process Manager|This role grants the rights to define business process workflows.|user|
 |Contacts Admin|This role grants the rights to add, edit and delete contacts as well as customize portals.|user|
 |Coworker Lifecycle|This role grants the rights to design and use the lifecycle button on the coworkers page.|user|

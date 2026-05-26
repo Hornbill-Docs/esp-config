@@ -1,12 +1,12 @@
 # Cloud Automation
 
-The Cloud Automation node can be invoked from the workflow designer and is used to call either iBridge automations, HP Operations Orchestration Flows. or Microsoft Orchestrator Runbooks
+The Cloud Automation node can be invoked from the workflow designer and is used to call either iBridge automations, HP Operations Orchestration Flows, or Microsoft Orchestrator Runbooks
 
 ## Adding the Cloud Automation Node
 
 1. From an existing Node within your workflow, place your mouse pointer over this node to expose the connection arrows.
 1. From a connection arrow, drag out a new connection line
-1. Release you left mouse button to display the Node Selection menu
+1. Release your left mouse button to display the Node Selection menu
 1. Select Cloud Automation
 
 :::info
@@ -47,11 +47,11 @@ If using the Hornbill Integration Bridge, once a method has been selected, you w
 
 ### Parameters
 
-Each Method will have a set of specific request parameters (Inputs). These are the inputs that you can pass to the solution you are integrating too.
+Each Method will have a set of specific request parameters (Inputs). These are the inputs that you can pass to the solution you are integrating with.
 
 * Request Parameters marked with the red Mandatory marker must be populated
 * You can use the Variable Picker on request parameter fields to pass in variable values from request attributes such as Intelligent Capture Answers, Custom Field Values, Task Outcomes, Request Service, and Customer attributes.
-* Depending on the method chosen, the request parameter fields may contain Data Provider values from the solution you are integrating too, for example, in ServiceNow LogIncident, the actual State, Impact, and Urgency values from the ServiceNow Instance specified in the chosen Request Credentials will be available to you to choose from.
+* Depending on the method chosen, the request parameter fields may contain Data Provider values from the solution you are integrating with, for example, in ServiceNow LogIncident, the actual State, Impact, and Urgency values from the ServiceNow Instance specified in the chosen Request Credentials will be available to you to choose from.
 
 ### Response Parameters
 

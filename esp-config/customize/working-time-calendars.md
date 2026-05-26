@@ -6,7 +6,7 @@ The Working Time Calendars define the working or operational hours which can the
 
 ## Before you begin
 * You should be familiar with how to use [Configuration](/esp-config/getting-started/using-configuration).
-* You will need the Admin or Super User role to manage all aspects of the working time calenders.
+* You will need the Admin or Super User role to manage all aspects of the working time calendars.
 * Limited access can be provided to users by adding one or more of the following rights to a [user created role](/esp-config/organizational-data/roles#user-created-roles).
     * Manage Working Time Calenders
     * Create Working Time Calendar

@@ -10,7 +10,7 @@ Register, manage, and remove devices from your Hornbill Account.
 All registered devices will be listed under the devices tab. Edit or remove the devices from your account using the remove or edit links accordingly.
 
 ### Authentication
-Use this option to manage and change your Hornbill Password or enable 2 factor authentication
+Use this option to manage and change your Hornbill Password or enable two-factor authentication
 
 :::tip
 This option will not be relevant if your company has enabled transparent single sign on and is using your directory service (AD etc) password to authenticate your access to the Hornbill Service.
@@ -30,8 +30,8 @@ This option will not be relevant if your company has enabled transparent single 
 Configure your personal notification preferences for the collaborative features of Hornbill, Use the Enable toggle to decide which actions you would like to receive a Hornbill Notification for.
 
 * **Desktop**<br>Toggle this option on against for actions you would like to receive a browser desktop notification for, as well as the Hornbill notification.
-* **Activity Steam and Timeline**<br>Choose if you would like to receive Hornbill notifications for new Posts, Comments, changes to Comments, when Posts or Comments are Liked or UnLiked on Activities Streams and Timelines you are following or are a member of (Workspaces, Buzz etc).
-* **Wall**<br>Choose if you would like to be notified if someone follow's or unfollows you
+* **Activity Stream and Timeline**<br>Choose if you would like to receive Hornbill notifications for new Posts, Comments, changes to Comments, when Posts or Comments are Liked or UnLiked on Activities Streams and Timelines you are following or are a member of (Workspaces, Buzz etc).
+* **Wall**<br>Choose if you would like to be notified if someone follows or unfollows you
 * **Workspaces**<br>Choose if you would like to be notified if users are added or removed from workspaces you are a member of, or if such workspaces are deleted.
 * **Document**<br>Choose if you want to be notified about activity on documents which are shared with you
 * **Conversation**<br>Choose if you want to be notified about new participants being added to conversations you are a member of, or when new posts have been made to them.

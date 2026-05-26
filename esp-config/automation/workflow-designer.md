@@ -21,7 +21,7 @@ The Workflow Designer lets you define and build workflows that can then be used 
 * **Process Publishing & Activation**: Clicking this option will allow you to publish the workflow, using the latest draft version. You are also able to activate one of the previous 10 versions of the workflow or copy them back to the draft version.
 * **Copy process**: Create an identical copy of this workflow.
 * **Rename process**: Rename this workflow. This can only be done when the workflow has no executed processes with a status of active or suspended. Use the Manage Executed Processes option to identify and manage these executed processes.
-* **Delete process**: Delete this workflow. This can only be done when the workflow as no executed processes with a status of active or suspended. Use the Manage Executed Processes option to identify and manage these executed processes.
+* **Delete process**: Delete this workflow. This can only be done when the workflow has no executed processes with a status of active or suspended. Use the Manage Executed Processes option to identify and manage these executed processes.
 
 ## Stages
 
@@ -59,11 +59,11 @@ The via node serves no functional purpose, but can be used in the designer, betw
 
 ### Start
 
-The Start Node indicates the starting point of the workflow. There are no parameters and you can can only have one per stage.
+The Start Node indicates the starting point of the workflow. There are no parameters and you can only have one per stage.
 
 ### Hornbill Automation
 
-Hornbill Automations are definable automated actions that will occur within the workflow. The available Hornbill Automation are provided by each application that utilizes workflows. Each application can provide automated tasks.
+Hornbill Automations are definable automated actions that will occur within the workflow. The available Hornbill Automations are provided by each application that utilizes workflows. Each application can provide automated tasks.
 
 ### Authorization
 

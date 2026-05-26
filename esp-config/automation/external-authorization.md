@@ -35,7 +35,7 @@ When a recipient receives an external email authorization, the email will contai
 
 ![External Authorization](/_books/esp-config/images/external-authorization-email.png)
 
-* The recipient does not need to login to any interface to complete their external authorization
+* The recipient does not need to log in to any interface to complete their external authorization
 * The web page is currently available in English
 * The recipient needs to select an outcome to progress the external authorization
 * If a reason has been mandated for the chosen outcome, the recipient will be required to provide the reason before completing the external authorization

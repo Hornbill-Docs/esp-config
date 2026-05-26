@@ -18,7 +18,7 @@ What it means: This message refers to default Intelligent Capture forms (blue no
 
 ![Warning messages are yellow](/_books/esp-config/images/process-warnings.jpg)
 
-Warning messages will be displayed in yellow. A warning message may not have a detrimental effect on a Intelligent Capture design but it's important to identify the reason for the warning and understand if any corrective action is necessary. Some warnings will prevent the flow from being activated, however, others will still allow activation.
+Warning messages will be displayed in yellow. A warning message may not have a detrimental effect on an Intelligent Capture design but it's important to identify the reason for the warning and understand if any corrective action is necessary. Some warnings will prevent the flow from being activated, however, others will still allow activation.
 
 ## Error Messages
 

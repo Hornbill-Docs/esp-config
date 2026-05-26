@@ -45,7 +45,7 @@ The Regional Settings are the defaults for the Customer Portal on the login page
 
 * **Permissions**: Permissions are available to control self-registration and profile updates.
   * **Allows contacts to register themselves on this portal**: A new visitor to the customer portal will be able to register themselves and have immediate access to the Customer Portal.  This will create a new contact record in Hornbill.
-  * **Allow contacts to select their company as part of online registration**: When enabled the customer registration form on the portal will show an company select box. The select list is populated with company records that are marked as being visible on the registration page. Click on the ? icon for instruction on how to make an organization available in the select box.
+  * **Allow contacts to select their company as part of online registration**: When enabled the customer registration form on the portal will show a company select box. The select list is populated with company records that are marked as being visible on the registration page. Click on the ? icon for instruction on how to make an organization available in the select box.
   * **Allow contacts to reset their password**: Following registration, a temporary generated password may be provided to the contact. Enabling this will allow the contact to change this password.
   * **New guest registrations require authorization before they can log on**: Select this option if you require any registration to be authorized before allowing them to log in.
   * **Allow contacts to update their profile**: Turning this option `ON` will allow a contact to view and update their profile information.
@@ -58,7 +58,7 @@ This section allows you to configure the look and feel of the Customer Portal.
   * **Logo**: Add your company logo to the top banner of the Customer Portal. This field needs to contain a secure URL (https) to the image, which must be either a .png or .jpg.
   * **Logo Height**: Adjust the height of your logo for a perfect fit in the top banner.
   * **Home Page Image**: Using a URL, include a Home Page image. This URL must be public facing in order for external contacts to see this image. This field needs to contain a secure URL (https) to the image, which must be either a .png or .jpg. For best fit, the size of the image should be around 1024 x 768.
-  * **Home Page Image background color**: Can be used in either in place of an image or the background for a transparent image.
+  * **Home Page Image background color**: Can be used either in place of an image or as the background for a transparent image.
   * **Header color**: The color of the top navigation bar.
   * **Second Head color**: The color of the space between the navigation bar and the Home Page Image.
   * **Navbar Text color**: Text color for any text that appears in the top navigation bar.
@@ -70,7 +70,7 @@ This section allows you to configure the look and feel of the Customer Portal.
   * **Section Title (When not logged in)**: Set to 0 (zero) if you do not wish to include this title.
   * **Section Text**: Set to 0 (zero) if you do not wish to include this title.
 
-* **Social information**: This section lets you include links to your company's social media sites. Each included entry will be represented on the portal by is associated logo.
+* **Social information**: This section lets you include links to your company's social media sites. Each included entry will be represented on the portal by its associated logo.
   * **Twitter ID**: Add your company's Twitter ID. Enter 0 (zero) to hide.
   * **Linkedin ID**: Add your company's LinkedIn ID. Enter 0 (zero) to hide
   * **YouTube ID**: Add your company's YouTube Channel link. Enter 0 (zero) to hide

@@ -7,7 +7,7 @@ Hornbill Administration provides an interface which allows you to quickly and ea
 Currently, the LDAP user import is configured using this interface. Over the coming months, new versions of Hornbill's open-source import utilities will be released meaning that ultimately, all data import configurations will be managed from this interface.
 
 ## Creating a New Data Import Configuration
-While the various data import utilities require you to download an executable to be located, scheduled, and run from within your environment, the configuration is held securely in your Hornbill instance and is created and managed using Hornbill Administration. To begin creating a new configuration, login to Hornbill administration and navigate to Home > System > Data > Data Import Configurations.
+While the various data import utilities require you to download an executable to be located, scheduled, and run from within your environment, the configuration is held securely in your Hornbill instance and is created and managed using Hornbill Administration. To begin creating a new configuration, log in to Hornbill administration and navigate to Home > System > Data > Data Import Configurations.
 
 Click the button located to the top right of the list to create a new import.
 Give your import configuration a name.

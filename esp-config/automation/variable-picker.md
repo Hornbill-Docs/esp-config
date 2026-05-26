@@ -29,7 +29,7 @@ You can use the variable picker in most workflow nodes, including:
 The options available in the picker depend on the nodes you placed earlier in your workflow.
 
 * **Global Inputs** - Contains system-wide variables, such as `requestId`.
-* **Hornbill Automations** - Displays a list of Hornbill Automation nodes that preceeds the node being edited.  Each node can be expanded to access the variables provided.
+* **Hornbill Automations** - Displays a list of Hornbill Automation nodes that precede the node being edited.  Each node can be expanded to access the variables provided.
 * **Tasks** - Contains data from any tasks completed earlier in the current workflow stage, such as **Outcomes**, **Owner**, or **Completion Date**.
 * **Integrations** - Contains output parameters returned from integration nodes that precede the node being edited.
 

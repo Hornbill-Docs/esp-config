@@ -7,7 +7,7 @@ Hornbill supports two-factor authentication (2FA) for both user and guest accoun
 
 2FA can either be enabled for all accounts, or on an account-by-account basis.
 
-Hornbill provies 2FA either via an Emailed code or Authenticator App of users choice (For example Microsofts Authenticator or Google Authenticator) 
+Hornbill provides 2FA either via an Emailed code or Authenticator App of the user's choice (For example Microsoft's Authenticator or Google Authenticator) 
 
 ## Before you begin
 * Hornbill must have an [email domain](/esp-config/email/adding-an-email-domain#creating-an-email-domain) set up for outbound routing
@@ -37,9 +37,9 @@ To access any of the settings described in this document, open [Configuration](/
 
 ## 2FA mode optional
 When either the user or guest mode settings are set to `optional` the option to enable 2FA on an individual user account is available.
-* **Disabled**<br>2FAis not enabled.
+* **Disabled**<br>2FA is not enabled.
 * **Email**<br>2FA is enabled.  Authentication codes are sent to the users by email.
-* **Authenticator App**<br>2FA is enabled.  Authentication codes are available in the Authenticator App of user.
+* **Authenticator App**<br>2FA is enabled.  Authentication codes are available in the Authenticator App of the user.
 
 ### How to enable Email 2FA on a user account
 1. Using the Configuration search, type the name of the user to be changed to 2FA.
@@ -56,9 +56,9 @@ When either the user or guest mode settings are set to `optional` the option to 
 1. Select `Email`.
 
 ### How to enable 2FA on the Authenticator App
-Unlike Email which can be configured without the user,the Authenticator app requires the user to scan a QR code in the Authenticator app of their choice so must be completed by the user. 
+Unlike Email which can be configured without the user, the Authenticator app requires the user to scan a QR code in the Authenticator app of their choice so must be completed by the user. 
 1. Login as the User
-1. Goto the Users Profile Settings Authentication tab
+1. Go to the Users Profile Settings Authentication tab
 1. Change Type to Authenticator App
 1. Follow the On Screen prompts to Scan the QR code in your chosen Authenticator App then Enter the One time code in the fields provided
 

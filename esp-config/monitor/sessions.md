@@ -14,7 +14,7 @@ The sessions list includes all logged in accounts into Hornbill.  From here you 
 A single user can have a maximum of 5 sessions active at one time. Because of this, a single user name may show more than once under different session IDs.
 :::
 
-One or more sessions can be cleared by using the multi-select checkboxes and then clicking on the `X` button.  If a session is cleared for an active user, they will be presented withe a disconnection notice, at which point they can choose to reconnect and create a new session.
+One or more sessions can be cleared by using the multi-select checkboxes and then clicking on the `X` button.  If a session is cleared for an active user, they will be presented with a disconnection notice, at which point they can choose to reconnect and create a new session.
 
 By clicking on an individual session in the list, a detailed report of that session will be displayed, including 
 

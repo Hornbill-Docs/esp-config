@@ -82,7 +82,7 @@ Widgets live inside columns. You can add multiple widgets to a single column or 
 For the dashboard to display correctly:
 
 * Ensure that the total of all row heights equals 100% (or 99%, in the case of three rows).
-* Ensure that the total of all columns widths per row equals 100% (or 99%, in the case of three columns).
+* Ensure that the total of all column widths per row equals 100% (or 99%, in the case of three columns).
 
 ## Managing dashboard properties
 

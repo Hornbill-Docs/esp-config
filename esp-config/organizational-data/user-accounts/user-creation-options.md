@@ -1,5 +1,5 @@
 # Selecting the best method to create users
-This document looks at the different options and methods for adding users to Hornbill. Depending on your environment and requirements, there are several different approaches for adding users to Hornbil which can be anything from the manual creation of a single user to the automated provisioning of users from a scheduled import.
+This document looks at the different options and methods for adding users to Hornbill. Depending on your environment and requirements, there are several different approaches for adding users to Hornbill which can be anything from the manual creation of a single user to the automated provisioning of users from a scheduled import.
 
 ## Quick check
 * [I just need to create one user.](/esp-config/organizational-data/user-accounts/user-creation-options#create-an-individual-user-account)

@@ -2,7 +2,7 @@
 
 You can specify one or more API rules that will restrict access to specific API's, WebDAV resources and/or IP addresses where the API key use can originate from.
 
-If no rules are specified, then any API that the API key's associated user account has rights to invoked, can be called. If one or more API rules are defined, only API's that match these rules will be allowed, and the same in relation to WebDAV rules.
+If no rules are specified, then any API that the API key's associated user account has rights to invoke, can be called. If one or more API rules are defined, only API's that match these rules will be allowed, and the same in relation to WebDAV rules.
 
 Each API key rule is a simple string that can include DOS-style wildcards. Rules are evaluated until a match is found, if no match is found the API call is rejected.
 

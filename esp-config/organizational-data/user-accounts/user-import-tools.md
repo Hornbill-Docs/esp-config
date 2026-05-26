@@ -7,7 +7,7 @@ The most common way of managing accounts is by using an import and synchronizati
 These utilities provide a simple, safe, and secure way to create and update accounts in Hornbill and can be scheduled to run automatically using Windows Task Scheduler.
 
 ## Azure User Import Utility
-The connects to Hornbill and Azure in the cloud over HTTPS/SSL using a standard internet connection without the need to make any firewall configuration changes. 
+This connects to Hornbill and Azure in the cloud over HTTPS/SSL using a standard internet connection without the need to make any firewall configuration changes. 
 
 :::tip
 This utility employs the Azure Graph API to query the contents of Azure AD. If you would like to know more about this API and its capabilities, please refer to the relevant Microsoft documentation.

@@ -6,7 +6,7 @@ User templates are used to create a standard set of settings which can then be u
 
 ## Basic Information
 * **Template Name**<br>More than one template can be created. This will allow you to identify this particular template within the list of templates. When manually adding new users, these template names can be seen under the Create New User button.
-* **Type**<br>Select if the the new account will be a Basic or full User account
+* **Type**<br>Select if the new account will be a Basic or full User account
 
 ## Location
 * **Site**<br>Select the Site where the user will be located

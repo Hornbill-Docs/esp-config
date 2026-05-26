@@ -32,7 +32,7 @@ Only the first rule that matches the incoming message will be fired, this is why
 * If no rules match, the email will be sent to the inbox of the [Shared Mailbox](/esp-config/email/shared-mailboxes) that matches the `To` address.
 
 :::tip
-If a rule matches, but its action fails to to execute, no further rules will be checked, and the rule's fail action will be followed.
+If a rule matches, but its action fails to execute, no further rules will be checked, and the rule's fail action will be followed.
 :::
 
 ### Deleting a Rule
@@ -64,7 +64,7 @@ The following table lists the available variables and their purpose: -
 These variable names are case-sensitive when you reference them in your expressions. 
 :::
 
-In addition to the standard helper functions made available by the [ExpressLogic](/esp-fundamentals/reference-guides/express-logic) expression engine its self, the following additional email-specific functions are available to help with rule expressions.
+In addition to the standard helper functions made available by the [ExpressLogic](/esp-fundamentals/reference-guides/express-logic) expression engine itself, the following additional email-specific functions are available to help with rule expressions.
 
 |Function|Description|
 |:--|:--|

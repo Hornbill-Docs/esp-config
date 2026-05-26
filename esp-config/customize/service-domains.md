@@ -5,7 +5,7 @@ layout: article-toc
 Service Domains are used to define business areas where related services will be made available to users who will consume the services. Different Hornbill Apps have the ability to define their own Service Portfolio and the services that can be offered. Each of these services can then be allocated to a Service Domain. Examples of Service Domains may include IT, HR, and Facilities.
 
 ## Role
-Users will need the Service Domain Administrator role, in order to manager Service Domains
+Users will need the Service Domain Administrator role, in order to manage Service Domains
 
 ## Details
 
@@ -17,9 +17,9 @@ Users will need the Service Domain Administrator role, in order to manager Servi
 
 ### Settings
 * **Catalog**<br>This setting allows you to link the Service Domain to an existing Catalog.
-* **Icon**<br>This associates an icon to this particular Domain. This icon maybe be visible within some of the different company pages
+* **Icon**<br>This associates an icon to this particular Domain. This icon may be visible within some of the different company pages
 * **Enabled**<br>Once enabled, this Service Domain will be available on the company page. However, it will not become visible until there is a Domain Page created for it.
-* **Public**<br>If marked as public, the domain page linked to the domain, will be visible to all employee irrespective if they are subscribed to services linked to the domain.
+* **Public**<br>If marked as public, the domain page linked to the domain, will be visible to all employees irrespective of whether they are subscribed to services linked to the domain.
 If not marked as public, the linked domain page will only be visible to employees who are subscribed to services which are linked to the domain
 * **System Domain**<br>This a read only setting that distinguishes between Service Domains that are provided by Hornbill and those that are manually created by you. System Domains cannot be deleted.
 
@@ -33,8 +33,8 @@ A domain category allows you to associate one or more services to the category. 
 ## Domain Owners
 Domain Owners are given the rights to create and manage the pages that are displayed under this domain.
 
-* **Add Owners**<br>Type the name of the user that you with to make the owner. More than one owner can be assigned to a service domain. Admin users also need to be added if they wish to manage pages for this domain.
-* **Remove Owners**<br>Remove owners who are no longer needed access to manage the domain page.
+* **Add Owners**<br>Type the name of the user that you wish to make the owner. More than one owner can be assigned to a service domain. Admin users also need to be added if they wish to manage pages for this domain.
+* **Remove Owners**<br>Remove owners who no longer need access to manage the domain page.
 
 ::: tip
 Any service that exist in an application such as Hornbill Service Manager can be associated to a service domain using the appropriate fields that appear in the service details when creating or managing a service via the Service Portfolio. It's also possible to set a "Service Domain Category" too.
