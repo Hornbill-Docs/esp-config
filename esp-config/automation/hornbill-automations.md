@@ -132,9 +132,20 @@ Any user who is part of the group but doesn't have an email address set on their
 
 #### Options
 
-* **Group** - This is a mandatory option that needs to be set to Manual or Variable.  Setting to manual provides a picklist to select from.  Setting to variable requires a variable that contains the group ID.
+* **Group** - This is a mandatory option that needs to be set to Manual or Variable.  Setting to manual provides a dropdown to select from.  Setting to variable requires a variable that contains the group ID.
 * **User Type** -  You can select between User, Basic, or All.  If a group contains both Full and Basic users, this will allow you to be selective of which user type you want to include.
 
 #### Output
 
 * **Email Addresses** - This output provides a comma-separated list of email addresses.
+
+### Get Local Time
+
+This utility provides the current local time for a specified timezone. This can be used in workflows that need to take into account the local time of a user or location.
+
+![Get Local Time](/_books/esp-config/images/workflow-utility-get-local-time.png)  
+
+#### Options
+
+* **Timezone** -  This option accepts both Windows-style names (e.g. “Pacific Standard Time”) and IANA names (e.g. "America/Los_Angeles").
+* **Seed Time** - This is an optional input that allows you to provide a specific time to be converted to the local time. If this is left blank, the current time will be used.
