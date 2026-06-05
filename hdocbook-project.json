@@ -14,13 +14,26 @@
     ]
   },
   "redirects": [
-    { "url": "/esp-config/advanced-tools-and-settings/database-direct", "location": "/esp-config/advanced-tools-and-settings/low-level-database-query-tool", "code": 308 },
-    { "url": "/esp-config/email/adding-an-email-domain", "location": "/esp-config/email/email-domains", "code": 308 },
-
-    { "url": "/esp-config/customize/customer-portal-setup", "location": "/esp-config/customize/customer-portal/configure-customer-portal", "code": 308 },
-    
-    { "url": "/esp-config/email/routing-rules", "location": "/esp-config/email/using-email-routing-rules", "code": 308 },
-   
+    { 
+      "url": "/esp-config/advanced-tools-and-settings/database-direct",
+      "location": "/esp-config/advanced-tools-and-settings/low-level-database-query-tool",
+      "code": 308 
+    },
+    { 
+      "url": "/esp-config/email/adding-an-email-domain",
+      "location": "/esp-config/email/email-domains",
+      "code": 308 
+    },
+    { 
+      "url": "/esp-config/customize/customer-portal-setup",
+      "location": "/esp-config/customize/customer-portal/configure-customer-portal",
+      "code": 308 
+    },
+    { 
+      "url": "/esp-config/email/routing-rules",
+      "location": "/esp-config/email/using-email-routing-rules",
+      "code": 308
+    },
     {
       "url": "/esp-config/internationalization/user-interface-translations",
       "location": "/esp-config/localization/user-interface-translations",
@@ -36,9 +49,27 @@
       "location": "/esp-config/localization/translation-mode",
       "code": 301
     },
-    { "url": "/esp-config/data/profiles", "location": "/servicemanager-config/administration/profiles", "code": 308, 
-    "skip_location_validation": true },
-    { "url": "/esp-config/organizational-data/guest-accounts", "location": "/esp-config/guest-access/contacts", "code": 301 },
-    { "url": "/esp-config/organizational-data/guest-account-templates", "location": "/esp-config/guest-access/contact-templates", "code": 301 }
+    { 
+     "url": "/esp-config/data/profiles",
+     "location": "/servicemanager-config/administration/profiles",
+     "code": 308, 
+     "skip_location_validation": true
+    },
+    {
+      "url": "/esp-config/organizational-data/guest-accounts",
+      "location": "/esp-config/guest-access/contacts",
+      "code": 301
+    },
+    {
+      "url": "/esp-config/organizational-data/guest-account-templates",
+      "location": "/esp-config/guest-access/contact-templates",
+      "code": 301
+    },
+    {
+      "url": "/esp-config/my-personal-settings",
+      "location": "/esp-user-guide/my-profile/overview",
+      "code": 301,
+      "skip_location_validation": true
+    }
   ]
 }
