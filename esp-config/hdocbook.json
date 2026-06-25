@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "1.12.27",
+  "version": "1.13.0",
   "productFamily": "esp",
   "tags": [
     "esp",
@@ -487,32 +487,40 @@
                 "link": "esp-config/automation/variable-picker"
               },
               {
-                "text": "Authorization",
+                "text": "Authorization node",
                 "link": "esp-config/automation/authorization"
               },
               {
-                "text": "External Authorization",
+                "text": "Auto Assign Authorization node",
+                "link": "esp-config/automation/auto-assign-authorization"
+              },
+              {
+                "text": "External Authorization node",
                 "link": "esp-config/automation/external-authorization"
               },
               {
-                "text": "Human Task",
+                "text": "Human Task node",
                 "link": "esp-config/automation/human-task"
               },
               {
-                "text": "Hornbill Automations",
+                "text": "Hornbill Automation node",
                 "link": "esp-config/automation/hornbill-automations"
               },
               {
-                "text": "Cloud Automation",
+                "text": "Cloud Automation node",
                 "link": "/esp-config/automation/cloud-automation"
               },
               {
-                "text": "IT Automation",
+                "text": "IT Automation node",
                 "link": "esp-config/automation/it-automation"
               },
               {
-                "text": "Decision Node",
+                "text": "Decision node",
                 "link": "esp-config/automation/decision"
+              },
+              {
+                "text": "Parallel Processing nodes",
+                "link": "esp-config/automation/parallel-processing"
               }
             ]
           },

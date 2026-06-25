@@ -49,112 +49,27 @@ Before access control can be applied to workflows, this feature must be enabled 
 
 ![Access Granted to](/_books/esp-config/images/access-granted-to.png)
 
-## Nodes
+## Navigation Nodes
 
 A stage contains a series of nodes that make up the workflow.
 
-### Via
+* **Via**: The via node serves no functional purpose, but can be used in the designer, between nodes to better align the layout of the workflow on the design canvas.
+* **Start**: The Start Node indicates the starting point of the workflow. There are no parameters and you can only have one per stage.
+* **End**: This stage will terminate the workflow. You can only use this node in the final stage.
+* **Next Stage**: This will take you either to the next sequential or a later stage and will only be available when you have 2 stages or more. You cannot go to a previous stage.
+* **Abort**: This node will end the workflow and will cause the heads up display to show as red.
+* **Set Checkpoint**: This node will allow you to set a visible indicator that a task / or important milestone in the workflow has been met - In order to use this node, checkpoints must have been defined for the stage of the workflow (Stage Properties). It is also possible to mark a checkpoint as having been met on the all the above nodes as a configuration option.
 
-The via node serves no functional purpose, but can be used in the designer, between nodes to better align the layout of the workflow on the design canvas.
 
-### Start
+## Functional nodes
 
-The Start Node indicates the starting point of the workflow. There are no parameters and you can only have one per stage.
+* **[Hornbill Automations](/esp-config/automation/hornbill-automations)**: Hornbill Automations are definable automated actions that will occur within the workflow. The available Hornbill Automations are provided by each application that utilizes workflows. Each application can provide automated tasks.
+* **[Authorization](/esp-config/automation/authorization)**: Used to define the decision makers for authorizations, set their approval weightings, add expiry options on the decision, and if required include useful variables from the parent request to assist with the decision making in the authorization task information.
+* **[Auto Assign Authorization](/esp-config/automation/auto-assign-authorization)**: This node is used to invoke authorization tasks from a list of predefined users.
+* **[External Authorization](/esp-config/automation/external-authorization)**: This node is used to request an authorization decision from an external party via email.
+* **[Decision](/esp-config/automation/decision)**: These nodes can be used after a number of other nodes including, Human Tasks, or Automated tasks where multiple outcomes are possible.
+* **[Human Tasks](/esp-config/automation/human-task)**: This is for assigning a manual activity that needs to be carried out. The workflow will wait for someone to complete the activity before continuing.
+* **[Cloud Automation](/esp-config/automation/cloud-automation)**: This node is used to invoke automated actions in a workflow using either integrations with 3rd party solutions using Hornbill's Integration Bridge, or by invoking automations defined in 3rd party tools like Microsoft Orchestrator or HP OO.
+* **[IT Automation](/esp-config/automation/it-automation)**: This allows for the selection of a specific package and operation as in an ad-hoc IT Automation Job or as used within a Runbook.
+* **Runbook Process**: This allows one to select an ITOM Runbook with the input and output parameters.
 
-### Hornbill Automation
-
-Hornbill Automations are definable automated actions that will occur within the workflow. The available Hornbill Automations are provided by each application that utilizes workflows. Each application can provide automated tasks.
-
-### Authorization
-
-Used to define the decision makers for authorizations, set their approval weightings, add expiry options on the decision, and if required include useful variables from the parent request to assist with the decision making in the authorization task information.
-
-### Auto Assign Authorization
-
-This node is used to invoke authorization tasks for approvers which have been predefined using the Service Manager > Entity > Request > Suspend > Wait for List of Request Authorizers node or the Core > Application > Utility > Get Authorizers by Group. This node has no requirement to define approval weightings etc as these will have been configured in the preceding node. Options do include the configuration of outcomes, the authorization task details and lifespan setting including optional due and expiry dates.
-
-### External Authorization
-
-This node is used to request an authorization decision from an external party via email. The node allows for a single email recipient, definable outcomes, and the option to inject variable content into a hardcoded email which will be sent to the email address (static or using a variable). The recipient of the email will receive a link to a web page; from where they can review the authorization decision, choose an outcome , and if configured provide a supporting reason. Where the node is used, the workflow will be suspended awaiting an outcome and will resume once the recipient has submitted their response. This node would typically be followed by a decision node, like any other type of authorization, with branches configured to reflect the outcome choices of the node.
-The recipient of the email does not need to log into any interface when accessing the web page link.
-
-### Decision
-
-These nodes can be used after a number of other nodes including, Human Tasks, or Automated tasks where multiple outcomes are possible. The Decision node can be used to facilitate the drawing of multiple outcome lines to other nodes, and for each outcome to be individually set. It is also possible to join decision nodes, to other decision nodes through the use of a No Match outcome. This caters for situations where multiple outcomes per decision are needed and not simply the three which are available from a single decision node.
-Note: It is strongly advised that all Decision nodes have a No Match outcome to avoid the potential of a No Matching GotoIf error when none of the criteria are met.
-
-### Human Tasks
-
-This is for a synchronous manual activity that needs to be carried out. The workflow will wait for someone to update the activity with one of the expected outcomes. You need to define the name and details of the activity, allocate a role or an individual co-worker, and expected outcomes, as well as optionally including variables from the linked parent request which may assist in the completion of the task.
-
-### Cloud Automation
-
-This node is used to invoke automated actions in a workflow using either integrations with 3rd party solutions using Hornbill's Integration Bridge, or by invoking automations defined in 3rd party tools like Microsoft Orchestrator or HP OO. options will include choosing the connector to use, selecting the Method (automation) you wish to invoke and then supplying the required input parameters relevant to the connector and method you have chosen.
-
-### IT Automation
-
-This allows for the selection of a specific package and operation as in an ad-hoc IT Automation Job or as used within a Runbook
-
-### Runbook Workflow
-
-This allows one to select a Runbook with the input and output parameters.
-
-### End
-
-This stage will terminate the workflow. You can only use this node in the final stage.
-
-### Next Stage
-
-This will take you either to the next sequential or a later stage and will only be available when you have 2 stages or more. You cannot go to a previous stage.
-
-### Abort
-
-This node will end the workflow and will cause the heads up display to show as red.
-
-### Set Checkpoint
-
-This node will allow you to set a visible indicator that a task / or important milestone in the workflow has been met - In order to use this node, checkpoints must have been defined for the stage of the workflow (Stage Properties). It is also possible to mark a checkpoint as having been met on the all the above nodes as a configuration option.
-
-### Start Parallel Processing
-
-This node can be used when there is a need to invoke more than one stream of processing at the same time. This is commonly used with [human tasks](/esp-config/automation/human-task) that can be assigned and worked on independently, but they must all be completed before the workflow can continue.
-
-![Parallel Processing](/_books/esp-config/images/parallel-processing.png)
-
-:::tip
-The use of [Suspend automations](/servicemanager-config/customize/workflows/service-manager-workflows#suspend) is not recommended within a parallel process. Suspend automations are designed to suspend the entire workflow and not an individual stream within a parallel process.
-:::
-
-#### Settings
-
-Open the settings by clicking on the node and selecting the cog icon or double-click on the node.
-
-Two settings are available:
-
-* **Positioning**. Lets you change the orientation of the node.
-* **Size**.  Change the size to better accommodate the number of streams.
-
-![Parallel Processing Settings](/_books/esp-config/images/parallel-processing-settings.png)
-
-### Finish Parallel Processing
-
-Use this node to bring together and finish the individual process streams that had been initiated from a Start Parallel Processing node.
-
-* The workflow will not progress past this node until all process streams have reached this point.
-* When designing a parallel process it is important to design each stream with a successful path or outcome to reach the Finish Parallel Processing node.
-
-    :::important
-    If a human task fails due to an error in one stream, all other tasks within the parallel processing will be canceled.
-    :::
-* Each stream should be kept separate from other streams.  Do not connect one stream to another stream.
-
-#### Settings
-
-Open the settings by clicking on the node and selecting the cog icon or double-click on the node.
-
-Two settings are available:
-
-* **Positioning**. Lets you change the orientation of the node.
-* **Size**.  Change the size to better accommodate the number of streams.
-
-![Parallel Processing Settings](/_books/esp-config/images/parallel-processing-settings.png)
