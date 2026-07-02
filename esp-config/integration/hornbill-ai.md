@@ -4,80 +4,103 @@ coverImage: /_books/esp-config/images/hai-cover.jpg
 layout: article-toc
 ---
 
-# Hornbill AI
+# HAi Services
 
-To manage any aspect of Hornbill AI on your instance, your User Account must be associated with the following roles:
+HAi (Hornbill AI) is a suite of generative AI tools built into the Hornbill platform. The platform integrates with AI service providers such as OpenAI and Azure AI to help you work more efficiently.
 
-|Role|Description|
-|-|-|
-|Admin|This role provides administrative functionality to the Hornbill platform and should only be granted to an administrator.|
-|HAi Manager|This role should only be used for managing HAi configurations.|
+## Before you begin
 
-**Note:** Applications may extend Hornbill AI functionality and have additional roles to manage application specific settings.
+To use HAi services, you must meet the following requirements:
 
-## Usage Dashboard
+* **Register for the closed beta program.** HAi features are currently in a closed beta. You can only access these features after you register. Contact your Hornbill customer success representative to join the program.
+* **Review fundamentals.** Read the [HAi fundamentals](/esp-fundamentals/core-capabilities/integration/hai-services) documentation to understand the core concepts.
 
-The usage dashboard shows real time metrics for monitoring the usage of Hornbill AI, each use calculates an approximate time saved value in minutes to represent how much time using the capabilities of Hornbill AI has saved the individual. The dashboard rolls this up into hours saved and using a setting for defining the hourly rate converts to a financial savings for your organizations. Time and Financial savings are then highlighted on the dashboard for the last 30 days with a comparison to the previous 30 days as well as being tracked monthly for the last 12 months.
+### Required roles
 
-### Savings Calculations
+To manage HAi configurations on your instance, your user account must have the following roles:
 
-Every feature within Hornbill AI has a distinct savings calculation built in which is evaluated in real time and stored in the Usage Log, as minutes. An over simplification would be that based on each task i.e summarizing a request or generating a customer reply, an estimate of the time saved is calculated using the size of the request being summarized or the amount of text generated.
+| Role | Description |
+| :--- | :--- |
+| **Admin** | Provides administrative functionality for the Hornbill platform. Only grant this role to platform administrators. |
+| **HAi Manager** | Provides permissions to manage HAi configurations. |
 
-For example, a long request being summarized uses the length of text that makes up the request history being summarized and the average rate at which a human can read and understand text to get an approximate value for time saved.
+## Accessing HAi Services
+
+### Steps
+
+1. Select **Configuration** (cog icon) in the lower-left corner of the interface.
+2. Select the dropdown menu in the top-right corner and choose **Platform Configuration**.
+3. Locate the **Integration** section in the side menu and select **HAi Services**.
+
+![HAi Services menu option](/_books/esp-config/integration/images/hai-services-menu-option.png)
+
+## Dashboard
+
+The dashboard provides real-time metrics to help you monitor how your organization uses Hornbill AI. For every interaction, the system calculates an approximate "time saved" value in minutes. The dashboard aggregates these minutes into hours and converts them into financial savings based on your organization's specific hourly rate.
+
+The dashboard highlights time and financial savings for the last 30 days and provides a comparison to the previous 30-day period. You can also track usage trends through a monthly view covering the last 12 months.
+
+### Savings calculations
+
+Each Hornbill AI feature includes a specific savings calculation. When you use a feature, the system evaluates the time saved in real time and stores the value in the Usage Log as minutes.
+
+The calculation logic depends on the specific task performed.  For example:
+
+* **Summarizing requests:** The system calculates time saved based on the length of the request history and the average human reading rate.
+* **Generating content:** The system calculates time saved based on the amount of text generated and the average human typing rate.
 
 ### Settings
 
-The following settings can be updated to customize the value dashboard;
+You can customize the values on your dashboard by updating the following settings. These settings allow you to align the financial reporting with your local currency and internal costs.
 
-|Setting|Description|Default|
-|-|-|-|
-|generativeAi.dashboard.currencySymbol|Currency to use when displaying value saved based on ratePerMinute.|£|
-|generativeAi.dashboard.ratePerMinute|Lowest FTE cost per minute based on currency from currencySymbol.|0.2|
-|generativeAi.dashboard.readingRate|Average characters per minute reading a document.|900|
-|generativeAi.dashboard.typingRate|Average characters per minute when typing a document.|150|
+| Setting | Description | Default |
+| :--- | :--- | :--- |
+| `generativeAi.dashboard.currencySymbol` | The currency symbol used to display financial savings. | £ |
+| `generativeAi.dashboard.ratePerMinute` | The lowest Full Time Equivalent (FTE) cost per minute based on your currency. | 0.2 |
+| `generativeAi.dashboard.readingRate` | The average number of characters a user reads per minute. | 900 |
+| `generativeAi.dashboard.typingRate` | The average number of characters a user types per minute. | 150 |
 
-## Usage Logs
+## Usage Log
 
-The HAi Usage Logs show the last 30 days' usage with the latest first limited to 1000 rows. These logs can be filtered by User, Product Area, and Prompt. The Tokens Input/Output are an indication of the volume of input and text generated as an output when using prompts - and are the values that supply the dashboard with savings. Accepted is whether the output was accepted after generation or not. The Detailed Log allows you to view the unformatted input and output and is very useful for debugging output formatting errors.
-![Hornbill AI Logs](/_books/esp-config/images/hai-cover.jpg)
+The HAi Usage Log provides a record of your organization's AI activity over the last 30 days. The log displays the most recent 1,000 entries to help you track performance, monitor volume, and manage costs. You can filter these logs by **User**, **Product Area**, and **Prompt**.
 
-The following information is highlighted in the usage log;
+The **Tokens** values for input and output indicate the volume of text processed and generated. These values populate your dashboard to help calculate business savings. Use the **Detailed Log** to view unformatted input and output payloads, which is helpful when you need to troubleshoot formatting errors.
 
-- **Action** - Label given to where in the Hornbill product the action was triggered from.
-- **Prompt** - The function of Hornbill AI Triggered.
-- **User** - The user who triggered the usage, for Auto Responder triggered actions or Business Process actions the System user will be displayed.
-- **Tokens** - The size of the request and response in tokens.
-- **Status** - The status of the action showing if it was returned to the end user and ignored or accepted/rejected or even if there was an error (Presented,Accepted,Rejected,Error).
-- **Detailed Log** - Exact payload sent to the Service Provider and what was the response, System prompts to the provider are omitted from this log.
+### Log details
+
+The usage log includes the following information:
+
+* **Action**: The specific location in the Hornbill product where the action started.
+* **Prompt**: The specific Hornbill AI function that was triggered.
+* **User**: The individual who triggered the action. For actions triggered by the **Auto Responder** or a **Business Process**, the log displays **System** as the user.
+* **Tokens**: The size of the request (input) and response (output) measured in tokens.
+* **Status**: The outcome of the action. Statuses include **Presented**, **Accepted**, **Rejected**, or **Error**. This shows if the result was returned to the user and whether they used or ignored it.
+* **Detailed Log**: The exact payload sent to the Service Provider and the resulting response. System prompts sent to the provider are not included in this log.
 
 ### Retention
 
-Currently all log history is kept, the UI restricts logs to the last 30 days and in the future the input and output text will be pruned after 30 days leaving only the details of the request.
+The user interface currently displays logs from the last 30 days. Although the system currently retains all log history, future updates will change how data is stored. In the future, the system will prune the input and output text after 30 days and only the specific details of the request will remain.
 
-### Monitoring of Logs
+### Monitoring
 
-Unlike AI-Assist which does not log its usage, HAi Usage is logged so customers can demonstrate the value being added to their business and debug issues. Hornbill will from time to time use these logs for both usage monitoring as well as improve the quality of the prompts output and to improve the overall service. Customer data confidentiality is maintained and any logs viewed by the Hornbill AI Team are anonymized before being removed from the customer Instance. Details can be found in section 6 of the [Hornbill Subscription agreement](https://www.hornbill.com/subscription-agreements).
+HAi logs usage data so you can demonstrate the value added to your business and troubleshoot technical issues. Hornbill occasionally reviews these logs to monitor usage trends and improve the quality of prompt outputs.
 
-## HAi Service Providers
+Hornbill maintains customer data confidentiality. The Hornbill AI Team anonymizes any logs they review before removing them from your customer instance. For more information, see section 6 of the [Hornbill Subscription agreement](https://www.hornbill.com/subscription-agreements).
 
-Hornbill provides seamless integration with available AI Service Providers, including OpenAI and Azure AI. Hornbill ESP's integration layer makes AI services available to applications and features in Hornbill in a way that is abstracted from any specific AI service provider.  This allows each customer to choose specific AI services providers and in some cases even specific AI models.  The Hornbill ESP platform makes integration with AI service providers a simple point and click exercise, we implement real time result streaming providing modern real-time service integrations for optimal user experience when making use of HAi features.  
+## Providers
 
-### Available Providers
+Hornbill integrates with AI service providers such as OpenAI and Microsoft Azure. The Hornbill ESP integration layer connects these AI services to Hornbill applications and features. This architecture allows you to choose specific providers and models that meet your organization's requirements.
 
-The Following HAi Service Providers are currently available (as of 11/2024):
+The Hornbill ESP platform provides a point and click interface to configure these integrations. The platform uses real-time result streaming to ensure a responsive experience when you use HAi features.
 
-|Provider|Usage|Description|
-|:--|:--|:--|
-|OpenAI (US International)|Free|Data is processed on OpenAI's international servers, which basically means in the US data centers. Hornbill picks up the bill for all usage for this service provider option|
-|OpenAI (Customer Provided)|Premium|You can choose to provide credentials to your own registered OpenAI account, which gives you full access to the OpenAI services reporting, statistics and usage restrictions controls that the OpenAI service provides.|
-|Microsoft Azure (US)|Premium|Integration with AI Services provided by Microsoft, with all data processing done in US data centers operated by Microsoft. Hornbill picks up the bill for all usage for this service provider option|
-|Microsoft Azure (EU)|Premium|Integration with AI Services provided by Microsoft, with all data processing done in EU data centers operated by Microsoft. Hornbill picks up the bill for all usage for this service provider option|
-|Microsoft Azure (Customer Provided)|Premium|You can choose to provide credentials to your own registered Microsoft Azure account, which gives you full access to the Microsoft Azure AI services reporting, statistics and usage restrictions controls that the Microsoft Azure AI service provides.|
+### Available providers
 
-You can find HAi Service Providers by selecting the Cog in the lower left, switching the drop down in the top right to **Platform Configuration** and selecting **HAi Services** under Integration, you will need the **Admin Role** or a custom role with **Manage Integrations System Rights** to access this view.
+The following HAi service providers are available for selection:
 
-![HAi Service Providers](/_books/esp-config/images/hai-service-providers.png)
-
-:::note
-HAi Premium services (upcoming) will available for free, on request, only while the HAi Services and features are available in the beta program, please talk to your account manager when these services become available.
-:::
+| Provider | Usage | Description |
+| :--- | :--- | :--- |
+| OpenAI (US International) | Free | Data is processed in OpenAI data centers located in the United States. Hornbill manages the costs for all usage with this provider. |
+| OpenAI (Customer Provided) | Premium | You provide credentials for your own OpenAI account. This option provides full access to OpenAI service reporting, statistics, and usage controls. |
+| Microsoft Azure (US) | Premium | Data is processed in Microsoft Azure data centers located in the United States. Hornbill manages the costs for all usage with this provider. |
+| Microsoft Azure (EU) | Premium | Data is processed in Microsoft Azure data centers located in the European Union. Hornbill manages the costs for all usage with this provider. |
+| Microsoft Azure (Customer Provided) | Premium | You provide credentials for your own Microsoft Azure account. This option provides full access to Microsoft Azure AI reporting, statistics, and usage controls. |

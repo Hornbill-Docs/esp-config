@@ -3,7 +3,7 @@
   "title": "Platform Configuration Guide",
   "description": "Configuration and Administration Guide for the Hornbill ESP Platform",
   "publicSource": "https://github.com/Hornbill-Docs/esp-config",
-  "version": "1.13.1",
+  "version": "1.14.0",
   "productFamily": "esp",
   "tags": [
     "esp",
@@ -266,9 +266,8 @@
             "link": "esp-config/integration/api-keys"
           },
           {
-            "text": "Hornbill AI",
-            "link": "esp-config/integration/hornbill-ai",
-            "draft": true
+            "text": "HAi Services",
+            "link": "esp-config/integration/hornbill-ai"
           },
           {
             "text": "Webhooks",
