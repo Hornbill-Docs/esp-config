@@ -38,6 +38,8 @@ To manage HAi configurations on your instance, your user account must have the f
 
 The dashboard provides real-time metrics to help you monitor how your organization uses Hornbill AI. For every interaction, the system calculates an approximate "time saved" value in minutes. The dashboard aggregates these minutes into hours and converts them into financial savings based on your organization's specific hourly rate.
 
+![HAi DAshboard](/_books/esp-config/integration/images/hai-dashboard.png)
+
 The dashboard highlights time and financial savings for the last 30 days and provides a comparison to the previous 30-day period. You can also track usage trends through a monthly view covering the last 12 months.
 
 ### Savings calculations
