@@ -18,7 +18,7 @@ From the list of available Intelligent Capture workflows select the `+` button t
   * **Employee**: The capture is intended for an internal employee who is being supported on the Employee portal.
   * **Contact**: The capture is intended for an external contact to fill out on the customer portal.
 
-> Note: The intended respondent is currently used for filtering purposes only. It has no function impact on the design of the capture workflow.
+> Note: The intended respondent is currently used for filtering purposes only. It has no functional impact on the design of the capture workflow at present.
 
 ## Nodes
 
