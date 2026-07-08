@@ -7,6 +7,19 @@ Intelligent Capture is a graphical workflow tool that lets you define a script t
 * Be familiar with using [Configuration](/esp-config/getting-started/using-configuration).
 * You will need either the Admin or the Intelligent Capture Manager [system role](/esp-config/organizational-data/roles#system-roles) to access the designer in Configuration.
 
+## Creating a capture workflow
+
+From the list of available Intelligent Capture workflows select the `+` button to create a new capture workflow. You will be prompted to enter a name and the intended respondent.
+
+* **Intelligent Capture Name**: The name of the capture must be unique from other captures. It is recommended to use a name that describes the purpose of the capture.
+* **Intended Respondent**: The intended respondent is the person who will be filling out the capture.  The options are:
+  * **Untargeted (Legacy)**: Intended for use by any respondent.
+  * **User**: The capture is intended for a member of a support team to fill out.
+  * **Employee**: The capture is intended for an internal employee who is being supported on the Employee portal.
+  * **Contact**: The capture is intended for an external contact to fill out on the customer portal.
+
+> Note: The intended respondent is currently used for filtering purposes only. It has no function impact on the design of the capture workflow.
+
 ## Nodes
 
 In the development of a capture workflow, several distinct nodes are available for use in your design.
