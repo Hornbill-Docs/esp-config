@@ -10,19 +10,17 @@ While we make every effort to ensure this information is both accurate and usefu
 
 Prior to embarking on your configuration of the necessary ADFS Relying Party Trusts as detailed below, it will be necessary to navigate to Hornbill Administration and obtain the Service Provider meta data that will be used during the configuration of your trusts. The Service Provider meta data file contains such things as the Service Provider Entity Id and Assertion Consumer Service (ACS) binding that your IdP needs to communicate during the authentication process.
 
-Log into Hornbill Administration and navigate to **Home > system > Security > SSO Profiles**. Located towards the top right of the list are four buttons labeled "User", "Admin", "Service", and "Customer". Clicking one of these will download the Hornbill meta data file for the associated Service URL. 
+Log into Hornbill Administration and navigate to **Home > system > Security > SSO Profiles**. Located towards the top right of the list are two buttons labeled "User" and  "Mobile Catalog". Clicking one of these will download the Hornbill meta data file for the associated Service URL. 
 
 **USER** \- contains information for `https://live.hornbill.com/\[your instance name\]`  
-**ADMIN** \- contains information for `https://admin.hornbill.com/\[your instance name\]`   
-**SERVICE** \- contains information for `https://service.hornbill.com/\[your instance name\]`
-**CUSTOMER** \- contains information for `https://customer.hornbill.com/\[your instance name\]`   
+**Mobile Catalog** \- contains information for `https://mccatalog.hornbill.com/\[your instance name\]`   
 
 ### What Meta data files do I need to download?
 
 You will need to create a relying party trust in ADFS to represent each of the Hornbill URL's that will be used to access your Hornbill instance and you will need the corresponding meta data files to support the creation of the trusts.
 
-* "User" and "Admin" are always necessary. Therefore as a minimum you will have two relying party trusts which require the corresponding metadata.
-* "Service" and "Customer" represent the two portals that are available as part of the Hornbill solution. Whether you need to create a relying party trust to cater for each of these will be dependent on how you are using the Hornbill solution. The "Service" metadata file is required if you are implementing the Service Portal (This portal is used to deliver services to employees within your own organization). The "Customer" metadata file is only required if you are setting up SSO for the Customer Portal (This portal is used to provide services to those outside of your organization).
+* "User" is always necessary. Therefore as a minimum you will have two relying party trusts which require the corresponding metadata.
+The "Mobile Catalog" metadata file is only required if you are setting up SSO for the Mobile Portal (This portal is used to provide a mobile freidly cut down browser services to those outside of your organization).
 
 ## Configuring Microsoft ADFS 2.0 to work as an iDP for Hornbill User Accounts
 
