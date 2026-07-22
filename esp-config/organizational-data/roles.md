@@ -64,7 +64,6 @@ System roles can be easily identified in the list of roles by the closed padlock
 |Coworker Lifecycle|This role grants the rights to design and use the lifecycle button on the coworkers page.|user|
 |Dashboard Viewer|This role grants the rights to view dashboards and slideshow.|user|
 |Form Designer|This role grants the rights to design existing forms including adding additional fields as well as changing the default layouts.|user|
-|HAi Manager|This role should only be used for managing HAi configurations.|user|
 |Home Page Manager|This role grants the rights to manage the Home Page.|user|
 |Hornbill Authorized Guest|This role grants the rights to guest users that have been authenticated.|guest|
 |Locations Manager|This role grants the rights to manage Locations.|user|
@@ -79,6 +78,15 @@ System roles can be easily identified in the list of roles by the closed padlock
 |Translator|This role grants the rights to define translations for application strings between different languages.|user|
 |User Import|This role should only be used for User Import Tool. user
 |User Role|This role provides all standard platform user functionality.|user|
+
+### HAi Roles
+
+|Role|Description|Privilege Level|
+|-|-|-|
+|HAi Agent Assistant|This role grants the rights to use HAi Agent Assistant and HAi User Assistant if enabled.|User|
+|HAi Insights|This role grants the rights to use HAi Insights sidebar.|Basic|
+|HAi Manager|This role should only be used for managing HAi configurations.|User|
+|HAi User Assistant|This role grants the rights to use HAi User Assistant.|Basic|
 
 ## User created roles
 
