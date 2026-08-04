@@ -24,6 +24,8 @@ To manage HAi configurations on your instance, your user account must have the f
 | **Admin** | Provides administrative functionality for the Hornbill platform. Only grant this role to platform administrators. |
 | **HAi Manager** | Provides permissions to manage HAi configurations. |
 
+> **Note:** Each individual application may have its own roles that provide additional access to HAi features within that application.
+
 ## Accessing HAi Services
 
 ### Steps
@@ -38,7 +40,12 @@ To manage HAi configurations on your instance, your user account must have the f
 
 The dashboard provides real-time metrics to help you monitor how your organization uses Hornbill AI. For every interaction, the system calculates an approximate "time saved" value in minutes. The dashboard aggregates these minutes into hours and converts them into financial savings based on your organization's specific hourly rate.
 
-![HAi DAshboard](/_books/esp-config/integration/images/hai-dashboard.png)
+A dashboard option allows you to select between agent efficiency and deflection.
+
+* **Agent Efficiency**: The time saved by your agents using generative HAi features that shift routine tasks from humans, reducing manual workloads and routine touchpoints.
+* **Agent Deflection**: The reduction of inbound service desk requests by diverting routine user requests to conversational virtual assistants and intelligent self-service.
+
+![HAi Dashboard](/_books/esp-config/integration/images/hai-dashboard.png)
 
 The dashboard highlights time and financial savings for the last 30 days and provides a comparison to the previous 30-day period. You can also track usage trends through a monthly view covering the last 12 months.
 
@@ -46,14 +53,14 @@ The dashboard highlights time and financial savings for the last 30 days and pro
 
 Each Hornbill AI feature includes a specific savings calculation. When you use a feature, the system evaluates the time saved in real time and stores the value in the Usage Log as minutes.
 
-The calculation logic depends on the specific task performed.  For example:
+The calculation logic depends on the specific task performed. For example:
 
 * **Summarizing requests:** The system calculates time saved based on the length of the request history and the average human reading rate.
 * **Generating content:** The system calculates time saved based on the amount of text generated and the average human typing rate.
 
-### Settings
+### Dashboard settings
 
-You can customize the values on your dashboard by updating the following settings. These settings allow you to align the financial reporting with your local currency and internal costs.
+You can customize the values on your dashboard by updating the following [Core Settings](/esp-config/advanced-tools-and-settings/core-settings). These settings allow you to align the financial reporting with your local currency and internal costs.
 
 | Setting | Description | Default |
 | :--- | :--- | :--- |
@@ -87,7 +94,7 @@ The user interface currently displays logs from the last 30 days. Although the s
 
 HAi logs usage data so you can demonstrate the value added to your business and troubleshoot technical issues. Hornbill occasionally reviews these logs to monitor usage trends and improve the quality of prompt outputs.
 
-Hornbill maintains customer data confidentiality. The Hornbill AI Team anonymizes any logs they review before removing them from your customer instance. For more information, see section 6 of the [Hornbill Subscription agreement](https://www.hornbill.com/subscription-agreements).
+Hornbill maintains customer data confidentiality. The Hornbill AI Team anonymizes any logs they review before removing them from your customer instance. For more information, see section 6 of the [Hornbill Subscription Agreement](https://www.hornbill.com/subscription-agreements).
 
 ## Providers
 
@@ -106,3 +113,33 @@ The following HAi service providers are available for selection:
 | Microsoft Azure (US) | Premium | Data is processed in Microsoft Azure data centers located in the United States. Hornbill manages the costs for all usage with this provider. |
 | Microsoft Azure (EU) | Premium | Data is processed in Microsoft Azure data centers located in the European Union. Hornbill manages the costs for all usage with this provider. |
 | Microsoft Azure (Customer Provided) | Premium | You provide credentials for your own Microsoft Azure account. This option provides full access to Microsoft Azure AI reporting, statistics, and usage controls. |
+
+## Settings
+
+### Configuration
+
+* **HAi Agent Assistant**: Conversational virtual assistant for your agents, to help you within Hornbill.
+* **HAi User Assistant**: Conversational virtual assistant for your end users, available in the Employee Portal.
+* **HAi Search**: Enable AI Search for HAi and the HAi Assistants.
+* **HAi Insights**: Enable HAi Insights in the right hand sidebar of the Hornbill interface. This feature provides AI-generated insights and recommendations based on your current context.
+
+### HAi Search Indexes
+
+The availability of the HAi indexes in your environment is critical to providing search results. When HAi is first enabled, the indexes can take up to 72 hours before they are fully built and available. The following indexes are provided for HAi Search:
+
+* Requests
+* Catalogs
+* FAQs
+* Published Requests
+* Services
+* Articles
+
+### HAi Agent Assistant
+
+* **Guardrails**: Hornbill HAi provides the guardrails, allowing organizations to set custom boundaries that control how or what the **HAi Agent Assistant** can access. Once enabled, you can provide HAi prompts to set boundaries for the HAi Agent Assistant. For example, you can restrict access to sensitive data or limit the types of actions the assistant can perform.
+* **Customization**: Enable Customization options for the HAi Agent Assistant. Using HAi prompts, you can customize the tone and style of the responses generated by the HAi Agent Assistant.
+
+### HAi User Assistant
+
+* **User Guardrails**: Hornbill HAi provides the guardrails, allowing organizations to set custom boundaries that control how or what the **HAi User Assistant** can access. Once enabled, you can provide HAi prompts to set boundaries for the HAi User Assistant. For example, you can restrict access to sensitive data or limit the types of actions the assistant can perform.
+* **User Customization**: Enable Customization options for the HAi Assistant. Using HAi prompts, you can customize the tone and style of the responses generated by the HAi User Assistant.
