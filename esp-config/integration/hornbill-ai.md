@@ -118,8 +118,8 @@ The following HAi service providers are available for selection:
 
 ### Configuration
 
-* **HAi Agent Assistant**: Conversational virtual assistant for your agents, to help you within Hornbill.
-* **HAi User Assistant**: Conversational virtual assistant for your end users, available in the Employee Portal.
+* **HAi Agent Assistant**: Enable the virtual assistant for your agents, within Hornbill.
+* **HAi User Assistant**: Enable the virtual assistant for your end users, available in the Employee Portal.
 * **HAi Search**: Enable AI Search for HAi and the HAi Assistants.
 * **HAi Insights**: Enable HAi Insights in the right hand sidebar of the Hornbill interface. This feature provides AI-generated insights and recommendations based on your current context.
 
