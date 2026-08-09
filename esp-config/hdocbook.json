@@ -22,7 +22,8 @@
     "items": [
       {
         "text": "Overview",
-        "link": "esp-config/overview"
+        "link": "esp-config/overview",
+        "id": "xsyd4zjz"
       },
       {
         "text": "Getting started",
@@ -30,21 +31,26 @@
         "items": [
           {
             "text": "Using configuration",
-            "link": "esp-config/getting-started/using-configuration"
+            "link": "esp-config/getting-started/using-configuration",
+            "id": "442qqb4p"
           },
           {
             "text": "Configuring regional settings",
-            "link": "esp-config/getting-started/regional-settings"
+            "link": "esp-config/getting-started/regional-settings",
+            "id": "fhwwhqc7"
           },
           {
             "text": "Defining working time",
-            "link": "esp-config/getting-started/working-time"
+            "link": "esp-config/getting-started/working-time",
+            "id": "g2p6p9rn"
           },
           {
             "text": "Installing an app",
-            "link": "esp-config/getting-started/installing-an-app"
+            "link": "esp-config/getting-started/installing-an-app",
+            "id": "w5tqpnc6"
           }
-        ]
+        ],
+        "id": "wackb7nf"
       },
       {
         "text": "Users (Internal)",
@@ -56,48 +62,60 @@
             "items": [
               {
                 "text": "About user accounts",
-                "link": "esp-config/organizational-data/user-accounts/about-user-accounts"
+                "link": "esp-config/organizational-data/user-accounts/about-user-accounts",
+                "id": "ybwtjrg8"
               },
               {
                 "text": "Selecting the best method to create users",
-                "link": "esp-config/organizational-data/user-accounts/user-creation-options"
+                "link": "esp-config/organizational-data/user-accounts/user-creation-options",
+                "id": "zekpam93"
               },
               {
                 "text": "Manually creating users",
-                "link": "esp-config/organizational-data/user-accounts/users"
+                "link": "esp-config/organizational-data/user-accounts/users",
+                "id": "kvva3y58"
               },
               {
                 "text": "CSV user import",
                 "expand": false,
-                "link": "esp-config/organizational-data/user-accounts/csv-user-import"
+                "link": "esp-config/organizational-data/user-accounts/csv-user-import",
+                "id": "z465pnsf"
               },
               {
                 "text": "Import and synchronization tools",
-                "link": "esp-config/organizational-data/user-accounts/user-import-tools"
+                "link": "esp-config/organizational-data/user-accounts/user-import-tools",
+                "id": "xwsbce43"
               }
-            ]
+            ],
+            "id": "6g3dk9xb"
           },
           {
             "text": "Roles",
-            "link": "esp-config/organizational-data/roles"
+            "link": "esp-config/organizational-data/roles",
+            "id": "32aabng7"
           },
           {
             "text": "Groups and Teams",
-            "link": "esp-config/organizational-data/organization"
+            "link": "esp-config/organizational-data/organization",
+            "id": "62hngxz5"
           },
           {
             "text": "Locations",
-            "link": "esp-config/organizational-data/locations"
+            "link": "esp-config/organizational-data/locations",
+            "id": "bdmpg34r"
           },
           {
             "text": "User Templates",
-            "link": "esp-config/organizational-data/user-templates"
+            "link": "esp-config/organizational-data/user-templates",
+            "id": "7raetmh8"
           },
           {
             "text": "User Availability States",
-            "link": "esp-config/organizational-data/user-availability-states"
+            "link": "esp-config/organizational-data/user-availability-states",
+            "id": "d6sr4fnj"
           }
-        ]
+        ],
+        "id": "kwxfdem8"
       },
       {
         "text": "Guest Access (External)",
@@ -105,19 +123,23 @@
         "items": [
           {
             "text": "Contacts",
-            "link": "esp-config/guest-access/contacts"
+            "link": "esp-config/guest-access/contacts",
+            "id": "ct5rvsv2"
           },
           {
             "text": "Companies",
             "draft": true,
-            "link": "esp-config/guest-access/companies"
+            "link": "esp-config/guest-access/companies",
+            "id": "95xq26af"
           },
           {
             "text": "Contact Templates",
             "draft": false,
-            "link": "esp-config/guest-access/contact-templates"
+            "link": "esp-config/guest-access/contact-templates",
+            "id": "rxvfm6pq"
           }
-        ]
+        ],
+        "id": "jj2vj5qq"
       },
       {
         "text": "Security",
@@ -125,11 +147,13 @@
         "items": [
           {
             "text": "Logon History",
-            "link": "esp-config/security/logon-history"
+            "link": "esp-config/security/logon-history",
+            "id": "xtgzpe62"
           },
           {
             "text": "Two-Factor authentication",
-            "link": "esp-config/security/two-factor-authentication"
+            "link": "esp-config/security/two-factor-authentication",
+            "id": "2rehz5ay"
           },
           {
             "text": "Single Sign-On (SSO)",
@@ -137,44 +161,55 @@
             "items": [
               {
                 "text": "Single sign-On with SAML 2.0",
-                "link": "esp-config/security/sso/sso-with-saml"
+                "link": "esp-config/security/sso/sso-with-saml",
+                "id": "5jn8zn5g"
               },
               {
                 "text": "Configuring single sign-On profiles",
-                "link": "esp-config/security/sso/single-sign-on"
+                "link": "esp-config/security/sso/single-sign-on",
+                "id": "znkawfy2"
               },
               {
                 "text": "Auto-provisioning user accounts",
-                "link": "esp-config/security/sso/auto-provisioning"
+                "link": "esp-config/security/sso/auto-provisioning",
+                "id": "j5qh7bwa"
               },
               {
                 "text": "Single sign-on example",
-                "link": "esp-config/security/sso/example-sso-configuration"
+                "link": "esp-config/security/sso/example-sso-configuration",
+                "id": "txtx9rks"
               },
               {
                 "text": "Troubleshooting single sign-on",
-                "link": "esp-config/security/sso/troubleshooting-sso"
+                "link": "esp-config/security/sso/troubleshooting-sso",
+                "id": "4nytckem"
               }
-            ]
+            ],
+            "id": "dh72srzf"
           },
           {
             "text": "KeySafe",
             "link": "esp-config/security/keysafe",
-            "draft": false
+            "draft": false,
+            "id": "38tehtbd"
           },
           {
             "text": "Security Audit",
-            "link": "esp-config/security/security-audit"
+            "link": "esp-config/security/security-audit",
+            "id": "5xn68z36"
           },
           {
             "text": "Password policies",
-            "link": "esp-config/security/password-policies"
+            "link": "esp-config/security/password-policies",
+            "id": "qa7j53t8"
           },
           {
             "text": "Network Rules",
-            "link": "esp-config/security/network-rules"
+            "link": "esp-config/security/network-rules",
+            "id": "dkw2b4es"
           }
-        ]
+        ],
+        "id": "mha4b94r"
       },
       {
         "text": "Customization",
@@ -186,14 +221,17 @@
               {
                 "text": "Configuration",
                 "link": "esp-config/customize/customer-portal/configure-customer-portal",
-                "draft": false
+                "draft": false,
+                "id": "cgcwgbdf"
               },
               {
                 "text": "Custom Domain",
                 "link": "esp-config/customize/customer-portal/configure-custom-domain",
-                "draft": false
+                "draft": false,
+                "id": "27fv5ph5"
               }
-            ]
+            ],
+            "id": "kz32xyn4"
           },
           {
             "text": "Employee Portal for Users",
@@ -201,24 +239,29 @@
             "items": [
               {
                 "text": "Configuration",
-                "link": "esp-config/customize/employee-portal/employee-portal-configuration"
+                "link": "esp-config/customize/employee-portal/employee-portal-configuration",
+                "id": "bkgw76ae"
               },
               {
                 "text": "Design",
-                "link": "esp-config/customize/employee-portal/employee-portal-design"
+                "link": "esp-config/customize/employee-portal/employee-portal-design",
+                "id": "7c7y3fjh"
               },
               {
                 "text": "General Widgets",
-                "link": "esp-config/customize/employee-portal/employee-portal-widgets"
+                "link": "esp-config/customize/employee-portal/employee-portal-widgets",
+                "id": "7bfxtwry"
               },
               {
                 "text": "Page Manager",
-                "link": "esp-config/customize/employee-portal/employee-portal-page-manager"
+                "link": "esp-config/customize/employee-portal/employee-portal-page-manager",
+                "id": "9j93rtk8"
               },
               {
                 "text": "Employee portal apps",
                 "link": "esp-config/customize/employee-portal/employee-portal-apps",
-                "draft": true
+                "draft": true,
+                "id": "j79ensf6"
               },
               {
                 "text": "HAi User Assistant",
@@ -227,39 +270,49 @@
               {
                 "text": "Employee portal mobile",
                 "link": "esp-config/customize/employee-portal/employee-portal-mobile",
-                "draft": true
+                "draft": true,
+                "id": "8pnhd3cs"
               }
-            ]
+            ],
+            "id": "wm6xs2af"
           },
           {
             "text": "User Profile",
-            "link": "esp-config/customize/user-profile"
+            "link": "esp-config/customize/user-profile",
+            "id": "xch2gpwk"
           },
           {
             "text": "Login Screen",
-            "link": "esp-config/customize/login-screen"
+            "link": "esp-config/customize/login-screen",
+            "id": "6e4gjstb"
           },
           {
             "text": "Image Library",
-            "link": "esp-config/customize/image-library"
+            "link": "esp-config/customize/image-library",
+            "id": "hqffcw5q"
           },
           {
             "text": "Service Domains",
-            "link": "esp-config/customize/service-domains"
+            "link": "esp-config/customize/service-domains",
+            "id": "y5sth98v"
           },
           {
             "text": "Working Time Calendars",
-            "link": "esp-config/customize/working-time-calendars"
+            "link": "esp-config/customize/working-time-calendars",
+            "id": "s3hm6sbc"
           },
           {
             "text": "Custom Buttons",
-            "link": "esp-config/customize/custom-buttons"
+            "link": "esp-config/customize/custom-buttons",
+            "id": "jn9affrz"
           },
           {
             "text": "Form Designer",
-            "link": "esp-config/customize/form-designer"
+            "link": "esp-config/customize/form-designer",
+            "id": "9tjnrgbc"
           }
-        ]
+        ],
+        "id": "j6cnhyvk"
       },
       {
         "text": "Integration",
@@ -267,21 +320,26 @@
         "items": [
           {
             "text": "API Keys",
-            "link": "esp-config/integration/api-keys"
+            "link": "esp-config/integration/api-keys",
+            "id": "wv9xat6d"
           },
           {
             "text": "HAi Services",
-            "link": "esp-config/integration/hornbill-ai"
+            "link": "esp-config/integration/hornbill-ai",
+            "id": "mfb6csxr"
           },
           {
             "text": "Webhooks",
-            "link": "esp-config/integration/webhooks"
+            "link": "esp-config/integration/webhooks",
+            "id": "yxwhagc6"
           },
           {
             "text": "Integration Connectors",
-            "link": "esp-config/integration/integration-connectors"
+            "link": "esp-config/integration/integration-connectors",
+            "id": "m5eq7fsy"
           }
-        ]
+        ],
+        "id": "na5xjj7z"
       },
       {
         "text": "Email",
@@ -289,29 +347,36 @@
         "items": [
           {
             "text": "Domains",
-            "link": "esp-config/email/email-domains"
+            "link": "esp-config/email/email-domains",
+            "id": "qdgtay9c"
           },
           {
             "text": "Shared Mailboxes",
-            "link": "esp-config/email/shared-mailboxes"
+            "link": "esp-config/email/shared-mailboxes",
+            "id": "fx7s5ncw"
           },
           {
             "text": "Templates",
-            "link": "esp-config/email/templates"
+            "link": "esp-config/email/templates",
+            "id": "qept7awz"
           },
           {
             "text": "Inbound Routing Rules",
-            "link": "esp-config/email/using-email-routing-rules"
+            "link": "esp-config/email/using-email-routing-rules",
+            "id": "ah7faqmc"
           },
           {
             "text": "Direct Outbound",
-            "link": "esp-config/email/direct-outbound"
+            "link": "esp-config/email/direct-outbound",
+            "id": "snq7smjq"
           },
           {
             "text": "E-mail protocol support",
-            "link": "esp-config/email/email-protocol-support"
+            "link": "esp-config/email/email-protocol-support",
+            "id": "9jj24ztb"
           }
-        ]
+        ],
+        "id": "4n4cj9z4"
       },
       {
         "text": "Managing storage",
@@ -320,17 +385,21 @@
         "items": [
           {
             "text": "Emails",
-            "link": "esp-config/storage/emails"
+            "link": "esp-config/storage/emails",
+            "id": "3w4bwna8"
           },
           {
             "text": "Workflows",
-            "link": "esp-config/storage/workflows"
+            "link": "esp-config/storage/workflows",
+            "id": "ar9qxqg5"
           },
           {
             "text": "Requests",
-            "link": "esp-config/storage/requests"
+            "link": "esp-config/storage/requests",
+            "id": "6cfn4pjk"
           }
-        ]
+        ],
+        "id": "993zxj6j"
       },
       {
         "text": "Data",
@@ -338,13 +407,16 @@
         "items": [
           {
             "text": "Simple Lists",
-            "link": "esp-config/data/simple-lists"
+            "link": "esp-config/data/simple-lists",
+            "id": "vfadk2zf"
           },
           {
             "text": "Data Import Configurations",
-            "link": "esp-config/data/data-import-configurations"
+            "link": "esp-config/data/data-import-configurations",
+            "id": "5gby684y"
           }
-        ]
+        ],
+        "id": "5thszazz"
       },
       {
         "text": "Localization",
@@ -352,17 +424,21 @@
         "items": [
           {
             "text": "User Interface Translations",
-            "link": "esp-config/localization/user-interface-translations"
+            "link": "esp-config/localization/user-interface-translations",
+            "id": "cw92t2js"
           },
           {
             "text": "Supported Languages",
-            "link": "esp-config/localization/supported-languages"
+            "link": "esp-config/localization/supported-languages",
+            "id": "pf6gy3n3"
           },
           {
             "text": "Translation Mode",
-            "link": "esp-config/localization/translation-mode"
+            "link": "esp-config/localization/translation-mode",
+            "id": "q8vx573k"
           }
-        ]
+        ],
+        "id": "xefra2z3"
       },
       {
         "text": "Advanced Analytics",
@@ -370,21 +446,26 @@
         "items": [
           {
             "text": "Measures",
-            "link": "esp-config/advanced-analytics/measures"
+            "link": "esp-config/advanced-analytics/measures",
+            "id": "ebvjd85y"
           },
           {
             "text": "Widgets",
-            "link": "esp-config/advanced-analytics/widgets"
+            "link": "esp-config/advanced-analytics/widgets",
+            "id": "rwrgsh6y"
           },
           {
             "text": "Dashboards",
-            "link": "esp-config/advanced-analytics/dashboards"
+            "link": "esp-config/advanced-analytics/dashboards",
+            "id": "hxgbvk2s"
           },
           {
             "text": "Slideshows",
-            "link": "esp-config/advanced-analytics/slideshows"
+            "link": "esp-config/advanced-analytics/slideshows",
+            "id": "awmykbf8"
           }
-        ]
+        ],
+        "id": "g53q5ynp"
       },
       {
         "text": "Reporting",
@@ -392,18 +473,22 @@
         "items": [
           {
             "text": "Reports",
-            "link": "esp-config/reporting/reports"
+            "link": "esp-config/reporting/reports",
+            "id": "67g6fpfz"
           }
-        ]
+        ],
+        "id": "vbwrkvwt"
       },
       {
         "text": "Scheduling",
         "items": [
           {
             "text": "Scheduled Jobs",
-            "link": "esp-config/scheduling/scheduled-jobs"
+            "link": "esp-config/scheduling/scheduled-jobs",
+            "id": "v9yzacas"
           }
-        ]
+        ],
+        "id": "68p5cfdf"
       },
       {
         "text": "Monitor",
@@ -411,21 +496,26 @@
         "items": [
           {
             "text": "Log Files",
-            "link": "esp-config/monitor/log-files"
+            "link": "esp-config/monitor/log-files",
+            "id": "dzk3z4vk"
           },
           {
             "text": "Sessions",
-            "link": "esp-config/monitor/sessions"
+            "link": "esp-config/monitor/sessions",
+            "id": "kse4h3s8"
           },
           {
             "text": "Background Jobs",
-            "link": "esp-config/monitor/background-jobs"
+            "link": "esp-config/monitor/background-jobs",
+            "id": "4dmdgt2d"
           },
           {
             "text": "Admin Search Index",
-            "link": "esp-config/monitor/admin-search-index"
+            "link": "esp-config/monitor/admin-search-index",
+            "id": "nz96f7sh"
           }
-        ]
+        ],
+        "id": "y8dsbtea"
       },
       {
         "text": "Advanced Tools & Settings",
@@ -434,46 +524,56 @@
           {
             "text": "Database Direct",
             "link": "esp-config/advanced-tools-and-settings/low-level-database-query-tool",
-            "draft": false
+            "draft": false,
+            "id": "qpcbxs42"
           },
           {
             "text": "Core Settings",
             "link": "esp-config/advanced-tools-and-settings/core-settings",
-            "draft": false
+            "draft": false,
+            "id": "qezhhjmz"
           },
           {
             "text": "Advanced System Settings",
             "link": "esp-config/advanced-tools-and-settings/advanced-system-settings",
-            "draft": false
+            "draft": false,
+            "id": "2nfezdny"
           },
           {
             "text": "Entity Explorer",
             "link": "esp-config/advanced-tools-and-settings/entity-explorer",
-            "draft": false
+            "draft": false,
+            "id": "d5f49ht3"
           },
           {
             "text": "Auto Values",
             "link": "esp-config/advanced-tools-and-settings/auto-values",
-            "draft": false
+            "draft": false,
+            "id": "jjkkmxq2"
           }
-        ]
+        ],
+        "id": "4jvj7zj5"
       },
       {
         "text": "Hornbill Solution Center",
         "items": [
           {
             "text": "Hornbill App Store",
-            "link": "esp-config/hornbill-solution-center/hornbill-app-store"
+            "link": "esp-config/hornbill-solution-center/hornbill-app-store",
+            "id": "596gf2n4"
           },
           {
             "text": "IT Automation",
-            "link": "esp-config/hornbill-solution-center/it-automation"
+            "link": "esp-config/hornbill-solution-center/it-automation",
+            "id": "ej8veart"
           },
           {
             "text": "Subscription",
-            "link": "esp-config/hornbill-solution-center/subscription"
+            "link": "esp-config/hornbill-solution-center/subscription",
+            "id": "84hn2e4k"
           }
-        ]
+        ],
+        "id": "e4s565vx"
       },
       {
         "text": "Automation",
@@ -483,72 +583,80 @@
             "items": [
               {
                 "text": "Workflow Designer",
-                "link": "esp-config/automation/workflow-designer"
+                "link": "esp-config/automation/workflow-designer",
+                "id": "ec8xcvez"
               },
               {
                 "text": "Variable Picker",
-                "link": "esp-config/automation/variable-picker"
+                "link": "esp-config/automation/variable-picker",
+                "id": "zysme4d3"
               },
               {
-                "text": "Authorization node",
-                "link": "esp-config/automation/authorization"
+                "text": "Authorization",
+                "link": "esp-config/automation/authorization",
+                "id": "xj2r3mwh"
               },
               {
-                "text": "Auto Assign Authorization node",
-                "link": "esp-config/automation/auto-assign-authorization"
+                "text": "External Authorization",
+                "link": "esp-config/automation/external-authorization",
+                "id": "wcrxmk4q"
               },
               {
-                "text": "External Authorization node",
-                "link": "esp-config/automation/external-authorization"
+                "text": "Human Task",
+                "link": "esp-config/automation/human-task",
+                "id": "x52c58z6"
               },
               {
-                "text": "Human Task node",
-                "link": "esp-config/automation/human-task"
+                "text": "Hornbill Automations",
+                "link": "esp-config/automation/hornbill-automations",
+                "id": "kmhgc7v8"
               },
               {
-                "text": "Hornbill Automation node",
-                "link": "esp-config/automation/hornbill-automations"
+                "text": "Cloud Automation",
+                "link": "/esp-config/automation/cloud-automation",
+                "id": "fse4g38y"
               },
               {
-                "text": "Cloud Automation node",
-                "link": "/esp-config/automation/cloud-automation"
+                "text": "IT Automation",
+                "link": "esp-config/automation/it-automation",
+                "id": "2mdt2pvt"
               },
               {
-                "text": "IT Automation node",
-                "link": "esp-config/automation/it-automation"
-              },
-              {
-                "text": "Decision node",
-                "link": "esp-config/automation/decision"
-              },
-              {
-                "text": "Parallel Processing nodes",
-                "link": "esp-config/automation/parallel-processing"
+                "text": "Decision Node",
+                "link": "esp-config/automation/decision",
+                "id": "rxhswd64"
               }
-            ]
+            ],
+            "id": "v82z945m"
           },
           {
             "text": "Intelligent Capture",
             "items": [
               {
                 "text": "Intelligent Capture Designer",
-                "link": "esp-config/automation/intelligent-capture-designer"
+                "link": "esp-config/automation/intelligent-capture-designer",
+                "id": "bhmbr2nb"
               },
               {
                 "text": "Customized Forms",
-                "link": "esp-config/automation/customized-forms"
+                "link": "esp-config/automation/customized-forms",
+                "id": "yshfms93"
               },
               {
                 "text": "Decision Nodes",
-                "link": "esp-config/automation/capture-decision-node"
+                "link": "esp-config/automation/capture-decision-node",
+                "id": "cq6cjy6q"
               },
               {
                 "text": "Intelligent Capture Validation",
-                "link": "esp-config/automation/intelligent-capture-validation"
+                "link": "esp-config/automation/intelligent-capture-validation",
+                "id": "98rh7kj3"
               }
-            ]
+            ],
+            "id": "zmk6ksc4"
           }
-        ]
+        ],
+        "id": "kzfhrqhm"
       }
     ]
   },
