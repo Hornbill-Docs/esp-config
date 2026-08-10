@@ -2,6 +2,8 @@
 
 HAi User Assistant is an AI-powered self-service capability designed to help end users get the support and information they need more quickly. It provides a conversational way for users to ask questions, find answers, and receive guidance without needing to navigate complex systems or wait for direct analyst intervention.
 
+![HAi User Assistant](/_books/esp-config/customize/employee-portal/images/hai-user-assistant.png)
+
 ## Purpose
 
 The purpose of HAi User Assistant is to improve the user support experience by:
