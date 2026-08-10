@@ -4,6 +4,12 @@ HAi User Assistant is an AI-powered self-service capability designed to help end
 
 ![HAi User Assistant](/_books/esp-config/customize/employee-portal/images/hai-user-assistant.png)
 
+## Before you begin
+
+* **Join the Hornbill Early Access Program**: To access HAi User Assistant, you need to be part of the Hornbill Early Access Program. Please contact your Hornbill account manager for more information.
+* **HAi User Assistant role**: A user must have the [HAi User Assistant](/esp-config/organizational-data/roles#hai-roles) role to access the assistant and its features.
+* **Enable the HAi User Assistant**: The user assistant must be enabled in the [HAi configuration](/esp-config/integration/hornbill-ai#settings).
+
 ## Purpose
 
 The purpose of HAi User Assistant is to improve the user support experience by:
