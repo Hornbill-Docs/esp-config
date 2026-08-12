@@ -10,7 +10,7 @@ You can also add one or more IP rules. If no IP rules are defined, then there ar
 
 You can also add one or more WebDAV rules. If no WebDAV rules are defined, then there are no restrictions on the WebDAV resources and operations.  However, if one or more WebDAV rules are defined, then one of the rules *must* match the callers WebDAV request, otherwise the WebDAV API call will be rejected. 
 
-See rule examples below which will give you a good idea as to what is possible. 
+See rule examples below which will give you a good idea as to what is possible.
 
 |Rule|Description|
 |:--|:--|
@@ -27,9 +27,8 @@ See rule examples below which will give you a good idea as to what is possible.
 |`apps/com.hornbill.core/Achievement:addAchievement`|Allows the application defined for entity Achievement's addAchievement API to be called|
 |`apps/com.hornbill.core/Achievement:*`|Allows the application defined for entity Achievement's API's to be called|
 
-### More Information
+## More Information
 
-- [Hornbill Platform API Reference](https://docs.hornbill.com/esp-api/welcome)
+- [Hornbill Platform API Reference](https://docs.hornbill.com/esp-api-api/welcome)
 - [Read about API Keys](https://docs.hornbill.com/esp-fundamentals/security/api-keys)
 - [Best Practice Guide for API Keys](https://docs.hornbill.com/esp-fundamentals/best-practice/platform-api-keys)
-

@@ -31,8 +31,8 @@ Use the **General look and feel** dialog to style your widget. You can customize
 When you create data charts, you must specify a data type to define how the chart generates information. You can select from the following data types:
 
 * **Measured Samples**: Use this type to add data from multiple measures to a single chart. This type displays history and uses definable sample intervals. You can display this data as a bar chart or a line chart.
-* **Measure Group By**: Use this type to display data from a single measure grouped by [Saved Data Columns](/advanced-analytics/measures#saved-data-columns). You can display this data as a bar chart or a pie chart.
-* **Measure Samples Group By**: Use this type to group and display sampled data from a single measure. You can group this data by [Saved Data Columns](/advanced-analytics/measures#saved-data-columns) and by definable sample periods. You can display this data as a bar chart or a line chart.
+* **Measure Group By**: Use this type to display data from a single measure grouped by [Saved Data Columns](/esp-config/advanced-analytics/measures#saved-data-columns). You can display this data as a bar chart or a pie chart.
+* **Measure Samples Group By**: Use this type to group and display sampled data from a single measure. You can group this data by [Saved Data Columns](/esp-config/advanced-analytics/measures#saved-data-columns) and by definable sample periods. You can display this data as a bar chart or a line chart.
 * **SQL Group By**: Use this type to specify a database table, a grouping column, and a counting column. You can also define filter conditions and the sample history duration. You can display this data as a bar chart or a pie chart.
 
 ## Widget settings
