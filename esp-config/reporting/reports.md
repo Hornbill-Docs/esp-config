@@ -45,11 +45,11 @@ The following actions are available in the toolbar when a report is open:
 * **Save**: Commit your changes. You must save a report before you can run it.
 * **Copy Report As**: Create a duplicate of the current report with a new name. This option appears after the initial save.
 * **Run**: Manually execute the report. Find the results in the **Report History** tab. The **Run** button is disabled if there are unsaved changes or if a report is currently generating.
-* **Download** - Export the report definition file to share with another Hornbill instance. Available after you save the report. A drop-down allows you to export with or without Schedule or Delivery options (see Warning).
+* **Download**: Export the report definition file to share with another Hornbill instance. Available after you save the report. A drop-down allows you to export with or without Schedule or Delivery options (see Warning).
 * **Upload**: Import a report definition file. This action overwrites all current settings for the report.
 
  :::warning
-  Report definitions include schedule and delivery information, such as email addresses and upload locations. Before downloading or uploading a report, review this data to ensure it's appropriate for sharing. If you do not wish to export the report with the Schedule information such as recipients email address or SFTP details then you should choose from the Dropdown list Download without sensitive information.
+  Report definitions include schedule and delivery information, such as email addresses and upload locations. Before downloading or uploading a report, review this data to ensure it's appropriate for sharing. If you do not wish to export the report with the Schedule information such as recipients email address or SFTP details, then you should choose from the drop-down list **Download without sensitive information**.
   :::
 
 ### General settings
@@ -65,7 +65,7 @@ The following actions are available in the toolbar when a report is open:
 
 ### Data collection settings
 
-**Select tables:** Choose the tables that contain the information you need. If you select multiple tables, you must define a table join.
+**Select Tables:** Choose the tables that contain the information you need. If you select multiple tables, you must define a table join.
 
 **Table Join:** When using multiple tables, create a join to link data.
 
@@ -86,6 +86,49 @@ The following actions are available in the toolbar when a report is open:
 **Select Ordering:** Choose the column that determines the sort order of the results.
 
 **Data Preview:** View a sample of your data. Note that the preview does not display grouping logic for grouped reports.
+
+#### Using aliases
+
+If you create a report that pulls information from multiple tables — such as **Assets**, **Requests**, and **Asset Types** — you may find that some of these tables share column names (e.g. `h_name`). This can make a report confusing to read, since it's not obvious which table a given field actually belongs to.
+
+**Table and column aliases** let you assign clearer, shorter, or more descriptive names to tables and fields so your reports are easier to build and read.
+
+This example uses SQL Schema Designer with four tables:
+
+* `h_itsm_requests`
+* `h_cmdb_assets`
+* `h_cmdb_asset_types`
+* `h_cmdb_links`
+
+##### Adding a table alias
+
+You might want to alias a table simply because its name is long and you'd like a shorter reference for use elsewhere in the report.
+
+1. On the **Select Tables** tab, double-click the table you want to alias (e.g. `h_cmdb_asset_types`).
+2. Choose **Add Alias** from the options shown (you'll also see the option to **Remove Table** here).
+3. Enter your preferred alias — for example, aliasing `h_cmdb_asset_types` to **AssetTypes**.
+
+##### Adding a column alias
+
+Some tables share column names. For example:
+
+* `h_cmdb_assets` has a column called `h_name`
+* `h_cmdb_asset_types` also has a column called `h_name`
+
+Without aliasing, a report combining both tables could easily confuse **Asset Name** (`h_cmdb_assets.h_name`) with the asset type's name (`h_cmdb_asset_types.h_name`).
+
+Once the table alias **AssetTypes** has been applied (see above), the field appears in the schema diagram as:
+
+: `AssetTypes -> TypeName (AssetTypes.h_name)`
+
+To add a column alias:
+
+1. Click the **Edit** icon (pencil) on **Edit Report Columns**.
+2. Enter an alias for the field name — e.g. rename `h_name` to **TypeName** for clarity.
+
+##### Results
+
+With both table and column aliases applied, your finished report clearly distinguishes between fields that would otherwise share the same name — for example, **Asset Name** vs. **TypeName** — making the report much easier to read and maintain.
 
 ### Output format settings
 
