@@ -28,6 +28,8 @@ Each automation includes a help option ![Help Button](/_books/esp-config/images/
 
 ![Workflow Automation Help](/_books/esp-config/images/workflow-automation-help.png)
 
+---
+
 ## Contact
 
 The contact automation provides the ability to create and update [contact records](/esp-config/guest-access/contacts). This can be used in environments where the creation and management of contacts is required through automated workflows rather than being done manually. Automating the creation and management of contacts can help assure consistency.
@@ -44,6 +46,8 @@ The contact automation provides the ability to create and update [contact record
 * **Unarchive Contact** - Make an archived contact record active again.
 * **Update Contact** -  Update the information held in a contact record.
 
+---
+
 ## Location
 
 The location automation provides the ability to create and update [locations](/esp-config/organizational-data/locations).
@@ -56,27 +60,31 @@ The location automation provides the ability to create and update [locations](/e
 * **Update** - Update an existing location.
 * **Delete** - Delete an existing location.
 
-### Options
+### Location options
 
 #### Mandatory Options
 
 * **Name** - A name must be provided for both the create and update automations. The name is the full display name of the location and not the numerical ID.  The name is a unique value so that no two locations can be named the same.  
 
+---
+
 ## Groups & Teams
 
-The Groups & Teams automation can be used to bring back information about a single [group or team](/esp-config/organizational-data/organization#how-groups-are-used).  This can be particularly useful for accessing information held in the custom attributes. 
+The Groups & Teams automation can be used to bring back information about a single [group or team](/esp-config/organizational-data/organization#how-groups-are-used).  This can be particularly useful for accessing information held in the custom attributes.
 
 ![Groups & Teams Automation](/_books/esp-config/images/workflow-groups-and-teams.png)
 
-### Available tasks
+### Groups & Teams tasks
 
 * **Get Group/Team Details** - Retrieve information held in a particular group or team.
 
-### Options
+### Groups & Teams options
 
-#### Mandatory Options
+#### Mandatory Group & Team options
 
 * **ID**. Either the ID or URN of a group or team needs to be provided.
+
+---
 
 ## Email
 
@@ -86,13 +94,15 @@ The Groups & Teams automation can be used to bring back information about a sing
 
 * **Direct Message Send** - This automation is used to send a mail message directly to one or more recipients without going through a shared or personal mailbox. For this to be used, an [Email Domain](/esp-config/email/email-domains) must be set up. Emails that have been sent using this automation can be viewed in the list of [Direct Outbound](/esp-config/email/direct-outbound) emails.
 
-### Options
+### Email Options
 
-#### Mandatory options
+#### Email mandatory options
 
 * **From Address**. As a direct send email does not go through a mailbox, a sender address is not automatically applied, and one must be provided.  Direct send emails are commonly used for notifications or one-way communications, and a noreply email address is often used.
 * **Subject** - The subject of the email.
 * **Body** - The body of the email.
+
+---
 
 ## Users
 
@@ -119,6 +129,8 @@ The Groups & Teams automation can be used to bring back information about a sing
 * Update User Status
 * Update User Account
 
+---
+
 ## Utility
 
 ### Get Email Addresses For Group Members
@@ -130,12 +142,12 @@ Any user who is part of the group but doesn't have an email address set on their
 
 ![Get Email Addresses For Group Members](/_books/esp-config/images/workflow-utility-get-group-email-addresses.png)
 
-#### Options
+#### Utility options
 
 * **Group** - This is a mandatory option that needs to be set to Manual or Variable.  Setting to manual provides a dropdown to select from.  Setting to variable requires a variable that contains the group ID.
 * **User Type** -  You can select between User, Basic, or All.  If a group contains both Full and Basic users, this will allow you to be selective of which user type you want to include.
 
-#### Output
+#### Utility output
 
 * **Email Addresses** - This output provides a comma-separated list of email addresses.
 
@@ -145,7 +157,7 @@ This utility provides the current local time for a specified timezone. This can 
 
 ![Get Local Time](/_books/esp-config/images/workflow-utility-get-local-time.png)  
 
-#### Options
+#### Get Local Time options
 
 * **Timezone** -  This option accepts both Windows-style names (e.g. “Pacific Standard Time”) and IANA names (e.g. "America/Los_Angeles").
 * **Seed Time** - This is an optional input that allows you to provide a specific time to be converted to the local time. If this is left blank, the current time will be used.
