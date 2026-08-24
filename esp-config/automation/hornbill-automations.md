@@ -86,6 +86,30 @@ The Groups & Teams automation can be used to bring back information about a sing
 
 ---
 
+## String Utilities
+
+The String Utilities is a powerful tool that can find and manipulate stings of text.
+
+![String Utilities Automation Type](/_books/esp-config/automation/images/string-utilities.png)
+
+### String Utility tasks
+
+* **BASE64**: Use this task to Encode or Decode a string using BASE64.
+* **Case Conversion**: This task will return the input text as lowercase, or optionally UPPERCASE.
+* **Concatenation**: This task will join up to five strings, with an option to provide a separator.
+* **Escape String for JSON**: This task will escape JSON-specific special characters from the input text.
+* **Length**: This task will return the return the length of input text. This can be useful to determine if the contents of a variable is not larger than the field that you want to store it in.
+* **Regex Match**: This task will perform a regular expression against some input text, and return true/false depending on the match.
+* **Regex Substring**: This task will perform a regular expression against some input text, and returns the first matching string if found.
+* **Replace**: This task will replace one or all matches of the **Search String** with the **Replace With** string in the provided input text. To replace the **Search String** with a space, set the **Replace With** string to {{space}}. The {{space}} can also be used in the **Search String** to locate a space that needs to be replaced with text.
+* **Search**: This task will search the input text for the search text, and return the index of the first match.
+* **Substring**: This task will return a substring of a given string using [javascript slice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice).
+* **Trim**: This task will trim the input text of whitespace, at the start and/or end of the input string.
+* **Convert wiki to HTML**: This task will convert wiki text to html.
+* **Convert wiki to text**: This task will convert wiki text to plain text.
+
+---
+
 ## Email
 
 ![Email Automation](/_books/esp-config/images/workflow-direct-message.png)
