@@ -66,7 +66,7 @@ You can customize the values on your dashboard by updating the following [Core S
 | :--- | :--- | :--- |
 | `generativeAi.dashboard.currencySymbol` | The currency symbol used to display financial savings. | £ |
 | `generativeAi.dashboard.ratePerMinute` | The lowest Full Time Equivalent (FTE) cost per minute based on your currency. | 0.2 |
-| `generativeAi.dashboard.readingRate` | The average number of characters a user reads per minute. | 900 |
+| `generativeAi.dashboard.readingRate` | The average number of characters a user reads per minute. | 800 |
 | `generativeAi.dashboard.typingRate` | The average number of characters a user types per minute. | 150 |
 
 ## Usage Log
