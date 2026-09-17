@@ -4,4 +4,4 @@ Select the toggle located in this title bar to enable the **Agent Assistant Guar
 
 ## Additional reading
 
-[Assistant Guardrail input rules](https://docs.hornbill.com/esp-config/integration/hornbill-ai#guardrail-input-rules)
+[HAi Assistant Guardrail input rules](https://docs.hornbill.com/esp-config/integration/hornbill-ai#guardrail-input-rules)
