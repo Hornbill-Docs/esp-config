@@ -1,3 +1,7 @@
 # Agent Assistant Guardrails
 
-Enable guardrail rules for the HAi User Assistant.
+Select the toggle located in this title bar to enable the **Agent Assistant Guardrails**. Once enabled, you can provide input rules to set boundaries for the **HAi Agent Assistant**. For example, you can restrict access to sensitive data or limit the types of actions the assistant can perform.
+
+## Additional reading
+
+[Assistant Guardrail input rules](https://docs.hornbill.com/esp-config/integration/hornbill-ai#guardrail-input-rules)
