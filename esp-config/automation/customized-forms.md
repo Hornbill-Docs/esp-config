@@ -140,7 +140,6 @@ Select the field type that you want to use:
   * "Max Allowed Days Between": This allows you to set the maximum number of days between the start and end date. For example, a value of 2 means that the end date cannot be more than 2 days after the start date.
   * "Date Range Start": This option allows you to set a relative date from the current date. For instance, a value of 0 means starting from today, 1 means starting from tomorrow, and 7 means starting from next week. Negative values can also be used to go backwards in time, such as -1 for yesterday.
   * "Date Range End": This option follows the same rules as the start date, allowing you to set a relative date from the current date.
-* **Between Date & time Control**: Use this option if you require the user to provide both a date and time.
 * **User group picker**: Use this option if you want the user to select a group or groups from the pre-defined organizational groupings.
 * **Label**: Use this option if you want to add a separator into the questions being asked, or on the answers section of the request.
 * **File Upload**: Include a field on a form that allow a user to upload a file.  Options include being able to add multiple file for a single field and allowing a user to paste content.
