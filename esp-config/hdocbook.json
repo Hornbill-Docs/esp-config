@@ -215,11 +215,6 @@
                 "text": "Page Manager",
                 "link": "esp-config/customize/employee-portal/employee-portal-page-manager"
               },
-           {
-                "text": "Request Catalog page",
-                "link": "esp-config/customize/employee-portal/request-catalog-page", 
-                "draft": true
-              },
               {
                 "text": "Employee portal apps",
                 "link": "esp-config/customize/employee-portal/employee-portal-apps",
