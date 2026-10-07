@@ -27,7 +27,7 @@ Follow these steps to set up your first Custom Expression:
 4. Enter a **Display Name** for your expression. This will replace the `??` label displayed on the connector line.
 5. Select **Edit Expression**, then select the `+` button to add your first expression.
 
-![Custom Expression](/_books/esp-config/images/workflow-custom-expression.png)
+![Custom Expression](/_books/esp-config/automation/images/workflow-custom-expression.png)
 
 ### Configure an expression
 
