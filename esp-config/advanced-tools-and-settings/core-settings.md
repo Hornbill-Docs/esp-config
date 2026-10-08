@@ -3,12 +3,16 @@ layout: article-toc
 ---
 # Core Settings
 
-The Core settings relate to the main UI and collaboration app that forms part of the standard Hornbill environment.
+The Core Settings relate to the main platform user interface and some of the platform's features that form part of the standard Hornbill environment.
+
+## Accessing the core settings
+
+* Open [Configuration](/esp-config/getting-started/using-configuration) and search for ***Core Settings***
 
 ## List Options
 
 * **Filter**: The filter allows you to find a particular setting by entering part or all of the name of the setting you are looking for.
-* **Categories**: The Settings are separated into distinct areas. Using the Category Selector you can view settings that are associated to one of these areas.
-* **Show Only Modified Settings**: Each Setting is provided with a default value. The option to Show Only Modified Settings allows you to quickly see all settings that have been changed from their default value.
+* **Categories**: The settings are separated into distinct areas. Using the Category Selector, you can view the settings that are associated with one of these areas.
+* **Show Only Modified Settings**: Each setting is provided with a default value. The option to Show Only Modified Settings allows you to quickly see all settings that have been changed from their default value.
 * **Show Read-only Settings**: Some settings cannot be changed and are there for informational purposes only. Checking this option will include these settings within the main list. Read-only settings can be identified by their No Entry icon.
-* **Revert to Default**: A Revert icon is visible on the right hand side of each setting that has been changed from its original default value. Clicking on this icon will return the setting to its default value.
+* **Revert to Default**: A Revert icon is visible on the right-hand side of each setting that has been changed from its original default value. Clicking on this icon will return the setting to its default value.
