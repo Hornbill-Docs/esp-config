@@ -125,7 +125,7 @@ The following HAi service providers are available for selection:
 
 ### HAi Search Indexes
 
-The availability of the HAi indexes in your environment is critical to providing search results. When HAi is first enabled, the indexes can take up to 72 hours before they are fully built and available. The following indexes are provided for HAi Search:
+The availability of the HAi indexes in your environment is critical to providing search results. When [HAi Search](#configuration) is first enabled, the indexes can take up to 72 hours before they are fully built and available. The following indexes are provided for HAi Search:
 
 * Requests
 * Catalogs
@@ -203,3 +203,15 @@ Trigger When:
 <!-- Enforcement Directive -->
 Block requests where the input or predicted answer is likely to violate the rules above.
 ```
+
+### Customization
+
+#### Tone of voice
+
+Tone & Persona: Professional, reassuring, and clear. Avoid overly technical jargon when speaking to users. Break down troubleshooting steps into single, easy-to-follow actions.
+
+#### Instructions
+
+The HAi agent instructions tell HAi how to behave, what tools it can use, and where its limits are.
+
+Role & Objective: You are an empathetic, highly efficient Tier-1 IT Support Agent for an enterprise organization. Your primary goal is to diagnose, resolve, or properly route technical issues reported by employees regarding hardware, software access, and network connectivity.
