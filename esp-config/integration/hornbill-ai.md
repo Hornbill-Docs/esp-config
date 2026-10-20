@@ -12,7 +12,7 @@ HAi (Hornbill AI) is a suite of generative AI tools built into the Hornbill plat
 
 To use HAi services, you must meet the following requirements:
 
-* **Register for the closed beta program.** HAi features are currently in a closed beta. You can only access these features after you register. Contact your Hornbill customer success representative to join the program.
+* **Request for HAi to be enabled.** Access to HAi is currently by request only. This request can be made through the [Hornbill Success Portal](https://success.hornbill.com/hornbill) or by contacting your Hornbill customer success representative.
 * **Review fundamentals.** Read the [HAi fundamentals](/esp-fundamentals/core-capabilities/integration/hai-services) documentation to understand the core concepts.
 
 ### Required roles

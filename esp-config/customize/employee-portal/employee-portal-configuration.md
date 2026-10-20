@@ -84,6 +84,6 @@ Additional [Core Settings](/esp-config/advanced-tools-and-settings/core-settings
 
 ### Core Settings
 
-|Setting|Description|Default Value|
-|-|-|-|
-|app.view.core.header.autoHideHeaderForBasicUsers|When set to `ON`, the Employee Portal header menu bar will be collapsed. A small tab is displayed at the top-center of the page which will expose the menu bar when hovered over.  Setting this to OFF will pin the header menu bar so it is always visible. This only applies to basic users.|ON|
+| Setting | Description | Default Value |
+| - | - | - |
+| app.view.core.header.autoHideHeaderForBasicUsers | When set to `ON`, the Employee Portal header menu bar will be collapsed. A small tab is displayed at the top-center of the page which will expose the menu bar when hovered over.  Setting this to OFF will pin the header menu bar so it is always visible. This only applies to basic users. | ON |
