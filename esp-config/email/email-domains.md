@@ -110,7 +110,7 @@ There are two configuration possibilities to achieve that:
 This is the most straightforward scheme to implement. Simply add your domain to the Hornbill instance and ensure that your DNS includes a directive in your SPF policy to tell external mail servers that you are authorizing mail messages coming from our servers to be from someone@yourdomain.com. Because of automated SPF checks done by our servers during configuration, you can set this up without assistance from Hornbill.
 
 For further information, see:
-* http://www.ietf.org/rfc/rfc4408.txt
+* http://www.ietf.org/rfc/rfc7208.txt
 * http://www.open-spf.org/FAQ
 
 ### Using SMTP smart host
