@@ -242,7 +242,7 @@ Add this widget to put the HAi User Assistant front and center on the Employee P
 
 #### Prerequisites
 
-* To use the HAi User Assistant, you must be part of the Hornbill Early Access Program (EAP). If you are interested in joining the EAP, please contact your Hornbill account manager.
+* Access to HAi is currently by request only. This request can be made through the [Hornbill Success Portal](https://success.hornbill.com/hornbill) or by contacting your Hornbill customer success representative.
 * Users must have the appropriate permissions to access the HAi User Assistant. Ensure that the necessary roles and permissions are assigned to users who will be using this feature.
 
 While the HAi User Assistant can be accessed from the right-hand side of the Employee Portal, adding this widget to a page allows you to place it in a more prominent position, making it easier for users to find and use.
