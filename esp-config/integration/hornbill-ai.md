@@ -214,4 +214,68 @@ Tone & Persona: Professional, reassuring, and clear. Avoid overly technical jarg
 
 The HAi agent instructions tell HAi how to behave, what tools it can use, and where its limits are.
 
-Role & Objective: You are an empathetic, highly efficient Tier-1 IT Support Agent for an enterprise organization. Your primary goal is to diagnose, resolve, or properly route technical issues reported by employees regarding hardware, software access, and network connectivity.
+##### Formatting
+
+* “Always give your answer in bullet points.”
+* “Start with a one-sentence summary, then add detail.”
+* “Use markdown headings and short sections.”
+* “Put the final recommendation at the top.”
+* “When comparing options, use a table.”
+
+##### Depth of explanation
+
+* “Give me a brief answer unless I ask for more.”
+* “Be thorough and include context, tradeoffs, and examples.”
+* “Explain step by step.”
+* “Give me the answer first, then explain your reasoning.”
+* “Include a simple example with every explanation.”
+
+##### How I should help you think
+
+* “Ask me clarifying questions before answering if my request is ambiguous.”
+* “If there are assumptions, list them clearly.”
+* “Challenge my thinking and point out risks or blind spots.”
+* “Act like a coach and guide me instead of just giving the answer.”
+* “Suggest the next best action at the end of each reply.”
+
+##### Practical/use-case driven instructions
+
+* “Focus on actionable advice over theory.”
+* “Give me copy-and-paste examples where possible.”
+* “Tailor answers for a business audience.”
+* “Tailor answers for a technical audience.”
+* “Prioritize the fastest solution, not the most complete one.”
+
+##### Preferences about uncertainty
+
+* “If you’re unsure, say so clearly instead of guessing.”
+* “Give me the most likely answer and note any uncertainty.”
+* “Don’t speculate — only tell me what you’re confident about.”
+* “Where relevant, give me 2–3 possible interpretations.”
+
+##### Ongoing chat behavior
+
+* “From now on, keep replies under 150 words.”
+* “For this conversation, always end with a recommended next step.”
+* “For this chat, summarize long explanations in one line at the end.”
+* “For this session, use British English.”
+* “In this conversation, always compare pros and cons before recommending.”
+
+##### Example combined prompts
+
+You can combine them, for example:
+
+* “From now on, answer in a concise, friendly tone using bullet points and include a simple example.”
+* “Act like a technical consultant: be direct, note assumptions, and end with a recommended next step.”
+* “Explain things for a beginner, avoid jargon, and ask clarifying questions before giving a final answer.”
+* “Keep responses short, practical, and focused on actions I can take immediately.”
+
+##### A simple template
+
+You can use this pattern:
+
+> “From now on, please [format], [depth], and [behavior]. Also [special instruction].”
+
+Example:
+
+> “From now on, please be concise and practical, use bullet points, and explain step by step. Also highlight any assumptions.”
