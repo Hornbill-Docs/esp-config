@@ -9,3 +9,7 @@ The tone of voice for the HAi Assistant can be customized to match the desired c
 ## Instructions
 
 The instructions for the HAi Assistant can be customized to provide specific guidance on how to interact with the system. This includes options for response format, handling of sensitive information, and general interaction protocols.
+
+## Additional reading
+
+[HAi Assistant customization examples](https://docs.hornbill.com/esp-config/integration/hornbill-ai#customization)

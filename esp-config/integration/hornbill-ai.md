@@ -212,7 +212,7 @@ Tone & Persona: Professional, reassuring, and clear. Avoid overly technical jarg
 
 #### Instructions
 
-The HAi agent instructions tell HAi how to behave, what tools it can use, and where its limits are.
+The HAi agent instructions tell HAi how to behave, what tools it can use, and where its limits are.  Below are some examples of instructions you can provide.
 
 ##### Formatting
 
